@@ -1,0 +1,4612 @@
+! Author: Osborne Systems
+! Copyright: Copyright (C) 2018-2019 Osborne Systems. All rights reserved.
+! Description: A systematic Internet filter halting analytics.
+! Expires: 1 days
+! Homepage: https://github.com/OsborneSystems/Columbia/
+! Last modified: 5 January 2019 00:00:00 UTC
+! Title: Columbia Standard
+! Version: 4.0.0
+!
+! You may not reproduce, store in a retrieval system, or transmit this publication
+! in any form or by any means, electronic, mechanical, photocopying, recording,
+! or otherwise, without written permission of the publisher.
+!
+! Contributions from Bogachenko
+!
+###AdBox160
+###adDiv
+###adpos1-leaderboard
+###advertisement
+###amazon-bottom-widget
+###announcement
+###articleLeaderboardWrapper
+###atwAdFrame0
+###atwAdFrame1
+###atwAdFrame2
+###atwAdFrame4
+###banner-icon-list
+###banner_ad
+###bbp_replies_widget-2
+###block-mailchimp-signup-newsletter-signup
+###block-panels-mini-donate-block
+###block-views-related-articles-block
+###bottomads
+###bottom_ad
+###bottom_ad_wrapper
+###bp_core_members_widget-3
+###bread
+###btm_banner
+###buzzblog_banner_widget-2
+###centerBelowExtraSponsoredLinks
+###ck_modal
+###ck_overlay
+###colophon
+###consent_bf2017
+###consent_blackbar
+###content-recommender
+###cookie-law-info-again
+###cookie-law-info-bar
+###cookie-notice
+###cookie-toolbar
+###cookielaw
+###cookie_hdr_showagain
+###corner-slider
+###customSkin
+###customSkinCTA
+###custom_html-2
+###custom_html-3
+###dropin
+###ed-convtwtr-hp
+###epb
+###eucookie
+###fbanners
+###footer-icons
+###footer-social
+###footer_ad
+###header_ad
+###heateor_ss_browser_popup_bg
+###icon-facebook
+###icon-twitter
+###icons
+###inplayerbox
+###mailchimp-popup-container
+###main_ad
+###mc_embed_signup_scroll
+###middle_ad
+###myModal
+###navbar-advertise-link
+###network
+###newsletter-promo
+###panelRight
+###partners
+###payments
+###preloaded-ad-frame
+###pushmonkey-prompt-container
+###responsive_ad
+###sc-cookie-notification
+###sharingfooter
+###side-ad
+###side_ad
+###simplemodal-container
+###simplemodal-overlay
+###siteNotice
+###social
+###social-actions
+###social-stats
+###sponsor-slug
+###story-ad-1-wrapper
+###story-ad-2-wrapper
+###story-ad-3-wrapper
+###story-ad-4-wrapper
+###story-ad-5-wrapper
+###story-ad-6-wrapper
+###subscription-navbar
+###taboola-right-rail-thumbnails
+###tadsb.c
+###teads-container
+###thirdPartySponsorLinkAds
+###thread-share-menu
+###top_ad
+###top_ad_wrapper
+###welcome
+###wfp-ew
+###WikiaBar
+###WIX_ADS
+###\5f __plusone_0
+###___plusone_0
+###___plusone_1
+##.-ad
+##.-ad-block
+##.abovePlayer
+##.ad-300
+##.ad-300x250
+##.ad-blocker-warning
+##.ad-bottomleader
+##.ad-browse-rectangle-mid
+##.ad-center
+##.ad-div-a0-wrapper
+##.ad-div-t0-wrapper
+##.ad-ex
+##.ad-hideable
+##.ad-inline
+##.ad-interstitial
+##.ad-intromercial
+##.ad-label
+##.ad-nav-ad
+##.ad-placement
+##.ad-repeat
+##.ad-slot
+##.ad-slot-banner
+##.ad-topleader
+##.ad-unit
+##.ad-wrapper
+##.addthis_button_facebook
+##.addthis_button_linkedin
+##.addthis_button_twitter
+##.addthis_native_toolbox
+##.addthis_toolbox
+##.AdHolder
+##.ADParent
+##.ads-ad
+##.adsbox
+##.adsbygoogle
+##.adsizer
+##.advertisement-comment
+##.advertisingTable
+##.AD_underpost
+##.ad_unit
+##.afs_ads
+##.after_ad
+##.author-info
+##.banner_leaderboard
+##.bebi-icon-hover
+##.bgtop
+##.block-social
+##.bottom_news_block
+##.box-ads
+##.box1-ad
+##.breadcrumbs
+##.btn-facebook
+##.btn-twitter
+##.c-action-bar
+##.c-ballyhoos
+##.c-newsletter
+##.c-newsletter-promo
+##.c-related-content
+##.c-related-list
+##.cc-eoy-2017-donation-box-widget
+##.cc-window
+##.cloudconverter-section-2
+##.cloudconverter-section-4
+##.cm-ad
+##.cns-ads-stage
+##.commercial-unit-desktop-rhs
+##.companion-ad
+##.container-gas
+##.content-ads
+##.convFacebook
+##.cookie-notice-container
+##.cookie-overlay
+##.cookies
+##.dfp-ad-container
+##.download-section-1-2-left
+##.download-section-2
+##.entry-footer
+##.essb_mailform
+##.fa-facebook-square
+##.fa-share
+##.fa-twitter-square
+##.facebook-like-box
+##.facebook-recommend
+##.facebook-share
+##.facebook-share-button
+##.facebook-twitter
+##.facebook-twitter-share
+##.fb-like
+##.fb-like-box
+##.fb-share-button
+##.fb-xfbml-parse-ignore
+##.fi-cookie-banner
+##.field-share-links
+##.follow-label
+##.follow_block
+##.foot-soc-fb
+##.foot-soc-list
+##.foot-soc-twit
+##.footer-ads
+##.footer-box
+##.footer-network-logo
+##.footer-social-menu
+##.footer-subscribe
+##.footer-title
+##.footer__donate
+##.footer__social
+##.footer__sub
+##.fs-facebook
+##.fs-twitter
+##.funbox
+##.g-plus
+##.g-plusone
+##.grecaptcha-badge
+##.header-ads
+##.header_ad
+##.header__social-icons
+##.i-share_overlay
+##.icon-facebook
+##.icon-facebook-circle
+##.icon-google-plus
+##.icon-google-plus-circle
+##.icon-googleplus
+##.icon-instagram
+##.icon-pinterest
+##.icon-tumblr
+##.icon-twitter
+##.icon-twitter-circle
+##.icon-youtube
+##.in-content-ad--container
+##.inline-ad-container
+##.InStreamSignup
+##.js-ad
+##.js-ad-slot
+##.js-dfp-ad
+##.js-subproduct-whitebox-holder
+##.jw-settings-sharing
+##.l1
+##.leadWrap
+##.m-ad
+##.mailing-list-signup
+##.market-ad
+##.masthead-ad
+##.middle-ad
+##.middlead
+##.mobile-ad
+##.mobile-menu-margin
+##.more-answers-posts
+##.mvp_facebook_widget
+##.native-ad-link
+##.native-ad-promoted-provider
+##.nav-soc-but
+##.navbar-social
+##.network-promo
+##.newsletter
+##.newsletter-subscribe
+##.page-ad
+##.partner-outstream
+##.pb-ad
+##.pleasewaitads
+##.post__sidebar-primary
+##.powered-by-wpcom
+##.premium-background
+##.primary-social-buttons
+##.privacy-banner
+##.pub_300x250
+##.pub_300x250m
+##.pub_728x90
+##.randomFile
+##.recent-video
+##.reddit_button
+##.related-posts
+##.related__articles
+##.related__video
+##.responsive-app__cookies
+##.results-ad
+##.sd-sharing
+##.sd-social
+##.servers-cost-money
+##.share-bar
+##.share-email
+##.share-facebook
+##.share-google-plus-1
+##.share-more
+##.share-pinterest
+##.share-reddit
+##.share-text
+##.share-twitter
+##.sharebtn
+##.sharedaddy
+##.shareFacebook
+##.shareTwitter
+##.share_buttons
+##.share__button
+##.shop_promo
+##.sidebar__logo-pond
+##.slot__ad
+##.social-button
+##.social-button-group
+##.social-follow-item
+##.social-follow-items
+##.social-hovers
+##.social-icons
+##.social-label
+##.social-link
+##.social-menu
+##.social-share
+##.social-share-button
+##.socialmedia-buttons
+##.Social_Widget
+##.sponsored
+##.sponsored-links
+##.spotim-recirculation
+##.sticky_bottom
+##.story-oembed-wrap
+##.streamatesModelsContainer
+##.subscribe-button
+##.td-a-rec
+##.td-header-ad-wrap
+##.td_with_ajax_pagination
+##.text-ad
+##.text-ad-links
+##.text-ads
+##.textAd
+##.text_ad
+##.text_ads
+##.thirdPartySponsorLink__ad
+##.thirdPartySponsorLink__ads
+##.top-ad-container
+##.top-banner-ad-container
+##.top-right-ad
+##.top_page_alert
+##.twitter-follow-button
+##.twitter-share-button
+##.twitter_box
+##.uix_mainSidebar
+##.video_and_autoplay
+##.vip-shoutout-container
+##.vjs-icon-share
+##.vjs-share-control
+##.vulture-promo
+##.webtype-shout-out
+##.yarpp-related
+##.ytp-ad-progress-list
+##.z-spot
+##.z3
+##.zpremium
+##a[href*="=adscript"]
+##a[href*="bebi.com"]
+##a[href*="bitcoin.org"]
+##a[href*="postmates.com/?utm_source"]
+##a[href*="twitter.com/share"]
+##button[title="Share"]
+##div[button="share"]
+##div[class^="Ad__header"]
+##div[class^="app_gdpr-"]
+##div[class^="FooterSocialLinks"]
+##div[class^="InlineMessage"]
+##div[class^="RelatedCoverage"]
+##div[data-nconvert-cookie]
+##div[id^="div-gpt-ad"]
+##div[id^="M"][id*="Composite"]
+##div[id^="zergnet-widget"]
+##iframe[width="100%"][height="120"]
+##iframe[width="300"][height="250"]
+##iframe[width="728"][height="90"]
+##KNO-SHARE-BUTTON
+##[class*="Footer__footer"]
+##[class*="Layout__sidebar"]
+##[class*="promoWrapper"]
+##[class*="Recirculation"]
+##[class*="Ribbon-ribbon"]
+##[class*="Section__ad"]
+##[class*="social-links"]
+##[class*="style__subscribe"]
+##[href*="o12zs3u2n"]
+##[href*="offer?prod="]
+##[href*="safelinku.com/ref"]
+##[href*="signup?ad_domain="]
+##[href*="zukxd6fkxqn"]
+##[id*="MarketGid"]
+##[id*="PreloadC"]
+##[id*="ScriptRoot"]
+##[src*="urbandaddy"]
+-cookie-consent.
+-facebook2.
+-pagead-id.
+-tracking.js?
+-twitter-icon-
+-twitter2.
+.iframetracker.
+.me/ads/
+.php?zoneid=
+/ad300x250.
+/adblock.js
+/adchoices.
+/adrotate-
+/ads/initialize/
+/ads/leaderboard/
+/ads?id=
+/adservice.
+/adtech.
+/advertisement/
+/analytics-event-
+/analytics/v1/
+/api/ads/
+/api/analytics/
+/api/stats/
+/atrk.js
+/b/ss/*&aqe=
+/chartbeat.js
+/cnads.js
+/comscore.
+/cookie-notice/$script
+/criteo.
+/entry_stats?
+/exo_na/
+/generate_204$image
+/gogoanime\.*\/js\/[\w-]{20,}\.js/$script,first-party
+/icon-facebook.
+/icon-twitter.
+/js/ads_
+/js/analytics/
+/lib/tracking/
+/libs/cookieconsent2/
+/likebox.
+/log/pageview
+/log?type=
+/logging/log-
+/log_interaction?
+/mixpanel.
+/omniture/$script
+/outstream_ad-
+/piwik.js
+/player/ad/
+/prebid/
+/px.gif?
+/realmedia/ads/
+/rpc/log?
+/rum/id?
+/ruxitagentjs_
+/sharecounts/
+/social-icons.
+/social-logos/
+/static/ads/
+/videojs.ads
+/vjslog?
+/wa01.gif?log=
+/zdconsent.
+=300x250&
+=728x90&
+adv2-
+_300x250_
+_728x90.
+_article_ad-
+_social_tracking.
+_s_code.
+||*.to/download.php$subdocument
+||*amazonaws*amazon_us$image
+||*namba*178368022$image
+||9anime.*/sw.js$script
+||amazon.*/ajax/counter?
+||amazon.*/empty.gif?
+||amazon.*/record-impressions?
+||amazonaws.com/ki.js/
+||beltmag*fundraiser$image
+||cdnondemand.org^$third-party
+||cloudfront.net*/tracker.js
+||connect.facebook.net^*/fbevents.js$third-party
+||dailymail.co.uk/rta2/
+||dailynews.com/_static/$script
+||embed.sendtonews.com/player2/embedplayer.php$subdocument
+||facebook*likebox.php$subdocument
+||facebook.com/sem_campaigns/sem_pixel_test/
+||facebook.com/tr?
+||fbcdn2.com^$third-party
+||fossbytes*vpn-download$image
+||gamestop*takeovers$image
+||geico.com/landingpage/
+||gogoanime*adverting$image
+||gogoanime*share_link$image
+||golem*sp_*-i_rc.jpg$subdocument
+||google*gen_204?
+||google.*/client_204?
+||hdnux*628x471$image
+||hollywoodreporter*roundtables$image
+||igg-games*wp-includes$image
+||livestream*live$subdocument
+||livestream*play$image
+||livexscores*rekban$subdocument
+||loadshare*1m_video$media
+||mashable.com/pv.xml
+||media-imdb.com/twilight/?
+||miniclipcdn.com/*/miniclip.js
+||mp3fiber*freedownload$image
+||myanimelist.cdn-dena.com/*/affiliates/
+||newyorker.com/static/failsafe/
+||omnitagjs.com^$third-party
+||pinterest.com/_/_/report/
+||play.google.com/log?
+||readcomiconline*thumbs$image
+||redditmedia.com/gtm/jail?
+||sarugbymag*wallpapers$image
+||scripts$image
+||scripts$subdocument
+||sh.st/*/tracking-
+||solarmovies*down$image
+||solarmovies*stream$image
+||sportstream*top1$image
+||streamango.com/log
+||thepiratebay$script
+||tribdss.com/meter/
+||twitch.tv*extensions
+||twitter.com/i/jot
+||twitter.com/i/promoted_content
+||vanityfair*master$image
+||verliga1*cruz$image
+||verliga1*repro$subdocument
+||vg247.com/pv?
+||voxmedia.com/pickup.js
+||watchcartoononline*bg$image
+||wsj*mktg$image
+||xijgedjgg5f55.com/*/?$script
+||youtube.com/*/log_event?
+||youtube.com/csi_204?
+||youtube.com/pagead/
+||youtube.com/ptracking?
+127.0.0.1 *.anyclip.com
+127.0.0.1 *.lo.gs
+127.0.0.1 0torrent.top
+127.0.0.1 0tracker.com
+127.0.0.1 104.248.185.42
+127.0.0.1 104.248.224.57
+127.0.0.1 123moviesbro.xyz
+127.0.0.1 123moviz.com
+127.0.0.1 133x.to
+127.0.0.1 159.65.255.16
+127.0.0.1 171gifs.com
+127.0.0.1 174.138.61.22
+127.0.0.1 1fwjpdwguvqs.com
+127.0.0.1 1j7740kd.website
+127.0.0.1 1q2w3.website
+127.0.0.1 1xbet.com
+127.0.0.1 274a717d311ac90f.com
+127.0.0.1 2mdn.net
+127.0.0.1 2mdnsys.com
+127.0.0.1 2o7.net
+127.0.0.1 2youtds.biz
+127.0.0.1 2znp09oa.com
+127.0.0.1 302br.net
+127.0.0.1 328ccaf552b371e.com
+127.0.0.1 34.239.221.32
+127.0.0.1 3lift.com
+127.0.0.1 3wr110.xyz
+127.0.0.1 4006868488.cn
+127.0.0.1 45.32.203.145
+127.0.0.1 49wki.site
+127.0.0.1 4inches4week.com
+127.0.0.1 4jnzhl0d0.com
+127.0.0.1 4kmoviesclub.co
+127.0.0.1 4redirect.info
+127.0.0.1 52zxzh.com
+127.0.0.1 58b291f917728a2.com
+127.0.0.1 5d.com
+127.0.0.1 5dimes.eu
+127.0.0.1 5ikmih8avqhcbk.com
+127.0.0.1 5mcwl.pw
+127.0.0.1 5yfi7sy.com
+127.0.0.1 6198399e4910e66-ovc.com
+127.0.0.1 66cpwgln.space
+127.0.0.1 6ldu6qa.com
+127.0.0.1 767888888hjhjhghgrtr6786.us-east-1.elasticbeanstalk.com
+127.0.0.1 82o9v830.com
+127.0.0.1 8xl.ru
+127.0.0.1 95p5qep4aq.com
+127.0.0.1 9icmzvn6.website
+127.0.0.1 9xmovie.co
+127.0.0.1 a-msedge.net
+127.0.0.1 a.ads1.msn.com
+127.0.0.1 a.ads2.msads.net
+127.0.0.1 a.ads2.msn.com
+127.0.0.1 a.rad.msn.com
+127.0.0.1 a0a28d3c97a4e566.com
+127.0.0.1 a2af4f04914ed298.com
+127.0.0.1 aax-us-east.amazon-adsystem.com
+127.0.0.1 aax-us-iad.amazon.com
+127.0.0.1 abackchain.com
+127.0.0.1 abandonedaction.com
+127.0.0.1 abandonedclover.com
+127.0.0.1 abashedangle.com
+127.0.0.1 abbp1.pw
+127.0.0.1 abeagle-public.buzzfeed.com
+127.0.0.1 abmr.net
+127.0.0.1 aboardlevel.com
+127.0.0.1 abruptroad.com
+127.0.0.1 absentstream.com
+127.0.0.1 absorbingband.com
+127.0.0.1 absurdwater.com
+127.0.0.1 abtasty.com
+127.0.0.1 ac3.msn.com
+127.0.0.1 acessamenus.site
+127.0.0.1 aclick.adhoc1.net
+127.0.0.1 acridtwist.com
+127.0.0.1 actuallysheep.com
+127.0.0.1 actuallysnake.com
+127.0.0.1 ad-center.com
+127.0.0.1 ad.doubleclick.net
+127.0.0.1 ad.go.com
+127.0.0.1 ad.gt
+127.0.0.1 ad.kissanime.*
+127.0.0.1 ad.kisscartoon.*
+127.0.0.1 ad2perf.com
+127.0.0.1 adblockanalytics.com
+127.0.0.1 adcamp.ru
+127.0.0.1 adcash.com
+127.0.0.1 adclick.g.doublecklick.net
+127.0.0.1 addkt.com
+127.0.0.1 addthis.com
+127.0.0.1 adeventtracker.spotify.com
+127.0.0.1 adexc.net
+127.0.0.1 adextrem.com
+127.0.0.1 adf.ly
+127.0.0.1 adfoc.us
+127.0.0.1 adform.net
+127.0.0.1 adglare.net
+127.0.0.1 adgreed.com
+127.0.0.1 adhoc1.net
+127.0.0.1 adition.com
+127.0.0.1 adk2x.com
+127.0.0.1 adless.io
+127.0.0.1 admantx.com
+127.0.0.1 admarketplace.net
+127.0.0.1 admitad.com
+127.0.0.1 adnexus.net
+127.0.0.1 adnxs.com
+127.0.0.1 adocean.pl
+127.0.0.1 adomik.com
+127.0.0.1 adotmob.com
+127.0.0.1 adpiano.com
+127.0.0.1 adrizer.com
+127.0.0.1 adroll.com
+127.0.0.1 ads-fa.spotify.com
+127.0.0.1 ads-twitter.com
+127.0.0.1 ads.ad-center.com
+127.0.0.1 ads.adextrem.com
+127.0.0.1 ads.affbuzzads.com
+127.0.0.1 ads.blbrd.co
+127.0.0.1 ads.exdynsrv.com
+127.0.0.1 ads.msn.com
+127.0.0.1 ads.pro-market.net
+127.0.0.1 ads.rubiconproject.com
+127.0.0.1 ads.servebom.com
+127.0.0.1 ads.shorte.st
+127.0.0.1 ads.trafficjunky.net
+127.0.0.1 ads.twitter.com
+127.0.0.1 ads.youtube.com
+127.0.0.1 ads1.msads.net
+127.0.0.1 ads1.msn.com
+127.0.0.1 ads2.msn.com
+127.0.0.1 ads234.com
+127.0.0.1 ads345.com
+127.0.0.1 adsafeprotected.com
+127.0.0.1 adsensecustomsearchads.com
+127.0.0.1 adserver.adtech.advertising.com
+127.0.0.1 adshost2.com
+127.0.0.1 adskeeper.co.uk
+127.0.0.1 adsnative.com
+127.0.0.1 adsrvmedia.adk2x.com
+127.0.0.1 adsrvr.org
+127.0.0.1 adsupplyads.net
+127.0.0.1 adswizz.com
+127.0.0.1 adsymptotic.com
+127.0.0.1 adtech.de
+127.0.0.1 adtechus.com
+127.0.0.1 adthrive.com
+127.0.0.1 adtrue.com
+127.0.0.1 adult3dgames.com
+127.0.0.1 advertising.com
+127.0.0.1 advertserve.com
+127.0.0.1 adxprts.com
+127.0.0.1 adxprtz.com
+127.0.0.1 adzerk.net
+127.0.0.1 affbuzzads.com
+127.0.0.1 afftrackr.com
+127.0.0.1 afgr2.com
+127.0.0.1 afraidlanguage.com
+127.0.0.1 agenciescpa.com
+127.0.0.1 aggregator.inquisitr.com
+127.0.0.1 agkn.com
+127.0.0.1 agreeableprice.com
+127.0.0.1 agreeablestew.com
+127.0.0.1 ags.crwdcntrl.net
+127.0.0.1 aheadday.com
+127.0.0.1 aidata.io
+127.0.0.1 aidps.atdmt.com
+127.0.0.1 aimbin.online
+127.0.0.1 airpr.com
+127.0.0.1 ak0gsh40.com
+127.0.0.1 aka-cdn-ns.adtech.de
+127.0.0.1 akadns.net
+127.0.0.1 akhxnts.xyz
+127.0.0.1 aklxnts.xyz
+127.0.0.1 alexa.com
+127.0.0.1 alexametrics.com
+127.0.0.1 allgreatbroadupdatestohavethismonth.bid
+127.0.0.1 allmoviestvshows.com
+127.0.0.1 allvpnreviews.com
+127.0.0.1 altfarm.mediaplex.com
+127.0.0.1 amarktflow.com
+127.0.0.1 amazon-adsystem.com
+127.0.0.1 ambiguousquilt.com
+127.0.0.1 ambitiousagreement.com
+127.0.0.1 amorain.com
+127.0.0.1 amung.us
+127.0.0.1 an.yandex.ru
+127.0.0.1 analytics.faw.sky.com
+127.0.0.1 analytics.global.sky.com
+127.0.0.1 analytics.kaltura.com
+127.0.0.1 analytics.newsinc.com
+127.0.0.1 analytics.shorte.st
+127.0.0.1 analytics.slashdotmedia.com
+127.0.0.1 analytics.spotify.com
+127.0.0.1 analytics.twitter.com
+127.0.0.1 analytics.yahoo.com
+127.0.0.1 analyticswizard.com
+127.0.0.1 anastasia-web.com
+127.0.0.1 anonymous-net.com
+127.0.0.1 anonymousdemographics.com
+127.0.0.1 ansoft15.bid
+127.0.0.1 antivirus-helpnumber.com
+127.0.0.1 anxiousapples.com
+127.0.0.1 anyclip.com
+127.0.0.1 apathetictheory.com
+127.0.0.1 apester.com
+127.0.0.1 api.segment.io
+127.0.0.1 apktrend.com
+127.0.0.1 appcaptcha.com
+127.0.0.1 appiness.com
+127.0.0.1 approp.pro
+127.0.0.1 approvedfornext.com
+127.0.0.1 apps.skype.com
+127.0.0.1 appscase.com
+127.0.0.1 aps.hearstnp.com
+127.0.0.1 aquaticowl.com
+127.0.0.1 ar1nvz5.com
+127.0.0.1 archswimming.com
+127.0.0.1 area51-ts.com
+127.0.0.1 areyouahuman.com
+127.0.0.1 argyresthia.com
+127.0.0.1 ariseboundary.com
+127.0.0.1 aromamirror.com
+127.0.0.1 arsdev.net
+127.0.0.1 as.gettyservices.com
+127.0.0.1 as.webmd.com
+127.0.0.1 asiacharm.com
+127.0.0.1 asian-local-singles.com
+127.0.0.1 asianfuck.com
+127.0.0.1 assets.adobedtm.com
+127.0.0.1 asydu123id.ru
+127.0.0.1 at.atwola.com
+127.0.0.1 atas.io
+127.0.0.1 atdmt.com
+127.0.0.1 atlanticinsights.com
+127.0.0.1 attractiveafternoon.com
+127.0.0.1 atwola.com
+127.0.0.1 audio2.spotify.com
+127.0.0.1 augur.io
+127.0.0.1 aurisenterprises.com
+127.0.0.1 autoblow2.com
+127.0.0.1 automaticflock.com
+127.0.0.1 avocet.io
+127.0.0.1 aweber.com
+127.0.0.1 awzbijw.com
+127.0.0.1 axiomaticalley.com
+127.0.0.1 az361816.vo.msecnd.net
+127.0.0.1 az512334.vo.msecnd.net
+127.0.0.1 b.ads1.msn.com
+127.0.0.1 b.ads2.msads.net
+127.0.0.1 b.rad.msn.com
+127.0.0.1 b.scorecardresearch.com
+127.0.0.1 b18a21ab3c9cb53.com
+127.0.0.1 backlinkskaufen24.com
+127.0.0.1 balancebreath.com
+127.0.0.1 balloontexture.com
+127.0.0.1 bam-x.com
+127.0.0.1 bap-34.com
+127.0.0.1 barbarousnerve.com
+127.0.0.1 barvaz.me
+127.0.0.1 basketballbelieve.com
+127.0.0.1 baskettexture.com
+127.0.0.1 bat.bing.com
+127.0.0.1 batbuilding.com
+127.0.0.1 bawdybeast.com
+127.0.0.1 beacon.errorception.com
+127.0.0.1 beacon.gu-web.net
+127.0.0.1 beamincrease.com
+127.0.0.1 beamkite.com
+127.0.0.1 beautiess.xyz
+127.0.0.1 beb.crackwatch.com
+127.0.0.1 bebi.com
+127.0.0.1 bedsbreath.com
+127.0.0.1 beeketing.com
+127.0.0.1 berp.com
+127.0.0.1 best2017games.com
+127.0.0.1 best2018games.com
+127.0.0.1 bestapps4ever161.download
+127.0.0.1 bestboundary.com
+127.0.0.1 bestfactoryrepository.com
+127.0.0.1 bestgametools.com
+127.0.0.1 bestgoals90.com
+127.0.0.1 bestquickcontentfiles.com
+127.0.0.1 betrad.com
+127.0.0.1 betterhelp.com
+127.0.0.1 bewilderedblade.com
+127.0.0.1 bhcumsc.com
+127.0.0.1 bidadx.com
+127.0.0.1 billboard.cz
+127.0.0.1 bitcoinethereumexchange.org
+127.0.0.1 biteslawman.online
+127.0.0.1 bitincome.io
+127.0.0.1 bizible.com
+127.0.0.1 bizibly.com
+127.0.0.1 bizographics.com
+127.0.0.1 bizrate.com
+127.0.0.1 bkrtx.com
+127.0.0.1 blockadblock.com
+127.0.0.1 blog-smile.com
+127.0.0.1 blogherads.com
+127.0.0.1 blogpapers.com
+127.0.0.1 blogreviews101.com
+127.0.0.1 bluecava.com
+127.0.0.1 blueconic.net
+127.0.0.1 bluekai.com
+127.0.0.1 blushingbeast.com
+127.0.0.1 blushingboundary.com
+127.0.0.1 boilingbeetle.com
+127.0.0.1 boilingumbrella.com
+127.0.0.1 bonusfree.ru
+127.0.0.1 boomtrain.com
+127.0.0.1 boostnplay.com
+127.0.0.1 boredcrown.com
+127.0.0.1 boringcoat.com
+127.0.0.1 botlord.me
+127.0.0.1 boudja.com
+127.0.0.1 bounceexchange.com
+127.0.0.1 bouncyproperty.com
+127.0.0.1 boxcinemax.com
+127.0.0.1 branch.io
+127.0.0.1 brand-ad-innovations.s3.amazonaws.com
+127.0.0.1 brassrule.com
+127.0.0.1 bravenet.com
+127.0.0.1 bravo-dog.com
+127.0.0.1 brazzersnetwork.com
+127.0.0.1 brightcove.com
+127.0.0.1 broadboundary.com
+127.0.0.1 broadcastbed.com
+127.0.0.1 broaddoor.com
+127.0.0.1 browser-update.org
+127.0.0.1 browsergames2018.com
+127.0.0.1 bs.serving-sys.com
+127.0.0.1 btcincomeapp.com
+127.0.0.1 btez8.xyz
+127.0.0.1 bttrack.com
+127.0.0.1 bucketbean.com
+127.0.0.1 bumpberam.pro
+127.0.0.1 businessbells.com
+127.0.0.1 bustlinganimal.com
+127.0.0.1 butterburst.com
+127.0.0.1 bxcel.net
+127.0.0.1 byvngx98ssphwzkrrtsjhnbyz5zss81dxygxvlqd05.com
+127.0.0.1 c.amazon-adsystem.com
+127.0.0.1 c.atdmt.com
+127.0.0.1 c.bigmir.net
+127.0.0.1 c.msn.com
+127.0.0.1 c.newsinc.com
+127.0.0.1 ca-commercial.com
+127.0.0.1 calculatingcircle.com
+127.0.0.1 calculatingtoothbrush.com
+127.0.0.1 calculatorcamera.com
+127.0.0.1 callousbrake.com
+127.0.0.1 callrail.com
+127.0.0.1 calmfoot.com
+127.0.0.1 cambridgeanalytica.org
+127.0.0.1 cams.com
+127.0.0.1 caniassistyou.*
+127.0.0.1 capablecows.com
+127.0.0.1 capply-reatemove.com
+127.0.0.1 captainbicycle.com
+127.0.0.1 captora.com
+127.0.0.1 capture.condenastdigital.com
+127.0.0.1 carbonads.com
+127.0.0.1 carsbuy.xyz
+127.0.0.1 carscannon.com
+127.0.0.1 casalemedia.com
+127.0.0.1 cashfiesta.com
+127.0.0.1 cbc-4k.stream
+127.0.0.1 cc.swiftype.com
+127.0.0.1 cdn-gl.imrworldwide.com
+127.0.0.1 cdn.at.atwola.com
+127.0.0.1 cdn.atdmt.com
+127.0.0.1 cdn.connatix.com
+127.0.0.1 cdn.krxd.net
+127.0.0.1 cdn.mxpnl.com
+127.0.0.1 cdn.onesignal.com
+127.0.0.1 cdn.optimizely.com
+127.0.0.1 cdn.siftscience.com
+127.0.0.1 cdn.static.zdbb.net
+127.0.0.1 cdn.steepto.com
+127.0.0.1 cdn.taboola.com
+127.0.0.1 cdn.tinypass.com
+127.0.0.1 cdn.ywxi.net
+127.0.0.1 cdn.ziffstatic.com
+127.0.0.1 cdnvideo.ibt.com
+127.0.0.1 cds26.ams9.msecn.net
+127.0.0.1 cduels.com
+127.0.0.1 cecash.com
+127.0.0.1 cedexis.com
+127.0.0.1 celeritascdn.com
+127.0.0.1 certifyads.com
+127.0.0.1 cfc.io
+127.0.0.1 chainblock.science
+127.0.0.1 chairscrack.com
+127.0.0.1 charlatanic.website
+127.0.0.1 chartbeat.com
+127.0.0.1 cheapmedstore.com
+127.0.0.1 cheatsator.com
+127.0.0.1 check-bobmoney21.loan
+127.0.0.1 cheerfulrange.com
+127.0.0.1 cherrythread.com
+127.0.0.1 chewcoat.com
+127.0.0.1 chickensstation.com
+127.0.0.1 chiefcurrent.com
+127.0.0.1 chimpstatic.com
+127.0.0.1 chinchickens.com
+127.0.0.1 chinsnakes.com
+127.0.0.1 choice.microsoft.com
+127.0.0.1 chooseyourselfmedia.info
+127.0.0.1 cineflex.club
+127.0.0.1 cinema-company.blogspot.com
+127.0.0.1 cinemaguysplus.com
+127.0.0.1 cinematrix.*
+127.0.0.1 cj.dotomi.com
+127.0.0.1 cj3lema152.top
+127.0.0.1 cl96rwprue.com
+127.0.0.1 claimgiftcards.us
+127.0.0.1 clash-of-clans-for-android.com
+127.0.0.1 clash-of-clans-hacks.com
+127.0.0.1 clashofclanscheatsx.com
+127.0.0.1 clashofclansforandroid.com
+127.0.0.1 clashofclanshack.com
+127.0.0.1 clashofclanshacked.com
+127.0.0.1 clearcomb.com
+127.0.0.1 click.linksynergy.com
+127.0.0.1 clickability.com
+127.0.0.1 clickbank.net
+127.0.0.1 clickbooth.com
+127.0.0.1 clickconversion.net
+127.0.0.1 clickdimensions.com
+127.0.0.1 clicklink.jp
+127.0.0.1 clicktale.net
+127.0.0.1 clickwith.bid
+127.0.0.1 client-event-reporter.twitch.tv
+127.0.0.1 cliqz.com
+127.0.0.1 clkcln.com
+127.0.0.1 clks003-glaze.online
+127.0.0.1 clksite.com
+127.0.0.1 cloisteredhydrant.com
+127.0.0.1 clubsfit.com
+127.0.0.1 cm-trk.com
+127.0.0.1 cnhv.co
+127.0.0.1 cobalten.com
+127.0.0.1 cognitivepowertools.com
+127.0.0.1 coin-have.com
+127.0.0.1 coin-hive.com
+127.0.0.1 coinblind.com
+127.0.0.1 coinerra.com
+127.0.0.1 coinhive.com
+127.0.0.1 coinhiveproxy.com
+127.0.0.1 coinpirate.cf
+127.0.0.1 collector.githubapp.com
+127.0.0.1 colombiaonline.com
+127.0.0.1 colossusssp.com
+127.0.0.1 com-2018-news.info
+127.0.0.1 com-online.site
+127.0.0.1 comfortablecheese.com
+127.0.0.1 commandwalk.com
+127.0.0.1 commonswing.com
+127.0.0.1 comparisons.org
+127.0.0.1 compatechange.cloudapp.net
+127.0.0.1 compatexchange.cloudapp.net
+127.0.0.1 completecabbage.com
+127.0.0.1 complextoad.com
+127.0.0.1 compute-1.amazonaws.com
+127.0.0.1 computta.com
+127.0.0.1 concernedcondition.com
+127.0.0.1 concernrain.com
+127.0.0.1 config.uca.cloud.unity3d.com
+127.0.0.1 connatix.com
+127.0.0.1 consciouscabbage.com
+127.0.0.1 consciouschairs.com
+127.0.0.1 consent.cmp.oath.com
+127.0.0.1 constintptr.com
+127.0.0.1 contact-help-number.co.uk
+127.0.0.1 content.bitsontherun.com
+127.0.0.1 contentabc.com
+127.0.0.1 contently.com
+127.0.0.1 contextual.media.net
+127.0.0.1 contextweb.com
+127.0.0.1 conversantmedia.com
+127.0.0.1 cookiebot.com
+127.0.0.1 cookielaw.org
+127.0.0.1 coolvillehub.com
+127.0.0.1 coordinatedcub.com
+127.0.0.1 copperchickens.com
+127.0.0.1 copycarpenter.com
+127.0.0.1 copyrightaccesscontrols.com
+127.0.0.1 core.insightexpressai.com
+127.0.0.1 corp.sts.microsoft.com
+127.0.0.1 cosmosjackson.com
+127.0.0.1 counter.yadro.ru
+127.0.0.1 countess.twitch.tv
+127.0.0.1 cpaintelligent.com
+127.0.0.1 cpayard.com
+127.0.0.1 cplmatch.com
+127.0.0.1 cpy-crack-games-torrent-download-free-pc.com
+127.0.0.1 crabbychin.com
+127.0.0.1 crackeddownload.club
+127.0.0.1 crashdump.spotify.com
+127.0.0.1 crawlclocks.com
+127.0.0.1 crazy-files.com
+127.0.0.1 crazyegg.com
+127.0.0.1 creative.wwwpromoter.com
+127.0.0.1 critariatele.pro
+127.0.0.1 criteo.com
+127.0.0.1 critictruck.com
+127.0.0.1 crownclam.com
+127.0.0.1 crsspxl.com
+127.0.0.1 crushsaga.net
+127.0.0.1 crwdcntrl.net
+127.0.0.1 cryptaloot.pro
+127.0.0.1 crypto-loot.com
+127.0.0.1 crypto-webminer.com
+127.0.0.1 cryptoloot.pro
+127.0.0.1 cryptonoter.com
+127.0.0.1 crystaltipstiaras.com
+127.0.0.1 cryweb.github.io
+127.0.0.1 crywebber.github.io
+127.0.0.1 cs1.wpc.v0cdn.net
+127.0.0.1 cumbersomecloud.com
+127.0.0.1 cuntwars.com
+127.0.0.1 curtaincows.com
+127.0.0.1 cutecushion.com
+127.0.0.1 cuteturkey.com
+127.0.0.1 cxense.com
+127.0.0.1 d123qx2eclzza.cloudfront.net
+127.0.0.1 d12jnzhk8qb2zp.cloudfront.net
+127.0.0.1 d1pdpbxj733bb1.cloudfront.net
+127.0.0.1 d1qk9ujrmkucbl.cloudfront.net
+127.0.0.1 d1rguclfwp7nc8.cloudfront.net
+127.0.0.1 d1spb7fplenrp4.cloudfront.net
+127.0.0.1 d1vbm0eveofcle.cloudfront.net
+127.0.0.1 d1wq5psd3ubget.cloudfront.net
+127.0.0.1 d1xfq2052q7thw.cloudfront.net
+127.0.0.1 d1z2jf7jlzjs58.cloudfront.net
+127.0.0.1 d26fomcq0yfsg4.cloudfront.net
+127.0.0.1 d2d8qsxiai9qwj.cloudfront.net
+127.0.0.1 d2fdonthm24zj8.cloudfront.net
+127.0.0.1 d2gi7ultltnc2u.cloudfront.net
+127.0.0.1 d2mailings.com
+127.0.0.1 d31qbv1cthcecs.cloudfront.net
+127.0.0.1 d3al52d8cojds7.cloudfront.net
+127.0.0.1 d3rn8v1wblnyec.cloudfront.net
+127.0.0.1 d3rt1990lpmkn.cloudfront.net
+127.0.0.1 d3ud741uvs727m.cloudfront.net
+127.0.0.1 d7t0ajd8uy1xk.cloudfront.net
+127.0.0.1 d8rk54i4mohrb.cloudfront.net
+127.0.0.1 da-ads.com
+127.0.0.1 dagnar.com
+127.0.0.1 dailynewspublic.com
+127.0.0.1 dailytechynews.com
+127.0.0.1 damdoor.com
+127.0.0.1 danarimedia.com
+127.0.0.1 dancemistake.com
+127.0.0.1 dashingdirt.com
+127.0.0.1 dashingsweater.com
+127.0.0.1 data.microsoft.com
+127.0.0.1 data1rtb.com
+127.0.0.1 datamart.windows.com
+127.0.0.1 datess.xyz
+127.0.0.1 db3aqu.atdmt.com
+127.0.0.1 deadpantruck.com
+127.0.0.1 debonairway.com
+127.0.0.1 decibelinsight.net
+127.0.0.1 decisivedrawer.com
+127.0.0.1 decisiveducks.com
+127.0.0.1 decoycreation.com
+127.0.0.1 defectivesun.com
+127.0.0.1 defpush.com
+127.0.0.1 delegatediscussion.com
+127.0.0.1 delightdriving.com
+127.0.0.1 dell-support.co.uk
+127.0.0.1 deloton.com
+127.0.0.1 demdex.net
+127.0.0.1 deployads.com
+127.0.0.1 desertedbreath.com
+127.0.0.1 desertedrat.com
+127.0.0.1 desktop.spotify.com
+127.0.0.1 desktopmining.net
+127.0.0.1 detailedglue.com
+127.0.0.1 detailedgovernment.com
+127.0.0.1 detectdiscovery.com
+127.0.0.1 dev.visualwebsiteoptimizer.com
+127.0.0.1 df.telemetry.microsoft.com
+127.0.0.1 diagnostics.support.microsoft.com
+127.0.0.1 diamondelectricals.com
+127.0.0.1 dianomi.com
+127.0.0.1 die10bestantivirus.com
+127.0.0.1 differentdesk.com
+127.0.0.1 digital-world1.com
+127.0.0.1 discreetfield.com
+127.0.0.1 dispatches.cheatcc.com
+127.0.0.1 dispensablestranger.com
+127.0.0.1 display.apester.com
+127.0.0.1 display.ugc.bazaarvoice.com
+127.0.0.1 disqusads.com
+127.0.0.1 distillery.wistia.com
+127.0.0.1 distiltag.com
+127.0.0.1 districtm.*
+127.0.0.1 dk4ywix.com
+127.0.0.1 dmpxs.com
+127.0.0.1 dmxleo.dailymotion.com
+127.0.0.1 dnn506yrbagrg.cloudfront.net
+127.0.0.1 dns-vip.net
+127.0.0.1 docksalmon.com
+127.0.0.1 dotomi.com
+127.0.0.1 doubleclick.net
+127.0.0.1 doublepimp.com
+127.0.0.1 doublepimpssl.com
+127.0.0.1 doubtfulrainstorm.com
+127.0.0.1 download-plaza.com
+127.0.0.1 downloadastro.com
+127.0.0.1 downloadelements.com
+127.0.0.1 downloadfullversionpcgamesonline.com
+127.0.0.1 downloadplayer.xyz
+127.0.0.1 dpm.demdex.net
+127.0.0.1 dq95d35.com
+127.0.0.1 drabsize.com
+127.0.0.1 dragzebra.com
+127.0.0.1 dream-singles.com
+127.0.0.1 drydrum.com
+127.0.0.1 ds-aksb-a.akamaihd.net
+127.0.0.1 ds.haaretz.co.il
+127.0.0.1 ds.serving-sys.com
+127.0.0.1 dwebsi.tk
+127.0.0.1 dwnlds.co
+127.0.0.1 dxkhboqrrimy.bid
+127.0.0.1 dynamicyield.com
+127.0.0.1 dynatrace.com
+127.0.0.1 dyntrk.com
+127.0.0.1 e.reddit.com
+127.0.0.1 e9976b21f1b2775b.com
+127.0.0.1 earthquakescarf.com
+127.0.0.1 earthycopy.com
+127.0.0.1 ebayadvertising.com
+127.0.0.1 ec.atdmt.com
+127.0.0.1 ec2-35-156-211-201.eu-central-1.compute.amazonaws.com
+127.0.0.1 ec2-35-159-6-133.eu-central-1.compute.amazonaws.com
+127.0.0.1 ec2-54-233-176-153.sa-east-1.compute.amazonaws.com
+127.0.0.1 ecmchat.com
+127.0.0.1 economicpizzas.com
+127.0.0.1 edgekey.net
+127.0.0.1 edigitalsurvey.com
+127.0.0.1 effectivemeasure.net
+127.0.0.1 efficaciouscactus.com
+127.0.0.1 ejyymghi.com
+127.0.0.1 elasticchange.com
+127.0.0.1 elderlyscissors.com
+127.0.0.1 elderlytown.com
+127.0.0.1 electronicproductzone.com
+127.0.0.1 elementsbrowser.me
+127.0.0.1 elephantqueue.com
+127.0.0.1 elepocial.pro
+127.0.0.1 elitamen.com
+127.0.0.1 elvenar.com
+127.0.0.1 embed.air.tv
+127.0.0.1 emetriq.com
+127.0.0.1 encoding.ovh
+127.0.0.1 encouragingwilderness.com
+127.0.0.1 endurableshop.com
+127.0.0.1 engine.adzerk.net
+127.0.0.1 ensighten.com
+127.0.0.1 enthusiasticdad.com
+127.0.0.1 enviousthread.com
+127.0.0.1 error.com
+127.0.0.1 error00x0878999817.tk
+127.0.0.1 errortablet.com
+127.0.0.1 et.nytimes.com
+127.0.0.1 ethicalads.net
+127.0.0.1 evangelizes241fy.xyz
+127.0.0.1 events.apester.com
+127.0.0.1 everesttech.net
+127.0.0.1 evergage.com
+127.0.0.1 evidon.com
+127.0.0.1 evyy.net
+127.0.0.1 exampletwo.com
+127.0.0.1 exclusivebrass.com
+127.0.0.1 exdynsrv.com
+127.0.0.1 exelator.com
+127.0.0.1 exit76.com
+127.0.0.1 exmusicbox.com
+127.0.0.1 exosrv.com
+127.0.0.1 explorads.com
+127.0.0.1 exponential.com
+127.0.0.1 eyeota.net
+127.0.0.1 ezanga.com
+127.0.0.1 f-secure.com
+127.0.0.1 facebookgameshacks.com
+127.0.0.1 facebooklikehack.com
+127.0.0.1 facebookpasswordhackonline.com
+127.0.0.1 faceoffhacker.com
+127.0.0.1 facilitategrandfather.com
+127.0.0.1 fadedprofit.com
+127.0.0.1 familiarfloor.com
+127.0.0.1 famousquarter.com
+127.0.0.1 fanaticalfly.com
+127.0.0.1 fapmeth.com
+127.0.0.1 faptitans.com
+127.0.0.1 farethief.com
+127.0.0.1 farmergoldfish.com
+127.0.0.1 fascinatedfeather.com
+127.0.0.1 fashion2smi.ru
+127.0.0.1 fast-pubg.com
+127.0.0.1 fastdatinglife.com
+127.0.0.1 faultycanvas.com
+127.0.0.1 faultyfowl.com
+127.0.0.1 fbsniffing.com
+127.0.0.1 fe2.update.microsoft.com.akadns.net
+127.0.0.1 feebleshock.com
+127.0.0.1 feedback.microsoft-hohm.com
+127.0.0.1 feedback.search.microsoft.com
+127.0.0.1 feedback.windows.com
+127.0.0.1 feedzpipe.com
+127.0.0.1 fepah-sah.com
+127.0.0.1 ffe5bd4c787357c.com
+127.0.0.1 fff.dailymail.co.uk
+127.0.0.1 filegenerator.blob.core.windows.net
+127.0.0.1 fileoasis.net
+127.0.0.1 findhoney.info
+127.0.0.1 findyourcasino.com
+127.0.0.1 firelnk.com
+127.0.0.1 firstimpression.io
+127.0.0.1 flakyfeast.com
+127.0.0.1 flashtalking.com
+127.0.0.1 flavordecision.com
+127.0.0.1 flex.msn.com
+127.0.0.1 flimsycircle.com
+127.0.0.1 flirtbig.com
+127.0.0.1 floodprincipal.com
+127.0.0.1 floweryoperation.com
+127.0.0.1 fls-na.amazon.com
+127.0.0.1 fmovie.pro
+127.0.0.1 fmoviz.com
+127.0.0.1 foamybox.com
+127.0.0.1 focuusing.com
+127.0.0.1 footprint.net
+127.0.0.1 footprintpredict.com
+127.0.0.1 foresee.com
+127.0.0.1 fortnitev-bucksgenerator.tk
+127.0.0.1 fourarithmetic.com
+127.0.0.1 fox80.com
+127.0.0.1 foxworldnews.today
+127.0.0.1 fqtag.com
+127.0.0.1 frailoffer.com
+127.0.0.1 free-adult-games.com
+127.0.0.1 free3dadultgames.com
+127.0.0.1 freecamsexposed.com
+127.0.0.1 freefornitev-bucks.bid
+127.0.0.1 freegameznow.com
+127.0.0.1 freegeoip.net
+127.0.0.1 freemmo2017.com
+127.0.0.1 freexboxcodes.info
+127.0.0.1 friendlyappz.com
+127.0.0.1 friendlyduck.com
+127.0.0.1 frightenedpotato.com
+127.0.0.1 frog.wix.com
+127.0.0.1 frolnk.com
+127.0.0.1 frontlumber.bid
+127.0.0.1 ftjcfx.com
+127.0.0.1 funacumen.com
+127.0.0.1 functionalclam.com
+127.0.0.1 functionalcrown.com
+127.0.0.1 fusionvod-a.akamaized.net
+127.0.0.1 futuristicapparatus.com
+127.0.0.1 futuristicfairies.com
+127.0.0.1 fuzzyflavor.com
+127.0.0.1 fuzzyweather.com
+127.0.0.1 fwmrm.net
+127.0.0.1 g.3gl.net
+127.0.0.1 g.msn.com
+127.0.0.1 g3j2wzmon8b.com
+127.0.0.1 ga87z2o.com
+127.0.0.1 gall-tarquin.com
+127.0.0.1 gamehacksempire.com
+127.0.0.1 gamespotcdn.com
+127.0.0.1 gamesrevenu24.com
+127.0.0.1 gamez1a.com
+127.0.0.1 gamezportals.com
+127.0.0.1 gammamaximum.com
+127.0.0.1 garcinia-slim-max.com
+127.0.0.1 gateway.messenger.live.com
+127.0.0.1 gemius.pl
+127.0.0.1 geni.us
+127.0.0.1 genzeetv.com
+127.0.0.1 geo-assets.tedcdn.com
+127.0.0.1 geo.yahoo.com
+127.0.0.1 geoip.nekudo.com
+127.0.0.1 georiot.com
+127.0.0.1 geoservice.curse.com
+127.0.0.1 get-express-vpn.com
+127.0.0.1 getadmiral.com
+127.0.0.1 getambassador.com
+127.0.0.1 getbeacon.io
+127.0.0.1 getdoctopdf.com
+127.0.0.1 getlytics.com
+127.0.0.1 getwebsecurenow.000webhostapp.com
+127.0.0.1 gialnk.com
+127.0.0.1 giddycoat.com
+127.0.0.1 giftcardcode.net
+127.0.0.1 giftcardrebel.co
+127.0.0.1 giftcards4fans.com
+127.0.0.1 gigya.com
+127.0.0.1 girlfriendepisodes.com
+127.0.0.1 girrrly.com
+127.0.0.1 githuub.com
+127.0.0.1 glawheejoushpush.com
+127.0.0.1 glbdns2.microsoft.com
+127.0.0.1 glossysense.com
+127.0.0.1 gmailsupport.uk
+127.0.0.1 go-mpulse.net
+127.0.0.1 go.mobtrks.com
+127.0.0.1 go.redirectingat.com
+127.0.0.1 go.wellhello.com
+127.0.0.1 go2cloud.org
+127.0.0.1 golfclashbooster.online
+127.0.0.1 gomtrack.com
+127.0.0.1 gondolagnome.com
+127.0.0.1 goo.red
+127.0.0.1 goodcenter4updatesoft.date
+127.0.0.1 goodcenterforupdatesoft.date
+127.0.0.1 googe.com
+127.0.0.1 googleads.g.doubleclick.net
+127.0.0.1 googleadservices.com
+127.0.0.1 googlesyndication.com
+127.0.0.1 goop.com
+127.0.0.1 gorgeousground.com
+127.0.0.1 gosquared.com
+127.0.0.1 gossipmiser.com
+127.0.0.1 gracefulsock.com
+127.0.0.1 grandioseguide.com
+127.0.0.1 grapeshot.co.uk
+127.0.0.1 graph.instagram.com
+127.0.0.1 greatess.com
+127.0.0.1 greetzebra.com
+127.0.0.1 greyinstrument.com
+127.0.0.1 grf.easyhash.io
+127.0.0.1 grtyb.com
+127.0.0.1 grtyi.com
+127.0.0.1 gscontxt.net
+127.0.0.1 gscounters.us1.gigya.com
+127.0.0.1 gtosite6.com
+127.0.0.1 gtssl2-ocsp.geotrust.com
+127.0.0.1 guardedgovernor.com
+127.0.0.1 guardedschool.com
+127.0.0.1 guitarbelieve.com
+127.0.0.1 gumgum.com
+127.0.0.1 gurgle.zdbb.net
+127.0.0.1 gykcause.cf
+127.0.0.1 gykmatter.cf
+127.0.0.1 gykparent.cf
+127.0.0.1 h1.msn.com
+127.0.0.1 h2.msn.com
+127.0.0.1 h78xb.pw
+127.0.0.1 hack-engine.com
+127.0.0.1 hackclashofclans.com
+127.0.0.1 hackfbaccountlive.com
+127.0.0.1 hammerhearing.com
+127.0.0.1 handyfield.com
+127.0.0.1 hardtofindmilk.com
+127.0.0.1 harrenmedia.com
+127.0.0.1 harrenmedianetwork.com
+127.0.0.1 harvestless.website
+127.0.0.1 havamedia.net
+127.0.0.1 hazingfun.com
+127.0.0.1 hdvidzpro.pro
+127.0.0.1 healthexperience100.com
+127.0.0.1 heapanalytics.com
+127.0.0.1 heatmap.*
+127.0.0.1 hello.myfonts.net
+127.0.0.1 helpnumber.co.uk
+127.0.0.1 hematocryal.host
+127.0.0.1 heninocegfib.com
+127.0.0.1 hfc195b.com
+127.0.0.1 hide.ovh
+127.0.0.1 higheurest.com
+127.0.0.1 highfalutinroom.com
+127.0.0.1 hilariouszinc.com
+127.0.0.1 histats.com
+127.0.0.1 historicalrequest.com
+127.0.0.1 hittail.com
+127.0.0.1 hive.tubetitties.com
+127.0.0.1 hls2.ibt.com
+127.0.0.1 hmtrack.com
+127.0.0.1 hollowshake.com
+127.0.0.1 home.neustar
+127.0.0.1 honeygoldfish.com
+127.0.0.1 honkmedia.net
+127.0.0.1 hop.clickbank.net
+127.0.0.1 horizon.sailthru.com
+127.0.0.1 hotallnews.*
+127.0.0.1 hotjar.com
+127.0.0.1 hotmovies4k.com
+127.0.0.1 hotsexdatingonline.com
+127.0.0.1 houdini.haaretz.co.il
+127.0.0.1 hqzjz7fncd.com
+127.0.0.1 hs-analytics.net
+127.0.0.1 hs-scripts.com
+127.0.0.1 hscta.net
+127.0.0.1 hsforms.net
+127.0.0.1 hsleadflows.net
+127.0.0.1 hsstatic.net
+127.0.0.1 htl.bid
+127.0.0.1 hurtteeth.com
+127.0.0.1 hypercracker.com
+127.0.0.1 hyperx.gg
+127.0.0.1 hystericalhelp.com
+127.0.0.1 i1.services.social.microsoft.com
+127.0.0.1 ib.3lift.com
+127.0.0.1 ib.adnxs.com
+127.0.0.1 ichlnk.com
+127.0.0.1 id.google.com
+127.0.0.1 ihabi.us
+127.0.0.1 iknowthatgirl.com
+127.0.0.1 ikwauek.com
+127.0.0.1 illfatedsnail.com
+127.0.0.1 illustriousoatmeal.com
+127.0.0.1 images.apster.com
+127.0.0.1 imasdk.googleapis.com
+127.0.0.1 imgg-cdn.mgid.com
+127.0.0.1 imgg-cdn.steepto.com
+127.0.0.1 immensehoney.com
+127.0.0.1 impactradius-go.com
+127.0.0.1 impactradius.com
+127.0.0.1 impcode69.xyz
+127.0.0.1 importedincrease.com
+127.0.0.1 impossibleexpansion.com
+127.0.0.1 impulsehands.com
+127.0.0.1 imrworldwide.com
+127.0.0.1 incrediblesugar.com
+127.0.0.1 indexww.com
+127.0.0.1 infinite-ads.com
+127.0.0.1 infinityads.com
+127.0.0.1 infinityid.condenastdigital.com
+127.0.0.1 infolinks.com
+127.0.0.1 infosolution.co.uk
+127.0.0.1 infra.systems
+127.0.0.1 ing6liey.com
+127.0.0.1 innocentwax.com
+127.0.0.1 innovid.com
+127.0.0.1 inquisitiveinvention.com
+127.0.0.1 insight.adsrvr.org
+127.0.0.1 insightexpressai.com
+127.0.0.1 instana.io
+127.0.0.1 instantplaysweepstake.com
+127.0.0.1 instaspank.com
+127.0.0.1 instinctiveads.com
+127.0.0.1 instrumentsponge.com
+127.0.0.1 intactoffers.club
+127.0.0.1 intel00000.xyz
+127.0.0.1 intellitxt.com
+127.0.0.1 interaction.apester.com
+127.0.0.1 inventionpassenger.com
+127.0.0.1 inviterabbits.com
+127.0.0.1 invitesugar.com
+127.0.0.1 ioam.de
+127.0.0.1 iosapphacks.com
+127.0.0.1 iphone-x.live
+127.0.0.1 ipify.org
+127.0.0.1 ipstack.com
+127.0.0.1 ivykiosk.com
+127.0.0.1 iyfnzgb.com
+127.0.0.1 j93557g.com
+127.0.0.1 jadeitite.com
+127.0.0.1 jamexistence.com
+127.0.0.1 jennysblog.net
+127.0.0.1 jewelcheese.com
+127.0.0.1 jexx0010reporta.tk
+127.0.0.1 jiesuan.bid
+127.0.0.1 jivox.com
+127.0.0.1 joshi.org
+127.0.0.1 js-agent.newrelic.com
+127.0.0.1 js-sec.indexww.com
+127.0.0.1 js.moatads.com
+127.0.0.1 jsc.adskeeper.co.uk
+127.0.0.1 jsc.mgid.com
+127.0.0.1 jsfuel.com
+127.0.0.1 jstracker.com
+127.0.0.1 jurrasicworldkey.win
+127.0.0.1 jusorpa.ru
+127.0.0.1 justicejudo.com
+127.0.0.1 justmoviz.net
+127.0.0.1 justpremium.com
+127.0.0.1 jwpltx.com
+127.0.0.1 kampyle.com
+127.0.0.1 karisimbi.net
+127.0.0.1 karma.mdpcdn.com
+127.0.0.1 kaymopk.com
+127.0.0.1 keen.io
+127.0.0.1 kergaukr.com
+127.0.0.1 keygencenter.net
+127.0.0.1 kfiopkln.com
+127.0.0.1 kingofgame13.com
+127.0.0.1 kiosked.com
+127.0.0.1 kissmetrics.com
+127.0.0.1 knifeoctopus.com
+127.0.0.1 kqzyfj.com
+127.0.0.1 krxd.net
+127.0.0.1 l06v.com
+127.0.0.1 lakana.com
+127.0.0.1 laughablecopper.com
+127.0.0.1 laughcloth.com
+127.0.0.1 leaplunchroom.com
+127.0.0.1 lendaop-09.xyz
+127.0.0.1 letsgetgoing.info
+127.0.0.1 lettucelimit.com
+127.0.0.1 liadm.com
+127.0.0.1 lie2anyone.com
+127.0.0.1 lightboxcdn.com
+127.0.0.1 lightcushion.com
+127.0.0.1 lijit.com
+127.0.0.1 limited1timeoffer.com
+127.0.0.1 limitedmaxadvantage.com
+127.0.0.1 limpingline.com
+127.0.0.1 lininteractive.com
+127.0.0.1 linkev.com
+127.0.0.1 links.services.disqus.com
+127.0.0.1 linksynergy.*.com
+127.0.0.1 linksynergy.com
+127.0.0.1 lip11t.com
+127.0.0.1 liqwid.net
+127.0.0.1 live.rads.msn.com
+127.0.0.1 liveadvert.com
+127.0.0.1 livehotty.com
+127.0.0.1 livesports-pass.com
+127.0.0.1 livingpromos.com
+127.0.0.1 lizardslaugh.com
+127.0.0.1 lo.gs
+127.0.0.1 local-finder.com
+127.0.0.1 locationsmart.com
+127.0.0.1 log.pinterest.com
+127.0.0.1 log.quora.com
+127.0.0.1 log.spotify.com
+127.0.0.1 longinglettuce.com
+127.0.0.1 look.kfiopkln.com
+127.0.0.1 lopsidedspoon.com
+127.0.0.1 loudloss.com
+127.0.0.1 loudlunch.com
+127.0.0.1 lp3tdqle.com
+127.0.0.1 luckypushh.com
+127.0.0.1 lumpyleaf.com
+127.0.0.1 lytics.io
+127.0.0.1 m-shes.ru
+127.0.0.1 m.adnxs.com
+127.0.0.1 m.anyfiles.ovh
+127.0.0.1 m.hotmail.com
+127.0.0.1 m.trb.com
+127.0.0.1 mac-us94.live
+127.0.0.1 mac-us95.live
+127.0.0.1 machieved.com
+127.0.0.1 magnificentmist.com
+127.0.0.1 malb.me
+127.0.0.1 markedcrayon.com
+127.0.0.1 markedpail.com
+127.0.0.1 marketgid.com
+127.0.0.1 marketing-rhino.com
+127.0.0.1 marketingplatform.google.com
+127.0.0.1 marketo.com
+127.0.0.1 marketo.net
+127.0.0.1 maruedr.com
+127.0.0.1 matchcows.com
+127.0.0.1 matching4singleshookup.com
+127.0.0.1 maxgenerator.racing
+127.0.0.1 maxymiser.net
+127.0.0.1 mcafeesupportnumber.com
+127.0.0.1 media-match.com
+127.0.0.1 media.com
+127.0.0.1 media.net
+127.0.0.1 mediaforce.com
+127.0.0.1 medianewpage.com
+127.0.0.1 mediaplex.com
+127.0.0.1 mediaserf.net
+127.0.0.1 mediavoice.com
+127.0.0.1 meetlocalchicks.com
+127.0.0.1 meetrics.com
+127.0.0.1 mellowads.com
+127.0.0.1 memorizeneck.com
+127.0.0.1 memorycobweb.com
+127.0.0.1 menhealthreport.net
+127.0.0.1 mens-life-online.com
+127.0.0.1 messagenovice.com
+127.0.0.1 meter-svc.nytimes.com
+127.0.0.1 metrics.brightcove.com
+127.0.0.1 metrics.cnn.com
+127.0.0.1 metrics.foxnews.com
+127.0.0.1 metrics.mzstatic.com
+127.0.0.1 metrics.washingtonpost.com
+127.0.0.1 metron.live.com.nsatc.net
+127.0.0.1 mfio.cf
+127.0.0.1 mftracking.com
+127.0.0.1 mfv34y3rhq.pw
+127.0.0.1 mgid.com
+127.0.0.1 miccrosoft-contact-number.co.uk
+127.0.0.1 migliori21-hd.online
+127.0.0.1 militaryverse.com
+127.0.0.1 mine.nahnoji.cz
+127.0.0.1 mine.torrent.pw
+127.0.0.1 minecraftcode.com
+127.0.0.1 minemytraffic.com
+127.0.0.1 minenetwebsonline.win
+127.0.0.1 minescripts.info
+127.0.0.1 minormeeting.com
+127.0.0.1 mixedreading.com
+127.0.0.1 mk-cdn.net
+127.0.0.1 ml314.com
+127.0.0.1 mmoframes.com
+127.0.0.1 mmofreegames.online
+127.0.0.1 moatads.com
+127.0.0.1 mobile-connection-alert.fyi
+127.0.0.1 mobipromote.com
+127.0.0.1 mobisla.com
+127.0.0.1 mobpushup.com
+127.0.0.1 mobtrks.com
+127.0.0.1 modifyeyes.com
+127.0.0.1 moengage.com
+127.0.0.1 moldyicicle.com
+127.0.0.1 mookie1.com
+127.0.0.1 mopub.com
+127.0.0.1 moviedvdrental.com
+127.0.0.1 movieleaks.net
+127.0.0.1 movienachos.com
+127.0.0.1 moviestream25.org
+127.0.0.1 mowfruit.com
+127.0.0.1 mp3adios.space
+127.0.0.1 mp3ark.com
+127.0.0.1 mp3gid.com
+127.0.0.1 mp3zo.com
+127.0.0.1 mparticle.com
+127.0.0.1 msads.net
+127.0.0.1 msecn.net
+127.0.0.1 msecnd.net
+127.0.0.1 msedge.net
+127.0.0.1 msftncsi.com
+127.0.0.1 msnbot-65-55-108-23.search.msn.com
+127.0.0.1 msntest.serving-sys.com
+127.0.0.1 mtrcs.samba.tv
+127.0.0.1 murdoog.com
+127.0.0.1 musictalentnow.com
+127.0.0.1 mwtpludn.review
+127.0.0.1 mxcdn.net
+127.0.0.1 mxpnl.com
+127.0.0.1 mydailytips.net
+127.0.0.1 myfinance.com
+127.0.0.1 myfriendlyappz.net
+127.0.0.1 mynewspepper.com
+127.0.0.1 mysteriousmonth.com
+127.0.0.1 narrativ.com
+127.0.0.1 nationalredemptioncenter.club
+127.0.0.1 native.sharethrough.com
+127.0.0.1 naturnica.com
+127.0.0.1 navistone.com
+127.0.0.1 nbcuas.com
+127.0.0.1 neighborlywatch.com
+127.0.0.1 nervoussummer.com
+127.0.0.1 net-careers.online
+127.0.0.1 net-news.online
+127.0.0.1 net-x42.stream
+127.0.0.1 netnews.online
+127.0.0.1 networksupportsystemsecurebreachattacksecurityalert.xyz
+127.0.0.1 networksystemsecuresupportattackbreachsecurityalert.xyz
+127.0.0.1 newmanizing.host
+127.0.0.1 newrelic.com
+127.0.0.1 newsmaxfeednetwork.com
+127.0.0.1 nexac.com
+127.0.0.1 nextlnk24.com
+127.0.0.1 nexus.ensighten.com
+127.0.0.1 nile.works
+127.0.0.1 nixzde.com
+127.0.0.1 noiselessplough.com
+127.0.0.1 nondescriptcrowd.com
+127.0.0.1 nondescriptsmile.com
+127.0.0.1 nondescriptstocking.com
+127.0.0.1 norton-uk.uk
+127.0.0.1 nortonsupportcenter.com
+127.0.0.1 notify.io
+127.0.0.1 npttech.com
+127.0.0.1 ntv.io
+127.0.0.1 nubroil19.club
+127.0.0.1 numlogo108.club
+127.0.0.1 nuttyorganization.com
+127.0.0.1 o12zs3u2n.com
+127.0.0.1 oamtrk.com
+127.0.0.1 obscenesidewalk.com
+127.0.0.1 observantice.com
+127.0.0.1 oca.telemetry.microsoft.com
+127.0.0.1 oclaserver.com
+127.0.0.1 oei1.gq
+127.0.0.1 offr.rocks
+127.0.0.1 ogads.com
+127.0.0.1 ogtrk.net
+127.0.0.1 ohmoo7ie.com
+127.0.0.1 ojrq.net
+127.0.0.1 oldiesmusiccity.net
+127.0.0.1 omniscientspark.com
+127.0.0.1 omniture.com
+127.0.0.1 omtrdc.net
+127.0.0.1 onclasrv.com
+127.0.0.1 onclickmedia.com
+127.0.0.1 onebodybox.com
+127.0.0.1 onesignal.com
+127.0.0.1 onetouchsol.*
+127.0.0.1 online-classes-us-deals.com
+127.0.0.1 onlinebtcscf.000webhostapp.com
+127.0.0.1 onlinepromotionsusa.com
+127.0.0.1 onlinesystemupdate3-1.azurewebsites.net
+127.0.0.1 onscroll.com
+127.0.0.1 onsecsyswebnow.000webhostapp.com
+127.0.0.1 openclick.click
+127.0.0.1 opentracker.net
+127.0.0.1 openx.com
+127.0.0.1 openx.net
+127.0.0.1 operationkettle.com
+127.0.0.1 ophan.theguardian.com
+127.0.0.1 opta.net
+127.0.0.1 optimallimit.com
+127.0.0.1 optimize-stats.voxmedia.com
+127.0.0.1 optimizely.com
+127.0.0.1 optmstr.com
+127.0.0.1 orange2258.com
+127.0.0.1 orientbeauties.net
+127.0.0.1 ourcustomersurvey.com
+127.0.0.1 ovalpigs.com
+127.0.0.1 owlsr.us
+127.0.0.1 p.algovid.com
+127.0.0.1 p.estream.to
+127.0.0.1 p.typekit.net
+127.0.0.1 padsdel.com
+127.0.0.1 padsdell.com
+127.0.0.1 pagead2.googlesyndication.com
+127.0.0.1 pagead46.l.doubleclick.net
+127.0.0.1 pagefair.com
+127.0.0.1 pagefair.net
+127.0.0.1 pages-stats.rbl.ms
+127.0.0.1 paleleaf.com
+127.0.0.1 paradoxfactor.com
+127.0.0.1 parchedangle.com
+127.0.0.1 pardot.com
+127.0.0.1 park.above.com
+127.0.0.1 parketsy.pro
+127.0.0.1 parsely.com
+127.0.0.1 parsimoniouspolice.com
+127.0.0.1 partner.googleadservices.com
+127.0.0.1 passwordrevelator.net
+127.0.0.1 patriot-advance-report.com
+127.0.0.1 paupervice.com
+127.0.0.1 pcgamer.site
+127.0.0.1 pcgames-download.com
+127.0.0.1 pcmax.s3.amazonaws.com
+127.0.0.1 pcmaxpro.com
+127.0.0.1 pcsupremo.com
+127.0.0.1 peacepowder.com
+127.0.0.1 peoplemillion.com
+127.0.0.1 perceivequarter.com
+127.0.0.1 petametrics.com
+127.0.0.1 petiteumbrella.com
+127.0.0.1 photographpan.com
+127.0.0.1 photoscape.ch
+127.0.0.1 pi.pardot.com
+127.0.0.1 pietexture.com
+127.0.0.1 ping.smyte.com
+127.0.0.1 pingbacks.theatlas.com
+127.0.0.1 pingdom.com
+127.0.0.1 pinkpantherissick.space
+127.0.0.1 pinpointmate.com
+127.0.0.1 pipedream.wistia.com
+127.0.0.1 pipsol.net
+127.0.0.1 piquantpigs.com
+127.0.0.1 piratercompte-facebook.com
+127.0.0.1 pix.nbcuni.com
+127.0.0.1 pixel.condenastdigital.com
+127.0.0.1 pixel.wp.com
+127.0.0.1 pixel.yola.com
+127.0.0.1 pixelsfighting.co
+127.0.0.1 pixiedust.buzzfeed.com
+127.0.0.1 plarium.com
+127.0.0.1 platform-api.sharethis.com
+127.0.0.1 platform.linkedin.com
+127.0.0.1 platform.stumbleupon.com
+127.0.0.1 play-asia.com
+127.0.0.1 play4free.fun
+127.0.0.1 playperks.net
+127.0.0.1 playshop.info
+127.0.0.1 plugin.mediavoice.com
+127.0.0.1 po.st
+127.0.0.1 podajisynum.tk
+127.0.0.1 pokermanagement.com
+127.0.0.1 polarity.com.cy
+127.0.0.1 popads.net
+127.0.0.1 pornhublive.com
+127.0.0.1 portalff.tk
+127.0.0.1 possessivebucket.com
+127.0.0.1 possibleboats.com
+127.0.0.1 powerlinks.com
+127.0.0.1 ppda.cf
+127.0.0.1 practicetoothpaste.com
+127.0.0.1 pre.footprintpredict.com
+127.0.0.1 precious-facts.com
+127.0.0.1 presage.io
+127.0.0.1 presetrabbits.com
+127.0.0.1 preview.msn.com
+127.0.0.1 previousplayground.com
+127.0.0.1 previouspotato.com
+127.0.0.1 pricelist.skype.com
+127.0.0.1 printer-helpnumber.com
+127.0.0.1 privacy.purch.com
+127.0.0.1 privacy4browsers.com
+127.0.0.1 prizecenterplusclub.com
+127.0.0.1 profitrumour.com
+127.0.0.1 progentra.com
+127.0.0.1 projectpoi.com
+127.0.0.1 propellerads.com
+127.0.0.1 propertiess.xyz
+127.0.0.1 propvideo.net
+127.0.0.1 protect-your-privacy.net
+127.0.0.1 provideplant.com
+127.0.0.1 providian.com
+127.0.0.1 ps.ns-cdn.com
+127.0.0.1 ps7894.com
+127.0.0.1 pseudolegal.pw
+127.0.0.1 psncore.com
+127.0.0.1 pub.network
+127.0.0.1 pub2srv.com
+127.0.0.1 pub34.bravenet.com
+127.0.0.1 pubads.g.doubleclick.net
+127.0.0.1 publicsurveypanel.com
+127.0.0.1 pubmatic.com
+127.0.0.1 pubmine.com
+127.0.0.1 puffyloss.com
+127.0.0.1 puffypull.com
+127.0.0.1 puffypurpose.com
+127.0.0.1 puosidopaidaskjaydabdkjsd.oss-eu-central-1.aliyuncs.com
+127.0.0.1 puserving.com
+127.0.0.1 pushedwebnews.com
+127.0.0.1 pushengage.com
+127.0.0.1 pushglobe.com
+127.0.0.1 pushnest.com
+127.0.0.1 pushno.com
+127.0.0.1 pussl30.com
+127.0.0.1 pussl32.com
+127.0.0.1 pussysaga.com
+127.0.0.1 putlocker.co
+127.0.0.1 putrr16.com
+127.0.0.1 puzzlingfall.com
+127.0.0.1 pwapi.washingtonpost.com
+127.0.0.1 pwufxar8.top
+127.0.0.1 qfdn3gyfbs.com
+127.0.0.1 qpda.cf
+127.0.0.1 qtzjozseyxskxw.bid
+127.0.0.1 quacksquirrel.com
+127.0.0.1 quaintcan.com
+127.0.0.1 quantserve.com
+127.0.0.1 quarterbean.com
+127.0.0.1 qubit.com
+127.0.0.1 quicksandear.com
+127.0.0.1 quietknowledge.com
+127.0.0.1 quizfunwow.com
+127.0.0.1 quizzards.net
+127.0.0.1 quizzicalzephyr.com
+127.0.0.1 r.bbci.co.uk
+127.0.0.1 rad.live.com
+127.0.0.1 rad.msn.com
+127.0.0.1 radar.cedexis.com
+127.0.0.1 rads.msn.com
+127.0.0.1 raducobra.site
+127.0.0.1 railwayrainstorm.com
+127.0.0.1 rapidkittens.com
+127.0.0.1 raresummer.com
+127.0.0.1 readgoldfish.com
+127.0.0.1 readingguilt.com
+127.0.0.1 readingopera.com
+127.0.0.1 readymoon.com
+127.0.0.1 realtime.services.disqus.com
+127.0.0.1 rebelsubway.com
+127.0.0.1 receptiveink.com
+127.0.0.1 receptivereaction.com
+127.0.0.1 recirculation.spot.im
+127.0.0.1 recommendation-hybrid.wpdigital.net
+127.0.0.1 recommendation-newsletter.wpdigital.net
+127.0.0.1 recommendedforyou.xyz
+127.0.0.1 reddit.co
+127.0.0.1 redir.metaservices.microsoft.com
+127.0.0.1 redirecting.zone
+127.0.0.1 redirectingat.com
+127.0.0.1 redirectlock.com
+127.0.0.1 redirector.gvt1.com
+127.0.0.1 redirectvoluum.com
+127.0.0.1 redmaazabanana.host
+127.0.0.1 redtram.com
+127.0.0.1 referrer.disqus.com
+127.0.0.1 refersion.com
+127.0.0.1 reflectivereward.com
+127.0.0.1 refreshpagedownload.com
+127.0.0.1 reimageplus.com
+127.0.0.1 remarketingpixel.com
+127.0.0.1 renderer.apester.com
+127.0.0.1 renewalcouponz.com
+127.0.0.1 repairsservices.xyz
+127.0.0.1 repeatsweater.com
+127.0.0.1 report-uri.io
+127.0.0.1 reports.wes.df.telemetry.microsoft.com
+127.0.0.1 res-x.com
+127.0.0.1 researchnow.com
+127.0.0.1 researchs.xyz
+127.0.0.1 resolutekey.com
+127.0.0.1 resonantbrush.com
+127.0.0.1 resources.infolinks.com
+127.0.0.1 revcontent.com
+127.0.0.1 revenuehits.com
+127.0.0.1 reviewsdecelular.ga
+127.0.0.1 rewardzoneusa.com
+127.0.0.1 rfihub.net
+127.0.0.1 richstring.com
+127.0.0.1 richvideos.com
+127.0.0.1 rietrimfani.ml
+127.0.0.1 ringsrecord.com
+127.0.0.1 ritzykey.com
+127.0.0.1 ritzysponge.com
+127.0.0.1 rk.com
+127.0.0.1 rlcdn.com
+127.0.0.1 rnddmn.com
+127.0.0.1 romancetale.com
+127.0.0.1 roosterfirework.com
+127.0.0.1 rotumal.com
+127.0.0.1 roughroll.com
+127.0.0.1 royalroms.com
+127.0.0.1 rpda.cf
+127.0.0.1 rps-uk.rockpapershotgun.com
+127.0.0.1 rta.dailymail.co.uk
+127.0.0.1 rtradsterra43.download
+127.0.0.1 rtradsterra58.download
+127.0.0.1 rubiconproject.com
+127.0.0.1 rulerabbit.com
+127.0.0.1 runtnc.net
+127.0.0.1 russianwomansite.com
+127.0.0.1 ruthlessrobin.com
+127.0.0.1 s.amazon-adsystem.com
+127.0.0.1 s.gateway.messenger.live.com
+127.0.0.1 s.skimresources.com
+127.0.0.1 s.youtube.com
+127.0.0.1 s0.2mdn.net
+127.0.0.1 s8ads.com
+127.0.0.1 sa.bbc.co.uk
+127.0.0.1 safewbsyssec.000webhostapp.com
+127.0.0.1 sail-horizon.com
+127.0.0.1 sailthru.com
+127.0.0.1 salesloft.com
+127.0.0.1 samplejunky.com
+127.0.0.1 samsungads.com
+127.0.0.1 saxa53.bid
+127.0.0.1 saysidewalk.com
+127.0.0.1 sb.scorecardresearch.com
+127.0.0.1 scan-xxoill-system.cf
+127.0.0.1 scanningprogessnow.000webhostapp.com
+127.0.0.1 scansys-updates.cf
+127.0.0.1 scarcesign.com
+127.0.0.1 scarcestream.com
+127.0.0.1 scatteredheat.com
+127.0.0.1 schemas.microsoft.akadns.net
+127.0.0.1 scholarshipmedicine.blogspot.com
+127.0.0.1 scintillatingscissors.com
+127.0.0.1 scintillatingspace.com
+127.0.0.1 scorecardresearch.com
+127.0.0.1 screechingfurniture.com
+127.0.0.1 script.crazyegg.com
+127.0.0.1 scripts.kiosked.com
+127.0.0.1 scroll.com
+127.0.0.1 scrubsky.com
+127.0.0.1 scrubswim.com
+127.0.0.1 sdsjweb.com
+127.0.0.1 searchlock.com
+127.0.0.1 searchmpt.com
+127.0.0.1 searchprivacy.co
+127.0.0.1 seconwebscanning.000webhostapp.com
+127.0.0.1 secretivecub.com
+127.0.0.1 secretspiders.com
+127.0.0.1 secure-au.imrworldwide.com
+127.0.0.1 secure-dcr.imrworldwide.com
+127.0.0.1 secure-job-position.com
+127.0.0.1 secure.adnxs.com
+127.0.0.1 secure.flashtalking.com
+127.0.0.1 secure.quantserve.com
+127.0.0.1 securegfm.com
+127.0.0.1 securelinkp.com
+127.0.0.1 securepubads.g.doubleclick.net
+127.0.0.1 securityxploded.com
+127.0.0.1 secyourmachi.000webhostapp.com
+127.0.0.1 segment-data.zqtk.net
+127.0.0.1 selectionsugar.com
+127.0.0.1 selectivesummer.com
+127.0.0.1 sentry.io
+127.0.0.1 separatesilver.com
+127.0.0.1 servebom.com
+127.0.0.1 serveiwt.com
+127.0.0.1 server.cpmstar.com
+127.0.0.1 serves.live
+127.0.0.1 services.social.microsoft.com
+127.0.0.1 services.wes.df.telemetry.microsoft.com
+127.0.0.1 serving-sys.com
+127.0.0.1 settings-sandbox.data.microsoft.com
+127.0.0.1 setuponeupload.bid
+127.0.0.1 sevenfiguresolutions.com
+127.0.0.1 sex-and-flirt.com
+127.0.0.1 sexbadoo.ga
+127.0.0.1 sexwithhotpornstars.com
+127.0.0.1 shakesea.com
+127.0.0.1 shakesuggestion.com
+127.0.0.1 shakytaste.com
+127.0.0.1 shallowschool.com
+127.0.0.1 shallowsmile.com
+127.0.0.1 sharethrough.com
+127.0.0.1 sharppatch.com
+127.0.0.1 shelterstraw.com
+127.0.0.1 shermore.info
+127.0.0.1 shinesols.ga
+127.0.0.1 shiveringsail.com
+127.0.0.1 shockingswing.com
+127.0.0.1 shop-finditquick.com
+127.0.0.1 show24hxxx.info
+127.0.0.1 shuglaursech.com
+127.0.0.1 sicksmash.com
+127.0.0.1 signheadnow.com
+127.0.0.1 silkenthreadiness.info
+127.0.0.1 silkysquirrel.com
+127.0.0.1 sillyscrew.com
+127.0.0.1 silverwaterbottle.site
+127.0.0.1 similarsabine.com
+127.0.0.1 simplisticnose.com
+127.0.0.1 sincerebuffalo.com
+127.0.0.1 sinceresofa.com
+127.0.0.1 sincerespy.com
+127.0.0.1 siteintercept.qualtrics.com
+127.0.0.1 siteswithcontent.com
+127.0.0.1 siteupdate.services
+127.0.0.1 sitionne.pro
+127.0.0.1 sixscissors.com
+127.0.0.1 sizesidewalk.com
+127.0.0.1 skidrowcpy.com
+127.0.0.1 skimresources.com
+127.0.0.1 sleepcartoon.com
+127.0.0.1 slipperysack.com
+127.0.0.1 sls.update.microsoft.com.akadns.net
+127.0.0.1 smashsurprise.com
+127.0.0.1 smilingwaves.com
+127.0.0.1 snakesort.com
+127.0.0.1 snap-affairs.com
+127.0.0.1 snapteens.net
+127.0.0.1 sneaklevel.com
+127.0.0.1 sneakystamp.com
+127.0.0.1 solarmovie.best
+127.0.0.1 sombersea.com
+127.0.0.1 sombersquirrel.com
+127.0.0.1 sombersurprise.com
+127.0.0.1 sonobi.com
+127.0.0.1 soujoobafoo.com
+127.0.0.1 soundcloud.co
+127.0.0.1 sourcecode.pro
+127.0.0.1 spade.twitch.tv
+127.0.0.1 spclient.wg.spotify.com
+127.0.0.1 special-news.online
+127.0.0.1 special-promotions.online
+127.0.0.1 spectacularsnail.com
+127.0.0.1 speedcurve.com
+127.0.0.1 spidersboats.com
+127.0.0.1 spiffymachine.com
+127.0.0.1 spillvacation.com
+127.0.0.1 spirebaboon.com
+127.0.0.1 sportbestshop.com
+127.0.0.1 spotscenered.info
+127.0.0.1 spottysense.com
+127.0.0.1 spox.tv
+127.0.0.1 springaftermath.com
+127.0.0.1 spurioussteam.com
+127.0.0.1 spynet2.microsoft.com
+127.0.0.1 spynetalt.microsoft.com
+127.0.0.1 sqm.df.telemetry.microsoft.com
+127.0.0.1 sqm.telemetry.microsoft.com
+127.0.0.1 squeamishscarecrow.com
+127.0.0.1 squirrelhands.com
+127.0.0.1 ssl.google-analytics.com
+127.0.0.1 st.bebi.com
+127.0.0.1 stack-sonar.com
+127.0.0.1 stagerwatch.com
+127.0.0.1 stakingscrew.com
+127.0.0.1 stakingslope.com
+127.0.0.1 standingnest.com
+127.0.0.1 starenhancecart.com
+127.0.0.1 statcounter.com
+127.0.0.1 statecolumn.com
+127.0.0.1 static.2mdn.net
+127.0.0.1 static.apester.com
+127.0.0.1 static.chartbeat.com
+127.0.0.1 static.criteo.net
+127.0.0.1 stats.kaltura.com
+127.0.0.1 stats.wp.com
+127.0.0.1 statsfe1.ws.microsoft.com
+127.0.0.1 statsfe2.update.microsoft.com.akadns.net
+127.0.0.1 statsfe2.ws.microsoft.com
+127.0.0.1 steadfastsound.com
+127.0.0.1 steadfastsystem.com
+127.0.0.1 steepto.com
+127.0.0.1 stickssheep.com
+127.0.0.1 stickyadstv.com
+127.0.0.1 stiratsurfou.ga
+127.0.0.1 stockguardpresent.com
+127.0.0.1 storage.bhs3.cloud.ovh.net
+127.0.0.1 storesurprise.com
+127.0.0.1 stormyachiever.com
+127.0.0.1 stormyshock.com
+127.0.0.1 stormysponge.com
+127.0.0.1 stoveseashore.com
+127.0.0.1 straightnest.com
+127.0.0.1 straightschool.com
+127.0.0.1 streamhdmovies.net
+127.0.0.1 streamit-online.com
+127.0.0.1 stripedburst.com
+127.0.0.1 strivesidewalk.com
+127.0.0.1 structurerod.com
+127.0.0.1 structuresofa.com
+127.0.0.1 sts.microsoft.com
+127.0.0.1 studcat.infra.systems
+127.0.0.1 stupendoussleet.com
+127.0.0.1 subcprostagraou.ga
+127.0.0.1 succeedscene.com
+127.0.0.1 suddensidewalk.com
+127.0.0.1 sugarcurtain.com
+127.0.0.1 sulkybutter.com
+127.0.0.1 summerhamster.com
+127.0.0.1 summerobject.com
+127.0.0.1 superficialsink.com
+127.0.0.1 superiorsingingmethod.com
+127.0.0.1 support247.live
+127.0.0.1 supremocleaner.co.uk
+127.0.0.1 supremosecure.com
+127.0.0.1 survey.watson.microsoft.com
+127.0.0.1 sweetim.com
+127.0.0.1 sweetpacks.com
+127.0.0.1 swimslope.com
+127.0.0.1 swipeapp.com
+127.0.0.1 swordgoose.com
+127.0.0.1 syst-faultus.s3.amazonaws.com
+127.0.0.1 system001-xsurfing-crashed.*
+127.0.0.1 systemsecuresupportnetworkattackbreachsecurityalert.xyz
+127.0.0.1 systemsupportsecurebreachattacknetworksecurityalert.xyz
+127.0.0.1 systemupdateonlineuk-601.azurewebsites.net
+127.0.0.1 systfaultus.s3.amazonaws.com
+127.0.0.1 systtmm-yyooiik.ga
+127.0.0.1 t.purch.com
+127.0.0.1 t2.hulu.com
+127.0.0.1 taboola.com
+127.0.0.1 tag.bounceexchange.com
+127.0.0.1 tag.crsspxl.com
+127.0.0.1 tags.bkrtx.com
+127.0.0.1 tags.bluekai.com
+127.0.0.1 tagsrvcs.com
+127.0.0.1 tail.digital
+127.0.0.1 tailtarget.com
+127.0.0.1 takethatad.com
+127.0.0.1 talentedsteel.com
+127.0.0.1 tangibleteam.com
+127.0.0.1 tansurvey.com
+127.0.0.1 tap-secure.rubiconproject.com
+127.0.0.1 taptica.com
+127.0.0.1 tastefulsongs.com
+127.0.0.1 tawdryson.com
+127.0.0.1 teacoffeemug.club
+127.0.0.1 teads.tv
+127.0.0.1 tealiumiq.com
+127.0.0.1 technologyprofitsnewsletter.life
+127.0.0.1 techyogisolutions.com
+127.0.0.1 tedioustooth.com
+127.0.0.1 teenyvolcano.com
+127.0.0.1 teethfan.com
+127.0.0.1 tegdhsdssaaa69.oss-ap-southwest-1.aliyuncs.com
+127.0.0.1 telecommand.telemetry.microsoft.com
+127.0.0.1 telemetry.appex.bing.net
+127.0.0.1 telemetry.microsoft.com
+127.0.0.1 telemetry.urs.microsoft.com
+127.0.0.1 televisionfanatic.com
+127.0.0.1 tendertest.com
+127.0.0.1 terriblethumb.com
+127.0.0.1 terribleturkey.com
+127.0.0.1 teschenite.com
+127.0.0.1 textsex.tk
+127.0.0.1 tfa5e.top
+127.0.0.1 thaidapps.com
+127.0.0.1 thebig-centeralplaceforcontentingnew.date
+127.0.0.1 thedailywinnings.com
+127.0.0.1 themart.xyz
+127.0.0.1 themovie-quest.com
+127.0.0.1 thepornstudy.com
+127.0.0.1 thepornsurvey.com
+127.0.0.1 thepsurvey.com
+127.0.0.1 thesportspost.com
+127.0.0.1 thestrategiccontentforyousafe.bid
+127.0.0.1 thetradedesk.com
+127.0.0.1 theultimatecentalforcontentready.bid
+127.0.0.1 thinkablerice.com
+127.0.0.1 thirdrespect.com
+127.0.0.1 thirstytwig.com
+127.0.0.1 threadsphere.bid
+127.0.0.1 threechurch.com
+127.0.0.1 throattrees.com
+127.0.0.1 ticklesign.com
+127.0.0.1 tidytrail.com
+127.0.0.1 timaeus-lui.com
+127.0.0.1 tinypass.com
+127.0.0.1 tiqcdn.com
+127.0.0.1 tmel.me
+127.0.0.1 tmkcofbjv.com
+127.0.0.1 todayfarmclean.com
+127.0.0.1 toecircle.com
+127.0.0.1 tollfree-help-number.com
+127.0.0.1 toothbrushnote.com
+127.0.0.1 top10hempoilreviews.com
+127.0.0.1 toprealdating.com
+127.0.0.1 tpc.googlesyndication.com
+127.0.0.1 tqeobp89axcn.com
+127.0.0.1 tracedesire.com
+127.0.0.1 track.thesaurus.com
+127.0.0.1 tracklessly.com
+127.0.0.1 tradeadsexchange.com
+127.0.0.1 tradetracker.net
+127.0.0.1 traffic-media.co
+127.0.0.1 trafficjunky.net
+127.0.0.1 trafficrouter.io
+127.0.0.1 trafmag.com
+127.0.0.1 trailerhd.info
+127.0.0.1 tranquilside.com
+127.0.0.1 traviously.pro
+127.0.0.1 trbas.com
+127.0.0.1 tremendoustime.com
+127.0.0.1 trends.revcontent.com
+127.0.0.1 tribpubads.com
+127.0.0.1 trickycelery.com
+127.0.0.1 tritetongue.com
+127.0.0.1 trk.vidible.tv
+127.0.0.1 trkdapp.com
+127.0.0.1 trkitall.net
+127.0.0.1 trowel.twitch.tv
+127.0.0.1 tru.am
+127.0.0.1 truckstomatoes.com
+127.0.0.1 trustarc.com
+127.0.0.1 trustx.org
+127.0.0.1 trw12.com
+127.0.0.1 tt.omtrdc.net
+127.0.0.1 tubbee.cricket
+127.0.0.1 tubemogul.com
+127.0.0.1 turn.com
+127.0.0.1 tweakingtricks.com
+127.0.0.1 tynt.com
+127.0.0.1 typicalteeth.com
+127.0.0.1 ubimo.com
+127.0.0.1 ublock.org
+127.0.0.1 udc.yahoo.com
+127.0.0.1 udmlkmzjkob.co
+127.0.0.1 ugdturner.com
+127.0.0.1 ugplay.com
+127.0.0.1 ui.skype.com
+127.0.0.1 uimportantous.gq
+127.0.0.1 ultragaming.biz
+127.0.0.1 ultraoranges.com
+127.0.0.1 umrai.com
+127.0.0.1 unarmedindustry.com
+127.0.0.1 unknowntray.com
+127.0.0.1 unstraddled.host
+127.0.0.1 untidyquestion.com
+127.0.0.1 unusualtitle.com
+127.0.0.1 unwrittenspot.com
+127.0.0.1 uod2quk646.com
+127.0.0.1 uponit.com
+127.0.0.1 urareplay.com
+127.0.0.1 urbanairship.com
+127.0.0.1 urs.microsoft.com
+127.0.0.1 usabilla.com
+127.0.0.1 usarewardspot.com
+127.0.0.1 usenetdownload.men
+127.0.0.1 user-clicks.com
+127.0.0.1 uttermosthobbies.com
+127.0.0.1 v.jwpcdn.com
+127.0.0.1 v.shopify.com
+127.0.0.1 v.theonion.com
+127.0.0.1 v0cdn.net
+127.0.0.1 valentime.com
+127.0.0.1 vanfireworks.com
+127.0.0.1 vasurvey.info
+127.0.0.1 vbucks-hack.club
+127.0.0.1 vbucksbooster.com
+127.0.0.1 velocecdn.com
+127.0.0.1 victoriabrides.com
+127.0.0.1 victoriahearts.com
+127.0.0.1 vidcdn.pro
+127.0.0.1 video-ad-stats.googlesyndication.com
+127.0.0.1 video.unrulymedia.com
+127.0.0.1 videocdn-pmd.ora.tv
+127.0.0.1 videodownloadconverter.com
+127.0.0.1 videodownloaderultimate.com
+127.0.0.1 videoextplayer.ru
+127.0.0.1 videos.tout.com
+127.0.0.1 vidora.com
+127.0.0.1 view.atdmt.com
+127.0.0.1 viglink.com
+127.0.0.1 vilynx.com
+127.0.0.1 viral.ltd
+127.0.0.1 viralfresh.com
+127.0.0.1 visiblemeasures.com
+127.0.0.1 visitor-metrics.com
+127.0.0.1 visualiq.com
+127.0.0.1 viuly.io
+127.0.0.1 voicevegetable.com
+127.0.0.1 voluumtrk.com
+127.0.0.1 vortex-sandbox.data.microsoft.com
+127.0.0.1 vortex-win.data.microsoft.com
+127.0.0.1 vortex.data.microsoft.com
+127.0.0.1 vpda.cf
+127.0.0.1 vrfuckdolls.com
+127.0.0.1 vulzul.com
+127.0.0.1 vungle.com
+127.0.0.1 vuukle.com
+127.0.0.1 w5insight.com
+127.0.0.1 wakwaw.xyz
+127.0.0.1 waryfog.com
+127.0.0.1 wateryvan.com
+127.0.0.1 watson.live.com
+127.0.0.1 watson.microsoft.com
+127.0.0.1 watson.ppe.telemetry.microsoft.com
+127.0.0.1 watson.telemetry.microsoft.com
+127.0.0.1 waudeesestew.com
+127.0.0.1 wavo.me
+127.0.0.1 wdspirit.com
+127.0.0.1 webcompanion.com
+127.0.0.1 weblb-wg.gslb.spotify.com
+127.0.0.1 websectargeton.000webhostapp.com
+127.0.0.1 wellhello.com
+127.0.0.1 wellmadefrog.com
+127.0.0.1 wes.df.telemetry.microsoft.com
+127.0.0.1 whalecashads.com
+127.0.0.1 whirlclick.com
+127.0.0.1 whirlwealth.com
+127.0.0.1 whiskyqueue.com
+127.0.0.1 whisperingcrib.com
+127.0.0.1 whos.amung.us
+127.0.0.1 wibbitz.com
+127.0.0.1 widgets.outbrain.com
+127.0.0.1 wifi-password-hack.com
+127.0.0.1 wikia-ads.wikia.com
+127.0.0.1 windowart.faith
+127.0.0.1 windows-blocked-call-1-888-578-4888-tollfree.s3-website.us-east-2.amazonaws.com
+127.0.0.1 windows-error-log-call-1-888-578-4888-tollfree.s3-website.us-east-2.amazonaws.com
+127.0.0.1 winhv.com
+127.0.0.1 winksweb.net
+127.0.0.1 winningpokernetwork.com
+127.0.0.1 wirecomic.com
+127.0.0.1 witalfieldt.com
+127.0.0.1 wms.assoc-amazon.com
+127.0.0.1 wnzvrqryvirelv.com
+127.0.0.1 womanear.com
+127.0.0.1 wopertific.info
+127.0.0.1 worker.salon.com
+127.0.0.1 worldbeuty.com
+127.0.0.1 worldhealthlabs.com
+127.0.0.1 worriednumber.com
+127.0.0.1 worrybutter.com
+127.0.0.1 wp-stat.s3.amazonaws.com
+127.0.0.1 wpda.cf
+127.0.0.1 wryfinger.com
+127.0.0.1 ws.microsoft.com
+127.0.0.1 ws.sharethis.com
+127.0.0.1 www.delta-search.com
+127.0.0.1 www.emjcd.com
+127.0.0.1 www.friendlyduck.com
+127.0.0.1 www.google-analytics.com
+127.0.0.1 www.googleadservices.com
+127.0.0.1 www.googletagmanager.com
+127.0.0.1 www.googletagservices.com
+127.0.0.1 www.msftncsi.com
+127.0.0.1 www.ojrq.net
+127.0.0.1 www.quick-torrent.com
+127.0.0.1 www.zergnet.com
+127.0.0.1 wwwpromoter.com
+127.0.0.1 wwznqib.com
+127.0.0.1 x-fidelity-media.com
+127.0.0.1 xcheatingparty.com
+127.0.0.1 xerbot.com
+127.0.0.1 xinesmas.com
+127.0.0.1 xml.explorads.com
+127.0.0.1 xn--80ak6aa92e.com
+127.0.0.1 xn--biace-4l1bb.com
+127.0.0.1 xn--binnce-5nf.com
+127.0.0.1 xn--bittex-eib.com
+127.0.0.1 xn--e1awd7f.com
+127.0.0.1 xn--myetherallet-nu5f.com
+127.0.0.1 xn--ume-wla.se
+127.0.0.1 xovq5nemr.com
+127.0.0.1 xxdigitalsolutions.club
+127.0.0.1 yadro.ru
+127.0.0.1 yaydigital.net
+127.0.0.1 ybp.yahoo.com
+127.0.0.1 ygr.me
+127.0.0.1 yieldlab.net
+127.0.0.1 yinoxz.com
+127.0.0.1 yldbt.com
+127.0.0.1 yololike.space
+127.0.0.1 yougube.com
+127.0.0.1 youlucky2014.com
+127.0.0.1 yourgoodplace4contentsafe.trade
+127.0.0.1 yourhelpsteam.*
+127.0.0.1 yourlatinmates.com
+127.0.0.1 youtibe.com
+127.0.0.1 youtuhe.com
+127.0.0.1 youtuube.com
+127.0.0.1 youutube.com
+127.0.0.1 z-na.amazon-adsystem.com
+127.0.0.1 z.moatads.com
+127.0.0.1 z2jakqoshx.com
+127.0.0.1 zbwp6ghm.com
+127.0.0.1 zdbb.net
+127.0.0.1 zealousfield.com
+127.0.0.1 zedo.com
+127.0.0.1 zemanta.com
+127.0.0.1 zergnet.*
+127.0.0.1 zetaglobal.com
+127.0.0.1 zlp6s.pw
+127.0.0.1 zqtk.net
+127.0.0.1 zrk.imgur.com
+127.0.0.1 zukxd6fkxqn.com
+0123movies.*,123hulu.*,edmsauce.com,edmtunes.com,gomovies.*,gostream.*,movies123.*,the123movies.*,watchfree.*##footer
+0123movies.*,123movieshub.*,123moviestube.*,cmovieshd.*,gostream.*,moviesonline.*,putlocker.*,solarmovies.*,solarmoviesc.*,solarmoviez.*,tvmovies.*,watchfree.*,yesmovies.*###mv-keywords
+0123movies.*,123movieshub.*,123moviestube.*,gostream.*,moviesonline.*,putlocker.*,uploadfiles.*,watchfree.*##.alert
+0123movies.*,123moviestube.*,cmovieshd.*,gomovies.*,gostream.*,solarmoviez.*,yesmovies.*##.mlw-related
+123movieshub.*,123moviestube.*##.text-bottom
+123movieshub.*,123moviestube.*,bmovies.*,cmovieshd.*,gomovies.*,gostream.*,hd.*,movies123.*,moviesonline.*,putlocker.*,solarmoviesc.*,tvmovies.*##.ml-title
+123movieshub.*,1movies.*,gostream.*,moviesonline.*,putlocker.*,putlockers.*###footer
+123movieshub.*,gostream.*,moviesonline.*,putlocker.*,watchfree.*##.social-home
+123moviestube.*,albums-download.*,gostream.*,kissanime.*,solarmoviesc.*,vexmovies.*##center
+123moviestube.*,bmovies.*,gostream.*,tvmovies.*###commentfb
+123moviestube.*,bmovies.*,hd.*,tvmovies.*##.footer-tags
+123moviestube.*,cmovieshd.*,fmovies.*,gostream.*,solarmoviesc.*,solarmoviez.*##.breadcrumb
+123moviestube.*,gostream.*##.content-kuss
+123moviestube.*,moviesonline.*##.mvic-btn
+1337x.*##.bitcoin
+1337x.*##[href*="/directredirect"]
+1337x.*##[href*="/redirmusic.php?q="]
+1337x.*##[href*="redirectgames.php?q="]
+1movies.*###actors
+1movies.*###addthis_wrapper
+1movies.*###add_to_watch
+1movies.*###add_watch_trigger
+1movies.*###a_wrap
+1movies.*###characters
+1movies.*###creators
+1movies.*###critics
+1movies.*###gallery
+1movies.*###vpn_inform_block
+1movies.*##.buy_pro
+1movies.*##.cd-tabs-navigation
+1movies.*##.desk_option
+1movies.*##.keywords
+1movies.*##.notif
+1movies.*##.offers
+1movies.*##.sp-cont
+1movies.*##[href*="buyregistration"]
+2shorte.com###services
+4chan.org##.adg
+4chan.org##.adg-rects
+4chan.org##.error
+99percentinvisible.org###engagements
+99percentinvisible.org###newsletter-prompt
+99percentinvisible.org##.new-lower-leaderboard
+9anime.*###tags
+9anime.*##+js(abort-on-property-read.js, zfgloadedpopup)
+9anime.*##.alert
+9anime.*##.content::after
+9anime.*##.small
+9anime.*##div[class*="message"]
+9anime.*##div[class^="ads"]
+9anime.*##script:inject(abort-current-inline-script.js, parseInt, tabunder)
+9anime.*##script:inject(setTimeout-defuser.js, return, 2000)
+9anime.*,9animes.*##.text-center
+9anime.*,boingboing.net,cheatcc.com,igg-games.com,inquisitr.com,popsugar.com,wired.com###sidebar
+9to5google.com##.related-guides-container
+9to5google.com##.slick-slide
+9to5google.com,9to5mac.com##.author-bio-container
+aamc.org##.news-article-footer
+abcnews.go.com###global-live-bar
+abcnews.go.com##.abcn-alert-insert
+abcnews.go.com##.abcn-interests
+abcnews.go.com##.OUTBRAIN
+abcnews.go.com##.slick-initialized
+abcnews.go.com##.t_callout
+ableton.com##.main-footer__col--start
+adidas.com##.mobile_app_banner_container
+adidas.com##div[class*="footer_newsletter"]
+adidas.com##[class*="smart_banner"]
+adweek.com###footer-site-logo
+adweek.com##.container-subscribe
+adweek.com##.footer-contributors
+adweek.com##.footer-social-wrapper
+adweek.com##.interstitial-container
+adweek.com,edmtunes.com,thewalrus.ca,youredm.com##.widget_text
+aeon.co##.article__questions
+aeon.co##.article__related
+aeon.co##.donate__card
+aeon.co##.footer-banner
+aeon.co##.friends-article-banner
+aeon.co##.friends-banner
+aeon.co##.header-banner
+aeon.co##.header-banner-birthday
+aeon.co##.june-donation-drive
+aeon.co##.share-card
+aeon.co##.support-bar
+aeon.co,fastcodesign.com,fastcompany.com,inverse.com,motherjones.com,whathifi.com,wtsp.com##.newsletter-signup
+aetv.com##.newsletter-signup-container
+akamai.com##.sticky-visible
+allrecipes.com###block-karma-slot
+allrecipes.com##.about_author
+allrecipes.com##.karma-slot
+amazon.*###ad
+amazon.*###cbcc_banner
+amazon.*###desktop-ad-btf
+amazon.*###desktop-grid-1-D2
+amazon.*###detail-ilm_div
+amazon.*###detailILM_feature_div
+amazon.*###dp-ads-center-promo_feature_div
+amazon.*###dpx-btf-bundle_feature_div
+amazon.*###hover-zoom-end
+amazon.*###hqpWrapper
+amazon.*###huc-first-upsell-row
+amazon.*###nav-swmslot
+amazon.*###nav-upnav
+amazon.*###pdagMwebCarousel
+amazon.*###sc-new-upsell
+amazon.*###sc-upsell
+amazon.*###sims-consolidated-1_feature_div
+amazon.*###sponsoredProducts2_feature_div
+amazon.*###sp_detail
+amazon.*###student-rw-overlay-container
+amazon.*###universal-detail-ilm
+amazon.*###widget_container:has-text(Related products from Our Brands)
+amazon.*##.adcenterRowWrapper
+amazon.*##.adFeedback
+amazon.*##.adStripe2
+amazon.*##.amzn-safe-frame-container
+amazon.*##.benefits-container
+amazon.*##.ms3-issuance
+amazon.*##.prime-ho-legal-text
+amazon.*##.s-result-item:has-text(Sponsored)
+amazon.*##.s-sponsored-list-header
+amazon.*##.sidebar
+amazon.*##.smart-app-banner
+amazon.*##.sx-table-item:has-text(Sponsored)
+amazon.*##.updp-right-option
+amazon.*##div[data-ad-details]
+amazon.*##[src*="AmazonCash"]
+ancient.eu###ad_Flexi_LowerRight
+ancient.eu###mc_embed_signup
+androidauthority.com##.gcap-layout-popup
+androidauthority.com##.native_ad_wrapper
+androidauthority.com##.related_articles_shortcode
+androidpolice.com##.article-nav
+androidpolice.com##.horizontal-boxes-tags
+anime-planet.com##.halo
+animecloud.net##.secondary-footer
+animestreams.*##.widget:has-text(Follow Us)
+animestreams.*,watchanimeonline.*##.spu-bg
+aol.com###cw-full-100
+aol.com###cw-full-200
+aol.com###m-inline-newsletter
+aol.com###mod-newsletter-toaster-1
+aol.com###mod-notifications-banner-1
+aol.com##.bon-embedded-cw
+aol.com##.bon-embedded-rr
+aol.com##.stories-we-love
+aparchive.com##.optanon-alert-box-wrapper
+apnews.com###taboolaContainer
+apnews.com##[id*="-ad"]
+apple.com###itunes-detector
+apple.com##.we-subscribe
+appuals.com##.about-author
+appuals.com##.crp_related
+archivfile.ru,openculture.com,solarmoviez.*##center
+arstechnica.com###ars-sub-app-no-banners-no-tracking-animated
+arstechnica.com###article-footer
+arstechnica.com###article-footer-wrap
+arstechnica.com##.article-author
+arstechnica.com##.footer-newsletter
+arstechnica.com##.pullbox
+arstechnica.com##.xrail
+artofmanliness.com,infowars.com,inquisitr.com,newrepublic.com,nymag.com##.subscribe
+atavist.com###related_stories
+atavist.com##.atavist-footer-wrapper
+atavist.com##.atavist-mailchimp
+atavist.com##.atavist-story-block-subscription
+atomtickets.com##.page-wrap-click-target
+atomtickets.com##[href*="adzerk.net"]
+atomtickets.com,horriblesubs.info##.header-ad
+atomtickets.com,regmovies.com##.app-banner
+audioz.*###src_ref
+avclub.com,calnewport.com,clickhole.com,columbia.com,deadspin.com,earther.com,educba.com,eurogamer.net,foreignpolicy.com,gizmodo.com,inc.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,lithub.com,pbs.org,pitchfork.com,solarmoviesa.*,splinternews.com,techcrunch.com,theinventory.com,theonion.com,theroot.com,thetakeout.com,thewalrus.ca,univision.com,windowscentral.com##.sidebar
+avclub.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com,univision.com##.footer-network
+avclub.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com,univision.com##.footer-subscribe
+avclub.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com,univision.com##.inset--story
+avclub.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com,univision.com##.instream-native-video
+avclub.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com,univision.com##.movable-ad
+avclub.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com,univision.com##.post__misc
+babble.com###disneyid-iframe
+babble.com###disneyid-wrapper
+babble.com##.bn-related-articles
+babble.com##.tm-share-bar-container
+babycenter.com###regContainer-floater
+babycenter.com###regFloaterModal
+babycenter.com##.familyNavAndAdContainer
+babycenter.com##.footerAppPromo
+babycenter.com##.reveal-modal-bg
+bbc.*###comp-pattern-library
+bbc.*###extra-footer
+bbc.*##.more-on-this-story
+bbc.*##.secondary-content
+bbc.*##.tags-container
+bbc.*##.vxp-carousel-component
+bbc.co.uk##.bbc-shorthand-footer--section__second
+bbc.co.uk##.bbc-shorthand-onward-journey
+bbc.com###bbccom_adsense
+bbc.com##.no-caption
+bbc.com##p:has-text(Join the conversation)
+beebom.com##.author-box-wrap
+beebom.com##.td-block-row
+beebom.com##.td-post-source-tags
+beebom.com##.td_block_related_posts
+beebom.com##.textwidget
+beltmag.com##.hustle-modal
+bestbuy.com##.digital-ad-wrapper
+bestbuy.com##.mdf-container
+bestbuy.com##.media-network-ad
+bethesda.net,fastcompany.com##.notification
+bgr.com##.bgr-recommended
+bgr.com##.dont-miss
+bigthink.com##.latest-items-container
+bigthink.com##.signup
+billboard.com###block_3
+billboard.com##.cover-image
+billboard.com##.footer-brand
+billboard.com##.longform__body-supplementary
+billboard.com,chron.com,gamestar.de,laptopmag.com,xda-developers.com##.leaderboard
+billboard.com,hollywoodreporter.com##.readmore
+biography.com##.m-person--ad--placeholder
+biography.com,edm.com,psmag.com##.l-grid--rail
+bitdefender.com###T1
+bitmp3.*##.footerContainer
+bitmp3.*##.speedbar
+bitmp3.*##aside
+bleacherreport.com##.androidTsPromo
+bleacherreport.com,breitbart.com,chronicle.com,curiouscat.me,dictionary.com,dummies.com,hotcharts.*,nytimes.com,softpedia.com,thecut.com##.ad
+blogspot.com###related-wrap
+blogspot.com##.ib-nav
+blogspot.com##script:inject(bab-defuser.js)
+bloomberg.com###latest_issues
+bloomberg.com###newsletter
+bloomberg.com###paywall-banner
+bloomberg.com##.bb-nav-touts__subscribe-link
+bloomberg.com##.navi-bar__button--subscribe
+bloomberg.com##.newsletter-tout
+bloomberg.com##.single-headline
+bloomberg.com##bb-mini-player
+boingboing.net##.nextstory
+boingboing.net##.separator
+boingboing.net##.thetags
+boston.com###taboola
+brainpickings.org###bottom_donation
+brainpickings.org###bottom_newsletter
+brainpickings.org###donation
+brainpickings.org###newsletter
+breitbart.com###BBStoreW
+breitbart.com###cin_footer
+breitbart.com###cin_header
+breitbart.com###cin_poll
+breitbart.com###cin_ps_in_article
+breitbart.com###cin_sidebar
+breitbart.com###cin_slideup_w
+breitbart.com###gmxrevcwidget1
+breitbart.com###HTuls
+breitbart.com###iscnewsmaxwidgetid
+breitbart.com###iscscon
+breitbart.com##.articlefooter
+breitbart.com##.fancybox-container
+brisbanetimes.com.au,theage.com.au##.adWrapper
+broadcastingcable.com##.m-in-content-ad
+broadcastingcable.com##.m-message-banner
+businessinsider.com###editorial
+businessinsider.com###editorial2
+businessinsider.com###l-rightrail
+businessinsider.com###right-rail
+businessinsider.com###see-also-links
+businessinsider.com##.brands
+businessinsider.com##.category-tagline
+businessinsider.com##.feed-footer-wrapper
+businessinsider.com##.mobile-intercept
+businessinsider.com##.recommended
+businessinsider.com##.right-subscribe
+businessinsider.com##.see-also
+businessinsider.com##.see-header
+buzzfeed.com###mod-feedgrid-1
+buzzfeed.com###mod-subbuzz-text-1
+buzzfeed.com###mod-thumbstrip-1
+buzzfeed.com##.ad--bpage-story
+buzzfeed.com##.bf-ads-video
+buzzfeed.com##.header__badges
+buzzfeed.com##.newsletter-container
+buzzfeed.com##.thumbstrip__container
+buzzfeednews.com###mod-site-component-thumbstrip-1
+buzzfeednews.com##.ad-wireframe-wrapper
+buzzfeednews.com##.bottom-recirc-lists
+buzzfeednews.com##.news-bottom-feed
+buzzfeednews.com##.newsblock-newsletter-signup
+buzzfeednews.com##.newsblock-support-cta
+buzzfeednews.com##.reporter-card-list
+buzzfeednews.com##.sharing-btn
+buzzfeednews.com##.sm-my4
+buzzfeednews.com##.thumbstrip
+buzzfeednews.com,computerworld.com,ctvnews.ca,ibtimes.com,nytimes.com##aside
+cafemom.com###header-top-banner
+cambridge.org##.cdo-promo
+cbc.ca##.ad-detail
+cbc.ca##.em_UpakneeWidget
+cbslocal.com##.social-media-container
+cbslocal.com##.top-fixed-ad
+cbslocal.com##.ym
+cbsnews.com###fdWrapperCBSN
+cbsnews.com###module-right-rail-fd-mobile-app-promo
+cbsnews.com###module-right-rail-fd-taboola
+cbsnews.com##.module-rem
+cbsnews.com##.show-promo
+ccleaner.com,piriform.com##.band--newsletter
+ccleaner.com,piriform.com##.social-followers-proto
+ccm.net##.app_layout_right
+change.org##.bottom-bar-interrupt
+change.org##.trending-petitions-well
+cheatcc.com###content-bottom-specials
+cheatcc.com##.body-wide-banner
+cheatcc.com##.tops
+chegg.com###lgo-partner
+chia-anime.*###cute
+chia-anime.*###longblack
+chia-anime.*###VelBar
+chia-anime.*##.box3-bot
+chicagotribune.com##.trb_ar_iap
+chron.com###ctpl-fullbanner1
+chron.com###radlinks
+chron.com###top-300
+chron.com##.s2nFriendlyFrame
+chronicle.com###leaderboard_0
+chronicle.com##.account__access-level
+chronicle.com##.ad-collapsible-container
+chronicle.com##.content-item__related
+chronicle.com##.cta__newsletter__container
+chronicle.com##.footer__btn--subscribe
+chronicle.com##.widgetname-content-grid
+citethisforme.com##.col-lg-2
+citethisforme.com##.col-lg-3
+citethisforme.com##.sbm-ad
+citylab.com##.c-article-most-popular
+citylab.com##.c-authors-article
+citylab.com##.l-sponsored
+clevelandclinic.org##[id*="gpt-ad"]
+clickhole.com##.rail-player
+clickhole.com##.sidebar-container
+cmovieshd.*###top_footer
+cmovieshd.*##.actor-title
+cmovieshd.*##.bg-home
+cmovieshd.*##.block-actors
+cmovieshd.*##.btn:has-text(Download)
+cmovieshd.*##.key_footer
+cmovieshd.*##.widget
+cnbc.com##.Footer-info
+cnbc.com##.last
+cnbc.com##.news-widget
+cnbc.com##.social-reporter
+cnbc.com##.wildcard
+cnet.com###cnetPromo
+cnet.com###hotProducts
+cnet.com###videoPlayer1
+cnet.com##.ad-nav-ad-plus
+cnet.com##.embeddedVideoContainer
+cnet.com##.moreTopStories
+cnet.com##.related-links
+cnet.com##.type-
+cnet.com##.upNextBottomWrapper
+cnet.com##[class*="ad-mobile"]
+cnet.com,npr.org,pcworld.com,vulture.com##.tags
+cnn.com###homepage4-zone-2
+cnn.com###social-share
+cnn.com###sponsored-outbrain-1
+cnn.com###sponsored-outbrain-2
+cnn.com###story-bottom
+cnn.com###story-bottom-second
+cnn.com##.bx-slab
+cnn.com##.el__embedded
+cnn.com##.livefyre__logo
+cnn.com##.PartnerZone
+cnn.com##[class*="duval"]
+coach.com###emailtoast
+collegeinfogeek.com###optinbar
+collegeinfogeek.com###post-author-box
+collegeinfogeek.com###post-optin-box
+collegeinfogeek.com###sidebars
+collegeinfogeek.com###site-mascot
+collegeinfogeek.com###suggested-reading
+collegeinfogeek.com##.bottom-meta
+collider.com###bottom-banner
+columbia.com##.footerEmailSignup
+comicbook.com##.adhesion-block
+computerworld.com##.article-intercept
+computerworld.com##.network
+computerworld.com##.tags
+consumerreports.org##.about-author-wrapper
+consumerreports.org##.about-us-container
+consumerreports.org##.col-lg-4
+consumerreports.org##.gnav-donate
+consumerreports.org##.gnav-subscribe
+consumerreports.org##.recircbar
+converto.io##.like-and-share-btns
+converto.io##.share-block-xl
+cpmlink.net##iframe[src="about:blank"]
+crackwatch.com##.ab
+crackwatch.com##.announcement
+crackwatch.com##.Overlay
+crackwatch.com##.row:has-text(Please allow CrackWatch)
+crackwatch.com##[href*="/click-"]
+crackwatch.com##[href*="/miner"]
+crackwatch.com##[href*="bitcasino.io"]
+crackwatch.com##[href*="cdkeys.com"]
+crackwatch.com##[href*="cloudbet.com"]
+crackwatch.com##[href*="gamivo.com"]
+crackwatch.com##[href*="instant-gaming.com"]
+crackwatch.com##[href*="iqoption.com"]
+crackwatch.com##[href*="kinguin.net"]
+crackwatch.com##[href*="kryptex.org"]
+crackwatch.com##[href*="unlocator.com"]
+crackwatch.com##[href*="vault111.com"]
+craigslist.org##li:has-text(DELIVER & EARN)
+craigslist.org##li:has-text(DOORDASH)
+craigslist.org##li:has-text(DoorDash)
+craigslist.org##li:has-text(GET PAID)
+craigslist.org##li:has-text(JOIN TODAY)
+craigslist.org##li:has-text(LAZ JOB FAIR)
+craigslist.org##li:has-text(LYFT)
+craigslist.org##li:has-text(Lyft)
+craigslist.org##li:has-text(MAKE MONEY)
+craigslist.org##li:has-text(MAKE UP TO)
+craigslist.org##li:has-text(ON THE SPOT)
+craigslist.org##li:has-text(POSTMATES)
+craigslist.org##li:has-text(Postmates)
+craigslist.org##li:has-text(UBER)
+craigslist.org##li:has-text(Uber)
+creativecommons.org###deed-donate-slide
+creativecommons.org###donation-bar-wrapper
+ctvnews.ca###componentDiv_gig_containerParent
+ctvnews.ca##.bottom-gallery
+ctvnews.ca##.carousel
+ctvnews.ca##.connect
+ctvnews.ca##.footer-logos
+ctvnews.ca##.imgMobile
+ctvnews.ca##.mobileBoxAd
+ctvnews.ca##.mobileStoryShare
+ctvnews.ca##.mobileViewForSlickWrapper
+ctvnews.ca##.right-c
+ctvnews.ca##.scrbbl-embed
+ctvnews.ca##.sideItems
+ctvnews.ca##.small-rotator
+ctvnews.ca##.videoPromoList
+ctvnews.ca##h2:has-text(FEATURED PHOTO)
+ctvnews.ca##h2:has-text(SOCIAL WALL)
+ctvnews.ca##[src*="facebook.com/plugins"]
+curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge.com,vox.com###comments-sidebar
+curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge.com,vox.com###newsletter-signup-short-form
+curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge.com,vox.com##.adblock-whitelist-messaging__article-wrapper
+curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge.com,vox.com##.ad__athena_internal
+curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge.com,vox.com##.c-compact-river
+curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge.com,vox.com##.c-podcast-player
+curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge.com,vox.com##.c-read-more
+curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge.com,vox.com##.c-recirc-module
+curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge.com,vox.com##.c-recirc-module__block
+curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge.com,vox.com##.c-tab-bar
+curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge.com,vox.com##.l-col__sidebar
+curiouscat.me##.CTA
+daemon-tools.cc###send-mail
+dailybulletin.com##.sign-up-follow
+dailybulletin.com,mercurynews.com##.footer-meta
+dailybulletin.com,vulture.com##.related
+dailymail.co.uk###fullWidthCommentAdvert
+dailynews.com##.about-the-author
+dailynews.com##.sign-up-follow
+dailynews.com,mercurynews.com##.more-news
+dailystar.co.uk###cmp-container-id
+dailystar.co.uk,thelancet.com###smartbanner
+dancingastronaut.com##.popular-posts
+dancingastronaut.com##.tax
+dancingastronaut.com,fastcodesign.com##.author
+dancingastronaut.com,medicinenet.com,mega.nz,rowfirst.*,wallpapershome.com##.social
+dancingastronaut.com,outsideonline.com,phys.org##.notice
+dariusforoux.com##.ck_form
+dariusforoux.com,longreads.com###jp-relatedposts
+deadline.com###carousel
+deadline.com###property-snippets
+deadline.com##.dl__magazine-promotion-wrap
+deadline.com##.hp-panel__newsletter-signup
+deadline.com##.markplace-ads
+deadline.com##.pmc-links
+deadline.com##.pmc-templatized-widget
+deadline.com##.powered-by-vip
+deadline.com##.related-article
+deadline.com##.textwidget
+deadline.com,indiewire.com##.ad-text
+depositfiles.com###box_big
+depositfiles.com##.text
+destructoid.com###article_postauthor
+deviantart.com###overhead-promo
+dexerto.com##.flex-auto > [class]:has-text(Read more about:)
+dexerto.com##.rte > ul:has-text(More:)
+dexerto.com##a[class*="sidebar"],[class*="charlie"]:has-text(Subscribe)
+dexerto.com##p:has-text(Advertisement)
+dexerto.com##[href*="gfuel.com"]
+dictionary.com###carbon_fields_widget_day_word-2
+dictionary.com###carbon_fields_widget_day_word-3
+digitalcitizen.life##.region-footer-third
+digitalcitizen.life##.site-bottom
+digitalcitizen.life##.subscription-options
+digitaltrends.com##.is-stuck
+digitaltrends.com##.m-river--ad
+discord.me##.bnad
+discordservers.com##.adblock
+discordservers.com##.listing-platinum
+discordservers.com##.premium-listings
+discovermagazine.com###divRightColumn
+discovermagazine.com##.basement
+discovermagazine.com##.marketingCallouts
+discovermagazine.com##.relatedArticles
+djmag.com##.pane-related-conent-pane
+djmag.com##.pane-topics
+djmag.com##._ad--block-left
+djmag.com##._ad--block-right
+djmag.com##._article--header--sidebar
+djmag.com##._teaser--container--MPU
+downace.com##.ace-download-panel-footer
+drgeeky.com##.et_bloom_popup
+dribbble.com##.full-pitch
+dribbble.com##.infinite
+dribbble.com##.search-prompt
+dropbox.com###prompt-silo
+dropbox.com##.top-notification-bar-silo
+dumblittleman.com###optin-single
+dummies.com##.related-book
+dummies.com,grabfreegame.com##.ads
+earthsky.org###leaderboard
+easybib.com###homepage_cta_box
+easybib.com###homepage_partners
+easybib.com###savework
+easyclip.*###ads
+eater.com###newsletter-signup-short-form
+eater.com##.c-recirc-module__block
+eater.com##.c-three-up-breaker
+ebay.com###gh-appBanner
+ebay.com##.mfe-card:has-text(sponsored)
+ebay.com##.mfe-reco:has-text(SPONSORED)
+ebay.com##.s-item:has-text(SPONSORED)
+ebay.com,thesaurus.com##.survey
+ebookee.org##.spd
+eclipse.org##.ad-strategic
+economist.com##.bar-wrapper
+economist.com##.cookie-message
+economist.com##.ec-footer__quote
+economist.com##.end-of-article
+economist.com##.exit-pop
+economist.com##.hero-component__wrapper
+economist.com##.inhouse__subscription-ribbon
+economist.com##.latest-updates-panel__container
+economist.com##.main-content__related-column
+economist.com##.navigation__primary-expander-subscribe-button
+economist.com##.navigation__user-menu-link-caption
+economist.com##.newsletter-form--footer
+economist.com##.newsletter-form--inline
+economist.com##.stco__wrapper
+edm.com##.m-detail--meta
+edm.com##.m-header-ad
+edm.com##.m-in-content-ad-row
+edmdl.com###buzzblog-cookie-banner
+edmsauce.com##.o2-in-side-view
+edmsauce.com##.td-crumb-container
+edmsauce.com##.td-header-sp-recs
+edmsauce.com##.td-ss-main-sidebar
+edmtunes.com##.td-crumb-container
+edmtunes.com##.wdi_instagram_widget
+educba.com##.container-fluid
+educba.com##.mfp-wrap
+educba.com##.nc_socialPanelSide
+educba.com##.xs-margin-top-three
+elle.com##.embed-left
+emailondeck.com###left_col
+engadget.com###recirculation
+engadget.com###right-ads-rail
+engadget.com###rr_home
+engadget.com##.inlineLb
+entrepreneur.com###v3-newsl-form-nav
+entrepreneur.com##.entnatv
+entrepreneur.com##.fw-container
+entrepreneur.com##.magazine
+entrepreneur.com##.magsubs
+entrepreneur.com##.np
+entrepreneur.com##.rightside
+entrepreneur.com##.valign-wrapper
+esa.int##.cc-cookies
+espn.com##.editor-blurb
+espn.com##.related-container
+espn.com,popsci.com##.inline
+esquire.com,popularmechanics.com##.breaker-ad
+etonline.com###header-ad
+eurogamer.net##.background-facebook
+eurogamer.net##.collapsible
+eurogamer.net##figcaption
+everydayhealth.com###newsletter-widget
+ew.com##.above-footer
+ew.com##.bottom-recirc
+ew.com,fortune.com,people.com##.newsletter-callout
+ew.com,fortune.com,people.com,time.com##.under-nav
+express.co.uk##.associated-companies-and-copyrights
+express.co.uk##.related_entities
+express.co.uk##.todays-paper
+express.co.uk##.two-related-articles
+extremetech.com##.affiliate-text
+extremetech.com##.disqus-title
+extremetech.com##.post-tags
+facebook.com###dialog_0
+facebook.com###mobile_login_bar
+facebook.com###pagelet_growth_expanding_cta
+facebook.com##.uiContextualLayer
+fanatical.com##.cookie-consent
+fanatical.com##.email-subscribe-box-large
+fanatical.com##.email-subscribe-container
+fanatical.com##[class*="col-lg"]:has-text(Join our Newsletter)
+fandango.com###site-utility-links
+fastcodesign.com##.post-personalized-recommendations
+fastcodesign.com##.post__promotion
+fastcodesign.com##.post__sidebar
+fastcompany.com###sidebar-ad-0
+fastcompany.com###sidebar-ad-1
+fastcompany.com##.all-feed__sidebar
+fastcompany.com##.card--advertorial
+fastcompany.com##.homepage-page__all-ad-container
+fastcompany.com##.homepage-page__ff-ad-container
+fastcompany.com##.homepage-page__tag-ad-container
+fastcompany.com##.homepage-page__video-ad-container
+fastcompany.com##.magazine-archive
+fastcompany.com##.post__article > div > p:has-text(Related:)
+fastcompany.com##.post__article-top-ad-wrapper
+fastcompany.com##.post__footer
+fastcompany.com##.post__promotion
+fastcompany.com##.post__sidebar
+fastcompany.com##.scrolling-module__promo
+fastcompany.com,undark.org,usnews.com,vice.com##hr
+fatbit.com##.get-a__quote
+fatbit.com##.link-Wrapper
+fatbit.com##.section--cta
+feedspot.com##.fixedBar
+feedspot.com,gameinformer.com,shopwss.com##.popup-content
+fendi.com##.cookies-disclaimer
+ffmovies.*##+js(abort-current-inline-script.js, parseInt, incrementClicks)
+ffmovies.*##[href*="/premium"]
+filecrypt.cc##.support_2
+fivethirtyeight.com##.sidebar-feature
+flaticon.com###layer_coupon
+flaticon.com##.edge-content-iframe
+flaticon.com##.search-pack-result
+flvto.biz##.desktop-promo
+flvto.biz##.flvto-player-banner
+flvto.biz##.hidden-mobile
+fmovies.*##.alert-warning
+fmovies.*##.footerdesc
+fmovies.*##.hd-buttons
+fmovies.*##.notice
+fmovies.*##.widget-title
+fmovies.*,linkedin.com##.alert
+fmovies.*,vipboxtv.*##.well
+forbes.com###row-1
+forbes.com###row-2
+forbes.com###row-3
+forbes.com##.amp-ad-container
+forbes.com##.article-gallery-embedded
+forbes.com##.circ-link
+forbes.com##.contrib
+forbes.com##.csr-following
+forbes.com##.footer__magazine-image
+forbes.com##.footer__magazine-promo
+forbes.com##.footer__subscriptions
+forbes.com##.medianet
+forbes.com##.ntv-rail-ad
+forbes.com##.publications
+forbes.com##.social-media__content
+forbes.com##.vestpocket
+forbes.com##.video-placeholder
+forbes.com,gq.com,nzherald.co.nz,seeker.com##.right-rail
+foreignpolicy.com##.paywall_counter
+foreignpolicy.com##.the-tags
+foreignpolicy.com##[class*="ad-region"]
+foreignpolicy.com,infowars.com,pcmag.com##.related-articles
+foreignpolicy.com,nymag.com,wtsp.com##.taboola
+fortune.com##.bottom-recirc
+fortune.com##.karma-ad
+fortune.com##.lead-gen
+fortune.com##.outbrain
+fortune.com##.rundown-sidebar
+fortune.com##.subscribe-callout
+fortune.com##.subscribe-link
+fortune.com##.subscribe-link-secondary
+fortune.com##[href*="fortune.com/newsletters"]
+fortune.com,time.com##.subscribe-flyout
+fosshub.com##.software-donate
+fosshub.com##.software-similar
+fosshub.com##[src="/index/donateQ"]
+foursquare.com##.signupPrompt
+freepik.com###iframe_sponsor
+freepik.com##.related-sponsor
+freepik.com##.tutpad-holder
+frkmusic.*##.custom-html-widget
+fs.blog##.bgcolor-cc3232
+fs.blog##.section-footer-credits-right
+fs.blog##.section-sidebar-blog-single
+fs.blog##.section-suggested-reading-wrapper
+futurism.com###subscribe-footer
+futurism.com##.htl-ad
+gadgethacks.com##.whtaph
+gamebillet.com##.footer-promo-box
+gamecode.win##script:inject(tab-defuser.js)
+gamepedia.com###atflb
+gamepedia.com###btfheroContainer
+gamepedia.com###btfhero_container
+gamepedia.com###btflb
+gamepedia.com###siderail
+gamespot.com##.news-related
+gamespot.com##.pod_gs
+gamespot.com##.seamless--aside-follow
+gamesradar.com###main > [class] > [class] > [class] > [class]:has-text(Advertisement)
+gamesradar.com###sidebar > [class]:has-text(Advertisement)
+gamesradar.com##.pagination
+gamesradar.com,pcgamer.com##.related-articles-block
+gamesradar.com,pcgamer.com,techradar.com##.jw-carousel
+gamesradar.com,pcgamer.com,techradar.com##.read-more-container
+gamestar.de###damsez
+gamestar.de###footer-bold
+gamestar.de##.paid-content-spacer
+gamestop.com##.home_social
+gamestop.com##[data-track="300x250"]
+geckoandfly.com##.entry-content > :has-text(Read Also)
+geckoandfly.com##blockquote:has-text(Related Article)
+genius.com##.column_layout-flex_column-fill_column
+genius.com##.dfp_unit
+genius.com##recirculated-content
+getpocket.com###related_items_wrapper
+getpocket.com###related_topics
+getpocket.com##.beta-ribbon
+getrichslowly.org##.subscribe-box
+getrichslowly.org##.widget:has-text(Sign me up!)
+getrichslowly.org##[href*="/affiliate/"]
+github.com##.bg-gray-dark
+github.com##.discussion-timeline-actions
+github.com##.js-notice
+github.com##.rounded-0
+github.com##.signup-prompt
+godaddy.com##.footer-apps
+gogoanime.*##.ads_pc
+gogoanime.*##.anime_video_body_comment_name
+gogoanime.*##.link_face
+gogoanime.*##div[class^="ads"]
+gogoanime.*##script:inject(abort-on-property-read.js, BBRaven)
+gogoanime.*##script:inject(abort-on-property-read.js, crypto)
+gogoanime.*##script:inject(setTimeout-defuser.js, o(), 1)
+gogoanime.*##[style*="margin-top"]:has-text(Please scroll)
+gogoanime.*,gogoanimes.*##.banner_center
+gogoanimes.*##.adsverting
+gogoanimes.*##.anime_video_body_comment_name
+gogoanimes.*##body > div:has-text(Please bookmark)
+google.*###bres
+google.*##.gws-local-promotions__container
+google.*##body[class] > [class]:has-text(Try Drive for free)
+google.*##[class*="-slot-promo"]
+google.*##[class] > [class] > [class] > [class]:has-text(Choose the privacy settings that are right for you)
+gq.com##.cm-footer-component
+gq.com##.cm-header
+gq.com##.cm-header-desktop
+gq.com##.component-related-content
+gq.com##.component-sticky
+gq.com##.component-topics
+gq.com##.gq-navigation__newsletter-button
+gq.com##.inset-right
+gq.com##.row:has-text(TRENDING)
+gq.com##script:inject(fuckadblock.js-3.2.0)
+grabfreegame.com###facebook
+grabfreegame.com###fixed-banana
+grabfreegame.com##.head
+grabfreegame.com##.social
+greatist.com##.deck-newsletter-signup
+greatist.com##.newsletter-block
+haaretz.*##.below_talkback
+haaretz.*##.footer-ruler
+haaretz.*##.js-subscription-popups
+haaretz.*##.l-sidebar
+haaretz.*##.menu
+haaretz.*##.ribbon-stick-wrapper
+haaretz.*##.topSectionBanners
+haaretz.*##.xx--b
+hackernoon.com##.js-postFooterPlacements
+hackernoon.com##.js-stickyFooter
+hackread.com###secondary
+hackread.com##.home-add
+hackread.com##[class*="adtester"]
+hakaimagazine.com##.newssignup
+hakaimagazine.com##.relatedcontent
+hbr.org###intromercial-handle
+hbr.org##.authors
+hbr.org##.panel-container
+hbr.org##.partner-center
+hbr.org##.persistent-banner
+hbr.org##.personalization-placement
+hbr.org##.promo--right
+hbr.org##.tagged
+hbr.org,medicinenet.com,primagames.com##.article-promo
+hd.*,tvmovies.*##.footer-subs
+hearst.com###newsletter-form-footer
+hearst.com###promo-video
+hearst.com###promo-video-overlay
+highya.com,nhentai.net,thefader.com##.advertisement
+hollywoodreporter.com##.blog-post-author-section
+hollywoodreporter.com##.blog-post-features-points
+hollywoodreporter.com##.blog-post-tags
+hollywoodreporter.com##.blog-post__sidebar
+hollywoodreporter.com##.email-subscribe
+hollywoodreporter.com##.embedded-content
+hollywoodreporter.com##.homepage-magazine-promo
+hollywoodreporter.com##.leaderboard-wrapper
+hollywoodreporter.com##.partner
+hollywoodreporter.com##.region-sidebar-second
+hollywoodreporter.com##.site-header__nav-link--subscribe
+hollywoodreporter.com##.topic-block-container
+hollywoodreporter.com,theatlantic.com##.follow
+hotcharts.*###jp_container_1
+hotcharts.*##.b_strut
+howtogeek.com##p:has-text(RELATED)
+huffingtonpost.com##.below-entry
+huffingtonpost.com##.header__social-list
+huffingtonpost.com##.tag-cloud
+humblebundle.com##.site-footer-social-widget-list
+ibtimes.co.uk###article-social-wrap
+ibtimes.co.uk###tv-top
+ibtimes.com###dfp-ad-bottom
+ibtimes.com###dfp-ad-bottom-wrapper
+ibtimes.com##.videocontent-wrapper
+idsly.bid##.navbar-nav
+idsly.bid##.timeline
+ieee.org###recommended
+ieee.org###side-module
+ieee.org##.automaton
+ieee.org##.learn-more
+ieee.org##.magazine-links
+igg-games.com##.block
+ign.com##.ad-footer-wrapper
+ign.com##.ad-rail-wrapper
+ign.com##.app-link-banner
+ign.com##.ign-newsletter-signup-container-footer
+ign.com##.ign-newsletter-signup-container-prearticle
+ign.com##.ign-newsletter-signup-container-spine
+ign.com##.privacy-content
+ign.com##.recirc-module
+ign.com##.recirc-stack
+ilont.*,mp3im.*,mp3pn.*###banner-bottom
+ilont.*,mp3im.*,mp3pn.*###banner-top
+ilont.*,mp3im.*,mp3pn.*##.mp3list-btn-fb
+ilont.*,mp3im.*,mp3pn.*##.mp3list-btn-tw
+ilont.*,mp3im.*,mp3pn.*##.mp3list-btn-vk
+ilont.*,mp3im.*,mp3pn.*##.onesongblock-end
+imdb.com###amazon-affiliates
+imdb.com###btf_rhs2_wrapper
+imdb.com###injected_navstrip_wrapper
+imdb.com###rhs_cornerstone_wrapper
+imdb.com###top_rhs_wrapper
+imdb.com##.ab_zergnet
+imgur.com##.BetaSignUp
+inc.com###leaderboard-container
+inc.com###topnav-placeholder
+inc.com##.belowArticleContentUpperContainer
+inc.com##.clicklessNavButton
+inc.com##.NextButton
+inc.com##.read-more-text-container
+inc.com##.ReccomendedVideoContainer
+inc.com##.sidebar_inner
+indeed.com###recommendedJobsLink
+indeed.com##.jobsearch-Footer
+indeed.com##.popover
+indeed.com##.promo-container
+indeed.com##.result:has-text(Grubhub)
+indeed.com##.result:has-text(Lyft)
+indeed.com##.result:has-text(Postmates)
+indeed.com##.result:has-text(Uber)
+indeed.com##.result[id*="pj_"]
+indeed.com##[id*="sj_"]
+independent.co.uk###taboola-carousel-thumbnails
+independent.co.uk##.inline-block
+independent.co.uk##.inline-media
+independent.co.uk##.inline-related
+independent.co.uk##.load-more-btn
+independent.co.uk##.sidebar-item:has-text(Sponsored)
+independent.co.uk##amp-twitter
+indiatimes.com###backgroundPopup
+indiatimes.com###bottomAd
+indiatimes.com###feedbackForm
+indiatimes.com###newsInPics
+indiatimes.com##.article_separator
+indiatimes.com##.byd-spotli
+indiatimes.com##.hook-section
+indiatimes.com##.i_download[onclick]
+indiatimes.com##.panacheSocal
+indiatimes.com##.raltedTopics
+indiatimes.com##.rel-art
+indiatimes.com##.shareSprite
+indiatimes.com##.showBtmBar
+indiatimes.com##.splight
+indiatimes.com##.twt
+infowars.com###newsletter-side-widget
+infowars.com##.baseline-header
+infowars.com##.from-our-store
+infowars.com##.hero-ad-special
+infowars.com,nautil.us,pcmag.com,propublica.org,rockpapershotgun.com,technologyreview.com,theparisreview.org##.article-footer
+inoreader.com###consent_bbb
+inoreader.com##.ad_title
+inoreader.com##.leaderboard_ad
+inquisitr.com##.m-connect
+inquisitr.com##.m-sticky
+inquisitr.com##.m-subscribe
+inquisitr.com##.story--ads
+inquisitr.com##.story--footer
+inquisitr.com##.widget_other_headlines
+inquisitr.com##m-subscribe
+inspirationhut.net##.tve_flt
+instagram.com##div > section[class]:has-text(Log In to Instagram)
+instagram.com##div[class] > [class] > [class]:has-text(Cookies)
+inverse.com##.newsletter-overlay
+inverse.com##.nws-ov
+investopedia.com##.bx-slab
+iop.org###cookieBanner
+isitdownrightnow.com###commentstop
+jpost.com##.article-related-wrap
+kickstarter.com##.border-bottom:has-text(Subscribe)
+kickstarter.com##.shawdow-high
+kickstarter.com##.white
+kimcartoon.*###hideAds
+kimcartoon.*##+js(abort-on-property-read.js, AaDetector)
+kimcartoon.*##+js(setInterval-defuser.js, (), 500)
+kimcartoon.*##iframe[src*="/Ads"]
+kiplinger.com##.kip-advertisement
+kiplinger.com##.kip-md-see-also
+kiplinger.com##.kip-ribbon
+kiplinger.com##.kip-sidebar
+kiplinger.com##.kip-top-row
+kiplinger.com,nymag.com,politico.com,propublica.org,scribd.com##.promo
+kiss-anime.*###divAds2
+kiss-anime.*,putlockers.*##script:inject(nowebrtc.js)
+kissanime.*##+js(abort-current-inline-script.js, parseInt, incrementClicks)
+kissanime.*##+js(kissanime-defuser.js)
+kissanime.*##.arrow-general
+kissanime.*##.clear2
+kissanime.*##.divCloseBut
+kissanime.*##.footer_watching_link
+kissanime.*##.pop_ovf2
+kissanime.*##.related_news
+kissanime.*##.videoAdClose
+kissanime.*##script:inject(abort-current-inline-script.js, AddCloseButton)
+kissanime.*##script:inject(abort-current-inline-script.js, InitCloseButton)
+kissanime.*##script:inject(abort-current-inline-script.js, isClickHide)
+kisscartoon.*##.app_ovf
+kissmanga.*##+js(setTimeout-defuser.js, (), 3000)
+knowherenews.com##.src-components-email-__Subscribe-module___Subscribe
+knowherenews.com##.src-components-explainer-__Explainer-module___Explainer
+knowyourmeme.com###civic-science-container
+knowyourmeme.com###entry-fb-comments
+knowyourmeme.com###ora-tv
+knowyourmeme.com###spp-gallery
+knowyourmeme.com##.combo-line
+knowyourmeme.com##.combo-wrapper
+knowyourmeme.com##.complex-ad-wrapper
+knowyourmeme.com##.content-unit-refresh-wrapper
+knowyourmeme.com##.facebook_comments
+knowyourmeme.com##.floating-share-bar
+knowyourmeme.com##.homepage-share
+knowyourmeme.com##.related-photos
+knowyourmeme.com##.sticky-sidebar
+konohastuff.com###fsb_bar
+konohastuff.com###soundest-dynamic-container
+konohastuff.com##.announcement-bar
+kxan.com##.mod-prev-next
+l2inc.com##.bg-cobalt
+laptopmag.com###rightcol_top
+laptopmag.com###stickyShare
+laptopmag.com##.footerSocial
+laptopmag.com##.nlSubscribe
+latimes.com###ensNotifyBanner
+latimes.com##.buttonbar
+latimes.com##.card-border-bottom
+latimes.com##.footer-call-to-action-container
+latimes.com##.newsletter-container
+latimes.com##.pb-f-ads-dfp
+latimes.com##.pb-f-ads-yieldmo
+latimes.com##.pb-f-article-dynamic-rail-ads
+latimes.com##.slider
+latimes.com,nydailynews.com##.inline-ad
+latimes.com,nydailynews.com##.inline-ad-arrow
+lemonade.com##.subscribe-footer
+lifehacker.com##.ad-non-sticky
+lifehacker.com##.branded-item
+linkedin.com##.article-end
+linkedin.com##.related-content-inner
+lithub.com###post_more_wrapper
+lithub.com##.post_tag
+liveleak.com##.content_main_right_outer
+livesport.*##iframe
+livestream.*###description
+livestream.*###timezone
+logicmag.io##.contact
+logicmag.io##.post-footer
+longreads.com###footer-automattic
+longreads.com##.become-member
+longreads.com##.in-story
+longreads.com##.support-footer
+longreads.com##.wp-footer
+lumendatabase.org##.first-time-visitor
+makeuseof.com##.link-callout
+makeuseof.com##.single-post-transition-bar
+mangagamer.com###agegate_content
+mangagamer.com##.b-modal
+mapchart.net,tornadomovies.*,trends24.in###footer
+marcandangel.com##.after-entry
+marcandangel.com##.after-menu
+marketwatch.com###author-bios
+marketwatch.com###brass-rail
+marketwatch.com###comment-promo
+marketwatch.com###moreHeadlines
+marketwatch.com###partnerHeadlines
+marketwatch.com###powered_by_livefyre_new
+marketwatch.com###related-articles
+marketwatch.com###sponsored-links
+marketwatch.com###trading-center
+marketwatch.com##.sa-iframe
+marketwatch.com##.sticky
+marketwatch.com##.template--full
+marketwatch.com##.trending__header
+markmanson.net###article-finished
+markmanson.net##.footer-opt-in
+mashable.com###lead-banner
+mashable.com###pathing-banner
+mashable.com###stories-ad
+mashable.com###taboola-below-article-thumbnails
+mashable.com##.ad_container
+mashable.com##.article-topics
+mashable.com##.bonus-video-card
+mashable.com##.cookie-notice
+mashable.com##.follow-channel
+mashable.com##.follow-trigger
+mashable.com##.powered-by
+mashable.com##.see-also
+mashable.com##.zerg-widgets
+mashable.com##.zergnet-container
+mashable.com,ted.com,weebly.com###newsletter-signup
+mcloud.*###jwa
+mediabiasfactcheck.com##.wpcnt
+mediafire.com##.dl-promo-cont
+mediafire.com##.dlPromoContent
+mediafire.com##.social-cont
+medicalexpress.com,phys.org###modal-cookie
+medicinenet.com###sponsors
+medicinenet.com##.adTopWrapper
+medicinenet.com##.continue_reading
+medicinenet.com##.extra
+medicinenet.com##.from_webmd
+medicinenet.com##.relatedArticle
+medicinenet.com##.stickyColLeft
+medicinenet.com##.stickyrightrail
+medium.com##.js-postFooterPlacements
+mega.nz##.top-social-bl
+mercurynews.com##.article-sidebar
+mercurynews.com##.dfp-ad
+mercurynews.com,newsweek.com,tmz.com##.related
+mercurynews.com,wtsp.com##.iframe
+merriam-webster.com###recirc-bar-footer
+metacritic.com###leader_bottom
+metacritic.com###leader_plus_top
+metacritic.com###leader_top_wrapper
+metacritic.com###mpu_bottom
+metacritic.com###mpu_plus_top
+metacritic.com##.esite_list
+microsoft.com##.site-survey-opener-button
+microsoft.com##.survey-tab
+mirror.co.uk###div-gpt-native
+mirror.co.uk###social-follow
+mirror.co.uk###taboolaRightRailsResponsive
+mirror.co.uk,nypost.com,pagesix.com##.tag-list
+mirrorace.com##[class*="uk-margin"]:has-text(Warning)
+mit.edu##.email-signup-form
+mit.edu##.l-article-footer
+mit.edu##.l-fat-footer
+mit.edu##.p-big-ad
+mit.edu##.p-fullad
+mit.edu##.related-queryly--footer
+mit.edu##.related-queryly--middle
+mit.edu##.related-queryly-title
+mit.edu##.welcome-box
+motherjones.com###homepage-more-stories-sidebar
+motherjones.com###Site_Skin_Right
+motherjones.com##.alignright
+motherjones.com##.donate-link
+motherjones.com##.hidden-xxs
+motherjones.com##.menu-item-donate
+motherjones.com##.menu-item-subscribe
+motherjones.com##.mj-sidebar-membership-widget
+motherjones.com##.subscribe-donate
+motherjones.com##.subscribe-link
+motherjones.com##.textwidget
+movies123.*##.content-kus
+mp3cc.*###headerBanner
+mp3cc.*###stickyblock
+mp3cc.*###xbody-side1
+mp3clan.*##.banner-roll
+mp3clan.*##.footer-review
+mp3clan.*##.searchClan-button-icon
+mp3clan.*##.social-icons
+mp3clan.*##.suggest-show
+mp3co.*##.like
+mp3fun.*,usnews.com##.tags
+mp4upload.com###b300
+mp4upload.com###trlamp
+mp4upload.com##.sharetabs
+mrantifun.net##[alt*="Ad Note"]
+msn.com###Facebook
+msn.com###irisbanner
+myanimelist.net##.amazon-ads
+myanimelist.net##.banner-header-anime-straming
+myanimelist.net##.border_bottom
+myanimelist.net##.border_top
+myanimelist.net##.btn-mal-service
+myanimelist.net##.fb-page
+myanimelist.net##.index-manga-store-description
+myanimelist.net##.index-watch-description
+myanimelist.net##.mauto
+myanimelist.net##.modal-content
+myanimelist.net##._unit
+myanimelist.net##div[style][data-height]
+mymodernmet.com###get-newsletter
+mymodernmet.com##.external-posts-container
+mymodernmet.com##.lets-connect
+mymodernmet.com##.share-it-side
+mymodernmet.com##.side-subscribe
+namba.*###branding-html
+namechk.com###logojoy
+namechk.com###top-ad
+narratively.com##.bap_button
+narratively.com##.subscribe_form
+narratively.com##[class*="patreon-single-bar"]
+nationalgeographic.com##.AddThis
+nationalgeographic.com##.addthis__component
+nationalgeographic.com##.adSlotDynamic-slot
+nationalgeographic.com##.related-content-list
+nationalreview.com###story-slide
+nationalreview.com##.layout-cell-sidebar
+nature.com##.nature-briefing
+nautil.us###blog_lazy_wait
+nautil.us###inpagesub
+nautil.us###popwrap
+nautil.us##.issue-callout
+nautil.us##.module-blog-related-content
+nautil.us##.module-blog-related-issue
+nautil.us##.module-digital-editions
+nautil.us##.module-more-articles
+nautil.us##.reco
+nautil.us##.three-dcover
+nerdist.com###sub-footer
+netflixlife.com###sidebar-sticky
+netflixlife.com##.header-billboard
+networksolutions.com##.related-results
+newgrounds.com###featured_web_content
+newgrounds.com##.footer-shim
+newgrounds.com##.ng-ad-container-300-250
+newrepublic.com##.article-ad-top
+newrepublic.com##.article-recirc
+newrepublic.com##.grid-flex:has-text(Sign me up)
+newrepublic.com##.inserted-housead
+newrepublic.com##.site-popup
+newsbusters.org##.container-fluid
+newsbusters.org##.region-sidebar-first
+newsbusters.org##.views-field
+newsweek.com##.block-fusion-newsletters
+newsweek.com##.in-text-slideshows
+newsweek.com##.most-tabs
+newsweek.com##.subscription
+newsweek.com##.trial-link
+newsweek.com##.tvplayer
+newsweek.com##.videocontent
+newyorker.com###cne-interlude-1
+newyorker.com###paywall-growler
+newyorker.com##.bx-slab
+newyorker.com##form
+newyorker.com##script:inject(fuckadblock.js-3.2.0)
+newyorker.com##[href*="/subscribe/"]
+nextbigfuture.com###text-3
+nexusmods.com###follow
+nexusmods.com###footbtn
+nexusmods.com##.download-donation-panel
+nexusmods.com##.download-right-panel
+nike.com##.smartbanner
+nowwatchtvlive.org##blockquote
+nowwatchtvlive.org##h5:has-text(Ads)
+npr.org###contentfooter
+npr.org###main-sidebar
+npr.org##.bucket
+npr.org##.story-recommendations
+npr.org,theatlantic.com,thewirecutter.com##.callout
+nydailynews.com##.card-pull-left
+nydailynews.com##.collection-hover
+nydailynews.com##.footer-call-to-action-container
+nydailynews.com##.met-flyout
+nydailynews.com##.pb-container
+nydailynews.com##.pb-f-global-generic-card
+nydailynews.com##.pb-f-test-html-box
+nydailynews.com##.subwayfare
+nydailynews.com##[class*="newsletter"]
+nymag.com###marketing
+nymag.com##.follow-list
+nymag.com##.latest-news
+nymag.com##.multi-children
+nymag.com##.tertiary
+nypost.com###footer-nav-affiliates
+nypost.com###maropost-signup-primary
+nypost.com###nyp-newsletter-modal
+nypost.com###pagesix-top-stories
+nypost.com###recirc
+nypost.com##.more-on__wrapper
+nypost.com##.outbrain-enabled
+nypost.com##.read-next-wrapper
+nypost.com##.widget-more-stories
+nypost.com,pagesix.com##.recirc
+nytimes.com###bottom-wrapper
+nytimes.com###g-graphic
+nytimes.com###interstitial
+nytimes.com###newsletter-module
+nytimes.com###related-combined-coverage
+nytimes.com###ribbon
+nytimes.com###supplemental-1
+nytimes.com###supplemental-2
+nytimes.com###supplemental-3
+nytimes.com###supplemental-4
+nytimes.com###top-wrapper
+nytimes.com###TopAd1
+nytimes.com##.bottom-of-article
+nytimes.com##.eln-ad-footer
+nytimes.com##.eln-email-signup
+nytimes.com##.emamhsk1
+nytimes.com##.g-seriesrefers
+nytimes.com##.nytcp-opt
+nytimes.com##.rad-series-box
+nytimes.com##.recommendations-footer
+nytimes.com##.related-coverage
+nytimes.com##.shown
+nytimes.com##.StoryBodyCompanionColumn:has-text(Related Coverage)
+nytimes.com##[class*="ad-wrapper"]
+nytimes.com##[class*="ResponsiveAd"]
+nytimes.com##[class]:has-text(Let us know)
+nytimes.com##[href*="/subscription"]
+nzherald.co.nz##.pb-f-article-related-articles
+nzherald.co.nz##.pb-f-global-recommend
+nzherald.co.nz##[href*="/?ref=createnow"]
+observer.com###must-reads-container
+observer.com##.next-container
+oke.io###footer-shorten-link
+oke.io##.whyjoinustitle
+oke.io##.whyjoinusubtitle
+onevanilla.com##.small
+openculture.com###big-bottom-ad-single-posts
+openculture.com###leaderboard_div
+openculture.com##.advertisement_notice
+openculture.com##.framearound_ad_in_post
+openculture.com##.new_subscription_block
+openculture.com##.noborder
+openculture.com##.white_background
+oprah.com###page_content__right_column_block_2
+ouo.io##.about
+ouo.io##.desc
+ouo.io##.join-now
+outsideonline.com##.nudger__inner
+outsideonline.com##.sb-share
+pagesix.com###home-page-top-stories-sidebar
+pagesix.com###more-on
+pagesix.com###newscorp-footer
+pagesix.com##.read-next-wrapper
+pagesix.com##.widget-more-stories
+paletton.com##.reklambox
+pastebin.com###float-box-frame
+paypal-community.com##.cookie-notification
+paypal.com###bmlAcqOfferProminent
+paypal.com##.appBanner
+pbs.org##.popup--visible
+pcgamer.com##.jump-to-comments
+pcgamer.com##.next-prev-container
+pcmag.com###subscribe_btn
+pcmag.com##.affiliate-text
+pcmag.com##.author-container
+pcmag.com##.author-container-title
+pcmag.com##.inside-module
+pcmag.com##.newsletter-widget
+pcmag.com##.story-navigation
+pcworld.com###drr-top-ad
+pcworld.com###footer-subscribe
+pcworld.com###side
+pcworld.com##.end-byline
+people.com##.bottom-recirc
+people.com##.subscribe-callout
+pexels.com##.carbon-ad-in-photos
+pexels.com##.js-sponsored-photos
+pexels.com##.partner-box
+pexels.com##.photo-modal__content
+phys.org###news-holder
+phys.org##.banner-holder
+phys.org##.container-bottom
+phys.org##.facebook-like
+phys.org##.nwletter-box
+pinterest.*##.UnauthBanner__textAndButtonsContainer
+pinterest.com##[class] > div:has-text(Explore more ideas with a Pinterest account)
+pissedconsumer.com###sticky-submit-form-widget
+pitchfork.com###cne-interlude
+pitchfork.com###radio-banner
+pitchfork.com##.fts-related
+pitchfork.com,vanityfair.com##.cne-interlude-container
+pocket-lint.com##.popular
+pocket-lint.com##.single-article
+politico.com##.container-teaseboxes
+politico.com##.container__slot:has-text(POLITICO NEWSLETTERS)
+politico.com##.fixed-top
+politico.com##.lazy-load-slot
+politico.com##.sign-up
+politico.com##.story-continued
+politico.com##.story-related
+politico.com##.story-sidebar
+politico.com##.story-supplement
+politico.com##[href*="politicopro.com"]
+politico.com##[href="/magazine"]
+popsci.com##.constrained
+popsci.com##.field-tags
+popsugar.com###modal-email-widget
+popsugar.com###node-email-widget
+popsugar.com###taboola-posts-header
+popsugar.com##.feature-section
+popsugar.com##.pubexchange_module
+popularmechanics.com##.seo-tags-container
+pri.org###donate_banner
+pri.org###donate_load_under
+pri.org##.donate__story-msg
+primagames.com##.panel:has-text(Newsletter)
+primagames.com##.recommendations
+primagames.com##.reservation
+propublica.org##.action-nav
+propublica.org##.donate-links
+propublica.org##.email-nav
+propublica.org##.latest-stories
+propublica.org##.module-donate
+propublica.org##.module-popular
+propublica.org##.promotion
+propublica.org##.related-stories
+propublica.org,refinery29.com##.email-signup
+propublica.org,tomsguide.com##.author-bio
+psmag.com##.m-brand-engagement
+psmag.com##.m-breadcrumbs
+psmag.com##.m-collection-strip
+psmag.com##.m-detail--footer
+psmag.com##.m-header--coverlines-container
+psmag.com##.m-interstitial
+psmag.com##[href="/premium"]
+putlockers.*###ad_buts
+putlockers.*##article
+qobuz.com##.in
+quantamagazine.org###newsletter
+quantamagazine.org##.button
+quantamagazine.org##.post__aside--right
+quantamagazine.org##.post__category
+quantamagazine.org##.sidebar__newsletter
+quizlet.com##.SetPage-bannerUnderModeButtons
+quizlet.com##.SetPage-setAdz
+quora.com##.answer_area_content
+quora.com##.BelowQuestionAddPrompt
+quora.com##.content_box
+quora.com##.content_polygon
+quora.com##.ErrorBanner
+quora.com##.logged_out_related_questions_container
+quora.com##.lower_slot
+quora.com##.modal_overlay
+quora.com##.PromptsList
+quora.com##.RelatedQuestions
+quora.com##[id] > [id] > [id]:has-text(sponsored)
+qz.com###nl-form
+qz.com##.after-article
+qz.com##.article-content-ad
+qz.com##.none > [class] > [class] > [class] > [class]
+qz.com##.none > [class] > [class]:has-text(Most Popular)
+qz.com##.popular-stories-module
+qz.com##.quartz > [class] > [class]:has-text(Recommended stories)
+qz.com##article > [class]:has-text(Read This Next)
+racaty.com##.pad
+racaty.com##.racaty-pro
+raise.com##div[class*="bannerContainer"]
+ranker.com###listFoot
+ranker.com###list__allTags
+ranker.com##.related__item
+raptitude.com##.af-form
+ratemyprofessors.com###stickyPanel
+ratemyprofessors.com##.popoutContainer
+ratemyprofessors.com##.right-chegg
+raymond.cc##.postauthor
+readcomiconline.*###cus-exo
+readcomiconline.*##.exo-native-widget
+readcomiconline.*##.top_page_alert
+readcomiconline.*##script:inject(abort-on-property-read.js, Buffer)
+readcomiconline.*##script:inject(abort-on-property-write.js, callExo)
+readcomiconline.*##[src*="blob"]
+realclearpolitics.com##.cc-stop-overlay
+realclearscience.com##.notif-wrapper
+receivesms.co###subbscribe
+reddit.com###ad_2
+reddit.com###RESNotifications
+reddit.com###siteTable_organic
+reddit.com##.DualPartInterstitial
+reddit.com##.goldvertisement
+reddit.com##.guider
+reddit.com##.infobar
+reddit.com##.native-ad-container
+reddit.com##.OverlayMenu-row:has-text(Ad)
+reddit.com##.ProfileSidebar__followDescription
+reddit.com##.ProfileVoiceAd
+reddit.com##.promotedlink
+reddit.com##.read-next-container
+reddit.com##.seo-comments
+reddit.com##.seo-comments-recommendations
+reddit.com##.SnackBar
+reddit.com##.TopButton
+reddit.com##.XPromoPill
+reddit.com,trustedreviews.com##.ad-container
+refinery29.com###action_button_container
+refinery29.com##.cta-bar
+refinery29.com##.jump-banner
+refinery29.com##.related-entries-container
+refinery29.com##.spot-im-recirculation-container
+refinery29.com,rowfirst.*,watchfree.*##.footer
+regmovies.com##.footer-partners
+rescuetime.com##.author_details
+rescuetime.com##.entry-content > div:has-text(Sign up)
+rescuetime.com##.mailchimp-form
+rescuetime.com##.post-related-nav
+researchgate.net##.discover-search-intent-survey-banner
+reuters.com###hp-newsletters
+reuters.com###targetdiv
+reuters.com##.CanvasAd_container
+reuters.com##.Footer_social
+reuters.com##.GetTheAppBanner_get-the-app-banner
+reuters.com##.module.stickyContainer1
+reuters.com##.RelatedCoverage_related-coverage-module
+reuters.com##.SmallVideo_small-video
+reuters.com##.stickyContainer2
+reuters.com##.TwoColumnLayout_container > [class] > [style]
+reuters.com##[src*="reutersmedia.net//resources"]
+reuters.com##[style*="187px"]
+reuters.com##[style*="236, 236, 236"]
+ribbonfarm.com##.enews
+ribbonfarm.com##.simple-social-icons
+rockfile.co###down0top
+rockfile.co###statement_2
+rockpapershotgun.com###comments-mpu-first
+rockpapershotgun.com###ecd_opt_in_banner
+rockpapershotgun.com###related-games
+rockpapershotgun.com##.about-the-author
+rockpapershotgun.com##.ad-hd
+rockpapershotgun.com##.ad-heading
+rockpapershotgun.com##.billboard-container
+rockpapershotgun.com##.comments-jump
+rockpapershotgun.com##.support-us
+rockpapershotgun.com##.support-us-promo
+rockpapershotgun.com##.widget-container
+rogerebert.com##.mailing-list
+rollingstone.com###module-more-news
+rollingstone.com###skin-ad-right-rail-container
+rollingstone.com##.c-card--grid-sponsored
+rollingstone.com##.c-cover
+rollingstone.com##.c-post-actions
+rollingstone.com##.l-blog__secondary
+rollingstone.com##.l-footer__cover
+rollingstone.com##.l-footer__menu:has-text(Connect With Us)
+rollingstone.com##.l-footer__menu:has-text(Get The Magazine)
+rollingstone.com##.l-footer__newsletter
+rollingstone.com##.l-header__block--sticky-link:has-text(Subscribe)
+rollingstone.com##.l-header__menu-link:has-text(Pro)
+rollingstone.com##.l-section--no-separator
+rollingstone.com##.module-newsletter
+rollingstone.com##.pmc-image-widget-container
+rollingstone.com,variety.com##.c-related
+rottentomatoes.com###trending_bar_social
+rottentomatoes.com##.col-xs-7
+rottentomatoes.com##.col-xs-8
+rowfirst.*###share
+rt.com###offers
+ru.nl##.cookie-canvas
+rump3.*##iframe
+samomusic.*##tr
+sarugbymag.co.za###execphp-248
+sarugbymag.co.za###sidebar-after-singular
+sarugbymag.co.za###slidein
+sciencemag.org##.leaderboard__promo
+scientificamerican.com###global__toaster-ad
+scientificamerican.com##.article-author-container
+scientificamerican.com##.header__left
+scientificamerican.com##.newsletter-subscribe-container
+scientificamerican.com##.toaster-ad
+scientificamerican.com##.tout_current-issue
+scientificamerican.com##.tout_subscribe
+scribd.com##.epub_banner
+scribd.com##.nyt_student_promo
+scribd.com##.restriction_banner
+scribd.com##[class*=promo_banner]
+sears.com##.oas-container
+sh.st##.advert
+sh.st##.information-container
+sh.st##.skip-advert
+shareblue.com###the_champ_sharing_more_providers
+shmoop.com###takeover-wallpaper
+shmoop.com##.homepage-ads
+shopwss.com##.foot_badge
+sj-r.com###dialog-message
+sj-r.com###featured-newsletter
+sj-r.com###footer-main-gh-logo
+sj-r.com###footer-main-newsletter
+sj-r.com###header-main-right
+sky.com##.sdc-site-cookie-notice
+slate.com##.article__tags
+slate.com##.featured-podcast__grid
+slate.com##.plus-promo
+slate.com##.slate-live-promo
+slickdeals.net###aboutAuthorBox
+slickdeals.net##.modal
+slickdeals.net##.sdModalOverlay
+smittenkitchen.com##.mc_embed_signup
+snagajob.com##.facet-item:has-text(Lyft)
+snagajob.com##.facet-item:has-text(Postmates)
+snagajob.com##.job-alerts-callout
+snagajob.com##.mobile-app-banner
+snagajob.com##.result:has-text(Lyft)
+snagajob.com##.result:has-text(Postmates)
+snopes.com##.additional-articles-footer
+snopes.com##.email-signup-box
+snopes.com##.loading-results
+snopes.com##.social-facebookGroupBox
+solarmovies.*,solarmoviez.*##.gmvh-fix
+solarmovies.*,solarmoviez.*##.wa-pre
+solarmovies.*,solarmoviez.*,watchfree.*##.popover
+solarmoviesc.*##.xc-subs-content
+solarmoviez.*##.content-sponsor
+solarmoviez.*##.top-content
+solidfiles.com##.left
+solidfiles.com##.premium-promo
+solidfiles.com##.top-section
+soundcloud.com##.dashbox
+soundcloud.com##.featureHeader
+soundcloud.com##.frontMobileTeaser
+soundcloud.com##.l-front-signup-teaser
+soundcloud.com##.listenLogin
+soundcloud.com##.moreMenu__goUpsell
+soundcloud.com##.smcx-modal
+soundcloud.com##.statsBadge__upsell
+sourceforge.net###newsletter-floating
+sourceforge.net##.l-side-column
+spiegel.de###spRecommendations
+spiegel.de##.bx-viewport
+spiegel.de##.column-wide
+spiegel.de##.magazin-box
+spiegel.de##.nl2go
+sporcle.com###sporcleBanners
+sporcle.com###you-might-also-like
+sporcle.com##.display-wide
+sport-tv-guide.live##.foot
+sport-tv-guide.live##.row-eq-height
+sportstream.*###paging
+stackexchange.com###herobox
+stackexchange.com###js-gdpr-consent-banner
+stackexchange.com###wmd-preview
+stackexchange.com##.hero-box
+stackoverflow.com###announcement-banner
+stackoverflow.com###wmd-preview
+stackoverflow.com##.js-dismissable-hero
+statnews.com###footer-email-form
+statnews.com##.content-meta
+statnews.com##.emailwidget
+statnews.com##.read-more
+statnews.com##.recirculation-bar
+statnews.com##.recirculation-section
+statnews.com##.section-trendmd
+statnews.com##.stat-form-inline
+statnews.com##.stat-paywall-try
+statnews.com##.widget-footer
+steamdb.info###steamdb-extension-protip
+steampowered.com###content_login
+steampowered.com##.hardware_ctn
+stream.*###iFrameResizer0
+stream.*##script:inject(popads-dummy.js)
+stream2watch.*###hiddenBannerCanvas
+stream2watch.*##.ad_un
+stream2watch.*##.misc2
+stream2watch.*##.page-icon
+streamango.com###videooverlay
+streamango.com##script:inject(openload.co.js)
+streamdor.*##.bn
+streamdor.*##.sharing
+superuser.com##.js-dismissable-hero
+syriancivilwarmap.com##.header-inner
+systemrequirementslab.com###game-booster
+systemrequirementslab.com##[class*="amazon-bottom"]
+systemrequirementslab.com##[class*="amazon-top"]
+target.com###adContainer
+techcrunch.com##.article-extra
+techcrunch.com##.article__related-links
+techcrunch.com##.article__social-share
+techcrunch.com##.homepage__event-promo
+techdirt.com##.relposts
+technadu.com##.charlotte-background
+technobuffalo.com###sharing-column
+technologyreview.com##.article-footer__group
+technologyreview.com##.callout--tagged-event-promo
+technologyreview.com##.download-newsletter__wrapper
+technologyreview.com##.event-promo
+technologyreview.com##.footer__newsletter-bar
+technologyreview.com##.l-automated-trending--ordered
+technologyreview.com##.l-cta--left
+technologyreview.com##.l-pricing
+technologyreview.com##.l-related-videos
+technologyreview.com##.magazine-promo
+technologyreview.com##.meter
+technologyreview.com##.navbar--tertiary
+technologyreview.com##.rm
+techradar.com###expanding-articles
+techradar.com##.hawk-widget-insert
+techradar.com##.inbody__newsletter
+techradar.com##.menu-item-main-pro
+techradar.com##.slot-after_popular_box
+techradar.com##.slot-before_popular_box
+techradar.com##.slot-top_of_sidebar
+techradar.com##.sponsored-post
+techradar.com##.sticky-next-prev
+techradar.com##aside > :has-text(Advertisement)
+techradar.com##[class*="slot-double-height"]
+techthelead.com###wallpaper
+techthelead.com##.gofollow
+techthelead.com##.mvp-related-posts
+techthelead.com##.post-tags
+techwalla.com###jwplayer-section
+ted.com###mc_embed_signup
+ted.com##.author-footer
+ted.com##.fine-text-sub
+ted.com##.recommended
+ted.com,thegamer.com,thehill.com##.article-tags
+telegraph.co.uk##.article__sidebar
+telegraph.co.uk##.premium-end-content
+telegraph.co.uk##.premium-promo
+telegraph.co.uk##.splitter__slot--2
+telegraph.co.uk##.sponsor-slot
+telegraph.co.uk##.version-6--sponsored
+temp-mail.org##.col-md-12
+temp-mail.org##.inboxSeoBl
+temp-mail.org##.side-plugin-banner
+temp-mail.org##.top-text
+tempail.com##.blog-haber-konteyner
+tempail.com##.etiket-alani
+tempail.com##.reklam-konteyner
+tempmailaddress.com##.donate
+tempmailaddress.com##.navbar-fixed-bottom
+tempmailaddress.com##.no-margin-top
+theage.com.au##aside > [class]:has-text(Newsletter)
+theage.com.au##[data-widget]
+theage.com.au##[href*="/?promote"]
+theage.com.au##[id*="adspot"]
+theatlantic.com###action-bar
+theatlantic.com###article-most-popular
+theatlantic.com###hp-magazineissue
+theatlantic.com###hp-magazinemodule1
+theatlantic.com###leaflets
+theatlantic.com##.article-after
+theatlantic.com##.c-article-writer
+theatlantic.com##.c-recirc-content
+theatlantic.com##.c-subscription__background
+theatlantic.com##.l-article-recirc
+theatlantic.com##.l-rail
+thebalance.com###leaderboard_1-0
+thebalance.com##.billboard
+thebalance.com##.spotlight-billboard
+theblaze.com###home_bottom_slider
+thebookoflife.org###popup
+theconversation.com##.content-partners
+theconversation.com##.content-related-container
+theconversation.com##.footer-subscription
+theculturetrip.com###cookie-policy-banner
+theculturetrip.com##[class*="ContentNewsletter"]
+theculturetrip.com##[class*="DownloadBanner"]
+thecut.com##.latest-news
+thecut.com##.pubexchange
+thecut.com##.space-logic
+thedailybeast.com##.ExtraSidebarAd
+thedailybeast.com##.Footer__advertise
+thedailybeast.com##.InlineNewsletter
+thedailybeast.com##.RelatedArticles
+thedailybeast.com##.Sidebar--with-extra-ads
+thedailybeast.com##.StoryFooter
+thefader.com##.current_issue
+thefader.com##.paragraph_wrapper > div
+thefader.com##.updates_form
+thegamer.com##p:has-text(READ MORE:)
+thegamer.com##p:has-text(READ NEXT:)
+theguardian.com###dfp-ad--inline1
+theguardian.com###dfp-ad--inline2
+theguardian.com###dfp-ad--top-above-nav
+theguardian.com###email-sign-up
+theguardian.com###footer__email-form
+theguardian.com###more-in-section
+theguardian.com###onward
+theguardian.com###related-stories
+theguardian.com###securedrop
+theguardian.com###thrasher
+theguardian.com##.fc-container__mpu--mobile
+theguardian.com##.fc-slice__item--mpu-candidate
+theguardian.com##.fc-slice__popular-mpu
+theguardian.com##.js-acquisition-link
+theguardian.com##.js-secondary-column
+theguardian.com##.js-site-message
+theguardian.com##.popular-trails__mpu
+theguardian.com##.rich-link__container
+theguardian.com##.site-message
+theguardian.com##.site-message--banner
+theguardian.com##.submeta
+theguardian.com##.trump-russia__treat
+theguardian.com##.[class*="ad-slot"]
+theguardian.com##script:inject(abort-current-inline-script.js, InstallTrigger, ad-blocker)
+thehill.com###dfp-ad-mos_1-wrapper
+thehill.com###dfp-ad-mos_2-wrapper
+thehill.com###dfp-ad-mos_3-wrapper
+thehill.com###mostpopular-items
+thehill.com##.credits
+thehill.com##.region-front-news-right
+thehill.com##.scroll-down-to-next
+thehill.com##.simple-signup-form
+thehill.com##.social-share-facebook
+thehill.com##.social-share-googleplus-follow
+thehill.com##.social-share-linkedin
+thehill.com##.social-share-twitter-follow
+theladders.com##.email-inbetweener
+theladders.com##.hp-footer-border
+theladders.com##.ladders-user-signup-flow
+theladders.com##.like-us
+theladders.com##.read-more
+theladders.com##.sidebar-book-promo
+themarshallproject.org##.email-onboard-container-wrapper
+themarshallproject.org##.post-footer
+themarshallproject.org##.promo-full-bleed
+themarshallproject.org##.ts-running
+themuse.com###post-onboarding-hint
+themuse.com##.post-email-capture
+themuse.com##.post-onboarding
+themuse.com##.social-module
+thenextweb.com###whos-hiring
+thenextweb.com##.c-tags
+thenextweb.com##.cookieConsent
+thenextweb.com##.cookieConsent-popOut
+thenextweb.com##.ica-wrapper
+thenextweb.com##.nav-message
+thenextweb.com##.post-article-read-next
+thenextweb.com##.post-in-content-tags
+theonion.com###gohxw
+theoutline.com##.pushpop-embed
+theoutline.com##.z9
+theparisreview.org##.enews
+theparisreview.org##.header-nav-subscribe
+thepiratebay.*##.dlf
+thepiratebay.*##a[href*="litecoin"]
+thepiratebay.*##a[href*="monero"]
+thepiratebay.*##script:inject(abort-on-property-read.js, _wm)
+thepiratebay.*##script:inject(abort-on-property-write.js, Fingerprint2)
+thepiratebay.*##[href*="get-express-vpn.com"]
+thepiratebay.*##[href*="qfdn3gyfbs.com"]
+theregister.co.uk###article_newsletter_signup
+theregister.co.uk##.promo_article
+theringer.com##.c-entry-sidebar
+theringer.com##.p-hr-illo
+thesaurus.com###tcomHomeBot-728x90
+thesaurus.com###thesaurus_serp_atf_300x250
+thesaurus.com###thesaurus_serp_atf_728x90
+thesaurus.com###thesaurus_serp_btf_2
+thesaurus.com###thesaurus_serp_btf_300x252
+thesaurus.com##.editorial-content-feed
+thesun.co.uk###cookie-bar
+thetrendspotter.net##.essb_item
+theundefeated.com###story-tags
+theundefeated.com##.espn-boxout
+thewalrus.ca###articleFooter
+thewalrus.ca###credit
+thewalrus.ca##.starburst
+thewrap.com###mobile-sticky-bottom
+thewrap.com##.attachment-full
+thewrap.com##.ctx-link
+thewrap.com##.mobile-sticky-bottom
+thewrap.com##.widgets-inner
+thomsonreuters.com##.tr-DismissibleBanner
+thoughtco.com###billboard1-sticky_1-0
+thoughtco.com###billboard2-sticky_1-0
+thoughtco.com###billboard3-sticky-lazy_1-0
+thoughtco.com###leaderboard-deferred-footer_1-0
+thoughtco.com###leaderboard-post-content_1-0
+thoughtco.com###leaderboard_2-0
+thoughtco.com##.footer-social
+thoughtworks.com##.BlogPromo
+thrillist.com###recommended-video
+thrillist.com##.inline-related-item
+time.com##.above-footer
+time.com##.bottom-recirc
+time.com##.homepage-newsletter
+time.com##.karma-sticky-rail
+time.com##.lead-gen
+time.com##.outside
+time.com##.subscribe-link
+time.com##[href*="newsletters"]
+timesofmalta.com###logo_and_banner_section
+tinybuddha.com###duplicate_widget-5
+tinybuddha.com##.first.hero
+tinybuddha.com##.tws
+tinybuddha.com##.wp-biographia-container-around
+tinytorrent.net###essb-point
+tinytorrent.net##.mpp-container
+tinytorrent.net##.vce-related-box
+tmz.com##.blogroll
+tmz.com##.featured-stories-widget
+tmz.com##.js-sidebar-tracking
+tmz.com##.partner-headlines-row
+tmz.com##.quick-subscribe-form
+tmz.com##.quigo-permalink
+today.com##.j-video-rail
+today.com##.native2x2_cover-ad
+tomsguide.com##.below_the_article-purchrtb-dynamic
+tomsguide.com##.brand
+tomsguide.com##.ftFollow
+tomsguide.com##.h3:has-text(See Also)
+tomsguide.com##.purch-related
+tomsguide.com##.tags-block
+tomsguide.com##p:has-text(MORE:)
+tomshardware.com###inpost-related-links
+tomshardware.com###in_article
+tomshardware.com###Ribbon_ad
+tomshardware.com##.footer-content-nl
+tomshardware.com##.h2:has-text(Read More)
+tomshardware.com##.page-top-promo
+tomshardware.com##.progress-header
+tomshardware.com##.purch-related
+tomshardware.com##.shopsavvy-header
+tomshardware.com##.tags-block
+tomshardware.com##.tags-list
+tomshardware.com##.title-comments
+tomtunguz.com###mc_embed_signup
+toptenreviews.com###feedback-modal
+tornadomovies.*###actors
+tornadomovies.*###characters
+tornadomovies.*###get_subscribed
+tornadomovies.*###keywords
+tornadomovies.*##.buypro
+tornadomovies.*##.critics
+tornadomovies.*##.row-btns-special
+tornadomovies.*##.tabs_row
+tornadomovies.*##[class*="controls_row"]
+trends24.in##.page-content__title
+trends24.in##.trend-card-advert
+trendsmap.com###modal_modal
+trendsmap.com###modal_overlay
+trueachievements.com##+js(abort-current-inline-script.js, XMLHttpRequest, google_ads_iframe)
+trustedreviews.com##.egl-combo-container
+trustedreviews.com##.footer__col--sidebar
+trustedreviews.com##.injection
+trustedreviews.com##.nav-social
+trustedreviews.com##.post-promo
+trustedreviews.com##p:has-text(Related:)
+tubefilter.com###text-24
+tumblr.com##.road-block
+tunebat.com##.main-recommendations-pre
+tvline.com##.mobile-header-ad
+tvline.com,variety.com##.google-publisher
+tvtropes.org###-mvsorsf-or
+tvtropes.org###main-content-sidebar
+tvtropes.org##.footer-left
+tvtropes.org##.sticky-btm
+twitch.tv##.anon-front__social-container
+twitch.tv##.blue-bar
+twitch.tv##.simplebar-scroll-content > [class] > [class] > [class]:has-text(Featured Channels)
+twitch.tv##.toast-manager__container
+twitch.tv##script:inject(twitch-videoad.js)
+twitter.com##.AdaptiveStreamUserGallery
+twitter.com##.Banner
+twitter.com##.MomentsPermalinkPage-related
+twitter.com##.promoted-trend
+twitter.com##.SignupCallOut
+twitter.com##.suggested-tweet-stream-container
+twitter.com##[class*="protection-notice"]
+undark.org##.boxzilla-container
+undark.org##.footer-top
+undark.org##.in-view
+undark.org##.trigger-in-view:has-text(Share this story!)
+undark.org##[class*="mailmunch"]
+univision.com##.uvn-above-header-wrapper
+univision.com##.uvn-Ad-companion
+univision.com##.uvn-flex-container-e
+univision.com##.uvn-footer-local-links-container
+univision.com##.uvn-social-box
+univision.com##.uvn-widget-Ad
+univision.com##[class*="col"]:has-text(Publicidad)
+univision.com##[style*="35, 88, 191"]
+unsplash.com##span:has-text(Learn more)
+unsplash.com##[class*="_"]:has-text(Automatically)
+uploadfiles.*##.pro-download
+uplod.io##.clearfix
+uplod.io##.fmore
+uplod.io,vipboxtv.*##.hidden-xs
+uproxx.com##.widget-main-header
+urbanize.la##.navbar-advertise-link
+urbanize.la##.pre-header-wrapper
+urbanize.la##[id*="blocks-google"]
+usatoday.com###article-body-p-last
+usatoday.com###post-content
+usatoday.com##.partner-placement
+usatoday.com##.secondary
+usatoday.com##.site-masthead-subscribe-wrap-visible
+usatoday.com##.story-feedback-opinionlabs-module
+usatoday.com##p:has-text(More:)
+usmagazine.com###content-card-footer
+usmagazine.com##.module-trending-bar
+usnews.com##.article-body-item:has-text(Read:)
+usnews.com##.article-body-item:has-text(RELATED CONTENT)
+usnews.com##.block-loosest
+vanityfair.com###AMS_VYF_INLINE_TEXT
+vanityfair.com##.before-logo
+vanityfair.com##.cm-failsafe
+vanityfair.com##.component-consumer-marketing
+vanityfair.com##.component-newsletter-cta
+vanityfair.com##.connect-container
+vanityfair.com##.current-issue-wrapper
+vanityfair.com##.expanded
+vanityfair.com##.hive-riser
+vanityfair.com##.inner
+vanityfair.com##.internal-recirc
+vanityfair.com##.mvt-variant
+vanityfair.com##.paywall-meter
+vanityfair.com##.paywall-meter--show
+vanityfair.com##.rail
+vanityfair.com##.recirc-wrapper
+vanityfair.com##.sticky-ad-container
+variety.com##.c-ad
+variety.com##.c-ad--text-only
+variety.com##.c-magazine
+variety.com##.c-top-bar__exclusive-wrap
+variety.com##.c-widget--newsletter
+variety.com##.l-article__footer
+variety.com##.l-footer__copy__subscribe
+variety.com##.l-header__leaderboard
+variety.com##.l-more-from
+variety.com##.l-newsletter
+variety.com##.l-pvm-video--carousel
+variety.com##.u-tablet
+vcstream.*##+js(abort-on-property-read.js, BetterJsPop)
+vcstream.*##+js(set-constant.js, pop_cnt, 2)
+vcstream.*##+js(setTimeout-defuser.js, _creatBait)
+vercanalestv.*###footertop
+vercanalestv.*###sidebar
+vercanalestv.*###subcatcont
+vercanalestv.*###video_ads_overdiv
+vercanalestv.*##.headerad
+vercanalestv.*##.textsection
+vexmovies.*##.comentarios
+vexmovies.*##.facebook
+vexmovies.*##.twitter
+vg247.com###article-sidebar
+vg247.com###comments-sidebar
+vg247.com###headline-mpu-slot
+vg247.com###recommendations
+vg247.com##.low-leader-container
+vg247.com,zdnet.com##.mpu
+vice.com##.ad-unit__container__container
+vice.com##.article__blockquote:has-text(Read More:)
+vice.com##.article__embed
+vice.com##.gutter__content
+vice.com##.iframely-embed
+vice.com##.recirculation__modules
+vice.com##.topics
+vice.com##.up-next
+vice.com##.up-sell
+videoconvert.co##.home-section-4
+videoconvert.co##.home-section-5
+videoconvert.co##.urlconverter-section-4
+vidstreaming.*##+js(abort-current-inline-script.js, decodeURIComponent, parseInt)
+vidstreaming.*##script:inject(abort-current-inline-script.js, parseInt, tabunder)
+vidstreaming.*##script:inject(noeval.js)
+vipboxtv.*##.btn
+vipboxtv.*##.space-6
+visualcocaine.org##.panel:has-text(Stock Photos from Shutterstock)
+vpnranks.com###hb-strip
+vpnranks.com###sleeknote-cover
+vpnranks.com###sticky-banner
+vpnranks.com##.author-bio-wrap
+vpnranks.com##.brands-mention
+vpnranks.com##.ftr-subs-box
+vpnranks.com##.vr-ce
+vpnranks.com##.warning-snippit
+vpnranks.com##.warning-snippit-inr
+vpnranks.com##.warning-snippit-ttl
+vpnranks.com##.yt-channel-wrap
+vpnranks.com##[class*="forme"]
+vulture.com##.blog-sweeps
+vulture.com##.latest-news
+vulture.com##.newsletter-slideout
+vulture.com##.pinboard
+vulture.com##.video-promo-for-articles
+vulture.com##[href*="/newsletters"]buzzfeed.com###mod-action-bar-1
+wallpapershome.com##.banner
+wallpapershome.com##.get-app
+wallpapershome.com,wired.com###related
+wallpapersite.com##.banner
+washingtonpost.com###bc-sidebar
+washingtonpost.com###i_userMessages
+washingtonpost.com###nav-subscribe
+washingtonpost.com###signup-box-rr
+washingtonpost.com###slug_336x60
+washingtonpost.com##.ent-ad-container
+washingtonpost.com##.game-module
+washingtonpost.com##.homepage-footer-button
+washingtonpost.com##.newsletter-unit
+washingtonpost.com##.pb-f-page-recommended-strip
+washingtonpost.com##.pb-subscribe
+washingtonpost.com##.tiffany-div
+washingtontimes.com##.read-more-show
+watchanime.*##.s_saison
+watchanime.*##center > [id]
+watchanime.*##[id] > [id]
+watchanime.*##[src*="/scripts/"]
+watchanimeonline.*##.textwidget
+watchanimeonline.*##.widget-title
+watchcartoononline.*##.anti-ad
+watchfilms.*###mCSB_1
+wattpad.com###authentication-panel
+wattpad.com###bottom-banner-container
+wattpad.com##.promoted-stories-container
+webmd.com###quiz-hp
+webmd.com##.global-nav-subscribe
+webmd.com##.module-f-hs
+webmd.com##.module-ia-slideshow
+webmd.com##.newsletterSignup
+webmd.com##.responsive-sharethrough-wrapper
+weebly.com###weebly-footer-signup-container
+whathifi.com###article-body > div
+whathifi.com###sidebar > div:has-text(Advertisement)
+whathifi.com##p:has-text(MORE:)
+whosampled.com###wb-ad-grid
+whosampled.com##.facebookBox
+whosampled.com##.premium-btn-wrapper
+whosampled.com##.sideAd
+wikia.com##.fandom-app-smart-banner
+wikihow.com###sliderbox
+wikipedia.org##.banner-container
+windowscentral.com##.adunit-wrap
+windowscentral.com##.article--preview
+windowscentral.com##.article-meta-tags
+windowscentral.com##.clearfixb
+windowscentral.com##.cta
+windowscentral.com##.footer__brand
+windowscentral.com##.footer__partner-logo
+windowscentral.com##.header-top-alert-bar
+windowscentral.com##.header-top__offer
+wired.co.uk###domCookieWarning
+wired.co.uk##.a-marketing-card
+wired.co.uk##.a-related-tags
+wired.co.uk##.a-sidebar-content
+wired.co.uk##.bb-card
+wired.co.uk##.c-card-section__constrain
+wired.co.uk##.c-infobar
+wired.co.uk##.c-top-stories
+wired.com###article-tags
+wired.com###prefooter
+wired.com##.advertisement__leaderboard
+wired.com##.cm-failsafe
+wired.com##.cm-failsafes
+wired.com##.cm-subscribe-link-wrapper
+wired.com##.inset-left-component--article
+wired.com##.inset-left-component:has-text(LEARN MORE)
+wired.com##.outer-wrapper
+wired.com##.paywall-container-component
+wired.com##.podcast
+wired.com##.related-cne-video-component
+wired.com##.subscribe-panel-component
+wired.com##.tags-component
+wired.com##.wrapper-prefooter
+wired.com##h3:has-text(More Great WIRED Stories)
+wired.com##ul:has(a[href*="BottomRelatedStories"])
+wired.com##[href*="climatedesk"]
+wix.com##.subscribe-modal
+wixsite.com##.wix-ads-2
+wsj.com###AD_RAIL1
+wsj.com###AD_RAIL2
+wsj.com###AD_RAIL3
+wsj.com###share-target
+wsj.com##.carousel-container
+wsj.com##.type-InsetRichText
+wsj.com##.wsj-strap-icon-email
+wsj.com##.wsj-strap-icon-twitter
+wsj.com##[class*="footer-wrap"]
+wtsp.com###column-1
+wtsp.com##.grid__sticky-column
+xda-developers.com###hosted-by
+xda-developers.com##.hosted_by
+xda-developers.com##.w-social
+xvideos.com###ad-header-mobile
+yahoo.com##.YDC-Sidekick-Wrapper
+yelp.com##.biz-list-ad
+yesmovies.*###like-home
+yesmovies.*##.content-kussss
+yesmovies.*##.popover-content
+yesmovies.*##.xc-subs
+youredm.com###wb-ad-grid
+youredm.com##.cb-article-footer
+youredm.com##.cb-breadcrumbs
+youredm.com##.cb-post-meta
+youtube.*###companion
+youtube.*###hats-container
+youtube.*###iv-promo-shelf
+youtube.*###promotion-shelf
+youtube.*###ticker
+youtube.*###unlimited-guide-item
+youtube.*###yt-banner-promo-renderer-background
+youtube.*##.ad-interrupting
+youtube.*##.item-section:has-text(Artist on the Rise)
+youtube.*##.item-section:has-text(Creator on the Rise)
+youtube.*##.mealbar-promo-renderer
+youtube.*##.search-refinements
+youtube.*##.signup-promo
+youtube.*##.yt-live-chat-gaming-promo-renderer
+youtube.*##.yt-valign:has-text(Get YouTube TV)
+youtube.*##.ytp-cards-teaser
+youtube.*##.ytp-ce-element
+youtube.*##.ytp-pause-overlay
+zara.com###cookies-container
+zdnet.com##.keepUp
+zdnet.com##.related-topics
+zdnet.com##.relatedContent
+zdnet.com##p:has-text(Also:)
+zing.vn###advBgCanvasOverlay
+zing.vn##.z2-zad-iframe
+zing.vn##.zs-ico-main
+zippyshare.com###qrCode
+zmescience.com###nksub-overlay
+zmescience.com###nksub_sidebar
+zmescience.com###wapp_signup_widget
+zmescience.com##.fb-msg
+zmescience.com##.nksub_sidebar_cont_scrollable
