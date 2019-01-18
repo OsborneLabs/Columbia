@@ -1,11 +1,11 @@
 ! Author: Osborne Systems
 ! Copyright: Copyright (C) 2018-2019 Osborne Systems. All rights reserved.
-! Description: A systematic Internet filter halting analytics.
+! Description: A systematic, analytic-halting Internet filter.
 ! Expires: 1 days
 ! Homepage: https://github.com/OsborneSystems/Columbia/
-! Last modified: 5 January 2019 00:00:00 UTC
+! Last modified: 17 January 2019 00:00:00 UTC
 ! Title: Columbia Standard
-! Version: 4.0.0
+! Version: 4.0.1
 !
 ! You may not reproduce, store in a retrieval system, or transmit this publication
 ! in any form or by any means, electronic, mechanical, photocopying, recording,
@@ -361,6 +361,7 @@
 ##.z-spot
 ##.z3
 ##.zpremium
+##a[href*="/adServe/banners?"]
 ##a[href*="=adscript"]
 ##a[href*="bebi.com"]
 ##a[href*="bitcoin.org"]
@@ -525,6 +526,7 @@ _s_code.
 ||sportstream*top1$image
 ||streamango.com/log
 ||thepiratebay$script
+||thepiratebay.*^$script
 ||tribdss.com/meter/
 ||twitch.tv*extensions
 ||twitter.com/i/jot
@@ -543,6 +545,7 @@ _s_code.
 ||youtube.com/ptracking?
 127.0.0.1 *.anyclip.com
 127.0.0.1 *.lo.gs
+127.0.0.1 *.yandex.*
 127.0.0.1 0torrent.top
 127.0.0.1 0tracker.com
 127.0.0.1 104.248.185.42
@@ -575,6 +578,7 @@ _s_code.
 127.0.0.1 4jnzhl0d0.com
 127.0.0.1 4kmoviesclub.co
 127.0.0.1 4redirect.info
+127.0.0.1 50.63.202.49
 127.0.0.1 52zxzh.com
 127.0.0.1 58b291f917728a2.com
 127.0.0.1 5d.com
@@ -728,7 +732,6 @@ _s_code.
 127.0.0.1 ambitiousagreement.com
 127.0.0.1 amorain.com
 127.0.0.1 amung.us
-127.0.0.1 an.yandex.ru
 127.0.0.1 analytics.faw.sky.com
 127.0.0.1 analytics.global.sky.com
 127.0.0.1 analytics.kaltura.com
@@ -882,6 +885,7 @@ _s_code.
 127.0.0.1 businessbells.com
 127.0.0.1 bustlinganimal.com
 127.0.0.1 butterburst.com
+127.0.0.1 buzzdeal.com
 127.0.0.1 bxcel.net
 127.0.0.1 byvngx98ssphwzkrrtsjhnbyz5zss81dxygxvlqd05.com
 127.0.0.1 c.amazon-adsystem.com
@@ -1143,6 +1147,7 @@ _s_code.
 127.0.0.1 distiltag.com
 127.0.0.1 districtm.*
 127.0.0.1 dk4ywix.com
+127.0.0.1 dkmexpress.com
 127.0.0.1 dmpxs.com
 127.0.0.1 dmxleo.dailymotion.com
 127.0.0.1 dnn506yrbagrg.cloudfront.net
@@ -1186,6 +1191,7 @@ _s_code.
 127.0.0.1 economicpizzas.com
 127.0.0.1 edgekey.net
 127.0.0.1 edigitalsurvey.com
+127.0.0.1 editorscuttv.us
 127.0.0.1 effectivemeasure.net
 127.0.0.1 efficaciouscactus.com
 127.0.0.1 ejyymghi.com
@@ -1233,6 +1239,7 @@ _s_code.
 127.0.0.1 facebookgameshacks.com
 127.0.0.1 facebooklikehack.com
 127.0.0.1 facebookpasswordhackonline.com
+127.0.0.1 facekac.com
 127.0.0.1 faceoffhacker.com
 127.0.0.1 facilitategrandfather.com
 127.0.0.1 fadedprofit.com
@@ -1371,6 +1378,7 @@ _s_code.
 127.0.0.1 gorgeousground.com
 127.0.0.1 gosquared.com
 127.0.0.1 gossipmiser.com
+127.0.0.1 gowarehouse.net
 127.0.0.1 gracefulsock.com
 127.0.0.1 grandioseguide.com
 127.0.0.1 grapeshot.co.uk
@@ -1454,6 +1462,7 @@ _s_code.
 127.0.0.1 ib.adnxs.com
 127.0.0.1 ichlnk.com
 127.0.0.1 id.google.com
+127.0.0.1 igg-games.com
 127.0.0.1 ihabi.us
 127.0.0.1 iknowthatgirl.com
 127.0.0.1 ikwauek.com
@@ -1678,6 +1687,7 @@ _s_code.
 127.0.0.1 msnbot-65-55-108-23.search.msn.com
 127.0.0.1 msntest.serving-sys.com
 127.0.0.1 mtrcs.samba.tv
+127.0.0.1 mundograo.org
 127.0.0.1 murdoog.com
 127.0.0.1 musictalentnow.com
 127.0.0.1 mwtpludn.review
@@ -1852,6 +1862,7 @@ _s_code.
 127.0.0.1 profitrumour.com
 127.0.0.1 progentra.com
 127.0.0.1 projectpoi.com
+127.0.0.1 promotebuy.com
 127.0.0.1 propellerads.com
 127.0.0.1 propertiess.xyz
 127.0.0.1 propvideo.net
@@ -2170,6 +2181,7 @@ _s_code.
 127.0.0.1 sulkybutter.com
 127.0.0.1 summerhamster.com
 127.0.0.1 summerobject.com
+127.0.0.1 superfastcdn.com
 127.0.0.1 superficialsink.com
 127.0.0.1 superiorsingingmethod.com
 127.0.0.1 support247.live
@@ -2362,6 +2374,7 @@ _s_code.
 127.0.0.1 vuukle.com
 127.0.0.1 w5insight.com
 127.0.0.1 wakwaw.xyz
+127.0.0.1 waldeal.net
 127.0.0.1 waryfog.com
 127.0.0.1 wateryvan.com
 127.0.0.1 watson.live.com
@@ -2482,6 +2495,7 @@ _s_code.
 123moviestube.*,gostream.*##.content-kuss
 123moviestube.*,moviesonline.*##.mvic-btn
 1337x.*##.bitcoin
+1337x.*##a[class]:has-text(An)
 1337x.*##[href*="/directredirect"]
 1337x.*##[href*="/redirmusic.php?q="]
 1337x.*##[href*="redirectgames.php?q="]
@@ -4251,6 +4265,14 @@ theundefeated.com##.espn-boxout
 thewalrus.ca###articleFooter
 thewalrus.ca###credit
 thewalrus.ca##.starburst
+theweek.com##.appendedAds
+theweek.com##.browse-mag-container
+theweek.com##.form-cover-section
+theweek.com##.more-from-the-author
+theweek.com##.related-tag
+theweek.com##.subscribe-block-header
+theweek.com##.subscribe-right-rail
+theweek.com##.subscribe-unit
 thewrap.com###mobile-sticky-bottom
 thewrap.com##.attachment-full
 thewrap.com##.ctx-link
