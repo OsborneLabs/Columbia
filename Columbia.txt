@@ -3,15 +3,13 @@
 ! Description: A systematic, analytic-halting Internet filter.
 ! Expires: 1 days
 ! Homepage: https://github.com/OsborneSystems/Columbia/
-! Last modified: 17 January 2019 00:00:00 UTC
+! Last modified: 6 March 2019 00:00:00 UTC
 ! Title: Columbia Standard
-! Version: 4.0.1
+! Version: 4.0.2
 !
 ! You may not reproduce, store in a retrieval system, or transmit this publication
 ! in any form or by any means, electronic, mechanical, photocopying, recording,
 ! or otherwise, without written permission of the publisher.
-!
-! Contributions from Bogachenko
 !
 ###AdBox160
 ###adDiv
@@ -412,6 +410,7 @@
 /adblock.js
 /adchoices.
 /adrotate-
+/adrum.
 /ads/initialize/
 /ads/leaderboard/
 /ads?id=
@@ -460,6 +459,7 @@
 /social-icons.
 /social-logos/
 /static/ads/
+/s_code.
 /videojs.ads
 /vjslog?
 /wa01.gif?log=
@@ -543,8 +543,14 @@ _s_code.
 ||youtube.com/csi_204?
 ||youtube.com/pagead/
 ||youtube.com/ptracking?
+127.0.0.1 *.amazon-adsystem.com
 127.0.0.1 *.anyclip.com
+127.0.0.1 *.betrad.com
+127.0.0.1 *.doubleclick.net
+127.0.0.1 *.imrworldwide.com
 127.0.0.1 *.lo.gs
+127.0.0.1 *.moatads.com
+127.0.0.1 *.nbcuas.com
 127.0.0.1 *.yandex.*
 127.0.0.1 0torrent.top
 127.0.0.1 0tracker.com
@@ -585,6 +591,7 @@ _s_code.
 127.0.0.1 5dimes.eu
 127.0.0.1 5ikmih8avqhcbk.com
 127.0.0.1 5mcwl.pw
+127.0.0.1 5tv8t11dr23v6u89961t.club
 127.0.0.1 5yfi7sy.com
 127.0.0.1 6198399e4910e66-ovc.com
 127.0.0.1 66cpwgln.space
@@ -602,7 +609,6 @@ _s_code.
 127.0.0.1 a.rad.msn.com
 127.0.0.1 a0a28d3c97a4e566.com
 127.0.0.1 a2af4f04914ed298.com
-127.0.0.1 aax-us-east.amazon-adsystem.com
 127.0.0.1 aax-us-iad.amazon.com
 127.0.0.1 abackchain.com
 127.0.0.1 abandonedaction.com
@@ -624,7 +630,6 @@ _s_code.
 127.0.0.1 actuallysheep.com
 127.0.0.1 actuallysnake.com
 127.0.0.1 ad-center.com
-127.0.0.1 ad.doubleclick.net
 127.0.0.1 ad.go.com
 127.0.0.1 ad.gt
 127.0.0.1 ad.kissanime.*
@@ -633,7 +638,6 @@ _s_code.
 127.0.0.1 adblockanalytics.com
 127.0.0.1 adcamp.ru
 127.0.0.1 adcash.com
-127.0.0.1 adclick.g.doublecklick.net
 127.0.0.1 addkt.com
 127.0.0.1 addthis.com
 127.0.0.1 adeventtracker.spotify.com
@@ -745,6 +749,7 @@ _s_code.
 127.0.0.1 anastasia-web.com
 127.0.0.1 anonymous-net.com
 127.0.0.1 anonymousdemographics.com
+127.0.0.1 anrdoezrs.net
 127.0.0.1 ansoft15.bid
 127.0.0.1 antivirus-helpnumber.com
 127.0.0.1 anxiousapples.com
@@ -812,6 +817,7 @@ _s_code.
 127.0.0.1 bawdybeast.com
 127.0.0.1 beacon.errorception.com
 127.0.0.1 beacon.gu-web.net
+127.0.0.1 beacon.securestudies.com
 127.0.0.1 beamincrease.com
 127.0.0.1 beamkite.com
 127.0.0.1 beautiess.xyz
@@ -888,7 +894,6 @@ _s_code.
 127.0.0.1 buzzdeal.com
 127.0.0.1 bxcel.net
 127.0.0.1 byvngx98ssphwzkrrtsjhnbyz5zss81dxygxvlqd05.com
-127.0.0.1 c.amazon-adsystem.com
 127.0.0.1 c.atdmt.com
 127.0.0.1 c.bigmir.net
 127.0.0.1 c.msn.com
@@ -915,7 +920,6 @@ _s_code.
 127.0.0.1 cashfiesta.com
 127.0.0.1 cbc-4k.stream
 127.0.0.1 cc.swiftype.com
-127.0.0.1 cdn-gl.imrworldwide.com
 127.0.0.1 cdn.at.atwola.com
 127.0.0.1 cdn.atdmt.com
 127.0.0.1 cdn.connatix.com
@@ -997,6 +1001,7 @@ _s_code.
 127.0.0.1 coinhive.com
 127.0.0.1 coinhiveproxy.com
 127.0.0.1 coinpirate.cf
+127.0.0.1 collect.igodigital.com
 127.0.0.1 collector.githubapp.com
 127.0.0.1 colombiaonline.com
 127.0.0.1 colossusssp.com
@@ -1108,6 +1113,7 @@ _s_code.
 127.0.0.1 datamart.windows.com
 127.0.0.1 datess.xyz
 127.0.0.1 db3aqu.atdmt.com
+127.0.0.1 dc8xl0ndzn2cb.cloudfront.net
 127.0.0.1 deadpantruck.com
 127.0.0.1 debonairway.com
 127.0.0.1 decibelinsight.net
@@ -1371,7 +1377,6 @@ _s_code.
 127.0.0.1 goodcenter4updatesoft.date
 127.0.0.1 goodcenterforupdatesoft.date
 127.0.0.1 googe.com
-127.0.0.1 googleads.g.doubleclick.net
 127.0.0.1 googleadservices.com
 127.0.0.1 googlesyndication.com
 127.0.0.1 goop.com
@@ -1409,6 +1414,7 @@ _s_code.
 127.0.0.1 hackfbaccountlive.com
 127.0.0.1 hammerhearing.com
 127.0.0.1 handyfield.com
+127.0.0.1 hantinlethemsed.info
 127.0.0.1 hardtofindmilk.com
 127.0.0.1 harrenmedia.com
 127.0.0.1 harrenmedianetwork.com
@@ -1420,6 +1426,7 @@ _s_code.
 127.0.0.1 heapanalytics.com
 127.0.0.1 heatmap.*
 127.0.0.1 hello.myfonts.net
+127.0.0.1 hello23.icu
 127.0.0.1 helpnumber.co.uk
 127.0.0.1 hematocryal.host
 127.0.0.1 heninocegfib.com
@@ -1524,7 +1531,6 @@ _s_code.
 127.0.0.1 joshi.org
 127.0.0.1 js-agent.newrelic.com
 127.0.0.1 js-sec.indexww.com
-127.0.0.1 js.moatads.com
 127.0.0.1 jsc.adskeeper.co.uk
 127.0.0.1 jsc.mgid.com
 127.0.0.1 jsfuel.com
@@ -1754,6 +1760,7 @@ _s_code.
 127.0.0.1 onesignal.com
 127.0.0.1 onetouchsol.*
 127.0.0.1 online-classes-us-deals.com
+127.0.0.1 online-metrix.net
 127.0.0.1 onlinebtcscf.000webhostapp.com
 127.0.0.1 onlinepromotionsusa.com
 127.0.0.1 onlinesystemupdate3-1.azurewebsites.net
@@ -1781,7 +1788,6 @@ _s_code.
 127.0.0.1 padsdel.com
 127.0.0.1 padsdell.com
 127.0.0.1 pagead2.googlesyndication.com
-127.0.0.1 pagead46.l.doubleclick.net
 127.0.0.1 pagefair.com
 127.0.0.1 pagefair.net
 127.0.0.1 pages-stats.rbl.ms
@@ -1876,7 +1882,6 @@ _s_code.
 127.0.0.1 pub.network
 127.0.0.1 pub2srv.com
 127.0.0.1 pub34.bravenet.com
-127.0.0.1 pubads.g.doubleclick.net
 127.0.0.1 publicsurveypanel.com
 127.0.0.1 pubmatic.com
 127.0.0.1 pubmine.com
@@ -1973,6 +1978,7 @@ _s_code.
 127.0.0.1 rk.com
 127.0.0.1 rlcdn.com
 127.0.0.1 rnddmn.com
+127.0.0.1 rnengage.com
 127.0.0.1 romancetale.com
 127.0.0.1 roosterfirework.com
 127.0.0.1 rotumal.com
@@ -1988,7 +1994,6 @@ _s_code.
 127.0.0.1 runtnc.net
 127.0.0.1 russianwomansite.com
 127.0.0.1 ruthlessrobin.com
-127.0.0.1 s.amazon-adsystem.com
 127.0.0.1 s.gateway.messenger.live.com
 127.0.0.1 s.skimresources.com
 127.0.0.1 s.youtube.com
@@ -2022,21 +2027,20 @@ _s_code.
 127.0.0.1 scrubsky.com
 127.0.0.1 scrubswim.com
 127.0.0.1 sdsjweb.com
+127.0.0.1 search.spotxchange.com
+127.0.0.1 searchdimension.com
 127.0.0.1 searchlock.com
 127.0.0.1 searchmpt.com
 127.0.0.1 searchprivacy.co
 127.0.0.1 seconwebscanning.000webhostapp.com
 127.0.0.1 secretivecub.com
 127.0.0.1 secretspiders.com
-127.0.0.1 secure-au.imrworldwide.com
-127.0.0.1 secure-dcr.imrworldwide.com
 127.0.0.1 secure-job-position.com
 127.0.0.1 secure.adnxs.com
 127.0.0.1 secure.flashtalking.com
 127.0.0.1 secure.quantserve.com
 127.0.0.1 securegfm.com
 127.0.0.1 securelinkp.com
-127.0.0.1 securepubads.g.doubleclick.net
 127.0.0.1 securityxploded.com
 127.0.0.1 secyourmachi.000webhostapp.com
 127.0.0.1 segment-data.zqtk.net
@@ -2215,6 +2219,7 @@ _s_code.
 127.0.0.1 tangibleteam.com
 127.0.0.1 tansurvey.com
 127.0.0.1 tap-secure.rubiconproject.com
+127.0.0.1 tapfiliate.com
 127.0.0.1 taptica.com
 127.0.0.1 tastefulsongs.com
 127.0.0.1 tawdryson.com
@@ -2284,6 +2289,7 @@ _s_code.
 127.0.0.1 tranquilside.com
 127.0.0.1 traviously.pro
 127.0.0.1 trbas.com
+127.0.0.1 treasuredata.com
 127.0.0.1 tremendoustime.com
 127.0.0.1 trends.revcontent.com
 127.0.0.1 tribpubads.com
@@ -2466,8 +2472,6 @@ _s_code.
 127.0.0.1 youtuhe.com
 127.0.0.1 youtuube.com
 127.0.0.1 youutube.com
-127.0.0.1 z-na.amazon-adsystem.com
-127.0.0.1 z.moatads.com
 127.0.0.1 z2jakqoshx.com
 127.0.0.1 zbwp6ghm.com
 127.0.0.1 zdbb.net
@@ -2538,6 +2542,7 @@ _s_code.
 9to5google.com##.related-guides-container
 9to5google.com##.slick-slide
 9to5google.com,9to5mac.com##.author-bio-container
+9to5mac.com##.adsbygoogle
 aamc.org##.news-article-footer
 abcnews.go.com###global-live-bar
 abcnews.go.com##.abcn-alert-insert
@@ -2618,6 +2623,7 @@ androidpolice.com##.article-nav
 androidpolice.com##.horizontal-boxes-tags
 anime-planet.com##.halo
 animecloud.net##.secondary-footer
+animenewsnetwork.com##[class*="adtester"]
 animestreams.*##.widget:has-text(Follow Us)
 animestreams.*,watchanimeonline.*##.spu-bg
 aol.com###cw-full-100
@@ -2641,8 +2647,10 @@ arstechnica.com###article-footer
 arstechnica.com###article-footer-wrap
 arstechnica.com##.article-author
 arstechnica.com##.footer-newsletter
+arstechnica.com##.header-highlight-link
 arstechnica.com##.pullbox
 arstechnica.com##.xrail
+arstechnica.com,bleacherreport.com,breitbart.com,chronicle.com,curiouscat.me,dictionary.com,dummies.com,hotcharts.*,nytimes.com,softpedia.com,thecut.com##.ad
 artofmanliness.com,infowars.com,inquisitr.com,newrepublic.com,nymag.com##.subscribe
 atavist.com###related_stories
 atavist.com##.atavist-footer-wrapper
@@ -2660,6 +2668,11 @@ avclub.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.
 avclub.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com,univision.com##.instream-native-video
 avclub.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com,univision.com##.movable-ad
 avclub.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com,univision.com##.post__misc
+azcentral.com##.alert-bar
+azcentral.com##.nscm-container
+azcentral.com##.nssm-container
+azcentral.com##p:has-text(RELATED:)
+azcentral.com##[class*="taboola"]
 babble.com###disneyid-iframe
 babble.com###disneyid-wrapper
 babble.com##.bn-related-articles
@@ -2686,6 +2699,11 @@ beebom.com##.td-post-source-tags
 beebom.com##.td_block_related_posts
 beebom.com##.textwidget
 beltmag.com##.hustle-modal
+berkeleyside.com##.ad-type
+berkeleyside.com##.aside-content-append
+berkeleyside.com##.content-ad
+berkeleyside.com##.hub-modal
+bestbuy.com##.Ad_content
 bestbuy.com##.digital-ad-wrapper
 bestbuy.com##.mdf-container
 bestbuy.com##.media-network-ad
@@ -2707,7 +2725,6 @@ bitmp3.*##.footerContainer
 bitmp3.*##.speedbar
 bitmp3.*##aside
 bleacherreport.com##.androidTsPromo
-bleacherreport.com,breitbart.com,chronicle.com,curiouscat.me,dictionary.com,dummies.com,hotcharts.*,nytimes.com,softpedia.com,thecut.com##.ad
 blogspot.com###related-wrap
 blogspot.com##.ib-nav
 blogspot.com##script:inject(bab-defuser.js)
@@ -2843,7 +2860,7 @@ cnet.com##.related-links
 cnet.com##.type-
 cnet.com##.upNextBottomWrapper
 cnet.com##[class*="ad-mobile"]
-cnet.com,npr.org,pcworld.com,vulture.com##.tags
+cnet.com,computerworld.com,fivethirtyeight.com,mp3fun.*,npr.org,pcworld.com,usnews.com,vulture.com##.tags
 cnn.com###homepage4-zone-2
 cnn.com###social-share
 cnn.com###sponsored-outbrain-1
@@ -2868,7 +2885,6 @@ columbia.com##.footerEmailSignup
 comicbook.com##.adhesion-block
 computerworld.com##.article-intercept
 computerworld.com##.network
-computerworld.com##.tags
 consumerreports.org##.about-author-wrapper
 consumerreports.org##.about-us-container
 consumerreports.org##.col-lg-4
@@ -2895,20 +2911,20 @@ crackwatch.com##[href*="kryptex.org"]
 crackwatch.com##[href*="unlocator.com"]
 crackwatch.com##[href*="vault111.com"]
 craigslist.org##li:has-text(DELIVER & EARN)
-craigslist.org##li:has-text(DOORDASH)
 craigslist.org##li:has-text(DoorDash)
+craigslist.org##li:has-text(DOORDASH)
 craigslist.org##li:has-text(GET PAID)
 craigslist.org##li:has-text(JOIN TODAY)
 craigslist.org##li:has-text(LAZ JOB FAIR)
-craigslist.org##li:has-text(LYFT)
 craigslist.org##li:has-text(Lyft)
+craigslist.org##li:has-text(LYFT)
 craigslist.org##li:has-text(MAKE MONEY)
 craigslist.org##li:has-text(MAKE UP TO)
 craigslist.org##li:has-text(ON THE SPOT)
-craigslist.org##li:has-text(POSTMATES)
 craigslist.org##li:has-text(Postmates)
-craigslist.org##li:has-text(UBER)
+craigslist.org##li:has-text(POSTMATES)
 craigslist.org##li:has-text(Uber)
+craigslist.org##li:has-text(UBER)
 creativecommons.org###deed-donate-slide
 creativecommons.org###donation-bar-wrapper
 ctvnews.ca###componentDiv_gig_containerParent
@@ -2939,6 +2955,7 @@ curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge
 curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge.com,vox.com##.c-recirc-module__block
 curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge.com,vox.com##.c-tab-bar
 curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge.com,vox.com##.l-col__sidebar
+curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge.com,vox.com##.m-ad
 curiouscat.me##.CTA
 daemon-tools.cc###send-mail
 dailybulletin.com##.sign-up-follow
@@ -2949,7 +2966,7 @@ dailynews.com##.about-the-author
 dailynews.com##.sign-up-follow
 dailynews.com,mercurynews.com##.more-news
 dailystar.co.uk###cmp-container-id
-dailystar.co.uk,thelancet.com###smartbanner
+dailystar.co.uk,nintendo.*,thelancet.com###smartbanner
 dancingastronaut.com##.popular-posts
 dancingastronaut.com##.tax
 dancingastronaut.com,fastcodesign.com##.author
@@ -3027,6 +3044,7 @@ economist.com##.bar-wrapper
 economist.com##.cookie-message
 economist.com##.ec-footer__quote
 economist.com##.end-of-article
+economist.com##.end-of-article__wrapper
 economist.com##.exit-pop
 economist.com##.hero-component__wrapper
 economist.com##.inhouse__subscription-ribbon
@@ -3057,6 +3075,7 @@ engadget.com###recirculation
 engadget.com###right-ads-rail
 engadget.com###rr_home
 engadget.com##.inlineLb
+engadget.com##[id*="AdFrame"]
 entrepreneur.com###v3-newsl-form-nav
 entrepreneur.com##.entnatv
 entrepreneur.com##.fw-container
@@ -3086,6 +3105,9 @@ express.co.uk##.two-related-articles
 extremetech.com##.affiliate-text
 extremetech.com##.disqus-title
 extremetech.com##.post-tags
+facebook.*##.pagelet:has-text(Recommended for You Nearby)
+facebook.*##.pagelet:has-text(Suggested Groups)
+facebook.*##.pagelet:has-text(Suggested Pages)
 facebook.com###dialog_0
 facebook.com###mobile_login_bar
 facebook.com###pagelet_growth_expanding_cta
@@ -3222,6 +3244,8 @@ github.com##.discussion-timeline-actions
 github.com##.js-notice
 github.com##.rounded-0
 github.com##.signup-prompt
+glassdoor.com###SmartBanner
+glassdoor.com###UserAlertBar
 godaddy.com##.footer-apps
 gogoanime.*##.ads_pc
 gogoanime.*##.anime_video_body_comment_name
@@ -3359,6 +3383,7 @@ indeed.com##.result:has-text(Uber)
 indeed.com##.result[id*="pj_"]
 indeed.com##[id*="sj_"]
 independent.co.uk###taboola-carousel-thumbnails
+independent.co.uk##.ad-center
 independent.co.uk##.inline-block
 independent.co.uk##.inline-media
 independent.co.uk##.inline-related
@@ -3404,6 +3429,7 @@ investopedia.com##.bx-slab
 iop.org###cookieBanner
 isitdownrightnow.com###commentstop
 jpost.com##.article-related-wrap
+jpost.com##.jeeng-widget
 kickstarter.com##.border-bottom:has-text(Subscribe)
 kickstarter.com##.shawdow-high
 kickstarter.com##.white
@@ -3588,7 +3614,6 @@ mp3clan.*##.searchClan-button-icon
 mp3clan.*##.social-icons
 mp3clan.*##.suggest-show
 mp3co.*##.like
-mp3fun.*,usnews.com##.tags
 mp4upload.com###b300
 mp4upload.com###trlamp
 mp4upload.com##.sharetabs
@@ -3662,6 +3687,7 @@ newyorker.com###paywall-growler
 newyorker.com##.bx-slab
 newyorker.com##form
 newyorker.com##script:inject(fuckadblock.js-3.2.0)
+newyorker.com##[class*="Failsafe"]
 newyorker.com##[href*="/subscribe/"]
 nextbigfuture.com###text-3
 nexusmods.com###follow
@@ -3669,6 +3695,7 @@ nexusmods.com###footbtn
 nexusmods.com##.download-donation-panel
 nexusmods.com##.download-right-panel
 nike.com##.smartbanner
+nintendo.*###cookie-topbar
 nowwatchtvlive.org##blockquote
 nowwatchtvlive.org##h5:has-text(Ads)
 npr.org###contentfooter
@@ -3725,6 +3752,8 @@ nytimes.com##.shown
 nytimes.com##.StoryBodyCompanionColumn:has-text(Related Coverage)
 nytimes.com##[class*="ad-wrapper"]
 nytimes.com##[class*="ResponsiveAd"]
+nytimes.com##[class] > [class] > [class] > [class] > [class]:has-text(Sign up for our weekly)
+nytimes.com##[class] > [class]:has-text(Related Coverage)
 nytimes.com##[class]:has-text(Let us know)
 nytimes.com##[href*="/subscription"]
 nzherald.co.nz##.pb-f-article-related-articles
@@ -3902,6 +3931,7 @@ reddit.com##.seo-comments-recommendations
 reddit.com##.SnackBar
 reddit.com##.TopButton
 reddit.com##.XPromoPill
+reddit.com##.XPromoPopup
 reddit.com,trustedreviews.com##.ad-container
 refinery29.com###action_button_container
 refinery29.com##.cta-bar
@@ -4390,6 +4420,7 @@ univision.com##[class*="col"]:has-text(Publicidad)
 univision.com##[style*="35, 88, 191"]
 unsplash.com##span:has-text(Learn more)
 unsplash.com##[class*="_"]:has-text(Automatically)
+uploadboy.com##[src*="/adshere"]
 uploadfiles.*##.pro-download
 uplod.io##.clearfix
 uplod.io##.fmore
@@ -4466,6 +4497,7 @@ vice.com##.recirculation__modules
 vice.com##.topics
 vice.com##.up-next
 vice.com##.up-sell
+vice.com##p:has-text(Sign up for our newsletter)
 videoconvert.co##.home-section-4
 videoconvert.co##.home-section-5
 videoconvert.co##.urlconverter-section-4
@@ -4487,10 +4519,13 @@ vpnranks.com##.warning-snippit-inr
 vpnranks.com##.warning-snippit-ttl
 vpnranks.com##.yt-channel-wrap
 vpnranks.com##[class*="forme"]
+vqronline.org##.paywall
 vulture.com##.blog-sweeps
 vulture.com##.latest-news
+vulture.com##.newsletter-flex-text_boxy
 vulture.com##.newsletter-slideout
 vulture.com##.pinboard
+vulture.com##.secondary-area
 vulture.com##.video-promo-for-articles
 vulture.com##[href*="/newsletters"]buzzfeed.com###mod-action-bar-1
 wallpapershome.com##.banner
@@ -4626,6 +4661,7 @@ zdnet.com##p:has-text(Also:)
 zing.vn###advBgCanvasOverlay
 zing.vn##.z2-zad-iframe
 zing.vn##.zs-ico-main
+zippyaudio16.com##[class*="clickable-row"]
 zippyshare.com###qrCode
 zmescience.com###nksub-overlay
 zmescience.com###nksub_sidebar
