@@ -1,11 +1,11 @@
 ! Author: Osborne Systems
-! Copyright: Copyright (C) 2018-2019 Osborne Systems. All rights reserved.
+! Copyright: Copyright (C) 2019 Osborne Systems. All rights reserved.
 ! Description: A systematic, analytic-halting Internet filter.
 ! Expires: 1 days
 ! Homepage: https://github.com/OsborneSystems/Columbia/
-! Last modified: 6 March 2019 00:00:00 UTC
+! Last modified: 22 April 2019 00:00:00 UTC
 ! Title: Columbia Standard
-! Version: 4.0.2
+! Version: 4.0.3
 !
 ! You may not reproduce, store in a retrieval system, or transmit this publication
 ! in any form or by any means, electronic, mechanical, photocopying, recording,
@@ -64,6 +64,8 @@
 ###header_ad
 ###heateor_ss_browser_popup_bg
 ###icon-facebook
+###icon-instagram
+###icon-snapchat
 ###icon-twitter
 ###icons
 ###inplayerbox
@@ -151,6 +153,7 @@
 ##.adsizer
 ##.advertisement-comment
 ##.advertisingTable
+##.advt
 ##.AD_underpost
 ##.ad_unit
 ##.afs_ads
@@ -206,7 +209,9 @@
 ##.fb-xfbml-parse-ignore
 ##.fi-cookie-banner
 ##.field-share-links
+##.follow-fb
 ##.follow-label
+##.follow-tw
 ##.follow_block
 ##.foot-soc-fb
 ##.foot-soc-list
@@ -292,6 +297,7 @@
 ##.sd-social
 ##.servers-cost-money
 ##.share-bar
+##.share-dropdown
 ##.share-email
 ##.share-facebook
 ##.share-google-plus-1
@@ -300,6 +306,7 @@
 ##.share-reddit
 ##.share-text
 ##.share-twitter
+##.share-widget
 ##.sharebtn
 ##.sharedaddy
 ##.shareFacebook
@@ -406,6 +413,7 @@
 .iframetracker.
 .me/ads/
 .php?zoneid=
+/300x250-
 /ad300x250.
 /adblock.js
 /adchoices.
@@ -448,6 +456,7 @@
 /omniture/$script
 /outstream_ad-
 /piwik.js
+/pixelpropagate.
 /player/ad/
 /prebid/
 /px.gif?
@@ -460,7 +469,9 @@
 /social-logos/
 /static/ads/
 /s_code.
+/uedata?
 /videojs.ads
+/videojs.ads.
 /vjslog?
 /wa01.gif?log=
 /zdconsent.
@@ -531,6 +542,7 @@ _s_code.
 ||twitch.tv*extensions
 ||twitter.com/i/jot
 ||twitter.com/i/promoted_content
+||twitter.com/oct.js
 ||vanityfair*master$image
 ||verliga1*cruz$image
 ||verliga1*repro$subdocument
@@ -547,11 +559,14 @@ _s_code.
 127.0.0.1 *.anyclip.com
 127.0.0.1 *.betrad.com
 127.0.0.1 *.doubleclick.net
+127.0.0.1 *.google-analytics.com
 127.0.0.1 *.imrworldwide.com
 127.0.0.1 *.lo.gs
 127.0.0.1 *.moatads.com
 127.0.0.1 *.nbcuas.com
+127.0.0.1 *.pingdom.net
 127.0.0.1 *.yandex.*
+127.0.0.1 *.zippydownload.xyz
 127.0.0.1 0torrent.top
 127.0.0.1 0tracker.com
 127.0.0.1 104.248.185.42
@@ -649,6 +664,7 @@ _s_code.
 127.0.0.1 adglare.net
 127.0.0.1 adgreed.com
 127.0.0.1 adhoc1.net
+127.0.0.1 adiddas.com
 127.0.0.1 adition.com
 127.0.0.1 adk2x.com
 127.0.0.1 adless.io
@@ -697,6 +713,7 @@ _s_code.
 127.0.0.1 adtech.de
 127.0.0.1 adtechus.com
 127.0.0.1 adthrive.com
+127.0.0.1 adtng.com
 127.0.0.1 adtrue.com
 127.0.0.1 adult3dgames.com
 127.0.0.1 advertising.com
@@ -858,6 +875,7 @@ _s_code.
 127.0.0.1 bluekai.com
 127.0.0.1 blushingbeast.com
 127.0.0.1 blushingboundary.com
+127.0.0.1 bodelen.com
 127.0.0.1 boilingbeetle.com
 127.0.0.1 boilingumbrella.com
 127.0.0.1 bonusfree.ru
@@ -882,6 +900,7 @@ _s_code.
 127.0.0.1 broaddoor.com
 127.0.0.1 browser-update.org
 127.0.0.1 browsergames2018.com
+127.0.0.1 browsergames2019.com
 127.0.0.1 bs.serving-sys.com
 127.0.0.1 btcincomeapp.com
 127.0.0.1 btez8.xyz
@@ -963,6 +982,7 @@ _s_code.
 127.0.0.1 cinema-company.blogspot.com
 127.0.0.1 cinemaguysplus.com
 127.0.0.1 cinematrix.*
+127.0.0.1 citines-boutlet.com
 127.0.0.1 cj.dotomi.com
 127.0.0.1 cj3lema152.top
 127.0.0.1 cl96rwprue.com
@@ -989,10 +1009,12 @@ _s_code.
 127.0.0.1 clks003-glaze.online
 127.0.0.1 clksite.com
 127.0.0.1 cloisteredhydrant.com
+127.0.0.1 cloudfront-labs.amazonaws.com
 127.0.0.1 clubsfit.com
 127.0.0.1 cm-trk.com
 127.0.0.1 cnhv.co
 127.0.0.1 cobalten.com
+127.0.0.1 coffeestuff.xyz
 127.0.0.1 cognitivepowertools.com
 127.0.0.1 coin-have.com
 127.0.0.1 coin-hive.com
@@ -1044,6 +1066,7 @@ _s_code.
 127.0.0.1 cosmosjackson.com
 127.0.0.1 counter.yadro.ru
 127.0.0.1 countess.twitch.tv
+127.0.0.1 cpabuild.com
 127.0.0.1 cpaintelligent.com
 127.0.0.1 cpayard.com
 127.0.0.1 cplmatch.com
@@ -1217,6 +1240,7 @@ _s_code.
 127.0.0.1 endurableshop.com
 127.0.0.1 engine.adzerk.net
 127.0.0.1 ensighten.com
+127.0.0.1 entdeckenbentre.xyz
 127.0.0.1 enthusiasticdad.com
 127.0.0.1 enviousthread.com
 127.0.0.1 error.com
@@ -1388,6 +1412,7 @@ _s_code.
 127.0.0.1 grandioseguide.com
 127.0.0.1 grapeshot.co.uk
 127.0.0.1 graph.instagram.com
+127.0.0.1 greatdexchange.com
 127.0.0.1 greatess.com
 127.0.0.1 greetzebra.com
 127.0.0.1 greyinstrument.com
@@ -1484,6 +1509,7 @@ _s_code.
 127.0.0.1 impactradius.com
 127.0.0.1 impcode69.xyz
 127.0.0.1 importedincrease.com
+127.0.0.1 impositiongoodies.club
 127.0.0.1 impossibleexpansion.com
 127.0.0.1 impulsehands.com
 127.0.0.1 imrworldwide.com
@@ -1548,6 +1574,7 @@ _s_code.
 127.0.0.1 keen.io
 127.0.0.1 kergaukr.com
 127.0.0.1 keygencenter.net
+127.0.0.1 keywee.co
 127.0.0.1 kfiopkln.com
 127.0.0.1 kingofgame13.com
 127.0.0.1 kiosked.com
@@ -1565,6 +1592,7 @@ _s_code.
 127.0.0.1 lettucelimit.com
 127.0.0.1 liadm.com
 127.0.0.1 lie2anyone.com
+127.0.0.1 liftoff.io
 127.0.0.1 lightboxcdn.com
 127.0.0.1 lightcushion.com
 127.0.0.1 lijit.com
@@ -1791,6 +1819,7 @@ _s_code.
 127.0.0.1 pagefair.com
 127.0.0.1 pagefair.net
 127.0.0.1 pages-stats.rbl.ms
+127.0.0.1 paibopse.com
 127.0.0.1 paleleaf.com
 127.0.0.1 paradoxfactor.com
 127.0.0.1 parchedangle.com
@@ -1820,6 +1849,7 @@ _s_code.
 127.0.0.1 ping.smyte.com
 127.0.0.1 pingbacks.theatlas.com
 127.0.0.1 pingdom.com
+127.0.0.1 pingdom.net
 127.0.0.1 pinkpantherissick.space
 127.0.0.1 pinpointmate.com
 127.0.0.1 pipedream.wistia.com
@@ -1857,6 +1887,7 @@ _s_code.
 127.0.0.1 precious-facts.com
 127.0.0.1 presage.io
 127.0.0.1 presetrabbits.com
+127.0.0.1 prestoris.com
 127.0.0.1 preview.msn.com
 127.0.0.1 previousplayground.com
 127.0.0.1 previouspotato.com
@@ -1908,6 +1939,7 @@ _s_code.
 127.0.0.1 qtzjozseyxskxw.bid
 127.0.0.1 quacksquirrel.com
 127.0.0.1 quaintcan.com
+127.0.0.1 quantcast.mgr.consensu.org
 127.0.0.1 quantserve.com
 127.0.0.1 quarterbean.com
 127.0.0.1 qubit.com
@@ -1952,6 +1984,7 @@ _s_code.
 127.0.0.1 refreshpagedownload.com
 127.0.0.1 reimageplus.com
 127.0.0.1 remarketingpixel.com
+127.0.0.1 remtoaku.net
 127.0.0.1 renderer.apester.com
 127.0.0.1 renewalcouponz.com
 127.0.0.1 repairsservices.xyz
@@ -2077,6 +2110,7 @@ _s_code.
 127.0.0.1 show24hxxx.info
 127.0.0.1 shuglaursech.com
 127.0.0.1 sicksmash.com
+127.0.0.1 sifuglie.com
 127.0.0.1 signheadnow.com
 127.0.0.1 silkenthreadiness.info
 127.0.0.1 silkysquirrel.com
@@ -2135,7 +2169,7 @@ _s_code.
 127.0.0.1 sqm.telemetry.microsoft.com
 127.0.0.1 squeamishscarecrow.com
 127.0.0.1 squirrelhands.com
-127.0.0.1 ssl.google-analytics.com
+127.0.0.1 ssl12anyone3.com
 127.0.0.1 st.bebi.com
 127.0.0.1 stack-sonar.com
 127.0.0.1 stagerwatch.com
@@ -2206,6 +2240,7 @@ _s_code.
 127.0.0.1 systtmm-yyooiik.ga
 127.0.0.1 t.purch.com
 127.0.0.1 t2.hulu.com
+127.0.0.1 t411-music.club
 127.0.0.1 taboola.com
 127.0.0.1 tag.bounceexchange.com
 127.0.0.1 tag.crsspxl.com
@@ -2255,6 +2290,7 @@ _s_code.
 127.0.0.1 thestrategiccontentforyousafe.bid
 127.0.0.1 thetradedesk.com
 127.0.0.1 theultimatecentalforcontentready.bid
+127.0.0.1 thietbiluudien.vn
 127.0.0.1 thinkablerice.com
 127.0.0.1 thirdrespect.com
 127.0.0.1 thirstytwig.com
@@ -2302,6 +2338,7 @@ _s_code.
 127.0.0.1 tru.am
 127.0.0.1 truckstomatoes.com
 127.0.0.1 trustarc.com
+127.0.0.1 trustednotice.news
 127.0.0.1 trustx.org
 127.0.0.1 trw12.com
 127.0.0.1 tt.omtrdc.net
@@ -2473,6 +2510,7 @@ _s_code.
 127.0.0.1 youtuube.com
 127.0.0.1 youutube.com
 127.0.0.1 z2jakqoshx.com
+127.0.0.1 za.gl
 127.0.0.1 zbwp6ghm.com
 127.0.0.1 zdbb.net
 127.0.0.1 zealousfield.com
@@ -2480,6 +2518,7 @@ _s_code.
 127.0.0.1 zemanta.com
 127.0.0.1 zergnet.*
 127.0.0.1 zetaglobal.com
+127.0.0.1 zippydownload.xyz
 127.0.0.1 zlp6s.pw
 127.0.0.1 zqtk.net
 127.0.0.1 zrk.imgur.com
@@ -2781,6 +2820,7 @@ buzzfeed.com##.bf-ads-video
 buzzfeed.com##.header__badges
 buzzfeed.com##.newsletter-container
 buzzfeed.com##.thumbstrip__container
+buzzfeed.com##[class*="ad-"]
 buzzfeednews.com###mod-site-component-thumbstrip-1
 buzzfeednews.com##.ad-wireframe-wrapper
 buzzfeednews.com##.bottom-recirc-lists
@@ -2956,6 +2996,7 @@ curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge
 curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge.com,vox.com##.c-tab-bar
 curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge.com,vox.com##.l-col__sidebar
 curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge.com,vox.com##.m-ad
+curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge.com,vox.com##[id]:has-text(Sign up for our newsletter)
 curiouscat.me##.CTA
 daemon-tools.cc###send-mail
 dailybulletin.com##.sign-up-follow
@@ -3007,8 +3048,10 @@ discordservers.com##.listing-platinum
 discordservers.com##.premium-listings
 discovermagazine.com###divRightColumn
 discovermagazine.com##.basement
+discovermagazine.com##.ladder
 discovermagazine.com##.marketingCallouts
 discovermagazine.com##.relatedArticles
+discovermagazine.com##.widget:has-text(Newsletter)
 djmag.com##.pane-related-conent-pane
 djmag.com##.pane-topics
 djmag.com##._ad--block-left
@@ -3249,14 +3292,15 @@ glassdoor.com###UserAlertBar
 godaddy.com##.footer-apps
 gogoanime.*##.ads_pc
 gogoanime.*##.anime_video_body_comment_name
+gogoanime.*##.headnav_center
 gogoanime.*##.link_face
 gogoanime.*##div[class^="ads"]
 gogoanime.*##script:inject(abort-on-property-read.js, BBRaven)
 gogoanime.*##script:inject(abort-on-property-read.js, crypto)
 gogoanime.*##script:inject(setTimeout-defuser.js, o(), 1)
 gogoanime.*##[style*="margin-top"]:has-text(Please scroll)
+gogoanime.*,gogoanimes.*##.adsverting
 gogoanime.*,gogoanimes.*##.banner_center
-gogoanimes.*##.adsverting
 gogoanimes.*##.anime_video_body_comment_name
 gogoanimes.*##body > div:has-text(Please bookmark)
 google.*###bres
@@ -3295,6 +3339,12 @@ hackread.com##.home-add
 hackread.com##[class*="adtester"]
 hakaimagazine.com##.newssignup
 hakaimagazine.com##.relatedcontent
+hanime.tv##+js(abort-current-inline-script.js, BetterJsPop)
+hanime.tv##+js(set-constant.js, ABLK, false)
+hanime.tv##.event-container
+hanime.tv##.htvad
+hanime.tv##iframe[src^="https://a.adtng.com/"]
+hanime.tv##iframe[src^="https://ads.trafficjunky.net/"]
 hbr.org###intromercial-handle
 hbr.org##.authors
 hbr.org##.panel-container
@@ -3321,7 +3371,7 @@ hollywoodreporter.com##.partner
 hollywoodreporter.com##.region-sidebar-second
 hollywoodreporter.com##.site-header__nav-link--subscribe
 hollywoodreporter.com##.topic-block-container
-hollywoodreporter.com,theatlantic.com##.follow
+hollywoodreporter.com,shazam.com,theatlantic.com##.follow
 hotcharts.*###jp_container_1
 hotcharts.*##.b_strut
 howtogeek.com##p:has-text(RELATED)
@@ -3694,6 +3744,7 @@ nexusmods.com###follow
 nexusmods.com###footbtn
 nexusmods.com##.download-donation-panel
 nexusmods.com##.download-right-panel
+nhentai.net##+js(window.open-defuser.js)
 nike.com##.smartbanner
 nintendo.*###cookie-topbar
 nowwatchtvlive.org##blockquote
@@ -3930,6 +3981,7 @@ reddit.com##.seo-comments
 reddit.com##.seo-comments-recommendations
 reddit.com##.SnackBar
 reddit.com##.TopButton
+reddit.com##.XPromoAdFeed
 reddit.com##.XPromoPill
 reddit.com##.XPromoPopup
 reddit.com,trustedreviews.com##.ad-container
@@ -4014,10 +4066,13 @@ scribd.com##.nyt_student_promo
 scribd.com##.restriction_banner
 scribd.com##[class*=promo_banner]
 sears.com##.oas-container
+segmentnext.com##.related-posts-drawer
 sh.st##.advert
 sh.st##.information-container
 sh.st##.skip-advert
 shareblue.com###the_champ_sharing_more_providers
+shazam.com##.policy-label
+shazam.com##.with-banner:style(height: 71px!important;)
 shmoop.com###takeover-wallpaper
 shmoop.com##.homepage-ads
 shopwss.com##.foot_badge
@@ -4031,6 +4086,7 @@ slate.com##.article__tags
 slate.com##.featured-podcast__grid
 slate.com##.plus-promo
 slate.com##.slate-live-promo
+slate.com##.top-ad
 slickdeals.net###aboutAuthorBox
 slickdeals.net##.modal
 slickdeals.net##.sdModalOverlay
@@ -4391,6 +4447,8 @@ tvline.com##.mobile-header-ad
 tvline.com,variety.com##.google-publisher
 tvtropes.org###-mvsorsf-or
 tvtropes.org###main-content-sidebar
+tvtropes.org##.atf_banner
+tvtropes.org##.btf_banner
 tvtropes.org##.footer-left
 tvtropes.org##.sticky-btm
 twitch.tv##.anon-front__social-container
@@ -4420,6 +4478,7 @@ univision.com##[class*="col"]:has-text(Publicidad)
 univision.com##[style*="35, 88, 191"]
 unsplash.com##span:has-text(Learn more)
 unsplash.com##[class*="_"]:has-text(Automatically)
+uploadboy.com##[href*="/earn.html"]
 uploadboy.com##[src*="/adshere"]
 uploadfiles.*##.pro-download
 uplod.io##.clearfix
@@ -4445,6 +4504,7 @@ vanityfair.com###AMS_VYF_INLINE_TEXT
 vanityfair.com##.before-logo
 vanityfair.com##.cm-failsafe
 vanityfair.com##.component-consumer-marketing
+vanityfair.com##.component-content-footer
 vanityfair.com##.component-newsletter-cta
 vanityfair.com##.connect-container
 vanityfair.com##.current-issue-wrapper
@@ -4538,12 +4598,14 @@ washingtonpost.com###nav-subscribe
 washingtonpost.com###signup-box-rr
 washingtonpost.com###slug_336x60
 washingtonpost.com##.ent-ad-container
+washingtonpost.com##.extra
 washingtonpost.com##.game-module
 washingtonpost.com##.homepage-footer-button
 washingtonpost.com##.newsletter-unit
 washingtonpost.com##.pb-f-page-recommended-strip
 washingtonpost.com##.pb-subscribe
 washingtonpost.com##.tiffany-div
+washingtonpost.com##[class*="subscription-remind"]
 washingtontimes.com##.read-more-show
 watchanime.*##.s_saison
 watchanime.*##center > [id]
@@ -4630,7 +4692,9 @@ yelp.com##.biz-list-ad
 yesmovies.*###like-home
 yesmovies.*##.content-kussss
 yesmovies.*##.popover-content
+yesmovies.*##.pw-comment
 yesmovies.*##.xc-subs
+yesmovies.*##[class] > [class] > [class]:has-text(Subscribe)
 youredm.com###wb-ad-grid
 youredm.com##.cb-article-footer
 youredm.com##.cb-breadcrumbs
