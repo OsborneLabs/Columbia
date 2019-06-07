@@ -5,7 +5,7 @@
 ! Homepage: https://github.com/OsborneSystems/Columbia/
 ! Last modified: 7 June 2019 00:00:00 UTC
 ! Title: Columbia Standard
-! Version: 4.0.4
+! Version: 4.0.4.5
 !
 ! You may not reproduce, store in a retrieval system, or transmit this publication
 ! in any form or by any means, electronic, mechanical, photocopying, recording,
@@ -1282,6 +1282,7 @@ _s_code.
 127.0.0.1 exit76.com
 127.0.0.1 exmusicbox.com
 127.0.0.1 exosrv.com
+127.0.0.1 exoticfoods.club
 127.0.0.1 explorads.com
 127.0.0.1 exponential.com
 127.0.0.1 eyeota.net
@@ -1489,6 +1490,7 @@ _s_code.
 127.0.0.1 hmtrack.com
 127.0.0.1 hollowshake.com
 127.0.0.1 home.neustar
+127.0.0.1 hommscore.top
 127.0.0.1 honeygoldfish.com
 127.0.0.1 honkmedia.net
 127.0.0.1 hop.clickbank.net
@@ -1755,6 +1757,7 @@ _s_code.
 127.0.0.1 myfriendlyappz.net
 127.0.0.1 mynewspepper.com
 127.0.0.1 mysteriousmonth.com
+127.0.0.1 nanaanim.top
 127.0.0.1 narrativ.com
 127.0.0.1 nationalredemptioncenter.club
 127.0.0.1 native.sharethrough.com
@@ -2283,6 +2286,7 @@ _s_code.
 127.0.0.1 tapfiliate.com
 127.0.0.1 taptica.com
 127.0.0.1 tastefulsongs.com
+127.0.0.1 tasteofhome.top
 127.0.0.1 tawdryson.com
 127.0.0.1 teacoffeemug.club
 127.0.0.1 teads.tv
@@ -2750,6 +2754,7 @@ babycenter.com###regFloaterModal
 babycenter.com##.familyNavAndAdContainer
 babycenter.com##.footerAppPromo
 babycenter.com##.reveal-modal-bg
+babytorrent.*##[href*="bit.ly"]
 bbc.*###comp-pattern-library
 bbc.*###extra-footer
 bbc.*##.more-on-this-story
@@ -3836,6 +3841,7 @@ nytimes.com##.eln-ad-footer
 nytimes.com##.eln-email-signup
 nytimes.com##.emamhsk1
 nytimes.com##.g-seriesrefers
+nytimes.com##.nytcp-opt
 nytimes.com##.rad-series-box
 nytimes.com##.recommendations-footer
 nytimes.com##.related-coverage
@@ -3844,9 +3850,10 @@ nytimes.com##.StoryBodyCompanionColumn:has-text(Related Coverage)
 nytimes.com##[class*="ad-wrapper"]
 nytimes.com##[class*="ResponsiveAd"]
 nytimes.com##[class] > [class] > [class] > [class] > [class]:has-text(Sign up for our weekly)
-nytimes.com##[class] > [class]:has-text(Related Coverage)
+nytimes.com##[class] > [class] > [class]:has-text(Related Coverage)
 nytimes.com##[class]:has-text(Let us know)
 nytimes.com##[href*="/subscription"]
+nytimes.com##[href*="RelatedCoverage&"]
 nzherald.co.nz##.pb-f-article-related-articles
 nzherald.co.nz##.pb-f-global-recommend
 nzherald.co.nz##[href*="/?ref=createnow"]
@@ -4172,6 +4179,7 @@ sporcle.com###you-might-also-like
 sporcle.com##.display-wide
 sport-tv-guide.live##.foot
 sport-tv-guide.live##.row-eq-height
+sportsat.*##[href*="bit.ly"]
 sportstream.*###paging
 spotify.com###cookie-notice
 stackexchange.com###herobox
