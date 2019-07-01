@@ -3,9 +3,9 @@
 ! Description: A systematic, analytic-halting Internet filter.
 ! Expires: 1 days
 ! Homepage: https://github.com/OsborneSystems/Columbia/
-! Last modified: 7 June 2019 00:00:00 UTC
+! Last modified: 1 July 2019 00:00:00 UTC
 ! Title: Columbia Standard
-! Version: 4.0.4.5
+! Version: 4.0.5
 !
 ! You may not reproduce, store in a retrieval system, or transmit this publication
 ! in any form or by any means, electronic, mechanical, photocopying, recording,
@@ -510,6 +510,7 @@ _s_code.
 ||connect.facebook.net^*/fbevents.js$third-party
 ||dailymail.co.uk/rta2/
 ||dailynews.com/_static/$script
+||dropapk.com*.gif$image
 ||embed.sendtonews.com/player2/embedplayer.php$subdocument
 ||facebook*likebox.php$subdocument
 ||facebook.com/sem_campaigns/sem_pixel_test/
@@ -1385,6 +1386,7 @@ _s_code.
 127.0.0.1 gateway.messenger.live.com
 127.0.0.1 gemius.pl
 127.0.0.1 geni.us
+127.0.0.1 genuis.com
 127.0.0.1 genzeetv.com
 127.0.0.1 geo-assets.tedcdn.com
 127.0.0.1 geo.yahoo.com
@@ -1396,6 +1398,7 @@ _s_code.
 127.0.0.1 getambassador.com
 127.0.0.1 getbeacon.io
 127.0.0.1 getdoctopdf.com
+127.0.0.1 getextraoffer.com
 127.0.0.1 getlytics.com
 127.0.0.1 getwebsecurenow.000webhostapp.com
 127.0.0.1 gialnk.com
@@ -1407,6 +1410,7 @@ _s_code.
 127.0.0.1 girlfriendepisodes.com
 127.0.0.1 girrrly.com
 127.0.0.1 githuub.com
+127.0.0.1 giveaway4fans.com
 127.0.0.1 glawheejoushpush.com
 127.0.0.1 glbdns2.microsoft.com
 127.0.0.1 glossysense.com
@@ -1596,6 +1600,7 @@ _s_code.
 127.0.0.1 kaymopk.com
 127.0.0.1 keen.io
 127.0.0.1 kergaukr.com
+127.0.0.1 kerumal.com
 127.0.0.1 keygencenter.net
 127.0.0.1 keywee.co
 127.0.0.1 kfiopkln.com
@@ -1670,10 +1675,12 @@ _s_code.
 127.0.0.1 maruedr.com
 127.0.0.1 matchcows.com
 127.0.0.1 matching4singleshookup.com
+127.0.0.1 maxbounty.com
 127.0.0.1 maxgenerator.racing
 127.0.0.1 maxymiser.net
 127.0.0.1 mb104.com
 127.0.0.1 mcafeesupportnumber.com
+127.0.0.1 media-dl.*
 127.0.0.1 media-match.com
 127.0.0.1 media.com
 127.0.0.1 media.net
@@ -1905,6 +1912,7 @@ _s_code.
 127.0.0.1 pokermanagement.com
 127.0.0.1 polarity.com.cy
 127.0.0.1 popads.net
+127.0.0.1 popcash.net
 127.0.0.1 pornhublive.com
 127.0.0.1 portalff.tk
 127.0.0.1 possessivebucket.com
@@ -2026,6 +2034,7 @@ _s_code.
 127.0.0.1 resolutekey.com
 127.0.0.1 resonantbrush.com
 127.0.0.1 resources.infolinks.com
+127.0.0.1 retailrewardsclub.net
 127.0.0.1 revcontent.com
 127.0.0.1 revenuehits.com
 127.0.0.1 reviewsdecelular.ga
@@ -2614,6 +2623,10 @@ _s_code.
 9to5google.com##.slick-slide
 9to5google.com,9to5mac.com##.author-bio-container
 9to5mac.com,wikihow.com##.adsbygoogle
+a2zapk.com##.A2ZAPK
+a2zapk.com##.ArticleLand:has-text(Social Media)
+a2zapk.com##.MenuDeveloper
+a2zapk.com##.NewBlock:has-text(Social Network)
 aamc.org##.news-article-footer
 abcnews.go.com###global-live-bar
 abcnews.go.com##.abcn-alert-insert
@@ -2724,6 +2737,7 @@ arstechnica.com##.xrail
 arstechnica.com,bleacherreport.com,breitbart.com,chronicle.com,curiouscat.me,dictionary.com,dummies.com,hotcharts.*,nytimes.com,softpedia.com,thecut.com##.ad
 artofmanliness.com,infowars.com,inquisitr.com,newrepublic.com,nymag.com##.subscribe
 ascap.com##.truste_overlay
+ascap.com##[id*="truste_"]
 atavist.com###related_stories
 atavist.com##.atavist-footer-wrapper
 atavist.com##.atavist-mailchimp
@@ -2878,6 +2892,7 @@ cbsnews.com###module-right-rail-fd-mobile-app-promo
 cbsnews.com###module-right-rail-fd-taboola
 cbsnews.com##.module-rem
 cbsnews.com##.show-promo
+cbsnews.com##section > .ad-wrapper
 ccleaner.com,piriform.com##.band--newsletter
 ccleaner.com,piriform.com##.social-followers-proto
 ccm.net##.app_layout_right
@@ -3061,6 +3076,7 @@ deadline.com##.related-article
 deadline.com##.textwidget
 deadline.com,indiewire.com##.ad-text
 deezer.com##.conversion-banner
+deezer.com##.page-alerts
 deezer.com##[class*="topbar-search-loader"]
 deezer.com##[class] > [class] > [class]:has-text(Get the full Deezer experience with our desktop app!)
 deezer.com##[class] > [class] > [class]:has-text(Listen to full length tracks on Deezer.com with Deezer Premium)
@@ -3102,6 +3118,9 @@ drgeeky.com##.et_bloom_popup
 dribbble.com##.full-pitch
 dribbble.com##.infinite
 dribbble.com##.search-prompt
+dropapk.com##.buyPremium
+dropapk.com##[class*="col-xs-"]
+dropapk.com##[value*="Premium"]
 dropbox.com###prompt-silo
 dropbox.com##.top-notification-bar-silo
 dumblittleman.com###optin-single
@@ -3175,7 +3194,7 @@ etonline.com###header-ad
 eurogamer.net##.background-facebook
 eurogamer.net##.collapsible
 eurogamer.net##figcaption
-everydayhealth.com###newsletter-widget
+everydayhealth.com,geek.com###newsletter-widget
 ew.com##.above-footer
 ew.com##.bottom-recirc
 ew.com,fortune.com,people.com##.newsletter-callout
@@ -3218,7 +3237,7 @@ fastcompany.com##.post__promotion
 fastcompany.com##.post__sidebar
 fastcompany.com##.scrolling-module__promo
 fastcompany.com##.topnav-newsletter-container
-fastcompany.com,undark.org,usnews.com,vice.com##hr
+fastcompany.com,longreads.com,undark.org,usnews.com,vice.com##hr
 fatbit.com##.get-a__quote
 fatbit.com##.link-Wrapper
 fatbit.com##.section--cta
@@ -3272,9 +3291,9 @@ fortune.com##.lead-gen
 fortune.com##.outbrain
 fortune.com##.rundown-sidebar
 fortune.com##.subscribe-callout
-fortune.com##.subscribe-link
 fortune.com##.subscribe-link-secondary
 fortune.com##[href*="fortune.com/newsletters"]
+fortune.com,geek.com,motherjones.com,time.com##.subscribe-link
 fortune.com,time.com##.subscribe-flyout
 fosshub.com##.software-donate
 fosshub.com##.software-similar
@@ -3314,6 +3333,10 @@ gamestop.com##.home_social
 gamestop.com##[data-track="300x250"]
 geckoandfly.com##.entry-content > :has-text(Read Also)
 geckoandfly.com##blockquote:has-text(Related Article)
+geek.com###gkfull
+geek.com###gksticky
+geek.com##.on-target
+geek.com##.see-all-stories
 genius.com##.column_layout-flex_column-fill_column
 genius.com##.dfp_unit
 genius.com##recirculated-content
@@ -3433,7 +3456,6 @@ ieee.org##.automaton
 ieee.org##.learn-more
 ieee.org##.magazine-links
 igg-games.com##.block
-ign.com##.ad-footer-wrapper
 ign.com##.ad-rail-wrapper
 ign.com##.app-link-banner
 ign.com##.ign-newsletter-signup-container-footer
@@ -3442,6 +3464,7 @@ ign.com##.ign-newsletter-signup-container-spine
 ign.com##.privacy-content
 ign.com##.recirc-module
 ign.com##.recirc-stack
+ign.com,looperman.com##.ad-footer-wrapper
 ilont.*,mp3im.*,mp3pn.*###banner-bottom
 ilont.*,mp3im.*,mp3pn.*###banner-top
 ilont.*,mp3im.*,mp3pn.*##.mp3list-btn-fb
@@ -3605,6 +3628,10 @@ longreads.com##.become-member
 longreads.com##.in-story
 longreads.com##.support-footer
 longreads.com##.wp-footer
+longreads.com##p:has-text(Kickstart your weekend reading)
+longreads.com##[href*="/newsletter/?"]
+looperman.com###header-announcement-wrapper
+looperman.com##.follow-footer-wrapper
 lumendatabase.org##.first-time-visitor
 makeuseof.com##.link-callout
 makeuseof.com##.single-post-transition-bar
@@ -3695,7 +3722,6 @@ motherjones.com##.menu-item-donate
 motherjones.com##.menu-item-subscribe
 motherjones.com##.mj-sidebar-membership-widget
 motherjones.com##.subscribe-donate
-motherjones.com##.subscribe-link
 motherjones.com##.textwidget
 movies123.*##.content-kus
 mozilla.org###fxa-sticky-form
@@ -3940,6 +3966,7 @@ popsugar.com###node-email-widget
 popsugar.com###taboola-posts-header
 popsugar.com##.feature-section
 popsugar.com##.pubexchange_module
+popularmechanics.com##.embed-editorial-links
 popularmechanics.com##.seo-tags-container
 pri.org###donate_banner
 pri.org###donate_load_under
@@ -4032,6 +4059,7 @@ reddit.com##.seo-comments-recommendations
 reddit.com##.SnackBar
 reddit.com##.TopButton
 reddit.com##.XPromoAdFeed
+reddit.com##.xPromoAppStoreFotter
 reddit.com##.XPromoPill
 reddit.com##.XPromoPopup
 reddit.com,trustedreviews.com##.ad-container
@@ -4053,7 +4081,9 @@ reuters.com##.CanvasAd_container
 reuters.com##.Footer_social
 reuters.com##.GetTheAppBanner_get-the-app-banner
 reuters.com##.module.stickyContainer1
+reuters.com##.RecircRibbon_container
 reuters.com##.RelatedCoverage_related-coverage-module
+reuters.com##.RightRail_container
 reuters.com##.SmallVideo_small-video
 reuters.com##.stickyContainer2
 reuters.com##.TwoColumnLayout_container > [class] > [style]
@@ -4434,7 +4464,6 @@ time.com##.homepage-newsletter
 time.com##.karma-sticky-rail
 time.com##.lead-gen
 time.com##.outside
-time.com##.subscribe-link
 time.com##[href*="newsletters"]
 timesofmalta.com###logo_and_banner_section
 tinybuddha.com###duplicate_widget-5
@@ -4496,6 +4525,8 @@ trustedreviews.com##p:has-text(Related:)
 tubefilter.com###text-24
 tumblr.com##.road-block
 tunebat.com##.main-recommendations-pre
+turbobit.*##.col-2
+turbobit.*##.payment-block
 tvline.com##.mobile-header-ad
 tvline.com,variety.com##.google-publisher
 tvtropes.org###-mvsorsf-or
@@ -4521,6 +4552,7 @@ undark.org##.footer-top
 undark.org##.in-view
 undark.org##.trigger-in-view:has-text(Share this story!)
 undark.org##[class*="mailmunch"]
+uniqlo.com##.footer-item-forth
 univision.com##.uvn-above-header-wrapper
 univision.com##.uvn-Ad-companion
 univision.com##.uvn-flex-container-e
@@ -4529,14 +4561,18 @@ univision.com##.uvn-social-box
 univision.com##.uvn-widget-Ad
 univision.com##[class*="col"]:has-text(Publicidad)
 univision.com##[style*="35, 88, 191"]
+unlockapk.*###apkdl
+unlockapk.*###apkdl
 unsplash.com##span:has-text(Learn more)
 unsplash.com##[class*="_"]:has-text(Automatically)
+upload.*##.boxa
+upload.*##.fmore
 uploadboy.com##[href*="/earn.html"]
 uploadboy.com##[src*="/adshere"]
 uploadfiles.*##.pro-download
-uplod.io##.clearfix
-uplod.io##.fmore
-uplod.io,vipboxtv.*##.hidden-xs
+uplod.*##.clearfix
+uplod.*##.fmore
+uplod.*,vipboxtv.*##.hidden-xs
 uproxx.com##.widget-main-header
 urbanize.la##.navbar-advertise-link
 urbanize.la##.pre-header-wrapper
