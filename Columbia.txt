@@ -3,9 +3,9 @@
 ! Description: A systematic, analytic-halting Internet filter.
 ! Expires: 1 days
 ! Homepage: https://github.com/OsborneSystems/Columbia/
-! Last modified: 1 July 2019 00:00:00 UTC
+! Last modified: 15 July 2019 00:00:00 UTC
 ! Title: Columbia Standard
-! Version: 4.0.5
+! Version: 4.0.6
 !
 ! You may not reproduce, store in a retrieval system, or transmit this publication
 ! in any form or by any means, electronic, mechanical, photocopying, recording,
@@ -510,7 +510,10 @@ _s_code.
 ||connect.facebook.net^*/fbevents.js$third-party
 ||dailymail.co.uk/rta2/
 ||dailynews.com/_static/$script
+||deloplen.com/apu.php?$important
 ||dropapk.com*.gif$image
+||dropbox.com/alternate_
+||dropbox.com/log/
 ||embed.sendtonews.com/player2/embedplayer.php$subdocument
 ||facebook*likebox.php$subdocument
 ||facebook.com/sem_campaigns/sem_pixel_test/
@@ -713,6 +716,7 @@ _s_code.
 127.0.0.1 ads.shorte.st
 127.0.0.1 ads.trafficjunky.net
 127.0.0.1 ads.twitter.com
+127.0.0.1 ads.yap.yahoo.com
 127.0.0.1 ads.youtube.com
 127.0.0.1 ads1.msads.net
 127.0.0.1 ads1.msn.com
@@ -738,6 +742,7 @@ _s_code.
 127.0.0.1 adult3dgames.com
 127.0.0.1 advertising.com
 127.0.0.1 advertserve.com
+127.0.0.1 adworldmedia.com
 127.0.0.1 adxprts.com
 127.0.0.1 adxprtz.com
 127.0.0.1 adzerk.net
@@ -1228,6 +1233,7 @@ _s_code.
 127.0.0.1 dxkhboqrrimy.bid
 127.0.0.1 dynamicyield.com
 127.0.0.1 dynatrace.com
+127.0.0.1 dynsrvwer.com
 127.0.0.1 dyntrk.com
 127.0.0.1 e.reddit.com
 127.0.0.1 e9976b21f1b2775b.com
@@ -1342,6 +1348,7 @@ _s_code.
 127.0.0.1 footprintpredict.com
 127.0.0.1 foresee.com
 127.0.0.1 fortnitev-bucksgenerator.tk
+127.0.0.1 fortudios-wriefs.com
 127.0.0.1 fourarithmetic.com
 127.0.0.1 fox80.com
 127.0.0.1 foxworldnews.today
@@ -1481,6 +1488,7 @@ _s_code.
 127.0.0.1 helpnumber.co.uk
 127.0.0.1 hematocryal.host
 127.0.0.1 heninocegfib.com
+127.0.0.1 hentaiheroes.com
 127.0.0.1 hfc195b.com
 127.0.0.1 hide.ovh
 127.0.0.1 higheurest.com
@@ -1738,6 +1746,7 @@ _s_code.
 127.0.0.1 movieleaks.net
 127.0.0.1 movienachos.com
 127.0.0.1 movienet.xyz
+127.0.0.1 moviescult.com
 127.0.0.1 moviestream25.org
 127.0.0.1 mowfruit.com
 127.0.0.1 mp3adios.space
@@ -1761,6 +1770,7 @@ _s_code.
 127.0.0.1 mxpnl.com
 127.0.0.1 mydailytips.net
 127.0.0.1 myfinance.com
+127.0.0.1 myfreecams.com
 127.0.0.1 myfriendlyappz.net
 127.0.0.1 mynewspepper.com
 127.0.0.1 mysteriousmonth.com
@@ -2567,14 +2577,21 @@ _s_code.
 0123movies.*,123movieshub.*,123moviestube.*,cmovieshd.*,gostream.*,moviesonline.*,putlocker.*,solarmovies.*,solarmoviesc.*,solarmoviez.*,tvmovies.*,watchfree.*,yesmovies.*###mv-keywords
 0123movies.*,123movieshub.*,123moviestube.*,gostream.*,moviesonline.*,putlocker.*,uploadfiles.*,watchfree.*##.alert
 0123movies.*,123moviestube.*,cmovieshd.*,gomovies.*,gostream.*,solarmoviez.*,yesmovies.*##.mlw-related
+123-movies.*##.bottomfooter
+123movie.*###alter-titles
 123movies.*##.content-kuss-ads
+123movies.*,123moviestube.*,bmovies.*,hd.*,tvmovies.*##.footer-tags
+123movies.*,1movies.*###creators
+123movies.*,1movies.*###gallery
+123movies.*,1movies.*,tornadomovies.*###actors
+123movieshub.*##+js(abort-current-inline-script.js, Math, zfgloaded)
+123movieshub.*##+js(abort-on-property-read.js, AaDetector)
 123movieshub.*,123moviestube.*##.text-bottom
 123movieshub.*,123moviestube.*,bmovies.*,cmovieshd.*,gomovies.*,gostream.*,hd.*,movies123.*,moviesonline.*,putlocker.*,solarmoviesc.*,tvmovies.*##.ml-title
 123movieshub.*,1movies.*,gostream.*,moviesonline.*,putlocker.*,putlockers.*###footer
 123movieshub.*,gostream.*,moviesonline.*,putlocker.*,watchfree.*##.social-home
 123moviestube.*,albums-download.*,gostream.*,kissanime.*,solarmoviesc.*,vexmovies.*##center
 123moviestube.*,bmovies.*,gostream.*,tvmovies.*###commentfb
-123moviestube.*,bmovies.*,hd.*,tvmovies.*##.footer-tags
 123moviestube.*,cmovieshd.*,fmovies.*,gostream.*,solarmoviesc.*,solarmoviez.*##.breadcrumb
 123moviestube.*,gostream.*##.content-kuss
 123moviestube.*,moviesonline.*##.mvic-btn
@@ -2583,15 +2600,12 @@ _s_code.
 1337x.*##[href*="/directredirect"]
 1337x.*##[href*="/redirmusic.php?q="]
 1337x.*##[href*="redirectgames.php?q="]
-1movies.*###actors
 1movies.*###addthis_wrapper
 1movies.*###add_to_watch
 1movies.*###add_watch_trigger
 1movies.*###a_wrap
 1movies.*###characters
-1movies.*###creators
 1movies.*###critics
-1movies.*###gallery
 1movies.*###vpn_inform_block
 1movies.*##.buy_pro
 1movies.*##.cd-tabs-navigation
@@ -2622,7 +2636,7 @@ _s_code.
 9to5google.com##.related-guides-container
 9to5google.com##.slick-slide
 9to5google.com,9to5mac.com##.author-bio-container
-9to5mac.com,wikihow.com##.adsbygoogle
+9to5mac.com,electrek.co,wikihow.com##.adsbygoogle
 a2zapk.com##.A2ZAPK
 a2zapk.com##.ArticleLand:has-text(Social Media)
 a2zapk.com##.MenuDeveloper
@@ -2790,6 +2804,7 @@ berkeleyside.com##.ad-type
 berkeleyside.com##.aside-content-append
 berkeleyside.com##.content-ad
 berkeleyside.com##.hub-modal
+bestbuy.com###analytics-adsense
 bestbuy.com##.Ad_content
 bestbuy.com##.digital-ad-wrapper
 bestbuy.com##.mdf-container
@@ -3050,7 +3065,7 @@ curiouscat.me##.CTA
 daemon-tools.cc###send-mail
 dailybulletin.com##.sign-up-follow
 dailybulletin.com,mercurynews.com##.footer-meta
-dailybulletin.com,vulture.com##.related
+dailybulletin.com,nbcnews.com,vulture.com##.related
 dailymail.co.uk###fullWidthCommentAdvert
 dailynews.com##.about-the-author
 dailynews.com##.sign-up-follow
@@ -3074,6 +3089,7 @@ deadline.com##.pmc-templatized-widget
 deadline.com##.powered-by-vip
 deadline.com##.related-article
 deadline.com##.textwidget
+deadline.com##.toaster
 deadline.com,indiewire.com##.ad-text
 deezer.com##.conversion-banner
 deezer.com##.page-alerts
@@ -3191,6 +3207,7 @@ espn.com##.related-container
 espn.com,popsci.com##.inline
 esquire.com,popularmechanics.com##.breaker-ad
 etonline.com###header-ad
+etsy.com##.wt-list-unstyled:has(.ad-iindicator)
 eurogamer.net##.background-facebook
 eurogamer.net##.collapsible
 eurogamer.net##figcaption
@@ -3354,6 +3371,7 @@ github.com##.rounded-0
 github.com##.signup-prompt
 glassdoor.com###SmartBanner
 glassdoor.com###UserAlertBar
+godaddy.com##.domain-result:has([class*="is-ad"])
 godaddy.com##.footer-apps
 gogoanime.*##.ads_pc
 gogoanime.*##.anime_video_body_comment_name
@@ -3368,6 +3386,7 @@ gogoanime.*,gogoanimes.*##.adsverting
 gogoanime.*,gogoanimes.*##.banner_center
 gogoanimes.*##.anime_video_body_comment_name
 gogoanimes.*##body > div:has-text(Please bookmark)
+gomovies.*##.advertisingButton
 google.*###bres
 google.*##.gws-local-promotions__container
 google.*##body[class] > [class]:has-text(Try Drive for free)
@@ -3397,6 +3416,8 @@ haaretz.*##.menu
 haaretz.*##.ribbon-stick-wrapper
 haaretz.*##.topSectionBanners
 haaretz.*##.xx--b
+haaretz.com###paywall-promotion-element-dc
+haaretz.com##.c-quick-newsletter-registration
 hackernoon.com##.js-postFooterPlacements
 hackernoon.com##.js-stickyFooter
 hackread.com###secondary
@@ -3477,6 +3498,7 @@ imdb.com###injected_navstrip_wrapper
 imdb.com###rhs_cornerstone_wrapper
 imdb.com###top_rhs_wrapper
 imdb.com##.ab_zergnet
+imdb.com##[href^="/tv"] > .pri_image
 imgur.com##.BetaSignUp
 inc.com###leaderboard-container
 inc.com###topnav-placeholder
@@ -3610,6 +3632,7 @@ latimes.com##.pb-f-article-dynamic-rail-ads
 latimes.com##.slider
 latimes.com,nydailynews.com##.inline-ad
 latimes.com,nydailynews.com##.inline-ad-arrow
+latimes.com,nydailynews.com##.met-flyout
 lemonade.com##.subscribe-footer
 lifehacker.com##.ad-non-sticky
 lifehacker.com##.branded-item
@@ -3760,6 +3783,7 @@ mymodernmet.com##.side-subscribe
 namba.*###branding-html
 namechk.com###logojoy
 namechk.com###top-ad
+namechk.com,wallpapershome.com,wallpapersite.com##.banner
 narratively.com##.bap_button
 narratively.com##.subscribe_form
 narratively.com##[class*="patreon-single-bar"]
@@ -3829,7 +3853,6 @@ npr.org,theatlantic.com,thewirecutter.com##.callout
 nydailynews.com##.card-pull-left
 nydailynews.com##.collection-hover
 nydailynews.com##.footer-call-to-action-container
-nydailynews.com##.met-flyout
 nydailynews.com##.pb-container
 nydailynews.com##.pb-f-global-generic-card
 nydailynews.com##.pb-f-test-html-box
@@ -4027,8 +4050,10 @@ ranker.com###listFoot
 ranker.com###list__allTags
 ranker.com##.related__item
 raptitude.com##.af-form
+ratemyprofessors.com###adBlockModal
 ratemyprofessors.com###stickyPanel
 ratemyprofessors.com##.popoutContainer
+ratemyprofessors.com##.reveal-modal-bg
 ratemyprofessors.com##.right-chegg
 raymond.cc##.postauthor
 readcomiconline.*###cus-exo
@@ -4059,7 +4084,7 @@ reddit.com##.seo-comments-recommendations
 reddit.com##.SnackBar
 reddit.com##.TopButton
 reddit.com##.XPromoAdFeed
-reddit.com##.xPromoAppStoreFotter
+reddit.com##.xPromoAppStoreFooter
 reddit.com##.XPromoPill
 reddit.com##.XPromoPopup
 reddit.com,trustedreviews.com##.ad-container
@@ -4502,7 +4527,6 @@ tomshardware.com##.tags-list
 tomshardware.com##.title-comments
 tomtunguz.com###mc_embed_signup
 toptenreviews.com###feedback-modal
-tornadomovies.*###actors
 tornadomovies.*###characters
 tornadomovies.*###get_subscribed
 tornadomovies.*###keywords
@@ -4561,7 +4585,6 @@ univision.com##.uvn-social-box
 univision.com##.uvn-widget-Ad
 univision.com##[class*="col"]:has-text(Publicidad)
 univision.com##[style*="35, 88, 191"]
-unlockapk.*###apkdl
 unlockapk.*###apkdl
 unsplash.com##span:has-text(Learn more)
 unsplash.com##[class*="_"]:has-text(Automatically)
@@ -4677,10 +4700,9 @@ vulture.com##.pinboard
 vulture.com##.secondary-area
 vulture.com##.video-promo-for-articles
 vulture.com##[href*="/newsletters"]buzzfeed.com###mod-action-bar-1
-wallpapershome.com##.banner
 wallpapershome.com##.get-app
 wallpapershome.com,wired.com###related
-wallpapersite.com##.banner
+wareable.com##.recent-stories-alt
 washingtonpost.com###bc-sidebar
 washingtonpost.com###i_userMessages
 washingtonpost.com###nav-subscribe
