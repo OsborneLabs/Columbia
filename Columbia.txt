@@ -3,9 +3,9 @@
 ! Description: A systematic, analytic-halting Internet filter.
 ! Expires: 1 days
 ! Homepage: https://github.com/OsborneSystems/Columbia/
-! Last modified: 17 August 2019 00:00:00 UTC
+! Last modified: 21 August 2019 00:00:00 UTC
 ! Title: Columbia Standard
-! Version: 4.0.7
+! Version: 4.0.7.5
 !
 ! You may not reproduce, store in a retrieval system, or transmit this publication
 ! in any form or by any means, electronic, mechanical, photocopying, recording,
@@ -826,7 +826,6 @@ _s_code.
 127.0.0.1 argyresthia.com
 127.0.0.1 ariseboundary.com
 127.0.0.1 aromamirror.com
-127.0.0.1 arsdev.net
 127.0.0.1 as.gettyservices.com
 127.0.0.1 as.webmd.com
 127.0.0.1 asiacharm.com
@@ -3398,6 +3397,7 @@ glassdoor.com###UserAlertBar
 godaddy.com##.domain-result:has([class*="is-ad"])
 godaddy.com##.footer-apps
 gogoanime.*##.ads_pc
+gogoanime.*##.anime_video_body_cate > div:nth-of-type(3)
 gogoanime.*##.anime_video_body_comment_name
 gogoanime.*##.headnav_center
 gogoanime.*##.link_face
@@ -3416,6 +3416,7 @@ google.*##.gws-local-promotions__container
 google.*##body[class] > [class]:has-text(Try Drive for free)
 google.*##[class*="-slot-promo"]
 google.*##[class] > [class] > [class] > [class]:has-text(Choose the privacy settings that are right for you)
+google.*##[class] > [class] > [class] > [class]:has-text(Browse or delete your Search activity data)
 google.com##[class] > [class] > [class] > [class] > [class] > [class] > [class] > [class] > [class]:has-text(Get more out of Google with Google One)
 gq.com##.cm-footer-component
 gq.com##.cm-header
