@@ -3,9 +3,9 @@
 ! Description: A systematic, analytic-halting Internet filter.
 ! Expires: 1 days
 ! Homepage: https://github.com/OsborneSystems/Columbia/
-! Last modified: 22 August 2019 00:00:00 UTC
+! Last modified: 23 August 2019 00:00:00 UTC
 ! Title: Columbia Standard
-! Version: 5.0.0
+! Version: 5.0.1
 !
 ! You may not reproduce, store in a retrieval system, or transmit this publication
 ! in any form or by any means, electronic, mechanical, photocopying, recording,
@@ -380,6 +380,7 @@
 ##a[href*="bitcoin.org"]
 ##a[href*="postmates.com/?utm_source"]
 ##a[href*="twitter.com/share"]
+##a[title^="Share via facebook"]
 ##button[title="Share"]
 ##div[button="share"]
 ##div[class^="Ad__header"]
@@ -585,15 +586,16 @@ _s_code.
 ||youtube.com/csi_204?
 ||youtube.com/pagead/
 ||youtube.com/ptracking?
-127.0.0.1 *.aaxads.com
+127.0.0.1 *.aaxads.*
 127.0.0.1 *.amazon-adsystem.com
 127.0.0.1 *.anyclip.com
+127.0.0.1 *.atwola.*
 127.0.0.1 *.betrad.com
 127.0.0.1 *.doubleclick.net
 127.0.0.1 *.google-analytics.com
 127.0.0.1 *.hotjar.com
 127.0.0.1 *.imrworldwide.com
-127.0.0.1 *.lo.gs
+127.0.0.1 *.linksynergy.*
 127.0.0.1 *.moatads.com
 127.0.0.1 *.nbcuas.com
 127.0.0.1 *.pingdom.net
@@ -645,8 +647,7 @@ _s_code.
 127.0.0.1 200dollarsmail.com
 127.0.0.1 200euro-mail.com
 127.0.0.1 200eurocent-200euro.com
-127.0.0.1 200euromails.com
-127.0.0.1 200euromails.net
+127.0.0.1 200euromails.*
 127.0.0.1 20dollarsmail.com
 127.0.0.1 20euromail.com
 127.0.0.1 247bitcoincrypto.com
@@ -722,8 +723,7 @@ _s_code.
 127.0.0.1 4starads.info
 127.0.0.1 4thought-digital.agency
 127.0.0.1 50.63.202.49
-127.0.0.1 500cents-500dollars.net
-127.0.0.1 500cents-500dollars.org
+127.0.0.1 500cents-500dollars.*
 127.0.0.1 500pounds-and-500pence.com
 127.0.0.1 50centmails.com
 127.0.0.1 50centptr.com
@@ -781,7 +781,6 @@ _s_code.
 127.0.0.1 a2af4f04914ed298.com
 127.0.0.1 aaa-mails.com
 127.0.0.1 aax-us-iad.amazon.com
-127.0.0.1 aaxads.com
 127.0.0.1 abackchain.com
 127.0.0.1 abandonedaction.com
 127.0.0.1 abandonedclover.com
@@ -804,7 +803,6 @@ _s_code.
 127.0.0.1 aceptc.com
 127.0.0.1 acessamenus.site
 127.0.0.1 acetradeoptions.com
-127.0.0.1 aclick.adhoc1.net
 127.0.0.1 acmetradeway.com
 127.0.0.1 acridtwist.com
 127.0.0.1 active-clickers.com
@@ -828,9 +826,7 @@ _s_code.
 127.0.0.1 adbux3.com
 127.0.0.1 adbuxter.com
 127.0.0.1 adcamp.ru
-127.0.0.1 adcash.com
-127.0.0.1 adcash.lv
-127.0.0.1 adcash.org
+127.0.0.1 adcash.*
 127.0.0.1 addkt.com
 127.0.0.1 addthis.com
 127.0.0.1 adeventtracker.spotify.com
@@ -891,7 +887,6 @@ _s_code.
 127.0.0.1 ads4sale.info
 127.0.0.1 adsafeprotected.com
 127.0.0.1 adsensecustomsearchads.com
-127.0.0.1 adserver.adtech.advertising.com
 127.0.0.1 adsforsale.info
 127.0.0.1 adsgain.com
 127.0.0.1 adshost2.com
@@ -900,7 +895,6 @@ _s_code.
 127.0.0.1 adsnative.com
 127.0.0.1 adsneed.com
 127.0.0.1 adspacedepot.com
-127.0.0.1 adsrvmedia.adk2x.com
 127.0.0.1 adsrvr.org
 127.0.0.1 adstab.com
 127.0.0.1 adstobux.com
@@ -943,7 +937,6 @@ _s_code.
 127.0.0.1 aglocomails.com
 127.0.0.1 agreeableprice.com
 127.0.0.1 agreeablestew.com
-127.0.0.1 ags.crwdcntrl.net
 127.0.0.1 ahacash.com
 127.0.0.1 aheadday.com
 127.0.0.1 aiaiansale.com
@@ -955,7 +948,6 @@ _s_code.
 127.0.0.1 airbnrent.com
 127.0.0.1 airpr.com
 127.0.0.1 ak0gsh40.com
-127.0.0.1 aka-cdn-ns.adtech.de
 127.0.0.1 akadns.net
 127.0.0.1 akhxnts.xyz
 127.0.0.1 aklxnts.xyz
@@ -1062,7 +1054,6 @@ _s_code.
 127.0.0.1 assets.adobedtm.com
 127.0.0.1 asydu123id.ru
 127.0.0.1 at-mails.com
-127.0.0.1 at.atwola.com
 127.0.0.1 atas.io
 127.0.0.1 atbux.com
 127.0.0.1 atdmt.com
@@ -1072,7 +1063,6 @@ _s_code.
 127.0.0.1 atmxnet.com
 127.0.0.1 atom-mails.com
 127.0.0.1 attractiveafternoon.com
-127.0.0.1 atwola.com
 127.0.0.1 au-misspeople.pl
 127.0.0.1 auction-emails.com
 127.0.0.1 audio2.spotify.com
@@ -1117,7 +1107,7 @@ _s_code.
 127.0.0.1 bananaclicks.info
 127.0.0.1 bank-mails.com
 127.0.0.1 bankbux.net
-127.0.0.1 bankDeposit.biz
+127.0.0.1 bankdeposit.biz
 127.0.0.1 bankomails.com
 127.0.0.1 bap-34.com
 127.0.0.1 barbarousnerve.com
@@ -1137,7 +1127,6 @@ _s_code.
 127.0.0.1 beachbux.net
 127.0.0.1 beacon.errorception.com
 127.0.0.1 beacon.gu-web.net
-127.0.0.1 beacon.securestudies.com
 127.0.0.1 beamincrease.com
 127.0.0.1 beamkite.com
 127.0.0.1 beanstalkorganix.co.uk
@@ -1168,6 +1157,7 @@ _s_code.
 127.0.0.1 best-mails.com
 127.0.0.1 best2017games.com
 127.0.0.1 best2018games.com
+127.0.0.1 best2019games.com
 127.0.0.1 bestapps4ever161.download
 127.0.0.1 bestboundary.com
 127.0.0.1 bestbux.com
@@ -1519,7 +1509,6 @@ _s_code.
 127.0.0.1 bxcel.net
 127.0.0.1 byeeri.com
 127.0.0.1 byvngx98ssphwzkrrtsjhnbyz5zss81dxygxvlqd05.com
-127.0.0.1 c.atdmt.com
 127.0.0.1 c.bigmir.net
 127.0.0.1 c.msn.com
 127.0.0.1 c.newsinc.com
@@ -1575,8 +1564,7 @@ _s_code.
 127.0.0.1 cashheist.com
 127.0.0.1 cashinonads.info
 127.0.0.1 cashlauncher.com
-127.0.0.1 cashmails.biz
-127.0.0.1 cashmails.org
+127.0.0.1 cashmails.*
 127.0.0.1 cashmailz.com
 127.0.0.1 cashmedia.biz
 127.0.0.1 cashmybux.com
@@ -1605,8 +1593,6 @@ _s_code.
 127.0.0.1 ccfccashop.com
 127.0.0.1 cd-mails.com
 127.0.0.1 cdftradeoption.com
-127.0.0.1 cdn.at.atwola.com
-127.0.0.1 cdn.atdmt.com
 127.0.0.1 cdn.connatix.com
 127.0.0.1 cdn.krxd.net
 127.0.0.1 cdn.mxpnl.com
@@ -1677,7 +1663,6 @@ _s_code.
 127.0.0.1 cinemaguysplus.com
 127.0.0.1 cinematrix.*
 127.0.0.1 citines-boutlet.com
-127.0.0.1 cj.dotomi.com
 127.0.0.1 cj3lema152.top
 127.0.0.1 cl96rwprue.com
 127.0.0.1 claimgiftcards.us
@@ -1897,7 +1882,6 @@ _s_code.
 127.0.0.1 crazyegg.com
 127.0.0.1 crazyptc.biz
 127.0.0.1 cream-mails.com
-127.0.0.1 creative.wwwpromoter.com
 127.0.0.1 creativemails.biz
 127.0.0.1 credit-trade.com
 127.0.0.1 crestoption.com
@@ -2012,7 +1996,6 @@ _s_code.
 127.0.0.1 dayscash.com
 127.0.0.1 dayseeking.net
 127.0.0.1 dayslook.com
-127.0.0.1 db3aqu.atdmt.com
 127.0.0.1 dbnwstores.com
 127.0.0.1 dc8xl0ndzn2cb.cloudfront.net
 127.0.0.1 dcbux.com
@@ -2093,8 +2076,7 @@ _s_code.
 127.0.0.1 docksalmon.com
 127.0.0.1 dodofootwear.com
 127.0.0.1 dollar-factory.com
-127.0.0.1 dollarbux.info
-127.0.0.1 dollarbux.us
+127.0.0.1 dollarbux.*
 127.0.0.1 dollarclix.org
 127.0.0.1 dollarslove.com
 127.0.0.1 dollarsmaker.net
@@ -2200,7 +2182,6 @@ _s_code.
 127.0.0.1 easyjob50.com
 127.0.0.1 easytodocookery.com
 127.0.0.1 ebayadvertising.com
-127.0.0.1 ec.atdmt.com
 127.0.0.1 ec2-35-156-211-201.eu-central-1.compute.amazonaws.com
 127.0.0.1 ec2-35-159-6-133.eu-central-1.compute.amazonaws.com
 127.0.0.1 ec2-54-233-176-153.sa-east-1.compute.amazonaws.com
@@ -2218,7 +2199,7 @@ _s_code.
 127.0.0.1 effectivemeasure.net
 127.0.0.1 efficaciouscactus.com
 127.0.0.1 egyptclicks.com
-127.0.0.1 egyptianclicks.info, not the .com!!
+127.0.0.1 egyptianclicks.info
 127.0.0.1 egyptptc.com
 127.0.0.1 ejyymghi.com
 127.0.0.1 elasticchange.com
@@ -2294,9 +2275,7 @@ _s_code.
 127.0.0.1 etwac.com
 127.0.0.1 eurfin.co.uk
 127.0.0.1 euro-emails.com
-127.0.0.1 eurobux.com
-127.0.0.1 eurobux.info
-127.0.0.1 eurobux.org
+127.0.0.1 eurobux.*
 127.0.0.1 eurocentsmail.com
 127.0.0.1 euroclick.com
 127.0.0.1 euroclickers.com
@@ -2369,8 +2348,7 @@ _s_code.
 127.0.0.1 fashion2smi.ru
 127.0.0.1 fast-pubg.com
 127.0.0.1 fast.sc
-127.0.0.1 fastbux.com
-127.0.0.1 fastbux.org
+127.0.0.1 fastbux.*
 127.0.0.1 fastdatinglife.com
 127.0.0.1 fastestbux.com
 127.0.0.1 fastmoney24.com
@@ -2688,8 +2666,6 @@ _s_code.
 127.0.0.1 gowellup.com
 127.0.0.1 gp-innovation-tsm.de
 127.0.0.1 gpm-ptc.net
-127.0.0.1 gpt.ir
-127.0.0.1 gpt.wideads.org
 127.0.0.1 gptclub.com
 127.0.0.1 gr8ads.com
 127.0.0.1 gracefulsock.com
@@ -3035,10 +3011,6 @@ _s_code.
 127.0.0.1 joy-click.com
 127.0.0.1 joybargains.com
 127.0.0.1 jreignsfim.com
-127.0.0.1 js-agent.newrelic.com
-127.0.0.1 js-sec.indexww.com
-127.0.0.1 jsc.adskeeper.co.uk
-127.0.0.1 jsc.mgid.com
 127.0.0.1 jsfuel.com
 127.0.0.1 jstracker.com
 127.0.0.1 jthcorp.com
@@ -3148,8 +3120,6 @@ _s_code.
 127.0.0.1 linkread.com
 127.0.0.1 links.services.disqus.com
 127.0.0.1 links4cashonline.com
-127.0.0.1 linksynergy.*.com
-127.0.0.1 linksynergy.com
 127.0.0.1 linxshare.biz
 127.0.0.1 lion-mails.com
 127.0.0.1 lip11t.com
@@ -3226,8 +3196,7 @@ _s_code.
 127.0.0.1 magicdragonhits.com
 127.0.0.1 magnetismail.com
 127.0.0.1 magnificentmist.com
-127.0.0.1 mailsmoney.com
-127.0.0.1 mailsmoney.net
+127.0.0.1 mailsmoney.*
 127.0.0.1 main-bux.com
 127.0.0.1 mainbux.com
 127.0.0.1 mainstreamwatercoolers.co.uk
@@ -3273,8 +3242,7 @@ _s_code.
 127.0.0.1 maxgenerator.racing
 127.0.0.1 maxtradeoptions.com
 127.0.0.1 maxymiser.net
-127.0.0.1 maystromails.com
-127.0.0.1 maystromails.net
+127.0.0.1 maystromails.*
 127.0.0.1 mazbux.info
 127.0.0.1 mb104.com
 127.0.0.1 mbbux.net
@@ -3378,12 +3346,8 @@ _s_code.
 127.0.0.1 moldyicicle.com
 127.0.0.1 money-website.com
 127.0.0.1 moneybagsmail.com
-127.0.0.1 moneybux.biz
-127.0.0.1 moneybux.com
-127.0.0.1 moneybux.info
-127.0.0.1 moneybux.org
-127.0.0.1 moneyclicks.biz
-127.0.0.1 moneyclicks.info
+127.0.0.1 moneybux.*
+127.0.0.1 moneyclicks.*
 127.0.0.1 moneyems.com
 127.0.0.1 moneymadbux.com
 127.0.0.1 moneymails.biz
@@ -3796,8 +3760,7 @@ _s_code.
 127.0.0.1 pilatesboulder.es
 127.0.0.1 ping.smyte.com
 127.0.0.1 pingbacks.theatlas.com
-127.0.0.1 pingdom.com
-127.0.0.1 pingdom.net
+127.0.0.1 pingdom.*
 127.0.0.1 pinkmails.com
 127.0.0.1 pinkpantherissick.space
 127.0.0.1 pinkyupboutique.com
@@ -4235,6 +4198,7 @@ _s_code.
 127.0.0.1 securegfm.com
 127.0.0.1 securelinkp.com
 127.0.0.1 securepaybux.com
+127.0.0.1 securestudies.com
 127.0.0.1 securityxploded.com
 127.0.0.1 secyourmachi.000webhostapp.com
 127.0.0.1 seekbizs.com
@@ -4365,14 +4329,11 @@ _s_code.
 127.0.0.1 sneakystamp.com
 127.0.0.1 snoopycash.com
 127.0.0.1 snowballclicks.com
-127.0.0.1 snowbux.com
-127.0.0.1 snowbux.net
+127.0.0.1 snowbux.*
 127.0.0.1 snowman-mails.com
 127.0.0.1 socialprofimatic.com
 127.0.0.1 sofirepmarket.xyz
-127.0.0.1 softbux.com
-127.0.0.1 softbux.net
-127.0.0.1 softbux.org
+127.0.0.1 softbux.*
 127.0.0.1 softemails.com
 127.0.0.1 softwarerefurb.com
 127.0.0.1 sohobux.com
@@ -4434,7 +4395,6 @@ _s_code.
 127.0.0.1 squirrelhands.com
 127.0.0.1 ssl12anyone3.com
 127.0.0.1 st-bux.com
-127.0.0.1 st.bebi.com
 127.0.0.1 stablebux.com
 127.0.0.1 stablebux.info
 127.0.0.1 stableptc.com
@@ -4578,7 +4538,6 @@ _s_code.
 127.0.0.1 t2.hulu.com
 127.0.0.1 t411-music.club
 127.0.0.1 taboola.com
-127.0.0.1 tag.bounceexchange.com
 127.0.0.1 tag.crsspxl.com
 127.0.0.1 tags.bkrtx.com
 127.0.0.1 tags.bluekai.com
@@ -4643,8 +4602,7 @@ _s_code.
 127.0.0.1 the70sptc.info
 127.0.0.1 thebig-centeralplaceforcontentingnew.date
 127.0.0.1 thebunnybucks.com
-127.0.0.1 thebux.com
-127.0.0.1 thebux.info
+127.0.0.1 thebux.*
 127.0.0.1 theclickersclub.net
 127.0.0.1 thedailyprofit.net
 127.0.0.1 thedailywinnings.com
@@ -4934,7 +4892,6 @@ _s_code.
 127.0.0.1 vidibux.com
 127.0.0.1 vidora.com
 127.0.0.1 view-ads.net
-127.0.0.1 view.atdmt.com
 127.0.0.1 view4pay.com
 127.0.0.1 viglink.com
 127.0.0.1 vilynx.com
@@ -6683,10 +6640,10 @@ quora.com##[id] > [id] > [id]:has-text(sponsored)
 qz.com###nl-form
 qz.com##.after-article
 qz.com##.article-content-ad
+qz.com##.context-promotion
 qz.com##.none > [class] > [class] > [class] > [class]
 qz.com##.none > [class] > [class]:has-text(Most Popular)
 qz.com##.popular-stories-module
-qz.com##.quartz > [class] > [class]:has-text(Recommended stories)
 qz.com##article > [class]:has-text(Read This Next)
 racaty.com##.pad
 racaty.com##.racaty-pro
@@ -6818,6 +6775,7 @@ scribd.com##.restriction_banner
 scribd.com##[class*=promo_banner]
 sears.com##.oas-container
 segmentnext.com##.related-posts-drawer
+setaswall.com##.attachment-post > :has-text(Advertisement)
 sh.st##.advert
 sh.st##.information-container
 sh.st##.skip-advert
@@ -7238,6 +7196,7 @@ univision.com##[style*="35, 88, 191"]
 unlockapk.*###apkdl
 unsplash.com##span:has-text(Learn more)
 unsplash.com##[class*="_"]:has-text(Automatically)
+unsplash.com##[class] > [class] > [class] > [class]:has-text(Say thanks)
 upload.*##.boxa
 upload.*##.fmore
 uploadboy.com##[href*="/earn.html"]
