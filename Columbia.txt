@@ -3,9 +3,9 @@
 ! Description: A systematic, analytic-halting Internet filter.
 ! Expires: 1 days
 ! Homepage: https://github.com/OsborneSystems/Columbia/
-! Last modified: 30 August 2019 00:00:00 UTC
+! Last modified: 12 September 2019 00:00:00 UTC
 ! Title: Columbia Standard
-! Version: 5.0.2
+! Version: 5.0.3
 !
 ! You may not reproduce, store in a retrieval system, or transmit this publication
 ! in any form or by any means, electronic, mechanical, photocopying, recording,
@@ -200,8 +200,10 @@
 ##.entry-footer
 ##.essb_mailform
 ##.fa-facebook-square
+##.fa-pinterest-square
 ##.fa-share
 ##.fa-twitter-square
+##.fa-youtube-square
 ##.facebook-like-box
 ##.facebook-recommend
 ##.facebook-share
@@ -262,6 +264,7 @@
 ##.jw-settings-sharing
 ##.jw-submenu-sharing
 ##.l1
+##.lazyload_ad
 ##.leadWrap
 ##.m-ad
 ##.mailing-list-signup
@@ -381,6 +384,7 @@
 ##a[href*="=adscript"]
 ##a[href*="bebi.com"]
 ##a[href*="bitcoin.org"]
+##a[href*="facebook.com/sharer/sharer.php?"]
 ##a[href*="postmates.com/?utm_source"]
 ##a[href*="twitter.com/share"]
 ##a[title="Facebook"]
@@ -624,12 +628,16 @@ _s_code.
 0.0.0.0 100dollarsmails.com
 0.0.0.0 100euro-mail.com
 0.0.0.0 101clix.com
+0.0.0.0 101com.com
+0.0.0.0 101order.com
 0.0.0.0 104.248.185.42
 0.0.0.0 104.248.224.57
 0.0.0.0 10bux.net
 0.0.0.0 10clix.com
 0.0.0.0 10dollar-mail.com
 0.0.0.0 10tradeoption.com
+0.0.0.0 123found.com
+0.0.0.0 123freeavatars.com
 0.0.0.0 123moviesbro.xyz
 0.0.0.0 123moviz.com
 0.0.0.0 123tradeoption.com
@@ -637,12 +645,15 @@ _s_code.
 0.0.0.0 159.65.255.16
 0.0.0.0 171gifs.com
 0.0.0.0 174.138.61.22
+0.0.0.0 180hits.de
+0.0.0.0 180searchassistant.com
 0.0.0.0 1bux.org
 0.0.0.0 1centemails.com
 0.0.0.0 1dollarcash.com
 0.0.0.0 1fwjpdwguvqs.com
 0.0.0.0 1j7740kd.website
 0.0.0.0 1q2w3.website
+0.0.0.0 1rx.io
 0.0.0.0 1stbux.com
 0.0.0.0 1stprofit.com
 0.0.0.0 1xbet.com
@@ -655,15 +666,18 @@ _s_code.
 0.0.0.0 200euro-mail.com
 0.0.0.0 200eurocent-200euro.com
 0.0.0.0 200euromails.*
+0.0.0.0 207.net
 0.0.0.0 20dollarsmail.com
 0.0.0.0 20euromail.com
 0.0.0.0 247bitcoincrypto.com
 0.0.0.0 247bux.com
 0.0.0.0 247coiners.com
 0.0.0.0 247cryptoption.com
+0.0.0.0 247media.com
 0.0.0.0 247optionflow.com
 0.0.0.0 247optionstrade.com
 0.0.0.0 247payouts.com
+0.0.0.0 247realmedia.com
 0.0.0.0 247tradeoption.com
 0.0.0.0 24bux.com
 0.0.0.0 24cryptoforex.com
@@ -671,10 +685,13 @@ _s_code.
 0.0.0.0 24empiresoption.com
 0.0.0.0 24hourstrade.com
 0.0.0.0 24livetrade.com
+0.0.0.0 24log.com
+0.0.0.0 24log.de
 0.0.0.0 24opsions.com
 0.0.0.0 24optionbn.com
 0.0.0.0 24optionflow.com
 0.0.0.0 24optiononline.com
+0.0.0.0 24pm-affiliation.com
 0.0.0.0 24stockfx.com
 0.0.0.0 24suretrades.com
 0.0.0.0 24trade2win.com
@@ -688,6 +705,7 @@ _s_code.
 0.0.0.0 295891.com
 0.0.0.0 2bux.*
 0.0.0.0 2dollaremails.com
+0.0.0.0 2easydroid.com
 0.0.0.0 2mdn.net
 0.0.0.0 2mdnsys.com
 0.0.0.0 2o7.net
@@ -701,6 +719,7 @@ _s_code.
 0.0.0.0 30dollarsmail.com
 0.0.0.0 328ccaf552b371e.com
 0.0.0.0 32koptions.com
+0.0.0.0 33across.com
 0.0.0.0 34.239.221.32
 0.0.0.0 360coinoptions.com
 0.0.0.0 360cryptoptions.com
@@ -708,6 +727,7 @@ _s_code.
 0.0.0.0 360stockoptions.com
 0.0.0.0 360trade.net
 0.0.0.0 360tradebay.com
+0.0.0.0 360yield.com
 0.0.0.0 365expertoption.com
 0.0.0.0 365marketoption.com
 0.0.0.0 365tradeposition.com
@@ -722,9 +742,12 @@ _s_code.
 0.0.0.0 45.32.203.145
 0.0.0.0 49option.com
 0.0.0.0 49wki.site
+0.0.0.0 4affiliate.net
 0.0.0.0 4bux.info
+0.0.0.0 4d5.net
 0.0.0.0 4fungiveaway.tk
 0.0.0.0 4inches4week.com
+0.0.0.0 4info.com
 0.0.0.0 4jnzhl0d0.com
 0.0.0.0 4kmoviesclub.co
 0.0.0.0 4redirect.info
@@ -736,7 +759,10 @@ _s_code.
 0.0.0.0 50centmails.com
 0.0.0.0 50centptr.com
 0.0.0.0 50dollarsmail.com
+0.0.0.0 50websads.com
 0.0.0.0 51.la
+0.0.0.0 518ad.com
+0.0.0.0 51yes.com
 0.0.0.0 520searcher.com
 0.0.0.0 52zxzh.com
 0.0.0.0 53capitaltrade.com
@@ -761,8 +787,12 @@ _s_code.
 0.0.0.0 72option.com
 0.0.0.0 75centinstantbux.com
 0.0.0.0 767888888hjhjhghgrtr6786.us-east-1.elasticbeanstalk.com
+0.0.0.0 777partner.com
+0.0.0.0 77tracking.com
+0.0.0.0 7bpeople.com
 0.0.0.0 7centsolos.com
 0.0.0.0 7heavenptc.com
+0.0.0.0 7search.com
 0.0.0.0 7thbux.com
 0.0.0.0 7thheavenptr.net
 0.0.0.0 80euromail.com
@@ -774,6 +804,7 @@ _s_code.
 0.0.0.0 95stee.us
 0.0.0.0 99centclicks.info
 0.0.0.0 99centptc.com
+0.0.0.0 99count.com
 0.0.0.0 9bux.info
 0.0.0.0 9icebux.com
 0.0.0.0 9icmzvn6.website
@@ -819,12 +850,19 @@ _s_code.
 0.0.0.0 actualbux.com
 0.0.0.0 actuallysheep.com
 0.0.0.0 actuallysnake.com
+0.0.0.0 ad-balancer.at
+0.0.0.0 ad-balancer.net
 0.0.0.0 ad-center.com
+0.0.0.0 ad-delivery.net
 0.0.0.0 ad-fortune.com
+0.0.0.0 ad-pay.de
+0.0.0.0 ad-rotator.com
+0.0.0.0 ad-score.com
 0.0.0.0 ad.go.com
 0.0.0.0 ad.gt
 0.0.0.0 ad.kissanime.*
 0.0.0.0 ad.kisscartoon.*
+0.0.0.0 ad.where.com
 0.0.0.0 ad2bank.info
 0.0.0.0 ad2perf.com
 0.0.0.0 adandel.com
@@ -843,18 +881,23 @@ _s_code.
 0.0.0.0 adf.ly
 0.0.0.0 adfez.net
 0.0.0.0 adfoc.us
+0.0.0.0 adfonic.net
 0.0.0.0 adform.net
 0.0.0.0 adglare.net
 0.0.0.0 adgreed.com
 0.0.0.0 adhoc1.net
 0.0.0.0 adiddas.com
+0.0.0.0 adiquity.com
 0.0.0.0 adition.com
 0.0.0.0 adk2x.com
 0.0.0.0 adless.io
 0.0.0.0 admadmax.com
 0.0.0.0 admantx.com
 0.0.0.0 admarketplace.net
+0.0.0.0 admarvel.com
 0.0.0.0 admitad.com
+0.0.0.0 admixer.co.kr
+0.0.0.0 admoda.com
 0.0.0.0 admonsta.com
 0.0.0.0 adnexus.net
 0.0.0.0 adnxs.com
@@ -877,7 +920,10 @@ _s_code.
 0.0.0.0 ads.affbuzzads.com
 0.0.0.0 ads.blbrd.co
 0.0.0.0 ads.exdynsrv.com
+0.0.0.0 ads.flurry.com
 0.0.0.0 ads.msn.com
+0.0.0.0 ads.n-ws.org
+0.0.0.0 ads.ookla.com
 0.0.0.0 ads.own.cz
 0.0.0.0 ads.pro-market.net
 0.0.0.0 ads.rubiconproject.com
@@ -920,6 +966,7 @@ _s_code.
 0.0.0.0 adtng.com
 0.0.0.0 adtrue.com
 0.0.0.0 adult3dgames.com
+0.0.0.0 adultmoda.com
 0.0.0.0 adventures4u.com
 0.0.0.0 adverbux.com
 0.0.0.0 advercash.net
@@ -929,6 +976,7 @@ _s_code.
 0.0.0.0 advertserve.com
 0.0.0.0 advertunited.com
 0.0.0.0 advintage.com
+0.0.0.0 adwhirl.com
 0.0.0.0 adworldmedia.com
 0.0.0.0 adxprts.com
 0.0.0.0 adxprtz.com
@@ -1007,6 +1055,7 @@ _s_code.
 0.0.0.0 analyticswizard.com
 0.0.0.0 anastasia-web.com
 0.0.0.0 ancient-bux.ch
+0.0.0.0 android-sdk31.transpera.com
 0.0.0.0 angelbux.com
 0.0.0.0 annies-biz.com
 0.0.0.0 anonymous-net.com
@@ -1022,8 +1071,10 @@ _s_code.
 0.0.0.0 apeloptions.com
 0.0.0.0 apester.com
 0.0.0.0 api.segment.io
+0.0.0.0 api.yp.com
 0.0.0.0 apktrend.com
 0.0.0.0 aplustoysforkids.com
+0.0.0.0 appads.com
 0.0.0.0 appboy.com
 0.0.0.0 appcaptcha.com
 0.0.0.0 appealingmail.com
@@ -1031,6 +1082,7 @@ _s_code.
 0.0.0.0 apple-bizs.com
 0.0.0.0 applemails.com
 0.0.0.0 appleptc.info
+0.0.0.0 applovin.com
 0.0.0.0 appolomails.com
 0.0.0.0 approp.pro
 0.0.0.0 approvedfornext.com
@@ -1047,6 +1099,7 @@ _s_code.
 0.0.0.0 archswimming.com
 0.0.0.0 arcticmails.com
 0.0.0.0 area51-ts.com
+0.0.0.0 areyouabot.net
 0.0.0.0 areyouahuman.com
 0.0.0.0 argentinaptc.com.ar
 0.0.0.0 argusbux.info
@@ -1063,6 +1116,7 @@ _s_code.
 0.0.0.0 asicsstores.club
 0.0.0.0 askalbass.club
 0.0.0.0 asonewishes.com
+0.0.0.0 asotrack1.fluentmobile.com
 0.0.0.0 assets.adobedtm.com
 0.0.0.0 asydu123id.ru
 0.0.0.0 at-mails.com
@@ -1094,6 +1148,7 @@ _s_code.
 0.0.0.0 avengerbux.com
 0.0.0.0 avocet.io
 0.0.0.0 aweber.com
+0.0.0.0 awin1.com
 0.0.0.0 awsurveys.com
 0.0.0.0 awzbijw.com
 0.0.0.0 axiomaticalley.com
@@ -1121,6 +1176,7 @@ _s_code.
 0.0.0.0 bankbux.net
 0.0.0.0 bankdeposit.biz
 0.0.0.0 bankomails.com
+0.0.0.0 banzai.it
 0.0.0.0 bap-34.com
 0.0.0.0 barbarousnerve.com
 0.0.0.0 barvaz.me
@@ -1132,6 +1188,7 @@ _s_code.
 0.0.0.0 batbuilding.com
 0.0.0.0 bawdybeast.com
 0.0.0.0 baybux.com
+0.0.0.0 bcfads.com
 0.0.0.0 be-mails.com
 0.0.0.0 beabux.com
 0.0.0.0 beach-mails.com
@@ -1166,6 +1223,7 @@ _s_code.
 0.0.0.0 beqwzb.com
 0.0.0.0 berp.com
 0.0.0.0 berrylook.com
+0.0.0.0 best-ads.com
 0.0.0.0 best-mails.com
 0.0.0.0 best2017games.com
 0.0.0.0 best2018games.com
@@ -1206,6 +1264,7 @@ _s_code.
 0.0.0.0 biggestdollars.com
 0.0.0.0 bigkingpay.com
 0.0.0.0 bigluck-mails.com
+0.0.0.0 bigmobileads.com
 0.0.0.0 bigmoneyptc.com
 0.0.0.0 bigxmailer.com
 0.0.0.0 biketoshop.com
@@ -1320,6 +1379,7 @@ _s_code.
 0.0.0.0 bournemouthbreeze.com
 0.0.0.0 boxcinemax.com
 0.0.0.0 boxdelicates.top
+0.0.0.0 boy.jp
 0.0.0.0 bpbux.com
 0.0.0.0 bqoptions.com
 0.0.0.0 branch.io
@@ -1518,6 +1578,7 @@ _s_code.
 0.0.0.0 buxybux.com
 0.0.0.0 buxyou.com
 0.0.0.0 buyhotmall.com
+0.0.0.0 buzzcity.net
 0.0.0.0 buzzdeal.com
 0.0.0.0 bxcel.net
 0.0.0.0 byeeri.com
@@ -1569,6 +1630,7 @@ _s_code.
 0.0.0.0 cash4grabs.info
 0.0.0.0 cash4hits.com
 0.0.0.0 cash4offers.com
+0.0.0.0 cashappmoney.online
 0.0.0.0 cashbux.com
 0.0.0.0 cashclicks.biz
 0.0.0.0 casheden.com
@@ -1613,9 +1675,8 @@ _s_code.
 0.0.0.0 cdn.optimizely.com
 0.0.0.0 cdn.siftscience.com
 0.0.0.0 cdn.static.zdbb.net
-0.0.0.0 cdn.steepto.com
-0.0.0.0 cdn.taboola.com
 0.0.0.0 cdn.tinypass.com
+0.0.0.0 cdn.vdopia.com
 0.0.0.0 cdn.ywxi.net
 0.0.0.0 cdn.ziffstatic.com
 0.0.0.0 cdnvideo.ibt.com
@@ -1627,6 +1688,7 @@ _s_code.
 0.0.0.0 celeritascdn.com
 0.0.0.0 celestialclicks.com
 0.0.0.0 celticsjersey.boston
+0.0.0.0 celtra.com
 0.0.0.0 cemarke.com
 0.0.0.0 cent-clicks.com
 0.0.0.0 centbux.com
@@ -1774,6 +1836,7 @@ _s_code.
 0.0.0.0 cmediazone.info
 0.0.0.0 cmtmarketoption.com
 0.0.0.0 cnhv.co
+0.0.0.0 cntdy.mobi
 0.0.0.0 coast-mail.com
 0.0.0.0 cobalten.com
 0.0.0.0 cobybux.com
@@ -1901,6 +1964,7 @@ _s_code.
 0.0.0.0 crewbux.com
 0.0.0.0 crewbuxonline.com
 0.0.0.0 crewptc.com
+0.0.0.0 crispadvertising.com
 0.0.0.0 critariatele.pro
 0.0.0.0 criteo.com
 0.0.0.0 critictruck.com
@@ -1966,12 +2030,15 @@ _s_code.
 0.0.0.0 d1xfq2052q7thw.cloudfront.net
 0.0.0.0 d1z2jf7jlzjs58.cloudfront.net
 0.0.0.0 d26fomcq0yfsg4.cloudfront.net
+0.0.0.0 d2bgg7rjywcwsy.cloudfront.net
 0.0.0.0 d2d8qsxiai9qwj.cloudfront.net
 0.0.0.0 d2fdonthm24zj8.cloudfront.net
 0.0.0.0 d2gi7ultltnc2u.cloudfront.net
 0.0.0.0 d2mailings.com
 0.0.0.0 d31qbv1cthcecs.cloudfront.net
 0.0.0.0 d3al52d8cojds7.cloudfront.net
+0.0.0.0 d3anogn3pbtk4v.cloudfront.net
+0.0.0.0 d3oltyb66oj2v8.cloudfront.net
 0.0.0.0 d3rn8v1wblnyec.cloudfront.net
 0.0.0.0 d3rt1990lpmkn.cloudfront.net
 0.0.0.0 d3ud741uvs727m.cloudfront.net
@@ -2204,6 +2271,7 @@ _s_code.
 0.0.0.0 ecmchat.com
 0.0.0.0 ecoingroup.com
 0.0.0.0 economicpizzas.com
+0.0.0.0 edge.reporo.net
 0.0.0.0 edgekey.net
 0.0.0.0 edgetrade.live
 0.0.0.0 edigitalsurvey.com
@@ -2272,6 +2340,7 @@ _s_code.
 0.0.0.0 erabux.net
 0.0.0.0 eragonmails.com
 0.0.0.0 ergopro.ca
+0.0.0.0 ero-advertising.com
 0.0.0.0 error.com
 0.0.0.0 error00x0878999817.tk
 0.0.0.0 errortablet.com
@@ -2281,6 +2350,7 @@ _s_code.
 0.0.0.0 essentialgiftplace.com
 0.0.0.0 essentialptr.com
 0.0.0.0 estbux.com
+0.0.0.0 estebull.com
 0.0.0.0 et.nytimes.com
 0.0.0.0 ethicalads.net
 0.0.0.0 etorooption.com
@@ -2303,6 +2373,7 @@ _s_code.
 0.0.0.0 evernity-rewards.com
 0.0.0.0 evernity.com
 0.0.0.0 evidon.com
+0.0.0.0 eviltracker.net
 0.0.0.0 evooee.com
 0.0.0.0 evyy.net
 0.0.0.0 exampletwo.com
@@ -2490,6 +2561,7 @@ _s_code.
 0.0.0.0 funacumen.com
 0.0.0.0 functionalclam.com
 0.0.0.0 functionalcrown.com
+0.0.0.0 fundsjoy.*
 0.0.0.0 fundsoption.com
 0.0.0.0 funkycashmail.com
 0.0.0.0 furiousbux.com
@@ -2549,6 +2621,7 @@ _s_code.
 0.0.0.0 gdbbshopgqfluckes.tk
 0.0.0.0 gearjustforyou.com
 0.0.0.0 gem-mails.com
+0.0.0.0 gemini.yahoo.com
 0.0.0.0 gemius.pl
 0.0.0.0 geni.us
 0.0.0.0 geniusptr.com
@@ -2617,6 +2690,7 @@ _s_code.
 0.0.0.0 gladiator.ws
 0.0.0.0 glawheejoushpush.com
 0.0.0.0 glbdns2.microsoft.com
+0.0.0.0 glcdn.co
 0.0.0.0 glitterbux.com
 0.0.0.0 global24trade.com
 0.0.0.0 globalbikeshop.com
@@ -2635,6 +2709,7 @@ _s_code.
 0.0.0.0 go.wellhello.com
 0.0.0.0 go2cloud.org
 0.0.0.0 goaio.com
+0.0.0.0 goawos.com
 0.0.0.0 godbux.com
 0.0.0.0 godoggroom.com
 0.0.0.0 gogobux.com
@@ -2654,6 +2729,7 @@ _s_code.
 0.0.0.0 goldenquarters.com
 0.0.0.0 goldmineclicks.info
 0.0.0.0 goldsbux.com
+0.0.0.0 goldspotmedia.com
 0.0.0.0 golfclashbooster.online
 0.0.0.0 golfmails.com
 0.0.0.0 gomtrack.com
@@ -2715,8 +2791,11 @@ _s_code.
 0.0.0.0 gscontxt.net
 0.0.0.0 gscounters.us1.gigya.com
 0.0.0.0 gsecelectronics.com
+0.0.0.0 gsmtop.net
 0.0.0.0 gt-esports.com
 0.0.0.0 gtosite6.com
+0.0.0.0 gts-ads.twistbox.com
+0.0.0.0 gtsmobi.com
 0.0.0.0 gtssl2-ocsp.geotrust.com
 0.0.0.0 guaranteoptions.com
 0.0.0.0 guardedgovernor.com
@@ -2827,12 +2906,16 @@ _s_code.
 0.0.0.0 hotallnews.*
 0.0.0.0 hotdwertomv.top
 0.0.0.0 hotjar.com
+0.0.0.0 hotkeys.com
+0.0.0.0 hotlog.ru
 0.0.0.0 hotmovies4k.com
 0.0.0.0 hotmvn.com
+0.0.0.0 hotrank.com.tw
 0.0.0.0 hotsexdatingonline.com
 0.0.0.0 hotsfashionshop.com
 0.0.0.0 hotvbuy.co
 0.0.0.0 houdini.haaretz.co.il
+0.0.0.0 hoverowl.com
 0.0.0.0 hpgbcid.com
 0.0.0.0 hqoptions.com
 0.0.0.0 hqzjz7fncd.com
@@ -2851,12 +2934,14 @@ _s_code.
 0.0.0.0 hugeptc.com
 0.0.0.0 humbux.com
 0.0.0.0 hunbux.info
+0.0.0.0 huntmad.com
 0.0.0.0 hurtteeth.com
 0.0.0.0 husky-mails.com
 0.0.0.0 hyper-strike-official.com
 0.0.0.0 hypercracker.com
 0.0.0.0 hyperx.gg
 0.0.0.0 hystericalhelp.com
+0.0.0.0 i.tapit.com
 0.0.0.0 i1.services.social.microsoft.com
 0.0.0.0 iambux.com
 0.0.0.0 ib.3lift.com
@@ -2886,8 +2971,6 @@ _s_code.
 0.0.0.0 images.apster.com
 0.0.0.0 imasdk.googleapis.com
 0.0.0.0 imatterbux.com
-0.0.0.0 imgg-cdn.mgid.com
-0.0.0.0 imgg-cdn.steepto.com
 0.0.0.0 immensehoney.com
 0.0.0.0 impactradius-go.com
 0.0.0.0 impactradius.com
@@ -2915,6 +2998,9 @@ _s_code.
 0.0.0.0 infra.systems
 0.0.0.0 ing6liey.com
 0.0.0.0 ingeniousplc.com
+0.0.0.0 inmobi.com
+0.0.0.0 inmobicdn.net
+0.0.0.0 inner-active.mobi
 0.0.0.0 innocentwax.com
 0.0.0.0 innotime-cash.com
 0.0.0.0 innotvgood.com
@@ -3028,10 +3114,13 @@ _s_code.
 0.0.0.0 joy-click.com
 0.0.0.0 joybargains.com
 0.0.0.0 jreignsfim.com
+0.0.0.0 jsecoin.com
 0.0.0.0 jsfuel.com
 0.0.0.0 jstracker.com
 0.0.0.0 jthcorp.com
 0.0.0.0 jugalger.org
+0.0.0.0 juicyads.com
+0.0.0.0 jumptap.com
 0.0.0.0 junglecash.com
 0.0.0.0 jurrasicworldkey.win
 0.0.0.0 jusorpa.ru
@@ -3043,6 +3132,8 @@ _s_code.
 0.0.0.0 justicejudo.com
 0.0.0.0 justmoviz.net
 0.0.0.0 justpremium.com
+0.0.0.0 justrelevant.com
+0.0.0.0 justuno.com
 0.0.0.0 justvpco.co
 0.0.0.0 jwpltx.com
 0.0.0.0 kabelbux.com
@@ -3081,6 +3172,7 @@ _s_code.
 0.0.0.0 kitcatcash.com
 0.0.0.0 kldruer.top
 0.0.0.0 klickbucks.com
+0.0.0.0 klickthru.com
 0.0.0.0 klikini.net
 0.0.0.0 knifeoctopus.com
 0.0.0.0 koditv.store
@@ -3106,6 +3198,7 @@ _s_code.
 0.0.0.0 lautrec-restaurant.com
 0.0.0.0 lava-bux.com
 0.0.0.0 laxtradeoption.com
+0.0.0.0 leadboltapps.net
 0.0.0.0 leaderbux.com
 0.0.0.0 leaplunchroom.com
 0.0.0.0 legitbux.com
@@ -3202,6 +3295,7 @@ _s_code.
 0.0.0.0 m.anyfiles.ovh
 0.0.0.0 m.hotmail.com
 0.0.0.0 m.trb.com
+0.0.0.0 mable-inc.com
 0.0.0.0 mac-us94.live
 0.0.0.0 mac-us95.live
 0.0.0.0 machieved.com
@@ -3209,6 +3303,7 @@ _s_code.
 0.0.0.0 madabux.net
 0.0.0.0 madneny.com
 0.0.0.0 madnessbux.com
+0.0.0.0 madvertise.de
 0.0.0.0 magicalmails.com
 0.0.0.0 magicash.org
 0.0.0.0 magicdollar.info
@@ -3252,6 +3347,7 @@ _s_code.
 0.0.0.0 matchcows.com
 0.0.0.0 matching4singleshookup.com
 0.0.0.0 matoakaptr.com
+0.0.0.0 matomymobile.com
 0.0.0.0 matrixptc.com
 0.0.0.0 max-bux.com
 0.0.0.0 max-profits.com
@@ -3260,7 +3356,6 @@ _s_code.
 0.0.0.0 maxbux.info
 0.0.0.0 maxgenerator.racing
 0.0.0.0 maxtradeoptions.com
-0.0.0.0 maxymiser.net
 0.0.0.0 maystromails.*
 0.0.0.0 mazbux.info
 0.0.0.0 mb01.com
@@ -3279,6 +3374,7 @@ _s_code.
 0.0.0.0 media-match.com
 0.0.0.0 media.com
 0.0.0.0 media.net
+0.0.0.0 mediaarmor.com
 0.0.0.0 mediaforce.com
 0.0.0.0 medianewpage.com
 0.0.0.0 mediaplex.com
@@ -3322,6 +3418,7 @@ _s_code.
 0.0.0.0 migliori21-hd.online
 0.0.0.0 milion-mail.com
 0.0.0.0 militaryverse.com
+0.0.0.0 millennialmedia.com
 0.0.0.0 million-mails.com
 0.0.0.0 millionaire-mail.com
 0.0.0.0 millions-usd.com
@@ -3348,27 +3445,49 @@ _s_code.
 0.0.0.0 mjkiu.com
 0.0.0.0 mk-cdn.net
 0.0.0.0 ml314.com
+0.0.0.0 mlm.de
+0.0.0.0 mltrk.io
+0.0.0.0 mmismm.com
+0.0.0.0 mmnetwork.mobi
 0.0.0.0 mmoframes.com
 0.0.0.0 mmofreegames.online
+0.0.0.0 mmstat.com
+0.0.0.0 mmtro.com
 0.0.0.0 mnmbux.com
 0.0.0.0 mnmclicks.com
+0.0.0.0 moat.com
 0.0.0.0 moatads.com
+0.0.0.0 moatpixel.com
+0.0.0.0 mobclix.com
+0.0.0.0 mobfox.com
+0.0.0.0 mobgold.com
 0.0.0.0 mobile-connection-alert.fyi
+0.0.0.0 mobiledl.adobe.com
+0.0.0.0 mobilefuse.net
+0.0.0.0 mobileiconnect.com
 0.0.0.0 mobileltd.co.uk
 0.0.0.0 mobileptr.net
+0.0.0.0 mobilityware.com
 0.0.0.0 mobipromote.com
 0.0.0.0 mobisla.com
+0.0.0.0 mobpartner.mobi
 0.0.0.0 mobpushup.com
 0.0.0.0 mobtrks.com
+0.0.0.0 mocean.mobi
 0.0.0.0 moderndaybux.info
 0.0.0.0 modifyeyes.com
 0.0.0.0 moengage.com
+0.0.0.0 moggattice.com
+0.0.0.0 mojiva.com
 0.0.0.0 moldyicicle.com
+0.0.0.0 monetate.net
+0.0.0.0 monetizer101.com
 0.0.0.0 money-website.com
 0.0.0.0 moneybagsmail.com
 0.0.0.0 moneybux.*
 0.0.0.0 moneyclicks.*
 0.0.0.0 moneyems.com
+0.0.0.0 moneyexpert.co.uk
 0.0.0.0 moneymadbux.com
 0.0.0.0 moneymails.biz
 0.0.0.0 moneymouser.com
@@ -3378,6 +3497,7 @@ _s_code.
 0.0.0.0 moneytreeptr.com
 0.0.0.0 monkeybag.club
 0.0.0.0 monsterclix.info
+0.0.0.0 monsterpops.com
 0.0.0.0 mookie1.com
 0.0.0.0 moorepower.co.nz
 0.0.0.0 mopub.com
@@ -3386,6 +3506,9 @@ _s_code.
 0.0.0.0 morpheusptc.com
 0.0.0.0 mossiv.com
 0.0.0.0 mouseclix.info
+0.0.0.0 mouseflow.com
+0.0.0.0 mousestats.com
+0.0.0.0 movad.net
 0.0.0.0 moviedvdrental.com
 0.0.0.0 movieleaks.net
 0.0.0.0 movienachos.com
@@ -3400,7 +3523,11 @@ _s_code.
 0.0.0.0 mp3gid.com
 0.0.0.0 mp3zo.com
 0.0.0.0 mparticle.com
+0.0.0.0 mpression.net
+0.0.0.0 mpstat.us
+0.0.0.0 mr-rank.de
 0.0.0.0 mr-rex.net
+0.0.0.0 mrskincash.com
 0.0.0.0 msads.net
 0.0.0.0 msecn.net
 0.0.0.0 msecnd.net
@@ -3408,7 +3535,9 @@ _s_code.
 0.0.0.0 msftncsi.com
 0.0.0.0 msnbot-65-55-108-23.search.msn.com
 0.0.0.0 msntest.serving-sys.com
+0.0.0.0 mstrlytcs.com
 0.0.0.0 mtrcs.samba.tv
+0.0.0.0 mtree.com
 0.0.0.0 mtxbux.com
 0.0.0.0 multi-earn.com
 0.0.0.0 multibux.com
@@ -3434,6 +3563,7 @@ _s_code.
 0.0.0.0 mycashfountain.com
 0.0.0.0 mycashout.net
 0.0.0.0 mydailytips.net
+0.0.0.0 mydas.mobi
 0.0.0.0 myfinance.com
 0.0.0.0 myfreebitco.in
 0.0.0.0 myfreecams.com
@@ -3468,6 +3598,7 @@ _s_code.
 0.0.0.0 naudina.eu
 0.0.0.0 navistone.com
 0.0.0.0 nbcuas.com
+0.0.0.0 nearbyad.com
 0.0.0.0 neatbux.com
 0.0.0.0 neckbux.com
 0.0.0.0 neighborlywatch.com
@@ -3486,6 +3617,7 @@ _s_code.
 0.0.0.0 net-x42.stream
 0.0.0.0 netcash.com
 0.0.0.0 netcashbux.com
+0.0.0.0 netdna.reporo.net
 0.0.0.0 netenjobsnlen-mm
 0.0.0.0 netgold4u.com
 0.0.0.0 netnews.online
@@ -3583,6 +3715,7 @@ _s_code.
 0.0.0.0 oldschoolbux.com
 0.0.0.0 olympicbux.com
 0.0.0.0 olympoption.com
+0.0.0.0 omgpop.com
 0.0.0.0 omniscientspark.com
 0.0.0.0 omniture.com
 0.0.0.0 omtrdc.net
@@ -3602,9 +3735,12 @@ _s_code.
 0.0.0.0 online-metrix.net
 0.0.0.0 online4ads.com
 0.0.0.0 onlinebtcscf.000webhostapp.com
+0.0.0.0 onlinecash.com
 0.0.0.0 onlinecashclicks.com
+0.0.0.0 onlinecashmethod.com
 0.0.0.0 onlinepromotionsusa.com
 0.0.0.0 onlineresale.co
+0.0.0.0 onlinerewardcenter.com
 0.0.0.0 onlinesystemupdate3-1.azurewebsites.net
 0.0.0.0 onlybux.net
 0.0.0.0 onlygravy.com
@@ -3612,6 +3748,7 @@ _s_code.
 0.0.0.0 onscroll.com
 0.0.0.0 onsecsyswebnow.000webhostapp.com
 0.0.0.0 onsuathymealle.com
+0.0.0.0 onthe.io
 0.0.0.0 openclick.click
 0.0.0.0 opentracker.net
 0.0.0.0 openx.com
@@ -3772,7 +3909,9 @@ _s_code.
 0.0.0.0 petiteumbrella.com
 0.0.0.0 petmails.com
 0.0.0.0 petromails.com
+0.0.0.0 pflexads.com
 0.0.0.0 pheegoab.click
+0.0.0.0 phluant.com
 0.0.0.0 phoenixcash.info
 0.0.0.0 photographpan.com
 0.0.0.0 photoscape.ch
@@ -3794,12 +3933,14 @@ _s_code.
 0.0.0.0 piratercompte-facebook.com
 0.0.0.0 pix.nbcuni.com
 0.0.0.0 pixel.condenastdigital.com
+0.0.0.0 pixel.watch
 0.0.0.0 pixel.wp.com
 0.0.0.0 pixel.yola.com
 0.0.0.0 pixelsfighting.co
 0.0.0.0 pixie-clix.info
 0.0.0.0 pixiedust.buzzfeed.com
 0.0.0.0 pizzamails.com
+0.0.0.0 placed.com
 0.0.0.0 planetmiraculous.com
 0.0.0.0 plarium.com
 0.0.0.0 plasticosmorell.es
@@ -3810,12 +3951,17 @@ _s_code.
 0.0.0.0 platinum-mails.com
 0.0.0.0 play-asia.com
 0.0.0.0 play4free.fun
+0.0.0.0 play4traffic.com
 0.0.0.0 playgalaxytoy.com
+0.0.0.0 playhaven.com
+0.0.0.0 playmobileads.com
 0.0.0.0 playperks.net
 0.0.0.0 playshop.info
 0.0.0.0 pleasant-mails.com
 0.0.0.0 plexoption.com
+0.0.0.0 plista.com
 0.0.0.0 plugin.mediavoice.com
+0.0.0.0 plugrush.com
 0.0.0.0 plusbux.com
 0.0.0.0 pluscrypto-capital.com
 0.0.0.0 plustradeoption.com
@@ -3823,6 +3969,7 @@ _s_code.
 0.0.0.0 po.st
 0.0.0.0 pocketfavorite.com
 0.0.0.0 podajisynum.tk
+0.0.0.0 pointroll.com
 0.0.0.0 poisly.com
 0.0.0.0 pokermanagement.com
 0.0.0.0 pol-bux.com
@@ -3833,7 +3980,14 @@ _s_code.
 0.0.0.0 poloxt.com
 0.0.0.0 popads.net
 0.0.0.0 popcash.net
+0.0.0.0 popflawlessads.com
+0.0.0.0 popmyads.com
+0.0.0.0 popub.com
 0.0.0.0 popularbux.com
+0.0.0.0 popunder.ru
+0.0.0.0 popup.msn.com
+0.0.0.0 popupmoney.com
+0.0.0.0 popupnation.com
 0.0.0.0 porbc.com
 0.0.0.0 pornhublive.com
 0.0.0.0 pornobux.net
@@ -4003,6 +4157,7 @@ _s_code.
 0.0.0.0 rabbit-mails.com
 0.0.0.0 race4click.shiftcode.com
 0.0.0.0 racingemails.com
+0.0.0.0 rackcdn.com
 0.0.0.0 rad.live.com
 0.0.0.0 rad.msn.com
 0.0.0.0 radar.cedexis.com
@@ -4134,6 +4289,7 @@ _s_code.
 0.0.0.0 rpda.cf
 0.0.0.0 rphydexaceig.com
 0.0.0.0 rps-uk.rockpapershotgun.com
+0.0.0.0 rs-staticart.ybcdn.net
 0.0.0.0 rta.dailymail.co.uk
 0.0.0.0 rtradsterra43.download
 0.0.0.0 rtradsterra58.download
@@ -4175,6 +4331,7 @@ _s_code.
 0.0.0.0 saturnbux.com
 0.0.0.0 savingsoption.com
 0.0.0.0 saxa53.bid
+0.0.0.0 saymedia.com
 0.0.0.0 saysidewalk.com
 0.0.0.0 sb.scorecardresearch.com
 0.0.0.0 scambux.com
@@ -4231,6 +4388,7 @@ _s_code.
 0.0.0.0 selectivesummer.com
 0.0.0.0 selfstoragebillingsmt.com
 0.0.0.0 seminolewindptr.com
+0.0.0.0 sensis.com.au
 0.0.0.0 sentry.io
 0.0.0.0 separatesilver.com
 0.0.0.0 sepooq.com
@@ -4331,9 +4489,11 @@ _s_code.
 0.0.0.0 slobux.com
 0.0.0.0 sls.update.microsoft.com.akadns.net
 0.0.0.0 smallbizwebs.biz
+0.0.0.0 smartadserve.com
 0.0.0.0 smartbux.net
 0.0.0.0 smartclicks.com
 0.0.0.0 smartdesign-hd.de
+0.0.0.0 smartdevicemedia.com
 0.0.0.0 smartnationfx.com
 0.0.0.0 smartoptionbn.com
 0.0.0.0 smartoptioners.com
@@ -4578,6 +4738,7 @@ _s_code.
 0.0.0.0 tansurvey.com
 0.0.0.0 tap-secure.rubiconproject.com
 0.0.0.0 tapfiliate.com
+0.0.0.0 taptapnetworks.com
 0.0.0.0 taptica.com
 0.0.0.0 taranakihorseriding.co.nz
 0.0.0.0 tarantulas-mails.com
@@ -4755,6 +4916,7 @@ _s_code.
 0.0.0.0 traffic2clicks.com
 0.0.0.0 trafficbux.com
 0.0.0.0 trafficcool.com
+0.0.0.0 trafficforce.com
 0.0.0.0 trafficinvader.com
 0.0.0.0 trafficjunky.net
 0.0.0.0 trafficleaderbux.com
@@ -4824,6 +4986,7 @@ _s_code.
 0.0.0.0 uberdrop.life
 0.0.0.0 ubiclick.net
 0.0.0.0 ubimo.com
+0.0.0.0 ubiyoo.com
 0.0.0.0 ubizs.com
 0.0.0.0 ublock.org
 0.0.0.0 ubux.biz
@@ -4878,6 +5041,7 @@ _s_code.
 0.0.0.0 usarewardspot.com
 0.0.0.0 usd-ads.com
 0.0.0.0 usdcenter.com
+0.0.0.0 usemaxserver.de
 0.0.0.0 usenetdownload.men
 0.0.0.0 user-clicks.com
 0.0.0.0 ushe.education
@@ -4899,9 +5063,11 @@ _s_code.
 0.0.0.0 vasurvey.info
 0.0.0.0 vbucks-hack.club
 0.0.0.0 vbucksbooster.com
+0.0.0.0 vcmedia.vn
 0.0.0.0 vegas-mails.com
 0.0.0.0 velocecdn.com
 0.0.0.0 velocityclicks.com
+0.0.0.0 velti.com
 0.0.0.0 vgalaxytoy.com
 0.0.0.0 victoriabrides.com
 0.0.0.0 victoriahearts.com
@@ -4950,6 +5116,8 @@ _s_code.
 0.0.0.0 vortex.data.microsoft.com
 0.0.0.0 vpda.cf
 0.0.0.0 vrfuckdolls.com
+0.0.0.0 vrvm.com
+0.0.0.0 vserv.mobi
 0.0.0.0 vueen.com
 0.0.0.0 vulzul.com
 0.0.0.0 vungle.com
@@ -5046,6 +5214,7 @@ _s_code.
 0.0.0.0 worldclicks.info
 0.0.0.0 worldgpt.com
 0.0.0.0 worldhealthlabs.com
+0.0.0.0 worldnow.com
 0.0.0.0 worldofbux.com
 0.0.0.0 worldsptr.com
 0.0.0.0 worldwidemails.com
@@ -5062,6 +5231,7 @@ _s_code.
 0.0.0.0 ws.sharethis.com
 0.0.0.0 wubux.com
 0.0.0.0 www.delta-search.com
+0.0.0.0 www.eltrafiko.com
 0.0.0.0 www.emjcd.com
 0.0.0.0 www.friendlyduck.com
 0.0.0.0 www.google-analytics.com
@@ -5073,6 +5243,7 @@ _s_code.
 0.0.0.0 www.quick-torrent.com
 0.0.0.0 www.zergnet.com
 0.0.0.0 wwwpromoter.com
+0.0.0.0 wwww.adleads.com
 0.0.0.0 wwznqib.com
 0.0.0.0 x-bux.*
 0.0.0.0 x-fidelity-media.com
@@ -5103,6 +5274,7 @@ _s_code.
 0.0.0.0 xvkili.com
 0.0.0.0 xvntrade.top
 0.0.0.0 xxdigitalsolutions.club
+0.0.0.0 xxxad.net
 0.0.0.0 xztears.com
 0.0.0.0 y2e.info
 0.0.0.0 yadro.ru
@@ -5121,6 +5293,7 @@ _s_code.
 0.0.0.0 yololike.space
 0.0.0.0 yougube.com
 0.0.0.0 youlucky2014.com
+0.0.0.0 youmi.net
 0.0.0.0 yourbux.net
 0.0.0.0 yourgoodplace4contentsafe.trade
 0.0.0.0 yourhelpsteam.*
@@ -5146,6 +5319,7 @@ _s_code.
 0.0.0.0 zedoption.com
 0.0.0.0 zemanta.com
 0.0.0.0 zergnet.*
+0.0.0.0 zeroredirect1.com
 0.0.0.0 zetaglobal.com
 0.0.0.0 zetaptc.com
 0.0.0.0 zetbux.com
@@ -5155,10 +5329,12 @@ _s_code.
 0.0.0.0 zlp6s.pw
 0.0.0.0 znnmall.com
 0.0.0.0 zodbuy.com
+0.0.0.0 zonolali.com
 0.0.0.0 zooclicks.info
 0.0.0.0 zqtk.net
 0.0.0.0 zrk.imgur.com
 0.0.0.0 zstarwars.com
+0.0.0.0 ztrack.*
 0.0.0.0 zubux.com
 0.0.0.0 zukoptions.com
 0.0.0.0 zukxd6fkxqn.com
@@ -5751,6 +5927,7 @@ ebay.com###gh-appBanner
 ebay.com##.mfe-card:has-text(sponsored)
 ebay.com##.mfe-reco:has-text(SPONSORED)
 ebay.com##.s-item:has-text(SPONSORED)
+ebay.com##[id*="nume_html"]:has-text(Sponsored)
 ebay.com,thesaurus.com##.survey
 ebookee.org##.spd
 eclipse.org##.ad-strategic
@@ -5994,9 +6171,10 @@ google.*###bres
 google.*##.gws-local-promotions__container
 google.*##body[class] > [class]:has-text(Try Drive for free)
 google.*##[class*="-slot-promo"]
-google.*##[class] > [class] > [class] > [class]:has-text(Choose the privacy settings that are right for you)
 google.*##[class] > [class] > [class] > [class]:has-text(Browse or delete your Search activity data)
+google.*##[class] > [class] > [class] > [class]:has-text(Choose the privacy settings that are right for you)
 google.com##[class] > [class] > [class] > [class] > [class] > [class] > [class] > [class] > [class]:has-text(Get more out of Google with Google One)
+google.com##[class] > [class] > [class] > [class]:has-text(Visit your Google Account to control and protect your info, all in one place)
 gq.com##.cm-footer-component
 gq.com##.cm-header
 gq.com##.cm-header-desktop
@@ -6051,6 +6229,7 @@ hd.*,tvmovies.*##.footer-subs
 hearst.com###newsletter-form-footer
 hearst.com###promo-video
 hearst.com###promo-video-overlay
+hentaimama.com##.video_notification
 hollywoodreporter.com##.blog-post-author-section
 hollywoodreporter.com##.blog-post-features-points
 hollywoodreporter.com##.blog-post-tags
@@ -6064,6 +6243,7 @@ hollywoodreporter.com##.region-sidebar-second
 hollywoodreporter.com##.site-header__nav-link--subscribe
 hollywoodreporter.com##.topic-block-container
 hollywoodreporter.com,shazam.com,theatlantic.com##.follow
+honeysanime.com##.side-gutter
 hotcharts.*###jp_container_1
 hotcharts.*##.b_strut
 howtogeek.com##p:has-text(RELATED)
@@ -6528,6 +6708,7 @@ nzherald.co.nz##.pb-f-global-recommend
 nzherald.co.nz##[href*="/?ref=createnow"]
 observer.com###must-reads-container
 observer.com##.next-container
+octaneseating.com###intercom-container
 ohentai.*###bottomleaderboard
 ohentai.*###leftadbottom
 ohentai.*###sortadtext
@@ -6573,6 +6754,9 @@ pcmag.com##.author-container-title
 pcmag.com##.inside-module
 pcmag.com##.newsletter-widget
 pcmag.com##.story-navigation
+pcworld.com###amazon-bottom-widget
+pcworld.com###articleLeaderboardWrapper
+pcworld.com###content-recommender
 pcworld.com###drr-top-ad
 pcworld.com###footer-subscribe
 pcworld.com###side
@@ -6711,8 +6895,11 @@ reddit.com##.seo-comments
 reddit.com##.seo-comments-recommendations
 reddit.com##.SnackBar
 reddit.com##.TopButton
+reddit.com##.TopPosts:has-text(Top posts from)
 reddit.com##.XPromoAdFeed
 reddit.com##.xPromoAppStoreFooter
+reddit.com##.xPromoChoiceBanner
+reddit.com##.XPromoInFeed
 reddit.com##.XPromoPill
 reddit.com##.XPromoPopup
 reddit.com,trustedreviews.com##.ad-container
@@ -6801,6 +6988,8 @@ scribd.com##.restriction_banner
 scribd.com##[class*=promo_banner]
 sears.com##.oas-container
 segmentnext.com##.related-posts-drawer
+serbags.com##.cbb-ignored-price
+serbags.com##.wlo_pulltab_holder
 setaswall.com##.attachment-post > :has-text(Advertisement)
 sh.st##.advert
 sh.st##.information-container
@@ -7001,6 +7190,7 @@ thedailybeast.com##.StoryFooter
 thefader.com##.current_issue
 thefader.com##.paragraph_wrapper > div
 thefader.com##.updates_form
+thegamer.com##.related-single
 thegamer.com##p:has-text(READ MORE:)
 thegamer.com##p:has-text(READ NEXT:)
 theguardian.com###dfp-ad--inline1
@@ -7237,6 +7427,7 @@ uplod.*##.clearfix
 uplod.*##.fmore
 uplod.*,vipboxtv.*##.hidden-xs
 uproxx.com##.widget-main-header
+urbandictionary.com##.ad-panel
 urbanize.la##.navbar-advertise-link
 urbanize.la##.pre-header-wrapper
 urbanize.la##[id*="blocks-google"]
@@ -7431,6 +7622,7 @@ wired.com##[href*="wired.com/subscribe/"]
 wix.com##.subscribe-modal
 wixsite.com##.wix-ads-2
 wkihow.com##.ad_label_method
+wordpress.com##.marketing-bar
 wsj.com###AD_RAIL1
 wsj.com###AD_RAIL2
 wsj.com###AD_RAIL3
