@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/OsborneSystems/Columbia/
 ! Last modified: 19 October 2019 00:00:00 UTC
 ! Title: Columbia Standard
-! Version: 5.0.5
+! Version: 5.0.5.5
 !
 ! Copyright (C) Osborne Systems. All rights reserved.
 !
@@ -562,8 +562,92 @@ _s_code.
 !
 ! ELEMENTS
 !
+||*.to/download.php$subdocument
+||*amazonaws*amazon_us$image
+||*gfycat.com/self/dktp*r_dktp*.png$image
+||*gfycat.com/self/dktp*_dktp*.png$image
+||*loadshare*custom
+||*namba*178368022$image
+||9anime.*/sw.js$script
+||amazon.*/ajax/counter?
+||amazon.*/empty.gif?
+||amazon.*/record-impressions?
+||amazonaws.com/ki.js/
+||beltmag*fundraiser$image
+||cdnondemand.org^$third-party
+||cloudfront.net*/tracker.js
+||connect.facebook.net^*/fbevents.js$third-party
+||dailymail.co.uk/rta2/
+||dailynews.com/_static/$script
+||deloplen.com/apu.php?$important
+||dropapk.com*.gif$image
+||dropbox.com/alternate_
+||dropbox.com/log/
+||embed.sendtonews.com/player2/embedplayer.php$subdocument
+||facebook*likebox.php$subdocument
+||facebook.com/sem_campaigns/sem_pixel_test/
+||facebook.com/tr?
+||fbcdn2.com^$third-party
+||fossbytes*vpn-download$image
+||gamestop*takeovers$image
+||gogoanime*adverting$image
+||gogoanime*share_link$image
+||golem*sp_*-i_rc.jpg$subdocument
+||google*gen_204?
+||google.*/client_204?
+||hdnux*628x471$image
+||hollywoodreporter*roundtables$image
+||instagram.com/logging/
+||livestream*live$subdocument
+||livestream*play$image
+||livexscores*rekban$subdocument
+||loadshare*1m_video$media
+||mashable.com/pv.xml
+||media-imdb.com/twilight/?
+||miniclipcdn.com/*/miniclip.js
+||movies123*premIco$image
+||mp3fiber*freedownload$image
+||myanimelist.cdn-dena.com/*/affiliates/
+||newyorker.com/static/failsafe/
+||omnitagjs.com^$third-party
+||pinterest.com/_/_/report/
+||play.google.com/log?
+||pulsar.ebay.$other
+||readcomiconline*thumbs$image
+||reddit.com/static/pixel.png$image
+||redditmedia.com/gtm/jail?
+||redditstatic.com/moat/
+||rover.ebay.$image
+||sarugbymag*wallpapers$image
+||scripts$image
+||scripts$subdocument
+||sh.st/*/tracking-
+||solarmovies*down$image
+||solarmovies*stream$image
+||sportstream*top1$image
+||streamango.com/log
+||thepiratebay$script
+||thepiratebay.*^$script
+||tribdss.com/meter/
+||twitch.tv*extensions
+||twitter.com/i/jot
+||twitter.com/i/promoted_content
+||twitter.com/oct.js
+||vanityfair*master$image
+||verliga1*cruz$image
+||verliga1*repro$subdocument
+||vg247.com/pv?
+||voxmedia.com/pickup.js
+||watchcartoononline*bg$image
+||wired.com/images/cm/failsafe-images/
+||xijgedjgg5f55.com/*/?$script
+||youtube.com/*/log_event?
+||youtube.com/csi_204?
+||youtube.com/pagead/
+||youtube.com/ptracking?
 !
 ! DOMAINS
+!
 ||*.aaxads.*^
 ||*.amazon-adsystem.com^
 ||*.anyclip.com^
@@ -578,14 +662,8 @@ _s_code.
 ||*.moatads.com^
 ||*.nbcuas.com^
 ||*.pingdom.net^
-||*.to/download.php$subdocument
 ||*.yandex.*^
 ||*.zippydownload.xyz^
-||*amazonaws*amazon_us$image
-||*gfycat.com/self/dktp*r_dktp*.png$image
-||*gfycat.com/self/dktp*_dktp*.png$image
-||*loadshare*custom
-||*namba*178368022$image
 ||*zergnet.*^
 ||039.biz^
 ||054i.com^
@@ -780,7 +858,6 @@ _s_code.
 ||99centclicks.info^
 ||99centptc.com^
 ||99count.com^
-||9anime.*/sw.js$script
 ||9bux.info^
 ||9icebux.com^
 ||9icmzvn6.website^
@@ -1012,10 +1089,6 @@ _s_code.
 ||alwayspay.com^
 ||amarktflow.com^
 ||amazon-adsystem.com^
-||amazon.*/ajax/counter?
-||amazon.*/empty.gif?
-||amazon.*/record-impressions?
-||amazonaws.com/ki.js/
 ||ambiguousquilt.com^
 ||ambitiousagreement.com^
 ||american-mails.com^
@@ -1202,7 +1275,6 @@ _s_code.
 ||beeptr.com^
 ||beginie.com^
 ||belladreanbody.com^
-||beltmag*fundraiser$image
 ||bendovernclick.com^
 ||bensbux.com^
 ||bensonbux.com^
@@ -1671,7 +1743,6 @@ _s_code.
 ||cdn.vdopia.com^
 ||cdn.ywxi.net^
 ||cdn.ziffstatic.com^
-||cdnondemand.org^$third-party
 ||cdnvideo.ibt.com^
 ||cds26.ams9.msecn.net^
 ||cduels.com^
@@ -1819,7 +1890,6 @@ _s_code.
 ||cloud-mails.com^
 ||cloudcoins.live^
 ||cloudfront-labs.amazonaws.com^
-||cloudfront.net*/tracker.js
 ||cloudmails.com^
 ||cloudybux.com^
 ||cloutpay.co^
@@ -1899,7 +1969,6 @@ _s_code.
 ||confiancetrades.com^
 ||config.uca.cloud.unity3d.com^
 ||connatix.com^
-||connect.facebook.net^*/fbevents.js$third-party
 ||consciouscabbage.com^
 ||consciouschairs.com^
 ||consent.cmp.oath.com^
@@ -2053,8 +2122,6 @@ _s_code.
 ||dailyclicks.biz^
 ||dailyclickspro.com^
 ||dailycoinbit.com^
-||dailymail.co.uk/rta2/
-||dailynews.com/_static/$script
 ||dailynewspublic.com^
 ||dailytechynews.com^
 ||dailytradeoption.com^
@@ -2096,7 +2163,6 @@ _s_code.
 ||delightdriving.com^
 ||deliriouspaidemails.com^
 ||dell-support.co.uk^
-||deloplen.com/apu.php?$important
 ||deloton.com^
 ||delta-cash.comdj-mails.com^
 ||deltanairlines.com^
@@ -2115,7 +2181,7 @@ _s_code.
 ||detailedgovernment.com^
 ||detectdiscovery.com^
 ||dev.visualwebsiteoptimizer.com^
-||device-metrics-us*.amazon.*
+||device-metrics-us*.amazon.*^
 ||devilptc.com^
 ||df.telemetry.microsoft.com^
 ||diagnostics.support.microsoft.com^
@@ -2204,9 +2270,6 @@ _s_code.
 ||dreamstarmail.com^
 ||drmartenschuhe.online^
 ||drogon-mails.com^
-||dropapk.com*.gif$image
-||dropbox.com/alternate_
-||dropbox.com/log/
 ||drumcash.com^
 ||drunkbux.com^
 ||drydrum.com^
@@ -2318,7 +2381,6 @@ _s_code.
 ||emailspayu.net^
 ||emassivemails.com^
 ||embed.air.tv^
-||embed.sendtonews.com/player2/embedplayer.php$subdocument
 ||emeraldcoastptc.info^
 ||emetriq.com^
 ||ems.express^
@@ -2415,9 +2477,6 @@ _s_code.
 ||ezihippo.com^
 ||ezlaptop.com^
 ||f-secure.com^
-||facebook*likebox.php$subdocument
-||facebook.com/sem_campaigns/sem_pixel_test/
-||facebook.com/tr?
 ||facebookgameshacks.com^
 ||facebooklikehack.com^
 ||facebookpasswordhackonline.com^
@@ -2457,7 +2516,6 @@ _s_code.
 ||favbux.com^
 ||favoritefxtrading.com^
 ||favouriteoptions.com^
-||fbcdn2.com^$third-party
 ||fbsniffing.com^
 ||fcarsenalonlineshop.co.uk^
 ||fe2.update.microsoft.com.akadns.net^
@@ -2537,7 +2595,6 @@ _s_code.
 ||fortnitev-bucksgenerator.tk^
 ||fortudios-wriefs.com^
 ||foryouthsome.com^
-||fossbytes*vpn-download$image
 ||fourarithmetic.com^
 ||fourleafclovermail.com^
 ||fox80.com^
@@ -2621,7 +2678,6 @@ _s_code.
 ||gamehacksempire.com^
 ||gamespotcdn.com^
 ||gamesrevenu24.com^
-||gamestop*takeovers$image
 ||gamesxbundle.com^
 ||gamez1a.com^
 ||gamezportals.com^
@@ -2638,7 +2694,6 @@ _s_code.
 ||gazellegreece.com^
 ||gdbbshopgqfluckes.tk^
 ||gearjustforyou.com^
-||geico.com/landingpage/
 ||gem-mails.com^
 ||gemini.yahoo.com^
 ||gemius.pl^
@@ -2733,8 +2788,6 @@ _s_code.
 ||goawos.com^
 ||godbux.com^
 ||godoggroom.com^
-||gogoanime*adverting$image
-||gogoanime*share_link$image
 ||gogobux.com^
 ||gold-mails.info^
 ||goldads.org^
@@ -2753,7 +2806,6 @@ _s_code.
 ||goldmineclicks.info^
 ||goldsbux.com^
 ||goldspotmedia.com^
-||golem*sp_*-i_rc.jpg$subdocument
 ||golfclashbooster.online^
 ||golfmails.com^
 ||gomtrack.com^
@@ -2765,9 +2817,7 @@ _s_code.
 ||goodcenterforupdatesoft.date^
 ||goodluck-email.com^
 ||googe.com^
-||google*gen_204?
 ||google-mails.com^
-||google.*/client_204?
 ||googleadservices.com^
 ||googlenow.info^
 ||googlesyndication.com^
@@ -2862,7 +2912,6 @@ _s_code.
 ||havamedia.net^
 ||hawkinsbux.com^
 ||hazingfun.com^
-||hdnux*628x471$image
 ||hdvidzpro.pro^
 ||headband.me^
 ||healthexperience100.com^
@@ -2915,7 +2964,6 @@ _s_code.
 ||holiday-mails.com^
 ||hollowshake.com^
 ||hollywood-mail.com^
-||hollywoodreporter*roundtables$image
 ||holybux.info^
 ||home.neustar^
 ||hommscore.top^
@@ -2990,7 +3038,6 @@ _s_code.
 ||ifixoption.com^
 ||ifreelanzer.com^
 ||igfollowershackpw.me^
-||igg-games*wp-includes$image
 ||igg-games.com^
 ||ihabi.us^
 ||ikaben.com^
@@ -3045,7 +3092,6 @@ _s_code.
 ||inspiremarrow.com^
 ||insta-bux.com^
 ||instafashionshirts.com^
-||instagram.com/logging/
 ||instana.io^
 ||instant-dollars.com^
 ||instant-invest.com^
@@ -3281,16 +3327,12 @@ _s_code.
 ||livehotty.com^
 ||liveoptiontrade.us^
 ||livesports-pass.com^
-||livestream*live$subdocument
-||livestream*play$image
-||livexscores*rekban$subdocument
 ||livingpromos.com^
 ||lizardclicks.info^
 ||lizardslaugh.com^
 ||lkubjgrjslmgxo.com^
 ||lo.gs^
 ||loading-mails.com^
-||loadshare*1m_video$media
 ||local-finder.com^
 ||locationsmart.com^
 ||log.pinterest.com^
@@ -3379,7 +3421,6 @@ _s_code.
 ||marketo.com^
 ||marketo.net^
 ||maruedr.com^
-||mashable.com/pv.xml
 ||massiveopt.com^
 ||massiveptc.com^
 ||massiveptr.com^
@@ -3414,7 +3455,6 @@ _s_code.
 ||meapk.com^
 ||medal-mails.com^
 ||media-dl.*^
-||media-imdb.com/twilight/?
 ||media-match.com^
 ||media.com^
 ||media.net^
@@ -3478,7 +3518,6 @@ _s_code.
 ||miners-coin.com^
 ||miners-hash.com^
 ||minescripts.info^
-||miniclipcdn.com/*/miniclip.js
 ||miniptc.info^
 ||minnersgold.com^
 ||minormeeting.com^
@@ -3559,7 +3598,6 @@ _s_code.
 ||movieleaks.net^
 ||movienachos.com^
 ||movienet.xyz^
-||movies123*premIco$image
 ||moviescult.com^
 ||moviespremium.net^
 ||moviespremium2017.fastspring.com^
@@ -3567,7 +3605,6 @@ _s_code.
 ||mowfruit.com^
 ||mp3adios.space^
 ||mp3ark.com^
-||mp3fiber*freedownload$image
 ||mp3gid.com^
 ||mp3zo.com^
 ||mparticle.com^
@@ -3604,7 +3641,6 @@ _s_code.
 ||mwtpludn.review^
 ||mxcdn.net^
 ||mxpnl.com^
-||myanimelist.cdn-dena.com/*/affiliates/
 ||mybeautyboxes.com^
 ||mybigbux.com^
 ||mybizs.com^
@@ -3683,7 +3719,6 @@ _s_code.
 ||newsjizz.in^
 ||newsmaxfeednetwork.com^
 ||newsptr.com^
-||newyorker.com/static/failsafe/
 ||nexac.com^
 ||nexamart.com^
 ||nextbux.net^
@@ -3768,7 +3803,6 @@ _s_code.
 ||olympoption.com^
 ||omgpop.com^
 ||omniscientspark.com^
-||omnitagjs.com^$third-party
 ||omniture.com^
 ||omtrdc.net^
 ||onabux.com^
@@ -3980,7 +4014,6 @@ _s_code.
 ||pinkpantherissick.space^
 ||pinkyupboutique.com^
 ||pinpointmate.com^
-||pinterest.com/_/_/report/
 ||pipedream.wistia.com^
 ||pipsol.net^
 ||piquantpigs.com^
@@ -4004,7 +4037,6 @@ _s_code.
 ||platinum-investment.com^
 ||platinum-mails.com^
 ||play-asia.com^
-||play.google.com/log?
 ||play4free.fun^
 ||play4traffic.com^
 ||playgalaxytoy.com^
@@ -4160,7 +4192,6 @@ _s_code.
 ||puffyloss.com^
 ||puffypull.com^
 ||puffypurpose.com^
-||pulsar.ebay.$other
 ||pumpkin-mails.com^
 ||puosidopaidaskjaydabdkjsd.oss-eu-central-1.aliyuncs.com^
 ||puppypaid2clicks.com^
@@ -4237,7 +4268,6 @@ _s_code.
 ||rb-aav.com^
 ||read2money.com^
 ||readbud.com^
-||readcomiconline*thumbs$image
 ||readgoldfish.com^
 ||readingguilt.com^
 ||readingopera.com^
@@ -4259,10 +4289,7 @@ _s_code.
 ||recommendedforyou.xyz^
 ||redbnoptions.com^
 ||redbux.com^
-||reddit.com/static/pixel.png$image
 ||reddit.co^
-||redditmedia.com/gtm/jail?
-||redditstatic.com/moat/
 ||redhatbux.com^
 ||rediffbase.com^
 ||redir.metaservices.microsoft.com^
@@ -4343,7 +4370,6 @@ _s_code.
 ||rotumal.com^
 ||roudycash.com^
 ||roughroll.com^
-||rover.ebay.$image
 ||roxyptc.com^
 ||royalbux.ch^
 ||royalinvest.biz^
@@ -4390,7 +4416,6 @@ _s_code.
 ||samsungads.com^
 ||sandraclicks.com^
 ||sansabux.info^
-||sarugbymag*wallpapers$image
 ||saturn-mails.com^
 ||saturnbux.com^
 ||savingsoption.com^
@@ -4415,8 +4440,6 @@ _s_code.
 ||scotbux.co.uk^
 ||screechingfurniture.com^
 ||script.crazyegg.com^
-||scripts$image
-||scripts$subdocument
 ||scripts.kiosked.com^
 ||scroll.com^
 ||scrubsky.com^
@@ -4479,7 +4502,6 @@ _s_code.
 ||sexwithhotpornstars.com^
 ||sexybux.com^
 ||sguitarshow.info^
-||sh.st/*/tracking-
 ||shakesea.com^
 ||shakesuggestion.com^
 ||shakpopin.com^
@@ -4591,8 +4613,6 @@ _s_code.
 ||sojournalpix.com^
 ||solarclick.com^
 ||solarmovie.best^
-||solarmovies*down$image
-||solarmovies*stream$image
 ||solfemaret.com^
 ||solfemarket.com^
 ||solutionscode.com^
@@ -4633,7 +4653,6 @@ _s_code.
 ||splurgebux.com^
 ||spongebobclicks.info^
 ||sportbestshop.com^
-||sportstream*top1$image
 ||spotscenered.info^
 ||spottysense.com^
 ||spox.tv^
@@ -4702,7 +4721,6 @@ _s_code.
 ||straightnest.com^
 ||straightschool.com^
 ||strawberryclicks.*^
-||streamango.com/log
 ||streamhdmovies.net^
 ||streamit-online.com^
 ||streamtvfootball.co.uk^
@@ -4887,8 +4905,6 @@ _s_code.
 ||themodernalmanac.com^
 ||themovie-quest.com^
 ||theneondeal.com^
-||thepiratebay$script
-||thepiratebay.*^$script
 ||thepornstudy.com^
 ||thepornsurvey.com^
 ||theprofithouse.com^
@@ -5025,7 +5041,6 @@ _s_code.
 ||treeclicks.info^
 ||tremendoustime.com^
 ||trends.revcontent.com^
-||tribdss.com/meter/
 ||tribpubads.com^
 ||tribux.net^
 ||trickycelery.com^
@@ -5065,10 +5080,6 @@ _s_code.
 ||tweakingtricks.com^
 ||twistbux.com^
 ||twistedstoat.co.uk^
-||twitch.tv*extensions
-||twitter.com/i/jot
-||twitter.com/i/promoted_content
-||twitter.com/oct.js
 ||twodollarsmail.com^
 ||twowolvesptr.com^
 ||tycoonmails.com^
@@ -5150,7 +5161,6 @@ _s_code.
 ||valentime.com^
 ||valuebux.com^
 ||vanfireworks.com^
-||vanityfair*master$image
 ||vansgg.com^
 ||vanske.com^
 ||vansshoes.site^
@@ -5163,9 +5173,6 @@ _s_code.
 ||velocecdn.com^
 ||velocityclicks.com^
 ||velti.com^
-||verliga1*cruz$image
-||verliga1*repro$subdocument
-||vg247.com/pv?
 ||vgalaxytoy.com^
 ||victoriabrides.com^
 ||victoriahearts.com^
@@ -5213,7 +5220,6 @@ _s_code.
 ||vortex-sandbox.data.microsoft.com^
 ||vortex-win.data.microsoft.com^
 ||vortex.data.microsoft.com^
-||voxmedia.com/pickup.js
 ||vpda.cf^
 ||vrfuckdolls.com^
 ||vrvm.com^
@@ -5230,7 +5236,6 @@ _s_code.
 ||waoindia.com^
 ||warm-mails.com^
 ||waryfog.com^
-||watchcartoononline*bg$image
 ||watchesmore.co.uk^
 ||wateryvan.com^
 ||watson.live.com^
@@ -5291,7 +5296,6 @@ _s_code.
 ||winksweb.net^
 ||winningpokernetwork.com^
 ||wirecomic.com^
-||wired.com/images/cm/failsafe-images/
 ||wissbux.info^
 ||witalfieldt.com^
 ||wizardsptc.info^
@@ -5355,7 +5359,6 @@ _s_code.
 ||xclix.net^
 ||xeni.dk^
 ||xerbot.com^
-||xijgedjgg5f55.com/*/?$script
 ||xinesmas.com^
 ||xinsuangushi.com^
 ||xml.explorads.com^
@@ -5403,10 +5406,6 @@ _s_code.
 ||yourlatinmates.com^
 ||yourlittlehelpers.co^
 ||youtibe.com^
-||youtube.com/*/log_event?
-||youtube.com/csi_204?
-||youtube.com/pagead/
-||youtube.com/ptracking?
 ||youtuhe.com^
 ||youtuube.com^
 ||youutube.com^
