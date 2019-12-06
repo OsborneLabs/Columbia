@@ -2,9 +2,9 @@
 ! Description: A systematic, analytic-halting Internet filter.
 ! Expires: 1 days
 ! Homepage: https://github.com/OsborneSystems/Columbia/
-! Last modified: 1 November 2019 00:00:00 UTC
+! Last modified: 5 December 2019 00:00:00 UTC
 ! Title: Columbia Standard
-! Version: 5.0.6
+! Version: 5.0.7
 !
 ! Copyright (C) Osborne Systems. All rights reserved.
 !
@@ -24,13 +24,13 @@
 ! that the following conditions are met:
 !
 ! 1. Redistributions of source code must retain the above
-!    copyright notice, this list of conditions and the following disclaimer.
+!    copyright notice, this list of conditions and the following disclaimer
 ! 2. Redistributions in binary form must reproduce the above
 !    copyright notice, this list of conditions and the following disclaimer
-!    in the documentation and/or other materials provided with the distribution.
+!    in the documentation and/or other materials provided with the distribution
 ! 3. Neither the name of Osborne Systems nor the names of its contributors
 !    may be used to endorse or promote products derived from this software
-!    without specific prior written permission.
+!    without specific prior written permission
 !
 ###adblock_detected
 ###AdBox160
@@ -219,7 +219,6 @@
 ##.convFacebook
 ##.cookie-notice-container
 ##.cookie-overlay
-##.cookies
 ##.dfp-ad-container
 ##.download-section-1-2-left
 ##.download-section-2
@@ -560,7 +559,7 @@ _article_ad-
 _social_tracking.
 _s_code.
 !
-! ELEMENTS
+! // ELEMENTS
 !
 ||*.to/download.php$subdocument
 ||*amazonaws*amazon_us$image
@@ -568,6 +567,7 @@ _s_code.
 ||*gfycat.com/self/dktp*_dktp*.png$image
 ||*loadshare*custom
 ||*namba*178368022$image
+||1337x*profile-load.svg$image
 ||9anime.*/sw.js$script
 ||amazon.*/ajax/counter?
 ||amazon.*/empty.gif?
@@ -641,13 +641,14 @@ _s_code.
 ||voxmedia.com/pickup.js
 ||watchcartoononline*bg$image
 ||wired.com/images/cm/failsafe-images/
+||wsj*mktg$image
 ||xijgedjgg5f55.com/*/?$script
 ||youtube.com/*/log_event?
 ||youtube.com/csi_204?
 ||youtube.com/pagead/
 ||youtube.com/ptracking?
 !
-! DOMAINS
+! // DOMAINS
 !
 ||*.aaxads.*^
 ||*.amazon-adsystem.com^
@@ -904,14 +905,20 @@ _s_code.
 ||actualbux.com^
 ||actuallysheep.com^
 ||actuallysnake.com^
+||ad-arata.com^
 ||ad-balancer.at^
 ||ad-balancer.net^
 ||ad-center.com^
+||ad-count.jp^
 ||ad-delivery.net^
 ||ad-fortune.com^
 ||ad-pay.de^
 ||ad-rotator.com^
 ||ad-score.com^
+||ad-seek.jp^
+||ad-sell.com^
+||ad-shot.com^
+||ad-trip.com^
 ||ad.go.com^
 ||ad.gt^
 ||ad.kissanime.*^
@@ -928,23 +935,31 @@ _s_code.
 ||adbuxter.com^
 ||adcamp.ru^
 ||adcash.*^
+||addeluxe.jp^
 ||addkt.com^
 ||addthis.com^
 ||adeventtracker.spotify.com^
 ||adexc.net^
 ||adextrem.com^
 ||adf.ly^
+||adf.shinobi.jp^
 ||adfez.net^
 ||adfoc.us^
 ||adfonic.net^
 ||adform.net^
+||adfurikun.jp^
 ||adglare.net^
 ||adgreed.com^
 ||adhoc1.net^
 ||adiddas.com^
+||adingo.jp^
 ||adiquity.com^
 ||adition.com^
+||adjust-net.jp^
+||adjust-sp.jp^
+||adjust.io^
 ||adk2x.com^
+||adlantis.jp^
 ||adless.io^
 ||admadmax.com^
 ||admantx.com^
@@ -962,8 +977,11 @@ _s_code.
 ||adotmob.com^
 ||adpalptc.com^
 ||adpiano.com^
+||adplan-ds.com^
+||adplatform.jp^
 ||adptc.info^
 ||adqy6rzwcs.com^
+||adresult-sp.jp^
 ||adrizer.com^
 ||adroll.com^
 ||ads-bux.net^
@@ -976,6 +994,7 @@ _s_code.
 ||ads.blbrd.co^
 ||ads.exdynsrv.com^
 ||ads.flurry.com^
+||ads.mopub.com^
 ||ads.msn.com^
 ||ads.n-ws.org^
 ||ads.ookla.com^
@@ -999,6 +1018,7 @@ _s_code.
 ||adsbestdevtechie.pw^
 ||adsensecustomsearchads.com^
 ||adservice.google.com^
+||adserving.jp^
 ||adsforsale.info^
 ||adsgain.com^
 ||adshost2.com^
@@ -1018,10 +1038,12 @@ _s_code.
 ||adtech.de^
 ||adtechus.com^
 ||adthrive.com^
+||adticker.net^
 ||adtng.com^
 ||adtrue.com^
 ||adult3dgames.com^
 ||adultmoda.com^
+||adv.livedoor.com^
 ||adventures4u.com^
 ||adverbux.com^
 ||advercash.net^
@@ -1030,6 +1052,7 @@ _s_code.
 ||advertising.com^
 ||advertserve.com^
 ||advertunited.com^
+||advg.jp^
 ||advintage.com^
 ||adwhirl.com^
 ||adworldmedia.com^
@@ -1042,6 +1065,7 @@ _s_code.
 ||afferinte.com^
 ||afftrackr.com^
 ||afgr2.com^
+||afl.rakuten.co.jp^
 ||afraidlanguage.com^
 ||agenciescpa.com^
 ||agensonline.com^
@@ -1060,6 +1084,7 @@ _s_code.
 ||aindsha.com^
 ||aipcapitaltrade.com^
 ||airbnrent.com^
+||airbrake.io^
 ||airpr.com^
 ||ak0gsh40.com^
 ||akadns.net^
@@ -1067,6 +1092,7 @@ _s_code.
 ||aklxnts.xyz^
 ||alabamaclicks.com^
 ||alabamaptc.info^
+||alb.reddit.com^
 ||alcorporatefunding.com^
 ||alertbux.com^
 ||alertptc.com^
@@ -1125,9 +1151,13 @@ _s_code.
 ||apathetictheory.com^
 ||apeloptions.com^
 ||apester.com^
+||api.amplitude.com^
 ||api.gameanalytics.com^
+||api.redshell.io^
 ||api.segment.io^
+||api.treasuredata.com^
 ||api.yp.com^
+||apis.googletagmanager.com^
 ||apktrend.com^
 ||aplustoysforkids.com^
 ||app-measurement.com^
@@ -1140,6 +1170,7 @@ _s_code.
 ||applemails.com^
 ||appleptc.info^
 ||applovin.com^
+||applvn.com^
 ||appolomails.com^
 ||approp.pro^
 ||approvedfornext.com^
@@ -1147,6 +1178,7 @@ _s_code.
 ||appscase.com^
 ||appsflyer.com^
 ||aps.hearstnp.com^
+||apsalar.com^
 ||aquabux.com^
 ||aquaticowl.com^
 ||ar1nvz5.com^
@@ -1211,6 +1243,7 @@ _s_code.
 ||awin1.com^
 ||awsurveys.com^
 ||awzbijw.com^
+||axad.shinobi.jp^
 ||axiomaticalley.com^
 ||ayotraffic.info^
 ||az361816.vo.msecnd.net^
@@ -1232,6 +1265,8 @@ _s_code.
 ||bam-x.com^
 ||ban-mail.com^
 ||bananaclicks.info^
+||bango.combango.org^
+||bango.net^
 ||bank-mails.com^
 ||bankbux.net^
 ||bankdeposit.biz^
@@ -1240,6 +1275,7 @@ _s_code.
 ||bap-34.com^
 ||barbarousnerve.com^
 ||barvaz.me^
+||basic-check.disconnect.me^
 ||basicbag.club^
 ||basketballbelieve.com^
 ||baskettexture.com^
@@ -1496,6 +1532,7 @@ _s_code.
 ||bucketbean.com^
 ||buckmarinegmbh.com^
 ||bugcash.com^
+||bugsense.com^
 ||bull-option.com^
 ||bullionoption.org^
 ||bulliontrade24.com^
@@ -1503,6 +1540,7 @@ _s_code.
 ||bumpberam.pro^
 ||bunno.xyz^
 ||burritoblanketcalifornia.com^
+||burstly.com^
 ||business-ptr.com^
 ||businessbells.com^
 ||businessptr.com^
@@ -1731,6 +1769,7 @@ _s_code.
 ||cbc-4k.stream^
 ||cc.swiftype.com^
 ||ccfccashop.com^
+||cctldtest.google-analytics.com^
 ||cd-mails.com^
 ||cdftradeoption.com^
 ||cdn.branch.io^
@@ -1746,6 +1785,7 @@ _s_code.
 ||cdn.vdopia.com^
 ||cdn.ywxi.net^
 ||cdn.ziffstatic.com^
+||cdnondemand.org^$third-party
 ||cdnvideo.ibt.com^
 ||cds26.ams9.msecn.net^
 ||cduels.com^
@@ -1775,6 +1815,7 @@ _s_code.
 ||charleedrew.co.uk^
 ||charm-mail.com^
 ||chartbeat.com^
+||chartboost.com^
 ||cheap-bux.com^
 ||cheapmedstore.com^
 ||cheappricex.com^
@@ -1823,6 +1864,8 @@ _s_code.
 ||clean-invest.com^
 ||clearcomb.com^
 ||click-bux.net^
+||click.google-analytics.com^
+||click.googleanalytics.com^
 ||click.linksynergy.com^
 ||click2bepaid.com^
 ||click2bux.com^
@@ -1868,6 +1911,7 @@ _s_code.
 ||clicktopsites.com^
 ||clickvoid.com^
 ||clickwith.bid^
+||client-analytics.braintreegateway.com^
 ||client-event-reporter.twitch.tv^
 ||clipneals.com^
 ||cliqz.com^
@@ -1943,6 +1987,7 @@ _s_code.
 ||coinxo.tech^
 ||coinzbux.com^
 ||collect.igodigital.com^
+||collecter.samsungknowledge.com^
 ||collector.githubapp.com^
 ||colombiaonline.com^
 ||colonyhotelcasino.com^
@@ -1972,6 +2017,7 @@ _s_code.
 ||confiancetrades.com^
 ||config.uca.cloud.unity3d.com^
 ||connatix.com^
+||connect.facebook.net^*/fbevents.js$third-party
 ||consciouscabbage.com^
 ||consciouschairs.com^
 ||consent.cmp.oath.com^
@@ -1982,6 +2028,7 @@ _s_code.
 ||contently.com^
 ||contextual.media.net^
 ||contextweb.com^
+||control.kochava.com^
 ||conversantmedia.com^
 ||cookie-mails.com^
 ||cookiebot.com^
@@ -2004,15 +2051,19 @@ _s_code.
 ||cosmicwealth.com^
 ||cosmosjackson.com^
 ||cosplaymails.com^
+||count.ly^
 ||counter.yadro.ru^
+||counter2.blog.livedoor.com^
 ||countess.twitch.tv^
 ||coverclicks.com^
 ||cowboy-mail.com^
 ||cpabuild.com^
 ||cpaintelligent.com^
 ||cpayard.com^
+||cpd.cloud.unity3d.com^
 ||cplmatch.com^
 ||cpy-crack-games-torrent-download-free-pc.com^
+||cpy-crack.com^
 ||crabbychin.com^
 ||crabclicks.info^
 ||crackeddownload.club^
@@ -2037,6 +2088,7 @@ _s_code.
 ||critariatele.pro^
 ||criteo.com^
 ||critictruck.com^
+||crittercism.com^
 ||croclickcash.com^
 ||croclix.com^
 ||crocv.com^
@@ -2076,9 +2128,13 @@ _s_code.
 ||crywebber.github.io^
 ||cs1.wpc.v0cdn.net^
 ||csgogoldcup.net^
+||ct1.shinobi.jp^
+||ct2.shinobi.jp^
+||ctp.googletagmanager.com^
 ||cumbersomecloud.com^
 ||cuntwars.com^
 ||curtaincows.com^
+||custom-blacklisted-tracking-example.com^
 ||customerservicehome.com^
 ||cutebux.com^
 ||cutecushion.com^
@@ -2089,6 +2145,8 @@ _s_code.
 ||cy-mails.com^
 ||cyberbazar.co.uk^
 ||cyclesoups.com^
+||d.applovin.com^
+||d.applvn.com^
 ||d123qx2eclzza.cloudfront.net^
 ||d12jnzhk8qb2zp.cloudfront.net^
 ||d1pdpbxj733bb1.cloudfront.net^
@@ -2185,9 +2243,8 @@ _s_code.
 ||detectdiscovery.com^
 ||dev.visualwebsiteoptimizer.com^
 ||device-api.urbanairship.com^
-||device-metrics-us*.amazon.*^
 ||device-metrics-us-2.amazon.com^
-||device-metrics-us.amazon.com^
+||device-metrics-us.amazon.com^$important
 ||devilptc.com^
 ||df.telemetry.microsoft.com^
 ||diagnostics.support.microsoft.com^
@@ -2227,6 +2284,7 @@ _s_code.
 ||dmxleo.dailymotion.com^
 ||dnn506yrbagrg.cloudfront.net^
 ||dns-vip.net^
+||do-not-tracker.org^
 ||dobryklimat.es^
 ||docksalmon.com^
 ||dodofootwear.com^
@@ -2528,6 +2586,7 @@ _s_code.
 ||favbux.com^
 ||favoritefxtrading.com^
 ||favouriteoptions.com^
+||fbcdn2.com^$third-party
 ||fbsniffing.com^
 ||fcarsenalonlineshop.co.uk^
 ||fe2.update.microsoft.com.akadns.net^
@@ -2582,6 +2641,7 @@ _s_code.
 ||flowerbux.com^
 ||floweryoperation.com^
 ||fls-na.amazon.com^
+||flurry.com^
 ||fluxbtc.com^
 ||flybizs.com^
 ||fmovie.pro^
@@ -2607,6 +2667,7 @@ _s_code.
 ||forter.com^
 ||fortnitev-bucksgenerator.tk^
 ||fortudios-wriefs.com^
+||forwrdnow.com^
 ||foryouthsome.com^
 ||fourarithmetic.com^
 ||fourleafclovermail.com^
@@ -2690,6 +2751,8 @@ _s_code.
 ||gall-tarquin.com^
 ||gameanalytics.com^
 ||gamehacksempire.com^
+||games-download24.com^
+||games4udownload.com^
 ||gamespotcdn.com^
 ||gamesrevenu24.com^
 ||gamesxbundle.com^
@@ -2734,7 +2797,9 @@ _s_code.
 ||getclix.com^
 ||getdailypaid.com^
 ||getdoctopdf.com^
+||getexceptional.com^
 ||getextraoffer.com^
+||gethacks.net^
 ||gethree.com^
 ||getlytics.com^
 ||getor-mails.com^
@@ -2832,11 +2897,13 @@ _s_code.
 ||goodcenterforupdatesoft.date^
 ||goodluck-email.com^
 ||googe.com^
+||google-analytics.com^
 ||google-mails.com^
 ||googleadservices.com^
 ||googlenow.info^
 ||googlesyndication.com^
 ||googletagmanager.com^
+||googletagservices.com^
 ||goop.com^
 ||gordosbux.info^
 ||gorgeousground.com^
@@ -3010,6 +3077,7 @@ _s_code.
 ||hotvbuy.co^
 ||houdini.haaretz.co.il^
 ||hoverowl.com^
+||hp-ir.glb.samsungmilkradio.com^
 ||hpgbcid.com^
 ||hqoptions.com^
 ||hqzjz7fncd.com^
@@ -3039,6 +3107,7 @@ _s_code.
 ||i.tapit.com^
 ||i1.services.social.microsoft.com^
 ||iambux.com^
+||ias.rakuten.co.jp^
 ||ib.3lift.com^
 ||ib.adnxs.com^
 ||ibogaonlineshop.com^
@@ -3070,6 +3139,7 @@ _s_code.
 ||imasdk.googleapis.com^
 ||imatterbux.com^
 ||immensehoney.com^
+||imp.control.kochava.com^
 ||impactradius-go.com^
 ||impactradius.com^
 ||impcode69.xyz^
@@ -3276,6 +3346,7 @@ _s_code.
 ||klickthru.com^
 ||klikini.net^
 ||knifeoctopus.com^
+||kochava.com^
 ||koditv.store^
 ||koinexmining.com^
 ||koobux.com^
@@ -3355,6 +3426,7 @@ _s_code.
 ||lo.gs^
 ||loading-mails.com^
 ||local-finder.com^
+||localytics.com^
 ||locationsmart.com^
 ||log.pinterest.com^
 ||log.quora.com^
@@ -3550,6 +3622,7 @@ _s_code.
 ||mister-gains.com^
 ||mixbux.com^
 ||mixedreading.com^
+||mixpanel.com^
 ||mjkiu.com^
 ||mk-cdn.net^
 ||ml314.com^
@@ -3569,7 +3642,9 @@ _s_code.
 ||mobclix.com^
 ||mobfox.com^
 ||mobgold.com^
+||mobile-collector.newrelic.com^
 ||mobile-connection-alert.fyi^
+||mobileapptracking.com^
 ||mobiledl.adobe.com^
 ||mobilefuse.net^
 ||mobileiconnect.com^
@@ -3637,6 +3712,8 @@ _s_code.
 ||mr-rank.de^
 ||mr-rex.net^
 ||mrskincash.com^
+||ms.applovin.com^
+||ms.applvn.com^
 ||msads.net^
 ||msecn.net^
 ||msecnd.net^
@@ -3827,6 +3904,7 @@ _s_code.
 ||olympoption.com^
 ||omgpop.com^
 ||omniscientspark.com^
+||omnitagjs.com^$third-party
 ||omniture.com^
 ||omtrdc.net^
 ||onabux.com^
@@ -4068,6 +4146,7 @@ _s_code.
 ||playmobileads.com^
 ||playperks.net^
 ||playshop.info^
+||playtomic.com^
 ||pleasant-mails.com^
 ||plexoption.com^
 ||plista.com^
@@ -4236,9 +4315,11 @@ _s_code.
 ||puzzlingfall.com^
 ||pwapi.washingtonpost.com^
 ||pwufxar8.top^
+||px.gfycat.com^
 ||qetaafmall.com^
 ||qfdn3gyfbs.com^
 ||qpda.cf^
+||qs11.googletagmanager.com^
 ||qtrew.com^
 ||qtzjozseyxskxw.bid^
 ||quacksquirrel.com^
@@ -4282,6 +4363,7 @@ _s_code.
 ||rainbow-mails.com^
 ||rainingbux.com^
 ||ralphlaureneushop.com^
+||ranking.rakuten.co.jp^
 ||ranocash.com^
 ||rapidkittens.com^
 ||rapidobux.com^
@@ -4327,6 +4409,7 @@ _s_code.
 ||redmaazabanana.host^
 ||redneckfairies.com^
 ||redroseptc.info^
+||redshell.io^
 ||redtram.com^
 ||referralbux.com^
 ||referrer.disqus.com^
@@ -4403,6 +4486,8 @@ _s_code.
 ||rphydexaceig.com^
 ||rps-uk.rockpapershotgun.com^
 ||rs-staticart.ybcdn.net^
+||rt.applovin.com^
+||rt.applvn.com^
 ||rta.dailymail.co.uk^
 ||rtradsterra43.download^
 ||rtradsterra58.download^
@@ -4439,8 +4524,11 @@ _s_code.
 ||samplejunky.com^
 ||samsoniten.online^
 ||samsungads.com^
+||samsungmilkradio.com^
+||sandbox.google-analytics.com^
 ||sandraclicks.com^
 ||sansabux.info^
+||sargas.iad-03.braze.com^
 ||saturn-mails.com^
 ||saturnbux.com^
 ||savingsoption.com^
@@ -4501,6 +4589,7 @@ _s_code.
 ||selectionsugar.com^
 ||selectivesummer.com^
 ||selfstoragebillingsmt.com^
+||semanticlocation-pa.googleapis.com^
 ||seminolewindptr.com^
 ||sensis.com.au^
 ||sentry.io^
@@ -4538,6 +4627,7 @@ _s_code.
 ||sharethrough.com^
 ||sharkiecool.com^
 ||sharppatch.com^
+||shealth-analytics-api.samsunghealth.com^
 ||sheepmails.com^
 ||shelterstraw.com^
 ||shermore.info^
@@ -4631,6 +4721,7 @@ _s_code.
 ||snowballclicks.com^
 ||snowbux.*^
 ||snowman-mails.com^
+||socdm.com^
 ||socialprofimatic.com^
 ||sofirepmarket.xyz^
 ||softbux.*^
@@ -4694,6 +4785,7 @@ _s_code.
 ||squeamishscarecrow.com^
 ||squirrelhands.com^
 ||ssl.google-analytics.com^
+||ssl.googleanalytics.com^
 ||ssl12anyone3.com^
 ||st-bux.com^
 ||stablebux.com^
@@ -4706,10 +4798,12 @@ _s_code.
 ||stakingslope.com^
 ||standingnest.com^
 ||starbuxs.com^
+||stardustleds.com^
 ||starenhancecart.com^
 ||startmails.com^
 ||statcounter.com^
 ||statecolumn.com^
+||stathat.com^
 ||static.2mdn.net^
 ||static.apester.com^
 ||static.chartbeat.com^
@@ -4775,6 +4869,7 @@ _s_code.
 ||summer-mails.us^
 ||summerhamster.com^
 ||summerobject.com^
+||sumome.com^
 ||sun-cash.com^
 ||sunday-mails.com^
 ||sunflowerssptr.com^
@@ -4786,6 +4881,7 @@ _s_code.
 ||super-bux.net^
 ||super-program.com^
 ||superbux.info^
+||supercell.net^
 ||superdealbest.com^
 ||superfastcdn.com^
 ||superficialsink.com^
@@ -4852,6 +4948,7 @@ _s_code.
 ||t411-music.club^
 ||taboola.com^
 ||tag.crsspxl.com^
+||tagmanager.google.com^
 ||tags.bkrtx.com^
 ||tags.bluekai.com^
 ||tagsrvcs.com^
@@ -4867,6 +4964,7 @@ _s_code.
 ||tansurvey.com^
 ||tap-secure.rubiconproject.com^
 ||tapfiliate.com^
+||tapjoy.com^
 ||taptapnetworks.com^
 ||taptica.com^
 ||taranakihorseriding.co.nz^
@@ -4893,6 +4991,7 @@ _s_code.
 ||teethfan.com^
 ||tegdhsdssaaa69.oss-ap-southwest-1.aliyuncs.com^
 ||telecommand.telemetry.microsoft.com^
+||telemetry.api.2kcoretech.online^
 ||telemetry.appex.bing.net^
 ||telemetry.microsoft.com^
 ||telemetry.urs.microsoft.com^
@@ -4907,6 +5006,7 @@ _s_code.
 ||teschenite.com^
 ||teslapods.com^
 ||teslasmartwatch.com^
+||test-web.googletagmanager.com^
 ||testwebsite.cn^
 ||texasbux.com^
 ||textsex.tk^
@@ -4932,6 +5032,7 @@ _s_code.
 ||themodernalmanac.com^
 ||themovie-quest.com^
 ||theneondeal.com^
+||thepiratebay.*^$script
 ||thepornstudy.com^
 ||thepornsurvey.com^
 ||theprofithouse.com^
@@ -5017,6 +5118,7 @@ _s_code.
 ||tracedesire.com^
 ||traceoption.com^
 ||track.thesaurus.com^
+||trackersimulator.org^
 ||tracklessly.com^
 ||trade-alliance.co^
 ||trade-mails.com^
@@ -5177,6 +5279,7 @@ _s_code.
 ||usemaxserver.de^
 ||usenetdownload.men^
 ||user-clicks.com^
+||usergrid.com^
 ||ushe.education^
 ||usonlinemail.com^
 ||utopiabux.com^
@@ -5188,6 +5291,7 @@ _s_code.
 ||v0cdn.net^
 ||valentime.com^
 ||valuebux.com^
+||valuepods.net^
 ||vanfireworks.com^
 ||vansgg.com^
 ||vanske.com^
@@ -5228,6 +5332,7 @@ _s_code.
 ||vipvvhot.co^
 ||viral.ltd^
 ||viralfresh.com^
+||vis1.shinobi.jp^
 ||visible-better.com^
 ||visiblemeasures.com^
 ||visionptr.com^
@@ -5357,22 +5462,24 @@ _s_code.
 ||worrybutter.com^
 ||wowearnings.com^
 ||wp-stat.s3.amazonaws.com^
+||wp.googletagmanager.com^
 ||wpda.cf^
 ||wqlnntr.top^
 ||wrmoney.com^
 ||wryfinger.com^
 ||ws.microsoft.com^
 ||ws.sharethis.com^
-||wsj*mktg$image
 ||wubux.com^
 ||www-facebook-login.com^
 ||www-facebook-pages.com^
+||www-googletagmanager.l.google.com^
 ||www.delta-search.com^
 ||www.eltrafiko.com^
 ||www.emjcd.com^
 ||www.friendlyduck.com^
 ||www.google-analytics.com^
 ||www.googleadservices.com^
+||www.googleanalytics.com^
 ||www.googletagmanager.com^
 ||www.googletagservices.com^
 ||www.msftncsi.com^
@@ -5480,7 +5587,7 @@ _s_code.
 ||zybzquz.com^
 ||zyseamail.com^
 !
-! DOMAINS AND RULES
+! // RULES AND DOMAINS
 !
 0123movies.*,123hulu.*,edmsauce.com,edmtunes.com,gomovies.*,gostream.*,movies123.*,the123movies.*,watchfree.*##footer
 0123movies.*,123movieshub.*,123moviestube.*,cmovieshd.*,gostream.*,moviesonline.*,putlocker.*,solarmovies.*,solarmoviesc.*,solarmoviez.*,tvmovies.*,watchfree.*,yesmovies.*###mv-keywords
@@ -5667,7 +5774,7 @@ arstechnica.com##.footer-newsletter
 arstechnica.com##.header-highlight-link
 arstechnica.com##.pullbox
 arstechnica.com##.xrail
-arstechnica.com,bleacherreport.com,breitbart.com,chronicle.com,curiouscat.me,dictionary.com,dummies.com,hotcharts.*,nytimes.com,softpedia.com,thecut.com##.ad
+arstechnica.com,bleacherreport.com,breitbart.com,chronicle.com,curiouscat.me,dictionary.com,dummies.com,gq.com,hotcharts.*,nytimes.com,softpedia.com,thecut.com##.ad
 artofmanliness.com,infowars.com,inquisitr.com,newrepublic.com,nymag.com##.subscribe
 ascap.com##.truste_overlay
 ascap.com##[id*="truste_"]
@@ -5679,6 +5786,7 @@ atomtickets.com##.page-wrap-click-target
 atomtickets.com##[href*="adzerk.net"]
 atomtickets.com,fiverr.com,regmovies.com##.app-banner
 atomtickets.com,horriblesubs.info##.header-ad
+attractionsmagazine.com##.mousefan
 audiotools.*###main-header
 audioz.*###src_ref
 avclub.com,calnewport.com,clickhole.com,columbia.com,deadspin.com,earther.com,educba.com,eurogamer.net,foreignpolicy.com,gizmodo.com,inc.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,lithub.com,pbs.org,pitchfork.com,solarmoviesa.*,splinternews.com,techcrunch.com,theinventory.com,theonion.com,theroot.com,thetakeout.com,thewalrus.ca,univision.com,windowscentral.com##.sidebar
@@ -5757,6 +5865,7 @@ bloomberg.com###paywall-banner
 bloomberg.com##.bb-nav-touts__subscribe-link
 bloomberg.com##.navi-bar__button--subscribe
 bloomberg.com##.newsletter-tout
+bloomberg.com##.page-ad
 bloomberg.com##.single-headline
 bloomberg.com##bb-mini-player
 boingboing.net##.nextstory
@@ -5780,7 +5889,7 @@ breitbart.com###iscnewsmaxwidgetid
 breitbart.com###iscscon
 breitbart.com##.articlefooter
 breitbart.com##.fancybox-container
-brisbanetimes.com.au,theage.com.au##.adWrapper
+brisbanetimes.com.au,theage.com.au,weather.com##.adWrapper
 broadcastingcable.com##.m-in-content-ad
 broadcastingcable.com##.m-message-banner
 businessinsider.com###editorial
@@ -5796,6 +5905,7 @@ businessinsider.com##.recommended
 businessinsider.com##.right-subscribe
 businessinsider.com##.see-also
 businessinsider.com##.see-header
+businessinsider.com##.subscribe-btn
 buzzfeed.com###mod-feedgrid-1
 buzzfeed.com###mod-subbuzz-text-1
 buzzfeed.com###mod-thumbstrip-1
@@ -6060,6 +6170,7 @@ drgeeky.com##.et_bloom_popup
 dribbble.com##.full-pitch
 dribbble.com##.infinite
 dribbble.com##.search-prompt
+dropapk.*##.features__section
 dropapk.com##.buyPremium
 dropapk.com##[class*="col-xs-"]
 dropapk.com##[value*="Premium"]
@@ -6147,7 +6258,9 @@ eurogamer.net##.background-facebook
 eurogamer.net##.collapsible
 eurogamer.net##figcaption
 everydayhealth.com,geek.com###newsletter-widget
+ew.com###div-gpt-mpb-square-flex-1
 ew.com##.above-footer
+ew.com##.adhesion-ad-container
 ew.com##.bottom-recirc
 ew.com,fortune.com,people.com##.newsletter-callout
 ew.com,fortune.com,people.com,time.com##.under-nav
@@ -6175,6 +6288,7 @@ fastcodesign.com##.post__promotion
 fastcodesign.com##.post__sidebar
 fastcompany.com###sidebar-ad-0
 fastcompany.com###sidebar-ad-1
+fastcompany.com##.ad-wrapper
 fastcompany.com##.all-feed__sidebar
 fastcompany.com##.card--advertorial
 fastcompany.com##.homepage-page__all-ad-container
@@ -6277,6 +6391,7 @@ gamebillet.com##.alert-box
 gamebillet.com##.alert-box-flexible
 gamebillet.com##.footer-promo-box
 gamecode.win##script:inject(tab-defuser.js)
+gamenquides.com##.ezoic-ad
 gamepedia.com###atflb
 gamepedia.com###btfheroContainer
 gamepedia.com###btfhero_container
@@ -6321,6 +6436,7 @@ github.com##.discussion-timeline-actions
 github.com##.js-notice
 github.com##.rounded-0
 github.com##.signup-prompt
+gizmodo.com##[class] > [class] > [class] > [class]> [class]:has-text(Advertisement)
 glassdoor.com###SmartBanner
 glassdoor.com###UserAlertBar
 godaddy.com##.domain-result:has([class*="is-ad"])
@@ -6410,6 +6526,7 @@ hbr.org##.promo--right
 hbr.org##.tagged
 hbr.org,medicinenet.com,primagames.com##.article-promo
 hd.*,tvmovies.*##.footer-subs
+healthline.com##.css-umsscj
 hearst.com###newsletter-form-footer
 hearst.com###promo-video
 hearst.com###promo-video-overlay
@@ -6448,6 +6565,9 @@ ieee.org###side-module
 ieee.org##.automaton
 ieee.org##.learn-more
 ieee.org##.magazine-links
+ifunny.co##.l-footer
+ifunny.co##.push-notification
+ifunny.co,propublica.org##.promotion
 igg-games.com##.block
 ign.com##.ad-rail-wrapper
 ign.com##.app-link-banner
@@ -6842,6 +6962,7 @@ newyorker.com##[href*="/subscribe/"]
 nextbigfuture.com###text-3
 nexusmods.com###follow
 nexusmods.com###footbtn
+nexusmods.com###rj-vortex
 nexusmods.com##.download-donation-panel
 nexusmods.com##.download-right-panel
 nhentai.net##+js(window.open-defuser.js)
@@ -6904,9 +7025,13 @@ nytimes.com##.recommendations-footer
 nytimes.com##.related-coverage
 nytimes.com##.shown
 nytimes.com##.StoryBodyCompanionColumn:has-text(Related Coverage)
+nytimes.com##.StoryBodyCompanionColumn:has-text(Some stories you shouldn’t miss)
 nytimes.com##[class*="ad-wrapper"]
 nytimes.com##[class*="ResponsiveAd"]
+nytimes.com##[class] > [class] > :has-text(Read More on)
 nytimes.com##[class] > [class] > [class] > [class] > [class]:has-text(Sign up for our weekly)
+nytimes.com##[class] > [class] > [class] > [class] > [class]:has-text(Unlock more free articles)
+nytimes.com##[class] > [class] > [class]:has-text(In Case You Missed It)
 nytimes.com##[class] > [class] > [class]:has-text(Related Coverage)
 nytimes.com##[class]:has-text(Let us know)
 nytimes.com##[href*="/subscription"]
@@ -7028,7 +7153,6 @@ propublica.org##.email-nav
 propublica.org##.latest-stories
 propublica.org##.module-donate
 propublica.org##.module-popular
-propublica.org##.promotion
 propublica.org##.related-stories
 propublica.org,refinery29.com##.email-signup
 propublica.org,tomsguide.com##.author-bio
@@ -7128,6 +7252,7 @@ refinery29.com###action_button_container
 refinery29.com##.cta-bar
 refinery29.com##.jump-banner
 refinery29.com##.related-entries-container
+refinery29.com##.section-ad
 refinery29.com##.spot-im-recirculation-container
 refinery29.com,rowfirst.*,watchfree.*##.footer
 regmovies.com##.footer-partners
@@ -7142,6 +7267,7 @@ reuters.com##.CanvasAd_container
 reuters.com##.Footer_social
 reuters.com##.GetTheAppBanner_get-the-app-banner
 reuters.com##.module.stickyContainer1
+reuters.com##.NewsletterSignUp_container
 reuters.com##.RecircRibbon_container
 reuters.com##.RelatedCoverage_related-coverage-module
 reuters.com##.RightRail_container
@@ -7327,6 +7453,8 @@ techcrunch.com##.article-extra
 techcrunch.com##.article__related-links
 techcrunch.com##.article__social-share
 techcrunch.com##.homepage__event-promo
+techdirt.com###post_footer
+techdirt.com###rightcolumn
 techdirt.com##.relposts
 technadu.com##.charlotte-background
 technobuffalo.com###sharing-column
@@ -7512,6 +7640,10 @@ thesaurus.com###thesaurus_serp_atf_728x90
 thesaurus.com###thesaurus_serp_btf_2
 thesaurus.com###thesaurus_serp_btf_300x252
 thesaurus.com##.editorial-content-feed
+thesimsresource.com##.crtv-bottom-wrapper
+thesimsresource.com##.crtv-top-wrapper
+thesimsresource.com##.nonsubscriber
+thesimsresource.com##.pleasewait-ad
 thesun.co.uk###cookie-bar
 thetrendspotter.net##.essb_item
 thetrendspotter.net##.mobile_advert
@@ -7535,6 +7667,7 @@ thewrap.com##.attachment-full
 thewrap.com##.ctx-link
 thewrap.com##.mobile-sticky-bottom
 thewrap.com##.widgets-inner
+thewrap.com##.wk-site-overlay
 thomsonreuters.com##.tr-DismissibleBanner
 thoughtco.com###billboard1-sticky_1-0
 thoughtco.com###billboard2-sticky_1-0
@@ -7622,6 +7755,7 @@ turbobit.*##.col-2
 turbobit.*##.payment-block
 tvline.com##.mobile-header-ad
 tvline.com,variety.com##.google-publisher
+tvtechnology.com##.m-header--coverline
 tvtropes.org###-mvsorsf-or
 tvtropes.org###main-content-sidebar
 tvtropes.org##.atf_banner
@@ -7701,6 +7835,7 @@ usatoday.com##.secondary
 usatoday.com##.site-masthead-subscribe-wrap-visible
 usatoday.com##.story-feedback-opinionlabs-module
 usatoday.com##p:has-text(More:)
+usatoday.com##promo-up-next
 usmagazine.com###content-card-footer
 usmagazine.com##.module-trending-bar
 usnews.com##.article-body-item:has-text(Read:)
@@ -7909,6 +8044,7 @@ xda-developers.com##.w-social
 xvideos.com###ad-header-mobile
 yahoo.com##.YDC-Sidekick-Wrapper
 yelp.com##.biz-list-ad
+yelp.com##section:has-text(Sponsored)
 yesmovies.*###like-home
 yesmovies.*##.content-kussss
 yesmovies.*##.popover-content
@@ -7922,6 +8058,7 @@ youredm.com##.cb-post-meta
 youtube.*###companion
 youtube.*###hats-container
 youtube.*###iv-promo-shelf
+youtube.*###part_welcome
 youtube.*###promotion-shelf
 youtube.*###ticker
 youtube.*###unlimited-guide-item
@@ -7934,11 +8071,11 @@ youtube.*##.search-refinements
 youtube.*##.signup-promo
 youtube.*##.yt-live-chat-gaming-promo-renderer
 youtube.*##.yt-valign:has-text(Get YouTube TV)
+youtube.*##.ytp-cards-button-icon
 youtube.*##.ytp-cards-teaser
 youtube.*##.ytp-ce-element
 youtube.*##.ytp-pause-overlay
-youtube.*###part_welcome
-youtube.*##.ytp-cards-button-icon
+youtubedownload.*##[src*="pushvpn.com"]
 zara.com###cookies-container
 zdnet.com##.keepUp
 zdnet.com##.related-topics
