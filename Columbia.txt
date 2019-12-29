@@ -2,9 +2,9 @@
 ! Description: A systematic, analytic-halting Internet filter.
 ! Expires: 1 days
 ! Homepage: https://github.com/OsborneSystems/Columbia/
-! Last modified: 5 December 2019 00:00:00 UTC
+! Last modified: 28 December 2019 00:00:00 UTC
 ! Title: Columbia Standard
-! Version: 5.0.7
+! Version: 5.0.8
 !
 ! Copyright (C) Osborne Systems. All rights reserved.
 !
@@ -558,6 +558,11 @@ _728x90.
 _article_ad-
 _social_tracking.
 _s_code.
+/images/*twitter-
+/images/facebook
+/images/googleplus
+/images/reddit-
+/logimpressions?
 !
 ! // ELEMENTS
 !
@@ -572,6 +577,7 @@ _s_code.
 ||amazon.*/ajax/counter?
 ||amazon.*/empty.gif?
 ||amazon.*/record-impressions?
+||amazonaws*amazon_us$image
 ||amazonaws.com/ki.js/
 ||beltmag*fundraiser$image
 ||cdnondemand.org^$third-party
@@ -1128,6 +1134,7 @@ _s_code.
 ||analytics.global.sky.com^
 ||analytics.kaltura.com^
 ||analytics.newsinc.com^
+||analytics.query.yahoo.com^
 ||analytics.shorte.st^
 ||analytics.slashdotmedia.com^
 ||analytics.spotify.com^
@@ -1137,6 +1144,7 @@ _s_code.
 ||anastasia-web.com^
 ||ancient-bux.ch^
 ||android-sdk31.transpera.com^
+||android.bugly.qq.com^
 ||angelbux.com^
 ||annies-biz.com^
 ||anonymous-net.com^
@@ -1995,6 +2003,7 @@ _s_code.
 ||com-2018-news.info^
 ||com-2019-current.info^
 ||com-online.site^
+||com-secure-login-key2380149380564319415752175045216739890.info^
 ||cometbux.com^
 ||comfortablecheese.com^
 ||comfortableincome.net^
@@ -2683,6 +2692,7 @@ _s_code.
 ||free3dadultgames.com^
 ||freecamsexposed.com^
 ||freecashclick.com^
+||freedoenloads.online^
 ||freefornitev-bucks.bid^
 ||freegameznow.com^
 ||freegeoip.net^
@@ -2749,6 +2759,7 @@ _s_code.
 ||galaxybux.com^
 ||galaxybux.info^
 ||gall-tarquin.com^
+||gallerypic3.info^
 ||gameanalytics.com^
 ||gamehacksempire.com^
 ||games-download24.com^
@@ -2848,6 +2859,7 @@ _s_code.
 ||glbdns2.microsoft.com^
 ||glcdn.co^
 ||glitterbux.com^
+||gloalrie.com^
 ||global24trade.com^
 ||globalbikeshop.com^
 ||globalcoinsmine.com^
@@ -3432,6 +3444,7 @@ _s_code.
 ||log.quora.com^
 ||log.spotify.com^
 ||logans-legacy.com^
+||loggly.com^$3p
 ||login-instagram.com^
 ||logosilo.icu^
 ||lokomotivptc.com^
@@ -3454,6 +3467,7 @@ _s_code.
 ||loyalbux.com^
 ||lp.easyziptab.com^
 ||lp3tdqle.com^
+||ls.srvcs.tumblr.com^
 ||lsaleshow.club^
 ||ltgollersftr.com^
 ||lucesdesulayr.es^
@@ -3472,6 +3486,7 @@ _s_code.
 ||m.anyfiles.ovh^
 ||m.hotmail.com^
 ||m.trb.com^
+||m.yap.yahoo.com^
 ||mable-inc.com^
 ||mac-us94.live^
 ||mac-us95.live^
@@ -3524,6 +3539,8 @@ _s_code.
 ||matchcows.com^
 ||matching4singleshookup.com^
 ||matoakaptr.com^
+||matomo.darken.eu^
+||matomo.org^
 ||matomymobile.com^
 ||matrixptc.com^
 ||max-bux.com^
@@ -3570,6 +3587,7 @@ _s_code.
 ||mellogames.net^
 ||mellow-mails.com^
 ||mellowads.com^
+||meloads.com^
 ||memorizeneck.com^
 ||memorycobweb.com^
 ||menhealthreport.net^
@@ -4241,6 +4259,7 @@ _s_code.
 ||promotebuy.com^
 ||prontoremoval.co.uk^
 ||propellerads.com^
+||propellerclick.com^
 ||properptr.com^
 ||propertiess.xyz^
 ||prophetbux.com^
@@ -5690,6 +5709,7 @@ aeon.co##.support-bar
 aeon.co,fastcodesign.com,fastcompany.com,inverse.com,motherjones.com,whathifi.com,wtsp.com##.newsletter-signup
 aetv.com##.newsletter-signup-container
 akamai.com##.sticky-visible
+akinator.*,nike.com##.smartbanner
 allrecipes.com###block-karma-slot
 allrecipes.com##.about_author
 allrecipes.com##.karma-slot
@@ -5734,7 +5754,6 @@ amazon.*##.thirdPartySponsorLink
 amazon.*##.updp-right-option
 amazon.*##div[data-ad-details]
 amazon.*##[class] > [class] > [class] > [class] > [class]:has-text(Sponsored by)
-amazon.*##[id*="center-"]
 amazon.*##[src*="AmazonCash"]
 ancient.eu###ad_Flexi_LowerRight
 ancient.eu###mc_embed_signup
@@ -6317,6 +6336,7 @@ filecrypt.*##.buttons
 filecrypt.*##tr:has([class*="offline small"])
 filecrypt.*##tr:has-text(n/a)
 filecrypt.cc##.support_2
+fiverr.com##.cookie-approval
 fivethirtyeight.com##.sidebar-feature
 fivethirtyeight.com##p:has-text(Read more:)
 flaticon.com###layer_coupon
@@ -6324,6 +6344,8 @@ flaticon.com##.edge-content-iframe
 flaticon.com##.search-pack-result
 flsaudio.*,freshstuff4u.*##.sidebar
 flsaudio.*,freshstuff4u.*##[class] > [id]:has-text(Please disable your ad blocker)
+flvto.*##.flex-spacer
+flvto.*##.horizontal-ads
 flvto.biz##.desktop-promo
 flvto.biz##.flvto-player-banner
 flvto.biz##.hidden-mobile
@@ -6895,6 +6917,8 @@ myanimelist.net##.index-manga-store-description
 myanimelist.net##.index-watch-description
 myanimelist.net##.mauto
 myanimelist.net##.modal-content
+myanimelist.net##.popup-background
+myanimelist.net##.welcome-back
 myanimelist.net##._unit
 myanimelist.net##div[style][data-height]
 mymodernmet.com###get-newsletter
@@ -6963,10 +6987,11 @@ nextbigfuture.com###text-3
 nexusmods.com###follow
 nexusmods.com###footbtn
 nexusmods.com###rj-vortex
+nexusmods.com##.donation-form
 nexusmods.com##.download-donation-panel
 nexusmods.com##.download-right-panel
+nexusmods.com##.premium-block
 nhentai.net##+js(window.open-defuser.js)
-nike.com##.smartbanner
 nintendo-insider.com###mvp-post-trend-wrap
 nintendo.*###cookie-topbar
 nintendoenthusiast.com###bk_widget_social_counters-2
@@ -7100,6 +7125,7 @@ pexels.com##.carbon-ad-in-photos
 pexels.com##.js-mobile-app-banner
 pexels.com##.js-sponsored-photos
 pexels.com##.partner-box
+pexels.com##.pexelspalooza__popup
 pexels.com##.photo-modal__content
 phys.org###news-holder
 phys.org##.banner-holder
@@ -7233,6 +7259,7 @@ reddit.com##.OverlayMenu-row:has-text(Ad)
 reddit.com##.premium-banner
 reddit.com##.ProfileSidebar__followDescription
 reddit.com##.ProfileVoiceAd
+reddit.com##.promoted
 reddit.com##.promotedlink
 reddit.com##.read-next-container
 reddit.com##.seo-comments
@@ -7393,6 +7420,7 @@ soundcloud.com##.featureHeader
 soundcloud.com##.frontMobileTeaser
 soundcloud.com##.l-front-signup-teaser
 soundcloud.com##.listenLogin
+soundcloud.com##.m-promotion
 soundcloud.com##.moreMenu__goUpsell
 soundcloud.com##.smcx-modal
 soundcloud.com##.statsBadge__upsell
@@ -7556,6 +7584,7 @@ thegamer.com##p:has-text(READ MORE:)
 thegamer.com##p:has-text(READ NEXT:)
 theguardian.com###dfp-ad--inline1
 theguardian.com###dfp-ad--inline2
+theguardian.com###dfp-ad--mostpop
 theguardian.com###dfp-ad--top-above-nav
 theguardian.com###email-sign-up
 theguardian.com###footer__email-form
@@ -7628,6 +7657,7 @@ thepiratebay.*##b:has-text(bc1q9x30z7rz52c97jwc2j79w76y7l3ny54nlvd4ew)
 thepiratebay.*##b:has-text(LS78aoGtfuGCZ777x3Hmr6tcoW3WaYynx9)
 thepiratebay.*##script:inject(abort-on-property-read.js, _wm)
 thepiratebay.*##script:inject(abort-on-property-write.js, Fingerprint2)
+thepiratebay.*##[href*="azirevpn"]
 thepiratebay.*##[href*="get-express-vpn.com"]
 thepiratebay.*##[href*="qfdn3gyfbs.com"]
 theregister.co.uk###article_newsletter_signup
@@ -7804,6 +7834,7 @@ uploadboy.*##[href*="/earn.html"]
 uploadboy.*##[src*="/adshere"]
 uploaded.*##.prem
 uploadfiles.*##.pro-download
+uploadrar.com##.btn-success
 uploadship.*###adblockinfo
 uploadship.*###price
 uploadship.*##+js(abort-current-inline-script, document.getElementById, adblock)
@@ -7905,7 +7936,11 @@ vice.com##p:has-text(Sign up for our newsletter)
 videoconvert.co##.home-section-4
 videoconvert.co##.home-section-5
 videoconvert.co##.urlconverter-section-4
+vidstreaming.*##+js(abort-current-inline-script, decodeURIComponent, parseInt)
+vidstreaming.*##+js(abort-current-inline-script, parseInt, tabunder)
 vidstreaming.*##+js(abort-current-inline-script.js, decodeURIComponent, parseInt)
+vidstreaming.*##+js(acis, Math, zfgloaded)
+vidstreaming.*##+js(noeval)
 vidstreaming.*##script:inject(abort-current-inline-script.js, parseInt, tabunder)
 vidstreaming.*##script:inject(noeval.js)
 vipboxtv.*##.btn
@@ -7963,6 +7998,7 @@ watchfilms.*###mCSB_1
 wattpad.com###authentication-panel
 wattpad.com###bottom-banner-container
 wattpad.com##.promoted-stories-container
+weather.com##[class*="styles__container"]
 webmd.com###quiz-hp
 webmd.com##.global-nav-subscribe
 webmd.com##.module-f-hs
