@@ -2,9 +2,9 @@
 ! Description: A systematic, analytic-halting Internet filter.
 ! Expires: 1 days
 ! Homepage: https://github.com/OsborneSystems/Columbia/
-! Last modified: 10 February 2020 00:00:00 UTC
+! Last modified: 17 March 2020 00:00:00 UTC
 ! Title: Columbia Standard
-! Version: 5.0.9
+! Version: 5.1.0
 !
 ! Copyright (C) Osborne Systems. All rights reserved.
 !
@@ -292,7 +292,6 @@
 ##.js-subproduct-whitebox-holder
 ##.jw-settings-sharing
 ##.jw-submenu-sharing
-##.l1
 ##.lazyload_ad
 ##.leadWrap
 ##.m-ad
@@ -334,6 +333,7 @@
 ##.related__video
 ##.responsive-app__cookies
 ##.results-ad
+##.scroll-top:not(body):not(html)
 ##.sd-sharing
 ##.sd-social
 ##.servers-cost-money
@@ -480,6 +480,7 @@
 .iframetracker.
 .me/ads/
 .php?zoneid=
+/1clkn/*$script
 /300x250-
 /ad-third-party/*
 /ad300x250.
@@ -493,7 +494,6 @@
 /adservice.
 /adsjs/*
 /adtech.
-/advertisement/
 /akam/11/*
 /analytics-event-
 /analytics/v1/
@@ -585,6 +585,7 @@ _s_code.
 ||*loadshare*custom
 ||*namba*178368022$image
 ||1337x*profile-load.svg$image
+||1377x*load.svg$image
 ||9anime.*/sw.js$script
 ||amazon.*/ajax/counter?
 ||amazon.*/empty.gif?
@@ -592,6 +593,7 @@ _s_code.
 ||amazonaws*amazon_us$image
 ||amazonaws.com/ki.js/
 ||apis.google.com/js/platform.js$3p
+||b2c.com^$3p
 ||beltmag*fundraiser$image
 ||cdnondemand.org^$third-party
 ||cloudfront.net*/tracker.js
@@ -609,11 +611,13 @@ _s_code.
 ||fbcdn2.com^$third-party
 ||fossbytes*vpn-download$image
 ||gamestop*takeovers$image
+||get-express-vpn.com/*?a_fid=$document
 ||gogoanime*adverting$image
 ||gogoanime*share_link$image
 ||golem*sp_*-i_rc.jpg$subdocument
 ||google*gen_204?
 ||google.*/client_204?
+||google.com/js/plusone.js$3p
 ||hdnux*628x471$image
 ||hollywoodreporter*roundtables$image
 ||instagram.com/logging/
@@ -632,6 +636,7 @@ _s_code.
 ||omnitagjs.com^$third-party
 ||pinterest.com/_/_/report/
 ||play.google.com/log?
+||producebreed.com^$3p
 ||pulsar.ebay.$other
 ||readcomiconline*thumbs$image
 ||reddit.com/static/pixel.png$image
@@ -651,7 +656,6 @@ _s_code.
 ||thepiratebay.*^$script
 ||tribdss.com/meter/
 ||twitch.tv*extensions
-||twitter.com/*/promoted_content/log.json
 ||twitter.com/i/jot
 ||twitter.com/i/promoted_content
 ||twitter.com/oct.js
@@ -858,6 +862,7 @@ _s_code.
 ||60dailyhyip.com ^
 ||60euromail.com^
 ||6198399e4910e66-ovc.com^
+||6357491.com^
 ||666mails.com^
 ||66cpwgln.space^
 ||6ldu6qa.com^
@@ -1106,6 +1111,7 @@ _s_code.
 ||aimbin.online^
 ||aindsha.com^
 ||aipcapitaltrade.com^
+||airartapt.site^
 ||airbnrent.com^
 ||airbrake.io^
 ||airpr.com^
@@ -1370,6 +1376,7 @@ _s_code.
 ||bestpaidbux.cn^
 ||bestpornobux.us^
 ||bestquickcontentfiles.com^
+||bestsearchs.info^
 ||beta-cash.com^
 ||betabux.com^
 ||betaoption.net^
@@ -1481,10 +1488,12 @@ _s_code.
 ||boilingbeetle.com^
 ||boilingumbrella.com^
 ||bondjamesbond.net^
+||bongacams.com^
 ||bonusfree.ru^
 ||boodaq.com^
 ||book88c.club^
 ||bookamsterdamaccommodation.com^
+||books-online.club^
 ||boomtrain.com^
 ||boonbux.com^
 ||boostbux.info^
@@ -1878,6 +1887,7 @@ _s_code.
 ||cj3lema152.top^
 ||cl96rwprue.com^
 ||claimgiftcards.us^
+||clarium.global.ssl.fastly.net^
 ||clarkshop.club^
 ||clarksonline.co^
 ||clash-of-clans-for-android.com^
@@ -2433,6 +2443,7 @@ _s_code.
 ||easyjob50.com^
 ||easytodocookery.com^
 ||ebayadvertising.com^
+||ebookspdffk8stfd.cf^
 ||ec2-35-156-211-201.eu-central-1.compute.amazonaws.com^
 ||ec2-35-159-6-133.eu-central-1.compute.amazonaws.com^
 ||ec2-54-233-176-153.sa-east-1.compute.amazonaws.com^
@@ -2578,6 +2589,7 @@ _s_code.
 ||ezihippo.com^
 ||ezlaptop.com^
 ||f-secure.com^
+||facebo0k-login.com^
 ||facebook-fans-buy.com^
 ||facebook-mails.com^
 ||facebook-pass.com^
@@ -2611,6 +2623,7 @@ _s_code.
 ||fashion2smi.ru^
 ||fast-pubg.com^
 ||fast.sc^
+||fastaffordabemoney.com^
 ||fastbux.*^
 ||fastdatinglife.com^
 ||fastestbux.com^
@@ -2691,7 +2704,6 @@ _s_code.
 ||fomozoo.com^
 ||foobri.com^
 ||footinthedoorcv.co.uk^
-||footprint.net^
 ||footprintpredict.com^
 ||footprints-pa.googleapis.com^
 ||force-miner.com^
@@ -2714,6 +2726,7 @@ _s_code.
 ||foxcash.net^
 ||foxworldnews.today^
 ||fqtag.com^
+||fr33fastd0wnload.space^
 ||frailoffer.com^
 ||franchiser.geteres.com^
 ||free-adult-games.com^
@@ -2827,6 +2840,7 @@ _s_code.
 ||georiot.com^
 ||geoservice.curse.com^
 ||gepeto.biz^
+||get-ebooks.club^
 ||get-express-vpn.com^
 ||get-umoney.com^
 ||getadmiral.com^
@@ -3071,6 +3085,7 @@ _s_code.
 ||higheurest.com^
 ||highfalutinroom.com^
 ||hightradebn.com^
+||hihojia7.info^
 ||hilariouszinc.com^
 ||hiperbux.info^
 ||hipfollow.com^
@@ -3226,6 +3241,7 @@ _s_code.
 ||instaface.org^
 ||instafashionshirts.com^
 ||instagram01.com^
+||instagrambusinesshelp.com^
 ||instana.io^
 ||instant-dollars.com^
 ||instant-invest.com^
@@ -3276,6 +3292,7 @@ _s_code.
 ||iqcryptoinvest.com^
 ||iqtradeopt.com^
 ||iqtradeoption.com^
+||iread-now.com^
 ||iriverptr.com^
 ||isabelmarco.com^
 ||islandclicks.net^
@@ -3938,6 +3955,7 @@ _s_code.
 ||ocean-mails.com^
 ||oceansoflife.com^
 ||oclaserver.com^
+||ocsp.comodoca4.com^
 ||oei1.gq^
 ||officialraptorstoreonline.com^
 ||offr.rocks^
@@ -3965,6 +3983,7 @@ _s_code.
 ||omtrdc.net^
 ||onabux.com^
 ||onclasrv.com^
+||onclickclear.com^
 ||onclickmedia.com^
 ||one-mails.com^
 ||onebodybox.com^
@@ -4435,6 +4454,7 @@ _s_code.
 ||rb-aav.com^
 ||read2money.com^
 ||readbud.com^
+||readeverybooks.com^
 ||readgoldfish.com^
 ||readingguilt.com^
 ||readingopera.com^
@@ -4532,6 +4552,7 @@ _s_code.
 ||rolex-mails.com^
 ||romancetale.com^
 ||romapinec.com^
+||roomi.pw^
 ||roosterfirework.com^
 ||rosalindy.com^
 ||rosebux.com^
@@ -4547,6 +4568,7 @@ _s_code.
 ||rphydexaceig.com^
 ||rps-uk.rockpapershotgun.com^
 ||rs-staticart.ybcdn.net^
+||rsalcau.com^
 ||rt.applovin.com^
 ||rt.applvn.com^
 ||rta.dailymail.co.uk^
@@ -4562,6 +4584,7 @@ _s_code.
 ||ruthlessrobin.com^
 ||rzuhelpcenter.com^
 ||s.gateway.messenger.live.com^
+||s.ntv.io^
 ||s.skimresources.com^
 ||s.youtube.com^
 ||s0.2mdn.net^
@@ -4748,6 +4771,7 @@ _s_code.
 ||sixscissors.com^
 ||sizesidewalk.com^
 ||skidrowcpy.com^
+||skidrowgamespc.com^
 ||skimresources.com^
 ||sky-wolf.net^
 ||skyfxhub.com^
@@ -5096,6 +5120,7 @@ _s_code.
 ||thegoldsafe.com^
 ||thehomesteadtrust.com^
 ||thejtstore.com^
+||thelargelibrary.com^
 ||themart.xyz^
 ||themodernalmanac.com^
 ||themovie-quest.com^
@@ -5230,6 +5255,7 @@ _s_code.
 ||trainerfan.uk.com^
 ||tranquilside.com^
 ||transcend.store^
+||transmissiondisguided.club^
 ||tratartledag.com^
 ||travelmails.com^
 ||traviously.pro^
@@ -5439,6 +5465,7 @@ _s_code.
 ||w5insight.com^
 ||wakwaw.xyz^
 ||waldeal.net^
+||walemedia.com^
 ||walktrends.com^
 ||waoindia.com^
 ||warm-mails.com^
@@ -5479,6 +5506,7 @@ _s_code.
 ||whaleintomail.com^
 ||whaleofaptc.info^
 ||whamess.com^
+||whatsappdownload.site^
 ||whirlclick.com^
 ||whirlwealth.com^
 ||whiskyqueue.com^
@@ -5589,6 +5617,7 @@ _s_code.
 ||xtrabux.net^
 ||xtrefinance.com^
 ||xtremeclickerz.com^
+||xtremeeventsgroup.com^
 ||xuanmart.com^
 ||xvkili.com^
 ||xvntrade.top^
@@ -5694,6 +5723,8 @@ _s_code.
 1337x.*##[href*="/directredirect"]
 1337x.*##[href*="/redirmusic.php?q="]
 1337x.*##[href*="redirectgames.php?q="]
+1377x.*##a[href^="/anonymous-download/?"][target="_blank"][id]
+1377x.*##[id]:has-text(Dir)
 1movies.*###addthis_wrapper
 1movies.*###add_to_watch
 1movies.*###add_watch_trigger
@@ -5737,6 +5768,7 @@ a2zapk.*##.A2ZAPK
 a2zapk.*##.ArticleLand:has-text(Social Media)
 a2zapk.*##.MenuDeveloper
 a2zapk.*##.NewBlock:has-text(Social Network)
+a2zupload.*###alert
 aamc.org##.news-article-footer
 abcnews.go.com###global-live-bar
 abcnews.go.com##.abcn-alert-insert
@@ -5789,6 +5821,7 @@ amazon.*###huc-first-upsell-row
 amazon.*###nav-swmslot
 amazon.*###nav-upnav
 amazon.*###pdagMwebCarousel
+amazon.*###percolate-ui-ilm_feature_div
 amazon.*###prime-upsell
 amazon.*###sc-new-upsell
 amazon.*###sc-upsell
@@ -5798,14 +5831,18 @@ amazon.*###sp_detail
 amazon.*###student-rw-overlay-container
 amazon.*###universal-detail-ilm
 amazon.*###widget_container:has-text(Related products from Our Brands)
+amazon.*##.a-span-last:has-text(Join Prime Student for fast, FREE delivery)
 amazon.*##.adcenterRowWrapper
 amazon.*##.adFeedback
 amazon.*##.adStripe2
 amazon.*##.amzn-safe-frame-container
 amazon.*##.benefits-container
+amazon.*##.maple-banner:has-text(Amazon Pay)
 amazon.*##.ms3-issuance
 amazon.*##.nav-prime-try
 amazon.*##.prime-ho-legal-text
+amazon.*##.s-brand-footer-container
+amazon.*##.s-result-item:has-text(Editorial recommendations)
 amazon.*##.s-result-item:has-text(Sponsored)
 amazon.*##.s-sponsored-list-header
 amazon.*##.sidebar
@@ -5815,8 +5852,8 @@ amazon.*##.thirdPartySponsorLink
 amazon.*##.updp-right-option
 amazon.*##div[data-ad-details]
 amazon.*##[class] > [class] > [class] > [class] > [class]:has-text(Sponsored by)
+amazon.*##[href^="/iss/credit/storecardmember"]
 amazon.*##[src*="AmazonCash"]
-amazon.com###percolate-ui-ilm_feature_div
 aminoapps.com##.live-comment
 ancient.eu###ad_Flexi_LowerRight
 ancient.eu###mc_embed_signup
@@ -5985,6 +6022,7 @@ businessinsider.com##.brands
 businessinsider.com##.category-tagline
 businessinsider.com##.feed-footer-wrapper
 businessinsider.com##.mobile-intercept
+businessinsider.com##.popular-video
 businessinsider.com##.recommended
 businessinsider.com##.right-subscribe
 businessinsider.com##.see-also
@@ -6020,6 +6058,7 @@ cbslocal.com##.ym
 cbsnews.com###fdWrapperCBSN
 cbsnews.com###module-right-rail-fd-mobile-app-promo
 cbsnews.com###module-right-rail-fd-taboola
+cbsnews.com###smart-banner-download
 cbsnews.com##.module-rem
 cbsnews.com##.show-promo
 cbsnews.com##.smart-banner__wrapper
@@ -6055,6 +6094,8 @@ citethisforme.com##.sbm-ad
 citylab.com##.c-article-most-popular
 citylab.com##.c-authors-article
 citylab.com##.l-sponsored
+clarionledger.com###gannettAtomsComponentBar
+clarionledger.com,usatoday.com##promo-up-next
 clevelandclinic.org##[id*="gpt-ad"]
 clickhole.com##.rail-player
 clickhole.com##.sidebar-container
@@ -6115,6 +6156,7 @@ consumerreports.org##.recircbar
 converto.io##.like-and-share-btns
 converto.io##.share-block-xl
 cpmlink.net##iframe[src="about:blank"]
+cpomagazine.com##.alert-info
 crackwatch.com##.ab
 crackwatch.com##.abl
 crackwatch.com##.announcement
@@ -6208,6 +6250,7 @@ deadline.com##.pmc-links
 deadline.com##.pmc-templatized-widget
 deadline.com##.powered-by-vip
 deadline.com##.related-article
+deadline.com##.related-story
 deadline.com##.textwidget
 deadline.com##.toaster
 deadline.com,indiewire.com##.ad-text
@@ -6315,6 +6358,7 @@ educba.com##.container-fluid
 educba.com##.mfp-wrap
 educba.com##.nc_socialPanelSide
 educba.com##.xs-margin-top-three
+efile.com##.efslidermsg
 elle.com##.embed-left
 emailondeck.com###left_col
 engadget.com###recirculation
@@ -6462,6 +6506,8 @@ fosshub.com##.software-donate
 fosshub.com##.software-similar
 fosshub.com##[src="/index/donateQ"]
 foursquare.com##.signupPrompt
+foxla.com##.ad-container
+foxla.com##.alert-banner
 foxnews.com##.notification-banner
 france24.com##.m-interstitial
 freelanced.com##[id*="_divAd"]
@@ -6530,8 +6576,10 @@ github.com##.js-notice
 github.com##.rounded-0
 github.com##.signup-prompt
 gizmodo.com##[class] > [class] > [class] > [class]> [class]:has-text(Advertisement)
+glassdoor.com###HardsellOverlay
 glassdoor.com###SmartBanner
 glassdoor.com###UserAlertBar
+glassdoor.com##[class*="adSlot"]:has-text(Sponsored)
 godaddy.com##.domain-result:has([class*="is-ad"])
 godaddy.com##.footer-apps
 gogoanime.*##+js(abort-current-inline-script, atob, decodeURIComponent)
@@ -6558,6 +6606,7 @@ google.*##.gws-local-promotions__container
 google.*##.section-result[data-result-ad-type]
 google.*##body[class] > [class]:has-text(Try Drive for free)
 google.*##[class*="-slot-promo"]
+google.*##[class] > [class] > [class] > [class] > [class] > [class] > [class] > [class] > [class] > [class] > [class] > [class] > [class] > [class]:has-text(Get Drive for desktop)
 google.*##[class] > [class] > [class] > [class] > [class] > [class] > [class] > [class] > [class]:has-text(Get more out of Google with Google One)
 google.*##[class] > [class] > [class] > [class]:has-text(Browse or delete your Search activity data)
 google.*##[class] > [class] > [class] > [class]:has-text(Choose the privacy settings that are right for you)
@@ -6626,9 +6675,8 @@ hearst.com###promo-video
 hearst.com###promo-video-overlay
 hentaimama.*###playerads
 hentaimama.*##.ads_box
-hentaimama.*###playerads
-hentaimama.*##.video_notification
 hentaimama.*##.video_alert
+hentaimama.*##.video_notification
 hentaiworld.*###header-image-main
 hentaiworld.*##.support-ad
 hollywoodreporter.com##.blog-post-author-section
@@ -6647,6 +6695,8 @@ hollywoodreporter.com,shazam.com,theatlantic.com##.follow
 honeysanime.com##.side-gutter
 hotcharts.*###jp_container_1
 hotcharts.*##.b_strut
+howstuffworks.com##.ad-disclaimer
+howstuffworks.com##.recirc-panel
 howtogeek.com##p:has-text(RELATED)
 huffingtonpost.com##.below-entry
 huffingtonpost.com##.header__social-list
@@ -6801,10 +6851,13 @@ kisscartoon.*##.app_ovf
 kissmanga.*##+js(setTimeout-defuser.js, (), 3000)
 knowherenews.com##.src-components-email-__Subscribe-module___Subscribe
 knowherenews.com##.src-components-explainer-__Explainer-module___Explainer
+knowyourmeme.*##+js(fuckadblock.js-3.2.0)
 knowyourmeme.com###civic-science-container
 knowyourmeme.com###entry-fb-comments
+knowyourmeme.com###image-fb-comments
 knowyourmeme.com###ora-tv
 knowyourmeme.com###spp-gallery
+knowyourmeme.com##+js(aopw, upManager)
 knowyourmeme.com##.combo-line
 knowyourmeme.com##.combo-wrapper
 knowyourmeme.com##.complex-ad-wrapper
@@ -6838,6 +6891,9 @@ latimes.com,nydailynews.com##.inline-ad
 latimes.com,nydailynews.com##.inline-ad-arrow
 latimes.com,nydailynews.com##.met-flyout
 lemonade.com##.subscribe-footer
+lepiratebay.*###nord-stiky
+lepiratebay.*###searchResult:has-text(Do NOT download any torrent before hiding your IP with a VPN.)
+lepiratebay.o*###nord-message
 lifehacker.com##.ad-non-sticky
 lifehacker.com##.branded-item
 linkedin.com##.article-end
@@ -6859,6 +6915,9 @@ longreads.com##p:has-text(Kickstart your weekend reading)
 longreads.com##[href*="/newsletter/?"]
 looperman.com###header-announcement-wrapper
 looperman.com##.follow-footer-wrapper
+lowes.com###emailSignUpDialog
+lowes.com##.js-lcc-banner
+lowes.com##.modal-backdrop
 lumendatabase.org##.first-time-visitor
 makeuseof.com##.link-callout
 makeuseof.com##.single-post-transition-bar
@@ -6951,6 +7010,8 @@ mixloads.*##.features__section
 mixloads.*##.payment_methods
 mixloads.*##div.text-center.col-md-4:nth-of-type(2)
 mixloads.com##+js(aeld, load, 2000)
+monster.com###popup-mailbox
+monster.com###privacyModal
 motherjones.com###homepage-more-stories-sidebar
 motherjones.com###Site_Skin_Right
 motherjones.com##.alignright
@@ -7170,6 +7231,9 @@ openculture.com##.new_subscription_block
 openculture.com##.noborder
 openculture.com##.white_background
 oprah.com###page_content__right_column_block_2
+oregonlive.com###sidebar
+oregonlive.com##.ad--sponsor-content
+oregonlive.com##.in-content-ad-wrapper
 ouo.io##.about
 ouo.io##.desc
 ouo.io##.join-now
@@ -7205,6 +7269,8 @@ pcworld.com###side
 pcworld.com##.end-byline
 people.com##.bottom-recirc
 people.com##.subscribe-callout
+pewresearch.org###js-donation-callout
+pewresearch.org##.js-react-mailchimp-newsletter
 pexels.com##.carbon-ad-in-photos
 pexels.com##.js-mobile-app-banner
 pexels.com##.js-sponsored-photos
@@ -7585,6 +7651,7 @@ technologyreview.com##.magazine-promo
 technologyreview.com##.meter
 technologyreview.com##.navbar--tertiary
 technologyreview.com##.rm
+techomap.com##.payments
 techradar.com###expanding-articles
 techradar.com##.hawk-widget-insert
 techradar.com##.inbody__newsletter
@@ -7708,6 +7775,9 @@ thehill.com##.social-share-googleplus-follow
 thehill.com##.social-share-linkedin
 thehill.com##.social-share-twitter-follow
 theladders.com##.email-inbetweener
+theladders.com##.flipboard-red-container
+theladders.com##.gold
+theladders.com##.guest-prospect-sticky-footer-container-desktop
 theladders.com##.hp-footer-border
 theladders.com##.ladders-user-signup-flow
 theladders.com##.like-us
@@ -7901,7 +7971,6 @@ twitter.com##.SignupCallOut
 twitter.com##.suggested-tweet-stream-container
 twitter.com##[aria-label="who to follow" i]
 twitter.com##[aria-label="who to follow" i]:nth-ancestor(2)
-twitter.com##[aria-labelledby="accessible-list-0"]:nth-ancestor(3)
 twitter.com##[class*="protection-notice"]
 undark.org##.boxzilla-container
 undark.org##.footer-top
@@ -7963,7 +8032,6 @@ usatoday.com##.secondary
 usatoday.com##.site-masthead-subscribe-wrap-visible
 usatoday.com##.story-feedback-opinionlabs-module
 usatoday.com##p:has-text(More:)
-usatoday.com##promo-up-next
 usmagazine.com###content-card-footer
 usmagazine.com##.module-trending-bar
 usnews.com##.article-body-item:has-text(Read:)
@@ -8135,6 +8203,7 @@ wired.com###article-tags
 wired.com###prefooter
 wired.com##.ad-component--box
 wired.com##.advertisement__leaderboard
+wired.com##.callout--related-list
 wired.com##.cm-failsafe
 wired.com##.cm-failsafes
 wired.com##.cm-subscribe-link-wrapper
@@ -8191,6 +8260,7 @@ youredm.com##.cb-post-meta
 youtube.*###companion
 youtube.*###hats-container
 youtube.*###iv-promo-shelf
+youtube.*###old-browser-alert
 youtube.*###part_welcome
 youtube.*###promotion-shelf
 youtube.*###ticker
