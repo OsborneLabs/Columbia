@@ -2,9 +2,9 @@
 ! Description: A systematic, analytic-halting Internet filter.
 ! Expires: 1 days
 ! Homepage: https://github.com/OsborneSystems/Columbia/
-! Last modified: 17 March 2020 00:00:00 UTC
+! Last modified: 16 April 2020 00:00:00 UTC
 ! Title: Columbia Standard
-! Version: 5.1.0
+! Version: 5.1.5
 !
 ! Copyright (C) Osborne Systems. All rights reserved.
 !
@@ -1116,7 +1116,6 @@ _s_code.
 ||airbrake.io^
 ||airpr.com^
 ||ak0gsh40.com^
-||akadns.net^
 ||akhxnts.xyz^
 ||aklxnts.xyz^
 ||alabamaclicks.com^
@@ -2454,7 +2453,6 @@ _s_code.
 ||ecoingroup.com^
 ||economicpizzas.com^
 ||edge.reporo.net^
-||edgekey.net^
 ||edgetrade.live^
 ||edigitalsurvey.com^
 ||editorscuttv.us^
