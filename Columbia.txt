@@ -1,10 +1,10 @@
 ! Author: Osborne Systems
-! Description: A systematic, analytic-halting Internet list
+! Description: A systematic, analytic-halting Internet blacklist
 ! Expires: 1 days
 ! Homepage: https://github.com/OsborneSystems/Columbia/
-! Last modified: 17 April 2020 00:00:00 UTC
+! Last modified: 1 May 2020 00:00:00 UTC
 ! Title: Columbia Standard
-! Version: 5.2.0
+! Version: 5.3.0
 !
 ! Copyright (C) Osborne Systems. All rights reserved.
 !
@@ -223,6 +223,7 @@
 ##.dfp-ad-container
 ##.download-section-1-2-left
 ##.download-section-2
+##.dt_social_single
 ##.entry-footer
 ##.essb_mailform
 ##.fa-facebook-square
@@ -266,6 +267,7 @@
 ##.funbox
 ##.g-plus
 ##.g-plusone
+##.GoogleDfpAd
 ##.grecaptcha-badge
 ##.header-ads
 ##.header_ad
@@ -275,12 +277,15 @@
 ##.icon-facebook-circle
 ##.icon-google-plus
 ##.icon-google-plus-circle
+##.icon-google-plus2
 ##.icon-googleplus
 ##.icon-instagram
 ##.icon-pinterest
+##.icon-pinterest-p
 ##.icon-tumblr
 ##.icon-twitter
 ##.icon-twitter-circle
+##.icon-whatsapp
 ##.icon-youtube
 ##.in-content-ad--container
 ##.inline-ad-container
@@ -423,28 +428,32 @@
 ##a[href*="facebook.com/sharer/sharer.php?"]
 ##a[href*="postmates.com/?utm_source"]
 ##a[href*="twitter.com/share"]
-##a[href="https://twitter.com/share"]
-##a[href^="https://twitter.com/share"]
-##a[href^="https://www.facebook.com/sharer.php"]
-##a[href^="https://www.facebook.com/sharer.php?"]
-##a[href^="https://www.stumbleupon.com/submit?url="]
-##a[href^="https://www.tumblr.com/share/"]
+##a[href*="https://twitter.com/share"]
+##a[href*="https://www.facebook.com/sharer.php"]
+##a[href*="https://www.facebook.com/sharer.php?"]
+##a[href*="https://www.stumbleupon.com/submit?url="]
+##a[href*="https://www.tumblr.com/share/"]
+##a[href*="whatsapp://send"]
+##a[href*="whatsapp://send?text="]
 ##a[title="Facebook"]
 ##a[title="Google+"]
+##a[title="Instagram"]
 ##a[title="RSS"]
+##a[title="Snapchat"]
 ##a[title="Twitter"]
+##a[title="YouTube"]
 ##a[title^="Share via facebook"]
 ##button[title="Share"]
 ##div[button="share"]
-##div[class^="Ad__header"]
-##div[class^="app_gdpr-"]
-##div[class^="FooterSocialLinks"]
-##div[class^="InlineMessage"]
-##div[class^="RelatedCoverage"]
+##div[class*="Ad__header"]
+##div[class*="app_gdpr-"]
+##div[class*="FooterSocialLinks"]
+##div[class*="InlineMessage"]
+##div[class*="RelatedCoverage"]
 ##div[data-nconvert-cookie]
-##div[id^="div-gpt-ad"]
-##div[id^="M"][id*="Composite"]
-##div[id^="zergnet-widget"]
+##div[id*="div-gpt-ad"]
+##div[id*="M"][id*="Composite"]
+##div[id*="zergnet-widget"]
 ##iframe[width="100%"][height="120"]
 ##iframe[width="300"][height="250"]
 ##iframe[width="728"][height="90"]
@@ -453,9 +462,12 @@
 ##img[alt="Reddit"]
 ##img[alt="Scroll to top"]
 ##img[alt="Twitter"]
-##img[alt^="Share on Facebook"]
+##img[alt*="Share on Facebook"]
+##img[src*="counter.yadro.ru"]
 ##img[title="Facebook"]
+##img[width="88"][height="31"]
 ##KNO-SHARE-BUTTON
+##li[class*="_back-2-top_"]
 ##[aria-label="cookieconsent"]
 ##[class*="Footer__footer"]
 ##[class*="Layout__sidebar"]
@@ -465,6 +477,7 @@
 ##[class*="Section__ad"]
 ##[class*="social-links"]
 ##[class*="style__subscribe"]
+##[href*="cutt.ly/rrz2Y94"]
 ##[href*="high-speed-hd-streaming.html"]
 ##[href*="o12zs3u2n"]
 ##[href*="offer?prod="]
@@ -474,9 +487,9 @@
 ##[id*="MarketGid"]
 ##[id*="PreloadC"]
 ##[id*="ScriptRoot"]
-##[id^="p_root_"]
+##[id*="p_root_"]
 ##[src*="urbandaddy"]-cookie-consent.
-##[title^="Subscribe to our YouTube "]
+##[title*="Subscribe to our YouTube "]
 -facebook2.
 -pagead-id.
 -tracking.js?
@@ -485,6 +498,7 @@
 .iframetracker.
 .me/ads/
 .php?zoneid=
+/1.gif?n=
 /1clkn/*$script
 /300x250-
 /ad-third-party/*
@@ -498,6 +512,7 @@
 /ads?id=
 /adservice.
 /adsjs/*
+/adsnippet.
 /adtech.
 /akam/11/*
 /analytics-event-
@@ -516,12 +531,15 @@
 /criteo.
 /dwanalytics-
 /entry_stats?
+/error/*.gif?msg=
 /exo_na/
 /fbevents.js
 /fbshare.
 /generate_204$image
 /gen_204?$other
 /gogoanime\.*\/js\/[\w-]{20,}\.js/$script,first-party
+/googleanalytics/*
+/gpt_and_prebid/*
 /icon-facebook.
 /icon-twitter.
 /images/*twitter-
@@ -554,17 +572,21 @@
 /realmedia/ads/
 /record-impressions?
 /recordhit?
+/referrer.js
 /resonance.js
 /rpc/log?
 /rum/id?
 /ruxitagentjs_
 /share42.js
 /sharecounts/
+/smetrics.*/b/ss/*
 /social-icons.
 /social-logos/
 /socialicon/*
 /static/ads/
 /tagmanager/pptm.
+/track?pid=
+/transparent.gif?ray=
 /uedata?
 /videojs.ads
 /videojs.ads.
@@ -581,7 +603,7 @@ _article_ad-
 _social_tracking.
 _s_code.
 !
-! // ELEMENTS
+! ELEMENTS
 !
 ||*.to/download.php$subdocument
 ||*amazonaws*amazon_us$image
@@ -599,6 +621,7 @@ _s_code.
 ||amazonaws*amazon_us$image
 ||amazonaws.com/ki.js/
 ||apis.google.com/js/platform.js$3p
+||app.link^$3p
 ||b2c.com^$3p
 ||beltmag*fundraiser$image
 ||cdnondemand.org^$third-party
@@ -641,6 +664,7 @@ _s_code.
 ||newyorker.com/static/failsafe/
 ||omnitagjs.com^$third-party
 ||pinterest.com/_/_/report/
+||platform.californiatimes.com/meter/latspot.min.js
 ||play.google.com/log?
 ||producebreed.com^$3p
 ||pulsar.ebay.$other
@@ -681,8 +705,75 @@ _s_code.
 ||youtube.com/pagead/
 ||youtube.com/ptracking?
 !
-! // DOMAINS
+! DOMAINS
 !
+||*.suddenlink.net^
+||*.tubecup.net^
+||*.yadro.ru^
+||ad-miner.com^
+||adminer.com^
+||aeros01.tk^
+||aeros02.tk^
+||aeros03.tk^
+||aeros04.tk^
+||aeros05.tk^
+||aeros06.tk^
+||aeros07.tk^
+||aeros08.tk^
+||aeros09.tk^
+||aeros10.tk^
+||aeros11.tk^
+||aeros12.tk^
+||ai.tlcking.com^
+||alliance4creativity.com^
+||aniview.com^
+||api.inwemo.com
+||bettercallpaul.info^
+||bidgear.com^
+||coderpro.com^
+||counter.yadro.ru^
+||engineeredtruth.com^
+||ezexfzek.com^
+||fbtracker.org^
+||hack4me.is^
+||hackaccount.me^
+||hacker-facebook.mobie.in^
+||hackfacebook2019.com^
+||hacking-passwords.com^
+||hcracker.com^
+||hotdownloads.com^
+||howtohackingfb.blogspot.com^
+||kamalchry.blogspot.com^
+||maliva-mcs.byteoversea.com^
+||mob1dev1ces.com^
+||mob1ledev1ces.com^
+||newzmedia.biz^
+||notification.tubecup.net^
+||openload.co^
+||passwordheist.com^
+||passwordmanagers.net^
+||pcsx4.com^
+||pokerbey5.com^
+||prd-collector-anon.playbuzz.com^
+||readmenewz.com^
+||receive-lp1.dg.srv.nintendo.net^
+||receive-lp1.er.srv.nintendo.net^
+||rhombusads.com^
+||rocks.io^
+||rowoardog.com^
+||sdfshroud.fun^
+||streamango.com^
+||suddenlink.net^
+||take-gun.fun^
+||techinterviewpro.com^
+||techseries.dev^
+||timsykes-supernova.com^
+||tubecupt.net^
+||undershroud.fun^
+||www.yadro.ru^
+||www.zergnet.com^
+||youcanhack.com^
+||zilis.direct^
 ||*.aaxads.*^
 ||*.amazon-adsystem.com^
 ||*.anyclip.com^
@@ -699,7 +790,7 @@ _s_code.
 ||*.pingdom.net^
 ||*.yandex.*^
 ||*.zippydownload.xyz^
-||*zergnet.*^
+||*.zergnet.*^
 ||039.biz^
 ||054i.com^
 ||07bux.net^
@@ -2101,7 +2192,6 @@ _s_code.
 ||cosmosjackson.com^
 ||cosplaymails.com^
 ||count.ly^
-||counter.yadro.ru^
 ||counter2.blog.livedoor.com^
 ||countess.twitch.tv^
 ||coverclicks.com^
@@ -5710,7 +5800,7 @@ _s_code.
 ||zybzquz.com^
 ||zyseamail.com^
 !
-! // RULES AND DOMAINS
+! DOMAINS AND RULES
 !
 0123movies.*,123hulu.*,edmsauce.com,edmtunes.com,gomovies.*,gostream.*,movies123.*,the123movies.*,watchfree.*##footer
 0123movies.*,123movieshub.*,123moviestube.*,cmovieshd.*,gostream.*,moviesonline.*,putlocker.*,solarmovies.*,solarmoviesc.*,solarmoviez.*,tvmovies.*,watchfree.*,yesmovies.*###mv-keywords
@@ -6015,6 +6105,7 @@ bloomberg.com###latest_issues
 bloomberg.com###newsletter
 bloomberg.com###paywall-banner
 bloomberg.com##.bb-nav-touts__subscribe-link
+bloomberg.com##.mobile-box-ad-dummy
 bloomberg.com##.navi-bar__button--subscribe
 bloomberg.com##.newsletter-tout
 bloomberg.com##.page-ad
@@ -6248,6 +6339,7 @@ curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge
 curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge.com,vox.com###newsletter-signup-short-form
 curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge.com,vox.com##.adblock-whitelist-messaging__article-wrapper
 curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge.com,vox.com##.ad__athena_internal
+curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge.com,vox.com##.c-breaking-news
 curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge.com,vox.com##.c-compact-river
 curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge.com,vox.com##.c-podcast-player
 curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge.com,vox.com##.c-read-more
@@ -6256,6 +6348,7 @@ curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge
 curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge.com,vox.com##.c-tab-bar
 curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge.com,vox.com##.l-col__sidebar
 curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge.com,vox.com##.m-ad
+curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge.com,vox.com##p:has-text(Sign up for the Future Perfect newsletter)
 curbed.com,polygon.com,racked.com,recode.net,sbnation.com,theringer.com,theverge.com,vox.com##[id]:has-text(Sign up for our newsletter)
 curiouscat.me##.CTA
 cwtv.com###shr
@@ -6419,6 +6512,7 @@ espn.com##.related-container
 espn.com,popsci.com##.inline
 esquire.com,popularmechanics.com##.breaker-ad
 etonline.com###header-ad
+etsy.com##.v2-listing-card:has([class*="position-top"])
 etsy.com##.wt-list-unstyled:has(.ad-iindicator)
 etsy.com##div[data-etsy-promo-cookie-expires]
 eurogamer.net##.background-facebook
@@ -6552,6 +6646,9 @@ foursquare.com##.signupPrompt
 foxla.com##.alert-banner
 foxla.com,reddit.com,trustedreviews.com##.ad-container
 foxnews.com##.notification-banner
+foxnews.com##strong:has([href])
+foxnews.com##strong:has-text(CLICK HERE FOR COMPLETE)
+foxnews.com##[href*="nation.foxnews.com"]
 freelanced.com##[id*="_divAd"]
 freelanced.com##[id*="_divControl"]
 freepik.com###iframe_sponsor
@@ -6661,6 +6758,8 @@ google.*##[class] > [class] > [class] > [class]:has-text(Browse or delete your S
 google.*##[class] > [class] > [class] > [class]:has-text(Choose the privacy settings that are right for you)
 google.*##[class] > [class] > [class] > [class]:has-text(Visit your Google Account to control and protect your info, all in one place)
 google.*##[class] > [class] > [class] > [class]:has-text(We never sell your personal information)
+gotoquiz.com##.bulbasaur
+gotoquiz.com##.cBelow
 gounlimited.*###adbd
 gounlimited.*##+js(abort-on-property-read, _0x4aea)
 gounlimited.*##+js(abort-on-property-write, Fingerprint2)
@@ -6749,6 +6848,9 @@ hotcharts.*###jp_container_1
 hotcharts.*##.b_strut
 howstuffworks.com##.ad-disclaimer
 howstuffworks.com##.recirc-panel
+howtogeek.com##.amp-ad-wrapper
+howtogeek.com##.article-bottom
+howtogeek.com##.message
 howtogeek.com##p:has-text(RELATED)
 huffingtonpost.com##.below-entry
 huffingtonpost.com##.header__social-list
@@ -6819,6 +6921,7 @@ independent.co.uk##.inline-related
 independent.co.uk##.load-more-btn
 independent.co.uk##.sidebar-item:has-text(Sponsored)
 independent.co.uk##amp-twitter
+independentliving.org##.cc-bottom
 indiatimes.com###backgroundPopup
 indiatimes.com###bottomAd
 indiatimes.com###feedbackForm
@@ -6855,6 +6958,8 @@ inquisitr.com##m-subscribe
 insidehighered.com##.article-foot-share-etc
 insidehighered.com##.featured-logo
 insidehighered.com##.panel-pane:has-text(Want to advertise? Click here)
+insider.com##.read-more-links
+insider.com##[id*="_ad-mobile"]
 inspirationhut.net##.tve_flt
 instagram.com##div[class] > [class] > [class]:has-text(Cookies)
 instagram.com##[class] > [class] [class]:has-text(Use the App)
@@ -6891,24 +6996,33 @@ kiplinger.com##.kip-sidebar
 kiplinger.com##.kip-top-row
 kiplinger.com,nymag.com,politico.com,propublica.org,scribd.com##.promo
 kiss-anime.*###divAds2
+kiss-anime.*##+js(set, String.prototype.charAt, trueFunc)
 kiss-anime.*,putlockers.*##script:inject(nowebrtc.js)
 kissanime.*##+js(abort-current-inline-script.js, parseInt, incrementClicks)
 kissanime.*##+js(kissanime-defuser.js)
+kissanime.*##+js(set, check_adblock, true)
+kissanime.*##.aattention
 kissanime.*##.arrow-general
 kissanime.*##.clear2
 kissanime.*##.divCloseBut
 kissanime.*##.footer_watching_link
+kissanime.*##.hhotnews
+kissanime.*##.jw-logo
 kissanime.*##.pop_ovf2
 kissanime.*##.related_news
 kissanime.*##.videoAdClose
 kissanime.*##script:inject(abort-current-inline-script.js, AddCloseButton)
 kissanime.*##script:inject(abort-current-inline-script.js, InitCloseButton)
 kissanime.*##script:inject(abort-current-inline-script.js, isClickHide)
+kissanime.*##[class]:has-text(Subscribe to KissAnime mailing list to receive updates)
+kissanime.*##[class]>[class]>[class]>[class]>:has-text(Don't miss out your favorite series!)
+kissanime.*##[href*="premium-membership"]
 kisscartoon.*##.app_ovf
 kissmanga.*##+js(setTimeout-defuser.js, (), 3000)
 knowherenews.com##.src-components-email-__Subscribe-module___Subscribe
 knowherenews.com##.src-components-explainer-__Explainer-module___Explainer
 knowyourmeme.*##+js(fuckadblock.js-3.2.0)
+knowyourmeme.com###cboxOverlay
 knowyourmeme.com###civic-science-container
 knowyourmeme.com###entry-fb-comments
 knowyourmeme.com###image-fb-comments
@@ -6916,11 +7030,13 @@ knowyourmeme.com###ora-tv
 knowyourmeme.com###shopify-collection-component-entry-body
 knowyourmeme.com###spp-gallery
 knowyourmeme.com##+js(aopw, upManager)
+knowyourmeme.com##+js(nofab)
 knowyourmeme.com##.combo-line
 knowyourmeme.com##.combo-wrapper
 knowyourmeme.com##.complex-ad-wrapper
 knowyourmeme.com##.content-unit-refresh-wrapper
 knowyourmeme.com##.facebook_comments
+knowyourmeme.com##.fb-page-like
 knowyourmeme.com##.floating-share-bar
 knowyourmeme.com##.homepage-share
 knowyourmeme.com##.related-photos
@@ -6936,19 +7052,25 @@ laptopmag.com###stickyShare
 laptopmag.com##.footerSocial
 laptopmag.com##.nlSubscribe
 latimes.com###ensNotifyBanner
+latimes.com##+js(abort-on-property-read, googlefc)
+latimes.com##+js(nostif, a.parentNode.removeChild(a), 100)
+latimes.com##.ArticlePage-contentFooter
 latimes.com##.buttonbar
 latimes.com##.card-border-bottom
 latimes.com##.footer-call-to-action-container
+latimes.com##.GoogleDfpAd-wrapper
 latimes.com##.Infobox:has-text(Support our journalism)
 latimes.com##.newsletter-container
 latimes.com##.pb-f-ads-dfp
 latimes.com##.pb-f-ads-yieldmo
 latimes.com##.pb-f-article-dynamic-rail-ads
+latimes.com##.PromoSmall
 latimes.com##.slider
 latimes.com,nydailynews.com##.inline-ad
 latimes.com,nydailynews.com##.inline-ad-arrow
 latimes.com,nydailynews.com##.met-flyout
 lemonade.com##.subscribe-footer
+leolist.cc##+js(window.open-defuser)
 lepiratebay.*###nord-stiky
 lepiratebay.*###searchResult:has-text(Do NOT download any torrent before hiding your IP with a VPN.)
 lepiratebay.o*###nord-message
@@ -7239,9 +7361,11 @@ nymag.com##.multi-children
 nymag.com##.tertiary
 nypost.com###footer-nav-affiliates
 nypost.com###maropost-signup-primary
+nypost.com###more-on
 nypost.com###nyp-newsletter-modal
 nypost.com###pagesix-top-stories
 nypost.com###recirc
+nypost.com##.floating-share
 nypost.com##.more-on__wrapper
 nypost.com##.outbrain-enabled
 nypost.com##.read-next-wrapper
@@ -7278,6 +7402,7 @@ nytimes.com##[class] > [class] > [class] > [class] > [class]:has-text(Sign up fo
 nytimes.com##[class] > [class] > [class] > [class] > [class]:has-text(Unlock more free articles)
 nytimes.com##[class] > [class] > [class]:has-text(In Case You Missed It)
 nytimes.com##[class] > [class] > [class]:has-text(Related Coverage)
+nytimes.com##[class] > [class] > [class]:has-text(Thanks for reading)
 nytimes.com##[class]:has-text(Let us know)
 nytimes.com##[href*="/subscription"]
 nytimes.com##[href*="RelatedCoverage&"]
@@ -7477,6 +7602,7 @@ reddit.com###ad_2
 reddit.com###comment-atf
 reddit.com###RESNotifications
 reddit.com###siteTable_organic
+reddit.com##.Announcement
 reddit.com##.DualPartInterstitial
 reddit.com##.goldvertisement
 reddit.com##.guider
@@ -7493,6 +7619,7 @@ reddit.com##.seo-comments
 reddit.com##.seo-comments-recommendations
 reddit.com##.SnackBar
 reddit.com##.TopButton
+reddit.com##.TopPosts
 reddit.com##.TopPosts:has-text(Top posts from)
 reddit.com##.XPromoAdFeed
 reddit.com##.xPromoAppStoreFooter
@@ -7768,6 +7895,7 @@ tempmailaddress.com##.donate
 tempmailaddress.com##.navbar-fixed-bottom
 tempmailaddress.com##.no-margin-top
 territorysupply.com##[href*="monstercampaigns"]
+theage.com.au##.noPrint:has-text(Related Article)
 theage.com.au##aside > [class]:has-text(Newsletter)
 theage.com.au##[data-widget]
 theage.com.au##[href*="/?promote"]
@@ -8037,6 +8165,7 @@ tvtropes.org##.sticky-btm
 twitch.tv##.anon-front__social-container
 twitch.tv##.blue-bar
 twitch.tv##.default-panel:has-text(Click the image to download!)
+twitch.tv##.default-panel:has-text(Secret Lab)
 twitch.tv##.default-panel:has-text(Sponsorship)
 twitch.tv##.simplebar-scroll-content > [class] > [class] > [class]:has-text(Featured Channels)
 twitch.tv##.toast-manager__container
@@ -8052,9 +8181,11 @@ twitter.com##.MomentsPermalinkPage-related
 twitter.com##.promoted-trend
 twitter.com##.SignupCallOut
 twitter.com##.suggested-tweet-stream-container
+twitter.com##body:style(overflow: auto !important; margin: 0 !important;)
 twitter.com##[aria-label="who to follow" i]
 twitter.com##[aria-label="who to follow" i]:nth-ancestor(2)
 twitter.com##[class*="protection-notice"]
+twitter.com##[class] > [class] > [class] > [class] > [class]:has-text(People on Twitter are the first to know)
 undark.org##.boxzilla-container
 undark.org##.footer-top
 undark.org##.in-view
@@ -8194,7 +8325,6 @@ vidstreaming.*##script:inject(noeval.js)
 vipboxtv.*##.btn
 vipboxtv.*##.space-6
 visualcocaine.org##.panel:has-text(Stock Photos from Shutterstock)
-vox.com##p:has-text(Sign up for the Future Perfect newsletter)
 vpnranks.com###hb-strip
 vpnranks.com###sleeknote-cover
 vpnranks.com###sticky-banner
@@ -8316,12 +8446,16 @@ wordpress.com##.marketing-bar
 wsj.com###AD_RAIL1
 wsj.com###AD_RAIL2
 wsj.com###AD_RAIL3
+wsj.com###cx-notification
 wsj.com###saving-united-coupon-list
 wsj.com###share-target
+wsj.com##+js(acis, NREUM)
+wsj.com##+js(nostif, linkEl)
 wsj.com##.carousel-container
 wsj.com##.type-InsetRichText
 wsj.com##.wsj-strap-icon-email
 wsj.com##.wsj-strap-icon-twitter
+wsj.com##a[href*="/newsletter"]
 wsj.com##[class*="footer-wrap"]
 wtsp.com###column-1
 wtsp.com##.grid__sticky-column
@@ -8343,9 +8477,12 @@ youredm.com###wb-ad-grid
 youredm.com##.cb-article-footer
 youredm.com##.cb-breadcrumbs
 youredm.com##.cb-post-meta
+youtube.*###clarify-box
 youtube.*###companion
+youtube.*###dismissable:has-text(Creator on the Rise)
 youtube.*###hats-container
 youtube.*###iv-promo-shelf
+youtube.*###material-notice
 youtube.*###old-browser-alert
 youtube.*###part_welcome
 youtube.*###promotion-shelf
@@ -8363,7 +8500,11 @@ youtube.*##.yt-valign:has-text(Get YouTube TV)
 youtube.*##.ytp-cards-button-icon
 youtube.*##.ytp-cards-teaser
 youtube.*##.ytp-ce-element
+youtube.*##.ytp-paid-content-overlay
 youtube.*##.ytp-pause-overlay
+youtube.*##.ytp-title-channel
+youtube.*##ytd-rich-section-renderer:has-text(Featured)
+youtube.*##[href*="skl.sh"]
 youtube.*##[id*="card"]:has-text(Welcome to live chat!)
 youtubedownload.*##[src*="pushvpn.com"]
 zara.com###cookies-container
