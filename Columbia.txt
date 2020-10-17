@@ -2,9 +2,9 @@
 ! Description: A systematic, analytic-halting Internet blacklist
 ! Expires: 1 days
 ! Homepage: https://github.com/OsborneSystems/Columbia/
-! Last modified: 3 September 2020 00:00:00 UTC
+! Last modified: 16 October 2020 00:00:00 UTC
 ! Title: Columbia Standard
-! Version: 5.7.0
+! Version: 5.8.0
 !
 ! Copyright (C) Osborne Systems. All rights reserved.
 !
@@ -34,6 +34,7 @@
 ! SECTION O
 !
 @@||spclient.wg.spotify.com^$app=com.spotify.music
+@@||tags.tiqcdn.com^$script,domain=samsung.com
 @@||www.cengage.com^$script,1p
 @@||youtube.com/get_video_info
 google.*#@##searchform:style(position: absolute !important; top: 20px !important;)
@@ -119,6 +120,7 @@ cengage.com#@#.mod_cookies
 ###panelRight
 ###partners
 ###payments
+###player-ads
 ###preloaded-ad-frame
 ###pushmonkey-prompt-container
 ###responsive_ad
@@ -599,6 +601,7 @@ cengage.com#@#.mod_cookies
 /icon-rss.
 /icon-twitter.
 /images/*twitter-
+/images/ads.
 /images/facebook
 /images/googleplus
 /images/reddit-
@@ -636,6 +639,7 @@ cengage.com#@#.mod_cookies
 /ruxitagentjs_
 /share42.js
 /sharecounts/
+/side-ad-
 /smetrics.*/b/ss/*
 /social-icons.
 /social-logos/
@@ -675,6 +679,7 @@ _s_code.
 ||123moviesgo.*/movieintros/*$media,1p
 ||1337x*profile-load.svg$image
 ||1377x*load.svg$image
+||9anime*footer-icon$image
 ||9anime.*/sw.js$script
 ||aidungeon*Download$image
 ||amazon.*/ajax/counter?
@@ -695,6 +700,7 @@ _s_code.
 ||cohesionapps.com^$3p
 ||connect.facebook.net^*/fbevents.js$third-party
 ||consensu.org^$3p
+||curalate.com^$3p
 ||dailymail.co.uk/rta2/
 ||dailynews.com/_static/$script
 ||datadome.co^$3p
@@ -718,6 +724,7 @@ _s_code.
 ||gogoanime*adverting$image
 ||gogoanime*share_link$image
 ||golem*sp_*-i_rc.jpg$subdocument
+||google*/widget/callout$subdocument
 ||google*gen_204?
 ||google*select?client_id=$subdocument
 ||google.*/client_204?
@@ -792,6 +799,7 @@ _s_code.
 ||wsj*mktg$image
 ||www.facebook.com^$app=com.eyefilter.nightmode.bluelightfilter
 ||xijgedjgg5f55.com/*/?$script
+||youtube.*/api/stats/atr
 ||youtube.*/api/stats/qoe?
 ||youtube.*/csi_204?
 ||youtube.*/log_event?
@@ -1887,6 +1895,7 @@ _s_code.
 ||buyhotmall.com^
 ||buyinstagramfans.com^
 ||buypaydaycash.ai^
+||buyraycon.com^
 ||buzzcity.net^
 ||buzzdeal.com^
 ||bxcel.net^
@@ -1981,6 +1990,7 @@ _s_code.
 ||cdftradeoption.com^
 ||cdn.branch.io^
 ||cdn.connatix.com^
+||cdn.cquotient.com^
 ||cdn.krxd.net^
 ||cdn.mxpnl.com^
 ||cdn.onesignal.com^
@@ -2856,6 +2866,7 @@ _s_code.
 ||findhoney.info^
 ||findingbux.com^
 ||findyourcasino.com^
+||findyourlovemate.net^
 ||finebux.com^
 ||fire-mails.com^
 ||firelnk.com^
@@ -3939,6 +3950,7 @@ _s_code.
 ||mobgold.com^
 ||mobile-collector.newrelic.com^
 ||mobile-connection-alert.fyi^
+||mobile-global-apps-storage.life^
 ||mobile.eum-appdynamics.com^
 ||mobileapptracking.com^
 ||mobiledl.adobe.com^
@@ -4701,6 +4713,7 @@ _s_code.
 ||ravenlimit.com^
 ||ravenoutlet.tk^
 ||raybw.com^
+||rayconglobal.com^
 ||rb-aav.com^
 ||read2money.com^
 ||readbud.com^
@@ -4805,6 +4818,7 @@ _s_code.
 ||rocks.io^
 ||roflbux.com^
 ||rolex-mails.com^
+||rollersadnessstranded.com^
 ||romancetale.com^
 ||romapinec.com^
 ||roomi.pw^
@@ -5389,6 +5403,7 @@ _s_code.
 ||tgbvfrd.com^
 ||thaidapps.com^
 ||the-stereo-monkeys.de^
+||the31news.com^
 ||the70sptc.info^
 ||thebig-centeralplaceforcontentingnew.date^
 ||thebunnybucks.com^
@@ -5690,6 +5705,7 @@ _s_code.
 ||vasurvey.info^
 ||vbucks-hack.club^
 ||vbucksbooster.com^
+||vbuckscom66.pw^
 ||vcmedia.vn^
 ||vegas-mails.com^
 ||velocecdn.com^
@@ -5884,6 +5900,7 @@ _s_code.
 ||www.msftncsi.com^
 ||www.ojrq.net^
 ||www.quick-torrent.com^
+||www.tkqlhce.com^
 ||www.yadro.ru^
 ||www.zergnet.com^
 ||wwwpromoter.com^
@@ -5892,6 +5909,7 @@ _s_code.
 ||x-bux.*^
 ||x-fidelity-media.com^
 ||x3bux.com^
+||xadsmart.com^
 ||xbux.com^
 ||xcheatingparty.com^
 ||xclix.net^
@@ -5970,6 +5988,7 @@ _s_code.
 ||zedo.com^
 ||zedoption.com^
 ||zemanta.com^
+||zerolullaby.com^
 ||zeroredirect1.com^
 ||zetaglobal.com^
 ||zetaptc.com^
@@ -6112,11 +6131,13 @@ abcnews.go.com##.slick-initialized
 abcnews.go.com##.t_callout
 ableton.com##.main-footer__col--start
 accountingcoach.com##.inline-newsletter-form-row
+accuweather.com##.adhesion-header
 adidas.com##.mobile_app_banner_container
 adidas.com##.poster_content___26X52
 adidas.com##div[class*="footer_newsletter"]
 adidas.com##[class*="show-banner"]
 adidas.com##[class*="smart_banner"]
+adidas.com##[class*="usp-bar"]
 adobe.com##.feds-navList-item:has-text(Updates and helpful resources)
 adweek.com###footer-site-logo
 adweek.com##.aw-connatix-module
@@ -6210,6 +6231,7 @@ ancient.eu###mc_embed_signup
 androidauthority.com##.gcap-layout-popup
 androidauthority.com##.native_ad_wrapper
 androidauthority.com##.related_articles_shortcode
+androidauthority.com##.widget-loop:has-text(Promoted)
 androidcentral.com###notices
 androidpolice.com##.article-nav
 androidpolice.com##.horizontal-boxes-tags
@@ -6217,6 +6239,7 @@ anime-planet.com##.halo
 animecloud.*##.secondary-footer
 animeidhentai.*##.content
 animeidhentai.*##.speedy-registration-notification-inner-container
+animenewsnetwork.com###main>div>div:has-text(Ad by Anime News Network)
 animenewsnetwork.com##[class*="adtester"]
 animeout.*##.spu-bg
 animestreams.*##.widget:has-text(Follow Us)
@@ -6314,21 +6337,26 @@ bbc.*##.secondary-content
 bbc.*##.tags-container
 bbc.*##.vxp-carousel-component
 bbc.*##p:has-text(Join the conversation)
+beatsperminute.com###banner-ad
 beebom.com##.author-box-wrap
 beebom.com##.td-block-row
 beebom.com##.td-post-source-tags
 beebom.com##.td_block_related_posts
 beebom.com##.textwidget
+beeg.com##.ad
 beltmag.com##.hustle-modal
 berkeleyside.com##.ad-type
 berkeleyside.com##.aside-content-append
 berkeleyside.com##.content-ad
 berkeleyside.com##.hub-modal
 bestbuy.com###analytics-adsense
+bestbuy.com###proactive-chat
 bestbuy.com##.Ad_content
 bestbuy.com##.digital-ad-wrapper
+bestbuy.com##.embedded-sponsored-listing
 bestbuy.com##.mdf-container
 bestbuy.com##.media-network-ad
+bestbuy.com##.shop-search-sku-banner:has-text(Sponsored Products)
 bethesda.net,fastcompany.com##.notification
 bgr.com##.bgr-recommended
 bgr.com##.dont-miss
@@ -6340,6 +6368,8 @@ billboard.com###block_3
 billboard.com##.cover-image
 billboard.com##.footer-brand
 billboard.com##.longform__body-supplementary
+billboard.com##.read-more-promo__wrapper
+billboard.com##.three-sixty-bar
 billboard.com,chron.com,gamestar.de,laptopmag.com,xda-developers.com##.leaderboard
 billboard.com,hollywoodreporter.com##.readmore
 biography.com##.m-person--ad--placeholder
@@ -6347,6 +6377,7 @@ biography.com,edm.com,psmag.com##.l-grid--rail
 bitdefender.com###T1
 bitly.com###banner-cookie
 bitly.com###banner-spacer
+bitly.com##.sitebanner--container
 bitly.com##.wow-modal-window
 bitmp3.*##.footerContainer
 bitmp3.*##.speedbar
@@ -6449,6 +6480,7 @@ cbs12.com###js-Alerts-container
 cbs12.com##[class*="index_adBefore"]
 cbs12.com##[class*="interstory"]
 cbs17.com##.js-banner
+cbs8.com##.ad
 cbslocal.com##.social-media-container
 cbslocal.com##.top-fixed-ad
 cbslocal.com##.ym
@@ -6535,6 +6567,7 @@ cnet.com##.newsletter-subscribe-form
 cnet.com##.related-links
 cnet.com##.type-
 cnet.com##.upNextBottomWrapper
+cnet.com##p:has-text(Read more:)
 cnet.com##[class*="ad-mobile"]
 cnet.com,computerworld.com,fivethirtyeight.com,mp3fun.*,npr.org,pcworld.com,usnews.com,vulture.com##.tags
 cnn.com###breaking-news-wrapper
@@ -6714,6 +6747,7 @@ dexerto.com##p:has-text(Advertisement)
 dexerto.com##[href*="gfuel.com"]
 dictionary.com###carbon_fields_widget_day_word-2
 dictionary.com###carbon_fields_widget_day_word-3
+diggitmagazine.com##.calibrate-cookie-compliance
 digistatement.com##.ads_google_ads
 digitalcitizen.life##.region-footer-third
 digitalcitizen.life##.site-bottom
@@ -6836,8 +6870,10 @@ emailondeck.com###left_col
 engadget.com###recirculation
 engadget.com###right-ads-rail
 engadget.com###rr_home
+engadget.com##.grid__cell:has-text(Subscribe)
 engadget.com##.inlineLb
 engadget.com##.o-mobile-share-footer
+engadget.com##.o-title_mark:has-text(From around the web)
 engadget.com##[id*="AdFrame"]
 entrepreneur.com###v3-newsl-form-nav
 entrepreneur.com##.entnatv
@@ -6961,6 +6997,7 @@ flvto.biz##.flvto-player-banner
 flvto.biz##.hidden-mobile
 fmovies.*##+js(abort-current-inline-script, Math, zfgloaded)
 fmovies.*##+js(abort-current-inline-script, String.fromCharCode, zfgloaded)
+fmovies.*##+js(abort-on-property-read, AaDetector)
 fmovies.*##+js(window.open-defuser)
 fmovies.*##.alert-warning
 fmovies.*##.footerdesc
@@ -7045,6 +7082,7 @@ fs.blog##.bgcolor-cc3232
 fs.blog##.section-footer-credits-right
 fs.blog##.section-sidebar-blog-single
 fs.blog##.section-suggested-reading-wrapper
+fstoppers.com##.popup-content
 futurism.com###subscribe-footer
 futurism.com##.htl-ad
 gadgethacks.com##.whtaph
@@ -7082,6 +7120,7 @@ gamestop.com##[data-track="300x250"]
 gamewith.net##.ad-vidazoo
 gamewith.net##.c-rectangle-ad-wrap
 gamewith.net##.cookie-consent
+gapminder.org##.sidebar
 gardenmanage.com##.sticky_bottom
 geckoandfly.com##.entry-content>:has-text(Read Also)
 geckoandfly.com##blockquote:has-text(Related Article)
@@ -7095,6 +7134,8 @@ geekwire.com###article-footer-ad
 geekwire.com###subscribe-box-mobile
 geekwire.com##.btn-group
 geekwire.com##.flyover-email-cta
+geekwire.com##.hidden-xs:has-text(Become a GeekWire member)
+geekwire.com##[class]>[class]>[class]:has-text(You are seeing this message because)
 geforce.com###driverAgreeOptIn
 genius.com##.column_layout-flex_column-fill_column
 genius.com##.dfp_unit
@@ -7126,6 +7167,7 @@ glassdoor.com##.container:has-text(Add your resume and apply)
 glassdoor.com##.undefined:has-text(Get Your Estimate)
 glassdoor.com##[class*="adSlot"]:has-text(Sponsored)
 gmailnator.com###cookie-notice
+gmailnator.com##.adsbygoogle
 godaddy.com###promoBanner
 godaddy.com##.domain-result:has([class*="is-ad"])
 godaddy.com##.footer-apps
@@ -7177,8 +7219,12 @@ google.*##[class]>[class]>[class]>[class]:has-text(Visit your Google Account to 
 google.*##[class]>[class]>[class]>[class]:has-text(We never sell your personal information)
 google.*##[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]:has-text(Get more out of Google with Google One)
 google.*##[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]:has-text(Get Drive for desktop)
+google.*##[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]:has-text(My Drive trash is changing.)
 google.*##[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]:has-text(You've used)
 google.*##[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]:has-text(Your storage is almost full)
+got-it.ai###pollCTA
+got-it.ai##.gi-Cookie
+got-it.ai##.js-header-scroll
 gotoquiz.com##.bulbasaur
 gotoquiz.com##.cBelow
 gounlimited.*###adbd
@@ -7209,6 +7255,7 @@ grabfreegame.com##.head
 grabfreegame.com##.social
 greatist.com##.deck-newsletter-signup
 greatist.com##.newsletter-block
+gsmarena.com###cdn-hosting
 haaretz.*###paywall-promotion-element-dc
 haaretz.*##.below_talkback
 haaretz.*##.c-quick-newsletter-registration
@@ -7239,6 +7286,9 @@ hanime.*##.htvnad
 hanime.*##.htvnad1
 hanime.*##iframe[src^="https://a.adtng.com/"]
 hanime.*##iframe[src^="https://ads.trafficjunky.net/"]
+happymag.tv##.ad
+happymag.tv##.happy-inline-ad
+happymag.tv##.related-section
 hbr.org###intromercial-handle
 hbr.org##.authors
 hbr.org##.panel-container
@@ -7289,7 +7339,9 @@ honeysanime.*##.side-gutter
 hotcharts.*###jp_container_1
 hotcharts.*##.b_strut
 howstuffworks.com##.ad-disclaimer
+howstuffworks.com##.ad-inline
 howstuffworks.com##.recirc-panel
+howstuffworks.com##.sticky-container
 howtogeek.com##.amp-ad-wrapper
 howtogeek.com##.article-bottom
 howtogeek.com##.message
@@ -7340,9 +7392,11 @@ ilont.*,mp3im.*,mp3pn.*##.onesongblock-end
 imdb.com###amazon-affiliates
 imdb.com###btf_rhs2_wrapper
 imdb.com###injected_navstrip_wrapper
+imdb.com###promoted-partner-bar
 imdb.com###rhs_cornerstone_wrapper
 imdb.com###top_rhs_wrapper
 imdb.com##.ab_zergnet
+imdb.com##.article:nth-of-type(5)
 imdb.com##[href^="/tv"]>.pri_image
 imgur.com##.BetaSignUp
 imgur.com##.FloatingOIA-container
@@ -7355,6 +7409,7 @@ inc.com##.NextButton
 inc.com##.read-more-text-container
 inc.com##.ReccomendedVideoContainer
 inc.com##.sidebar_inner
+inc.com##[class*="AdContainer"]
 indeed.com###recommendedJobsLink
 indeed.com##.jobsearch-Footer
 indeed.com##.message-container
@@ -7368,7 +7423,9 @@ indeed.com##.result[id*="pj_"]
 indeed.com##.tos-Banner-dismissable
 indeed.com##[id*="sj_"]
 independent.co.uk###taboola-carousel-thumbnails
+independent.co.uk##.access-container>[class]:has-text(Subscribe now)
 independent.co.uk##.ad-center
+independent.co.uk##.false.newsletter-component
 independent.co.uk##.inline-block
 independent.co.uk##.inline-media
 independent.co.uk##.inline-related
@@ -7436,6 +7493,7 @@ ir2me.com##[src*="download-button"]
 isitdownrightnow.com###commentstop
 japantimes.co.jp##.content-related-stories
 japantimes.co.jp##.coronavirus-banner
+japantimes.co.jp##.header_content>aside
 japantimes.co.jp##.sidebar_ad_inner
 japantimes.co.jp##.with-take5
 japantimes.co.jp##[id*="gpt-ad"]
@@ -7522,6 +7580,7 @@ knowyourmeme.com##.fb-page-like
 knowyourmeme.com##.floating-share-bar
 knowyourmeme.com##.homepage-share
 knowyourmeme.com##.related-photos
+knowyourmeme.com##.shemedia-ad-wrapper
 knowyourmeme.com##.sticky-sidebar
 knowyourmeme.com##h2:has-text(Know Your Meme Store)
 knowyourmeme.com##hr.hr-text
@@ -7530,6 +7589,7 @@ kodakdigitizing.com##.article-imageslider
 konohastuff.com###fsb_bar
 konohastuff.com###soundest-dynamic-container
 konohastuff.com##.announcement-bar
+kotaku.com##[href*="/s/enough"]
 ktla.com###nxs-ccpa-banner
 ktla.com##.inline-related-stories
 kxan.com##.mod-prev-next
@@ -7582,9 +7642,14 @@ lifehacker.com##[class]>[class]>[class]:has-text(Popular Deals on The Inventory)
 lilymanga.*##div:has-text(Blocked because)
 lilymanga.*##ins
 lilymanga.*##kbd
+lilymanga.com##.c-footer-sidebar
+lilymanga.com##.c-sidebar
+lilymanga.com##.c-top-sidebar
+lilymanga.com##[id*="ScriptRootC"]
 linkedin.com##.article-end
 linkedin.com##.cta-modal:has-text(You're signed out)
 linkedin.com##.related-content-inner
+linkedin.com##.system-message-container
 lithub.com###post_more_wrapper
 lithub.com##.post_tag
 littlecaesars.com##[class]>[class]:has-text(ORDER ON OUR MOBILE APP)
@@ -7603,6 +7668,7 @@ longreads.com##.wp-footer
 longreads.com##p:has-text(Kickstart your weekend reading)
 longreads.com##[href*="/newsletter/?"]
 looperman.com###header-announcement-wrapper
+looperman.com##.banner-sidebar-336x280
 looperman.com##.follow-footer-wrapper
 lowes.com###emailSignUpDialog
 lowes.com##.js-lcc-banner
@@ -7669,6 +7735,7 @@ mashable.com##.zergnet-container
 mashable.com,ted.com,weebly.com###newsletter-signup
 mayoclinic.org##.mayoad
 mcloud.*###jwa
+mediabiasfactcheck.com##.textwidget:has-text(Advertising Disclaimer)
 mediabiasfactcheck.com##.wpcnt
 mediafire.com##.dl-promo-cont
 mediafire.com##.dlPromoContent
@@ -7769,6 +7836,8 @@ mrporter.com##.CookieBanner2
 msn.com###Facebook
 msn.com###irisbanner
 musescore.com##[class*="js-musescore-hb-"]
+musical-u.com###sidebar
+musical-u.com##[class*="popup-embedded"]
 myanimelist.net##.amazon-ads
 myanimelist.net##.banner-header-anime-straming
 myanimelist.net##.border_bottom
@@ -7786,12 +7855,14 @@ myanimelist.net##.signature-image
 myanimelist.net##.welcome-back
 myanimelist.net##._unit
 myanimelist.net##div[style][data-height]
+myanimelist.net##[href*="/membership"]
 mymodernmet.com###get-newsletter
 mymodernmet.com##.external-posts-container
 mymodernmet.com##.lets-connect
 mymodernmet.com##.share-it-side
 mymodernmet.com##.side-subscribe
 mymove.com##.toast__content
+myonlinetraininghub.com##.mySlides
 namba.*###branding-html
 namechk.com###logojoy
 namechk.com###top-ad
@@ -7887,6 +7958,7 @@ nintendo.*###cookie-topbar
 nintendoenthusiast.com###bk_widget_social_counters-2
 nintendoenthusiast.com##[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>:has-text(Read more:)
 nitroflare.com###pacsTables>div:nth-of-type(2)
+nodejs.org##.home-blacklivesmatterblock
 nolo.com##.related-products
 nookazon.com##.banner-desktop
 nookazon.com##.patreon-gallery
@@ -8064,6 +8136,7 @@ phillytrib.com###masthead-col-three
 phillytrib.com##.tncms-block:has-text(Sign up for our)
 phillytrib.com##.tncms-block:has-text(sponsored by:)
 phillytrib.com##.tncms-block:has-text(Support Local Journalism)
+photoresizer.com##.banner
 phys.org###news-holder
 phys.org##.banner-holder
 phys.org##.container-bottom
@@ -8072,6 +8145,7 @@ phys.org##.nwletter-box
 pinterest.*##.UnauthBanner__textAndButtonsContainer
 pinterest.com##div>div>div:has-text(Stay safe and healthy.)
 pinterest.com##[class]>div:has-text(Explore more ideas with a Pinterest account)
+pinterest.com##[style*="rgba(0, 0, 0, 0.6)"]
 pissedconsumer.com###sticky-submit-form-widget
 pitchfork.com###cne-interlude
 pitchfork.com###radio-banner
@@ -8084,6 +8158,8 @@ plugintorrent.*##[class]>[class]>[class]:has-text(Adblocker)
 plugintorrent.*##[style*="0, 0, 0, 0.8"]
 pocket-lint.com##.popular
 pocket-lint.com##.single-article
+politico.com###below-story-text
+politico.com##.collection__slider
 politico.com##.container-teaseboxes
 politico.com##.container__slot:has-text(POLITICO NEWSLETTERS)
 politico.com##.cookie-modal
@@ -8092,11 +8168,13 @@ politico.com##.lazy-load-slot
 politico.com##.sign-up
 politico.com##.story-continued
 politico.com##.story-enhancement
+politico.com##.story-enhancement:has-text(Help us do better!)
 politico.com##.story-related
 politico.com##.story-sidebar
 politico.com##.story-supplement
 politico.com##[href*="politicopro.com"]
 politico.com##[href="/magazine"]
+politifact.com##.o-disruptor
 popsci.com##.constrained
 popsci.com##.field-tags
 popsugar.com###modal-email-widget
@@ -8231,6 +8309,7 @@ refinery29.com##.section-ad
 refinery29.com##.spot-im-recirculation-container
 refinery29.com,rowfirst.*,watchfree.*##.footer
 regmovies.com##.footer-partners
+requestballot.io
 rescuetime.com##.author_details
 rescuetime.com##.entry-content>div:has-text(Sign up)
 rescuetime.com##.mailchimp-form
@@ -8344,11 +8423,13 @@ sj-r.com###footer-main-newsletter
 sj-r.com###header-main-right
 sky.com##.sdc-article-related-stories__content
 sky.com##.sdc-article-sibling-links__list
+sky.com##.sdc-article-strapline--default-layout
 sky.com##.sdc-site-cookie-notice
 slate.com##.article__tags
 slate.com##.bottom-ad
 slate.com##.featured-podcast__grid
 slate.com##.in-article-recirc
+slate.com##.js-account--mobile-subscribe
 slate.com##.plus-promo
 slate.com##.slate-kicker-promo
 slate.com##.slate-live-promo
@@ -8423,6 +8504,7 @@ sport-tv-guide.*##.row-eq-height
 sportsat.*##[href*="bit.ly"]
 sportstream.*###paging
 spotify.com###cookie-notice
+spotify.com##.Root__now-playing-bar:has-text(Sign up to get unlimited songs)
 spotify.com##[class]>[class]>[class]:has-text(Premium for free)
 stackexchange.com###herobox
 stackexchange.com###js-gdpr-consent-banner
@@ -8461,8 +8543,12 @@ study.com###ccpa-floating-bar
 study.com##.buttonOnlyCtaContainer
 study.com##.overviewCTAContainer
 study.com##.product-wizard-paywall
+study.com##study-app-download-banner
+studyblue.com##.slide-in
 supchina.com##.r2d_expander_handle
 supchina.com##.r2d_newletter_signup
+supermarketnews.com##.inline-related
+supermarketnews.com##.no-mobile:has-text(NEWSLETTER SIGN-UP)
 superuser.com##.js-dismissable-hero
 symbolab.com##.nl-cookiepolicy
 syriancivilwarmap.com##.bs-vc-wrapper:has([src*="/logo.png"])
@@ -8472,6 +8558,8 @@ systemrequirementslab.com##[class*="amazon-bottom"]
 systemrequirementslab.com##[class*="amazon-top"]
 tacobell.com##[class*="flash-message"]
 tal.net##.powered-by-oleeo
+tapas.io###gdpr-cookie-message
+tapas.io###top-app-banner
 tapchipi.com##.store-template
 target.com###adContainer
 techcrunch.com##.article-extra
@@ -8522,6 +8610,7 @@ ted.com###mc_embed_signup
 ted.com##.author-footer
 ted.com##.fine-text-sub
 ted.com##.recommended
+ted.com##.tdd-lmeta__rail
 ted.com,thegamer.com,thehill.com##.article-tags
 telegram.com###article-storyStrip
 telegram.com###header-main-promo
@@ -8551,6 +8640,7 @@ territorysupply.com##[href*="monstercampaigns"]
 theage.com.au##.noPrint:has-text(free articles remaining)
 theage.com.au##.noPrint:has-text(Related Article)
 theage.com.au##aside>[class]:has-text(Newsletter)
+theage.com.au##[class]>[class]>[class]>[class]>[class]>:has-text(Trump Biden 2020)
 theage.com.au##[data-widget]
 theage.com.au##[href*="/?promote"]
 theage.com.au##[id*="adspot"]
@@ -8576,6 +8666,7 @@ thebalance.com###leaderboard_1-0
 thebalance.com##.billboard
 thebalance.com##.spotlight-billboard
 thebalancecareers.com##.billboard
+thebalancesmb.com##.billboard
 thebalancesmb.com##[class*="continue-label"]
 thebalancesmb.com##[class*="dynamic-inline"]
 theblaze.com###home_bottom_slider
@@ -8607,6 +8698,7 @@ theepochtimes.com###article_related
 thefader.com##.current_issue
 thefader.com##.paragraph_wrapper>div
 thefader.com##.updates_form
+thefearlessman.com###floating-cta-new
 thegamer.com##.ad-zone-container
 thegamer.com##.related-single
 thegamer.com##p:has-text(READ MORE:)
@@ -8619,9 +8711,11 @@ theguardian.com###email-sign-up
 theguardian.com###footer__email-form
 theguardian.com###more-in-section
 theguardian.com###onward
+theguardian.com###reader-revenue-links-header
 theguardian.com###related-stories
 theguardian.com###securedrop
 theguardian.com###thrasher
+theguardian.com##.ad-slot
 theguardian.com##.coronavirus-newsletter
 theguardian.com##.cta-bar__text:has-text(Support The)
 theguardian.com##.fc-container__mpu--mobile
@@ -8710,6 +8804,7 @@ theregister.com###article_newsletter_signup
 theregister.com##.promo_article
 theringer.com##.c-entry-sidebar
 theringer.com##.p-hr-illo
+theroot.com##[href*="/s/enough"]
 thesaurus.com###tcomHomeBot-728x90
 thesaurus.com###thesaurus_serp_atf_300x250
 thesaurus.com###thesaurus_serp_atf_728x90
@@ -8728,6 +8823,7 @@ thetrendspotter.net##.thetr-adlabel
 thetruckersreport.com##.jobs-form-footer
 theundefeated.com###story-tags
 theundefeated.com##.espn-boxout
+theverge.com###package-toc
 theverge.com##.c-entry-sidebar
 theverge.com##.c-nextclick
 thewalrus.ca###articleFooter
@@ -8748,9 +8844,12 @@ thewrap.com###mob-box-ad-c
 thewrap.com###mobile-sticky-bottom
 thewrap.com##.attachment-full
 thewrap.com##.ctx-link
+thewrap.com##.exit-overlay-popup
+thewrap.com##.join-now-promotion
 thewrap.com##.mobile-sticky-bottom
 thewrap.com##.widgets-inner
 thewrap.com##.wk-site-overlay
+thewrap.com##[id*="cta-gopro"]
 thomsonreuters.com##.tr-DismissibleBanner
 thoughtco.com###billboard1-sticky_1-0
 thoughtco.com###billboard2-sticky_1-0
@@ -8834,6 +8933,8 @@ tornadomovies.*##.critics
 tornadomovies.*##.row-btns-special
 tornadomovies.*##.tabs_row
 tornadomovies.*##[class*="controls_row"]
+torrentfreak.com##.custom-html-widget
+torrentfreak.com##.widget_text
 trends24.in##.content-links
 trends24.in##.page-content__advert
 trends24.in##.page-content__title
@@ -8853,6 +8954,8 @@ ttsreader.com##.parent-ad-container
 tubefilter.com###text-24
 tumblr.com##.road-block
 tumblr.com##.tmblr-iframe--app-cta-button
+tunebat.com###adconsent-usp-link
+tunebat.com###vizfly-interstitial-container
 tunebat.com##.main-recommendations-pre
 turbobit.*##.col-2
 turbobit.*##.payment-block
@@ -8993,6 +9096,7 @@ vanityfair.com##.full-bleed-ad
 vanityfair.com##.hive-riser
 vanityfair.com##.inner
 vanityfair.com##.internal-recirc
+vanityfair.com##.journey-unit
 vanityfair.com##.mvt-variant
 vanityfair.com##.paywall-growler__content
 vanityfair.com##.paywall-meter
@@ -9090,6 +9194,7 @@ washingtonexaminer.com##.header-ad
 washingtonexaminer.com##[id*="googleAd"]
 washingtonpost.com###bc-sidebar
 washingtonpost.com###i_userMessages
+washingtonpost.com###link-box
 washingtonpost.com###nav-gift
 washingtonpost.com###nav-subscribe
 washingtonpost.com###signup-box-rr
@@ -9100,9 +9205,13 @@ washingtonpost.com##.btn:has-text(Gift Subscriptions)
 washingtonpost.com##.ent-ad-container
 washingtonpost.com##.extra
 washingtonpost.com##.game-module
+washingtonpost.com##.hide-for-print:has-text(Support our journalism)
+washingtonpost.com##.hide-for-print:nth-of-type(5)
+washingtonpost.com##.hide-for-print:nth-of-type(6)
 washingtonpost.com##.homepage-footer-button
 washingtonpost.com##.interstitial
 washingtonpost.com##.newsletter-unit
+washingtonpost.com##.pb-async
 washingtonpost.com##.pb-f-page-recommended-strip
 washingtonpost.com##.pb-subscribe
 washingtonpost.com##.tiffany-div
@@ -9134,7 +9243,9 @@ weebly.com###weebly-footer-signup-container
 whathifi.com###article-body>div
 whathifi.com###sidebar>div:has-text(Advertisement)
 whathifi.com##p:has-text(MORE:)
+whatnowlosangeles.com##[href*="/preferred-partners/"]
 whistleout.com##.bottom-strip
+who.is##.home-video-blurb
 whosampled.com###wb-ad-grid
 whosampled.com##.facebookBox
 whosampled.com##.premium-btn-wrapper
@@ -9248,7 +9359,9 @@ youtube.*###promotion-shelf
 youtube.*###ticker
 youtube.*###unlimited-guide-item
 youtube.*###yt-banner-promo-renderer-background
+youtube.*##+js(json-prune, adPlacements playerAds)
 youtube.*##+js(json-prune, adPlacements)
+youtube.*##+js(set-constant, playerResponse.adPlacements, undefined)
 youtube.*##.ad-interrupting
 youtube.*##.item-section:has-text(Artist on the Rise)
 youtube.*##.item-section:has-text(Creator on the Rise)
@@ -9291,6 +9404,7 @@ zdnet.com##.relatedContent
 zdnet.com##p:has-text(Also:)
 zdnet.com##p:has-text(See also: )
 zdnet.com##p:has-text(See also:)
+zendesk.com##.article-relatives
 zillow.com###app-upsell-banner
 zillow.com###nav-ad-container
 zillow.com###search-list-upsell-container
