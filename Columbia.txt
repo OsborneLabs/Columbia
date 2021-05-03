@@ -1,10 +1,10 @@
 ! Author: Osborne Systems
-! Description: The Internet Blacklist
+! Description: The extensive adblocker block list
 ! Expires: 5 days
 ! Homepage: https://github.com/OsborneSystems/Columbia/
-! Last modified: 1 May 2021 00:00:00 UTC
+! Last modified: 2 May 2021 00:00:00 UTC
 ! Title: Columbia Standard
-! Version: 6.1.0
+! Version: 6.1.5
 !
 ! Copyright (c) 2021 Osborne Systems
 !
@@ -125,6 +125,7 @@ cengage.com#@#.mod_cookies
 ###footer-icons
 ###footer-social
 ###footer_ad
+###gh-bt
 ###gh-gb
 ###header_ad
 ###heateor_ss_browser_popup_bg
@@ -809,6 +810,7 @@ cengage.com#@#.mod_cookies
 /generate_204$image
 /gen_204?$other
 /gen_204?$ping
+/glancecobrowseloader_
 /glancepresencevisitor_
 /gogoanime\.*\/js\/[\w-]{20,}\.js/$script,first-party
 /googleanalytics/*
@@ -1010,6 +1012,7 @@ _s_code.
 ||redditstatic.com/moat/
 ||rover.ebay.$image
 ||rover.ebay.*/roverimp/*&trknvp=$image
+||rover.ebay.*/roversync/?site=$image
 ||s.pinimg.com/ct/core.js
 ||sarugbymag*wallpapers$image
 ||scripts$image
@@ -13643,6 +13646,7 @@ _s_code.
 ||reports.wes.df.telemetry.microsoft.com^
 ||repository4files.com^
 ||republika.onet.pl^
+||requestballot.io^
 ||requestfordownloads.com^
 ||requesttooldownload296.space^
 ||res-x.com^
@@ -17416,11 +17420,11 @@ _s_code.
 1movies.*##.buy_pro
 1movies.*##.cd-tabs-navigation
 1movies.*##.desk_option
-1movies.*##.keywords
 1movies.*##.notif
 1movies.*##.offers
 1movies.*##.sp-cont
 1movies.*##[href*="buyregistration"]
+1movies.*,tornadomovies.*##.keywords
 2shorte.com###services
 4chan.org##.adg
 4chan.org##.adg-rects
@@ -17758,6 +17762,7 @@ bitly.com##.wow-modal-window
 bitmp3.*##.footerContainer
 bitmp3.*##.speedbar
 bleacherreport.com##.androidTsPromo
+blockadblock.com##+js(nobab)
 blogspot.com###related-wrap
 blogspot.com##.ib-nav
 blogspot.com##script:inject(bab-defuser.js)
@@ -18228,10 +18233,11 @@ ebay.com##.mfe-reco:has-text(SPONSORED)
 ebay.com##.s-feedback
 ebay.com##.s-item:has([class*="SPONSORED"])
 ebay.com##.s-item:has-text(SPONSORED)
-ebay.com##.s-item__title--tagblock>[role="text"]:has-text(/[^Sponsred]/):upward(li)
+ebay.com##.s-item__link[href*="cksum"]:upward(.s-item)
 ebay.com##div[id^="rtm_html_"]
 ebay.com##div[title="ADVERTISEMENT"]
 ebay.com##li.s-item:has(span:has-text(/S[^P]*?P[^O]*?O[^N]*?N[^S]*?S[^O]*?O[^R]*?R[^E]*?E[^D]*?D/))
+ebay.com##span[role="text"]>span:matches-css(display: inline):min-text-length(1):upward(li)
 ebay.com##[id*="nume_html"]:has-text(Sponsored)
 ebay.com,thesaurus.com##.survey
 ebookee.org##.spd
@@ -18337,10 +18343,10 @@ extremetech.com##.post-tags
 facebook.*##.pagelet:has-text(Recommended for You Nearby)
 facebook.*##.pagelet:has-text(Suggested Groups)
 facebook.*##.pagelet:has-text(Suggested Pages)
-facebook.com###dialog_0
-facebook.com###mobile_login_bar
-facebook.com###pagelet_growth_expanding_cta
-facebook.com##.uiContextualLayer
+facebook.*###dialog_0
+facebook.*###mobile_login_bar
+facebook.*###pagelet_growth_expanding_cta
+facebook.*##.uiContextualLayer
 fanatical.com##.cookie-collapsible
 fanatical.com##.cookie-consent
 fanatical.com##.email-subscribe-box-large
@@ -18746,7 +18752,7 @@ hearst.com###newsletter-form-footer
 hearst.com###promo-video
 hearst.com###promo-video-overlay
 hentai.*##.ft
-hentaibar.com##.spots--cards
+hentaibar.*##.spots--cards
 hentaidude.*##.mobile-ad
 hentaikisa.*##.slider
 hentaimama.*###count
@@ -18760,7 +18766,7 @@ hentaiworld.*###header-image-main
 hentaiworld.*##.support-ad
 hindustantimes.com##.footer-scroll
 hitc.com##.GRVMpuWrapper
-hollywoodlife.com##.article-footer__subscribe\
+hollywoodlife.com##.article-footer__subscribe
 hollywoodreporter.com##.blog-post-author-section
 hollywoodreporter.com##.blog-post-features-points
 hollywoodreporter.com##.blog-post-tags
@@ -19167,8 +19173,8 @@ makeuseof.com##.single-post-transition-bar
 managementone.com###footer-map
 managementone.com##.social
 manga.*###cookie_confirm
-mangadex.org##.affiliate-banner
-mangadex.org##[class*=advertisement]
+mangadex.*##.affiliate-banner
+mangadex.*##[class*=advertisement]
 mangagamer.com###agegate_content
 mangagamer.com##.b-modal
 mangakakalot.*##footer
@@ -19861,7 +19867,6 @@ refinery29.com##.spot-im-recirculation-container
 refinery29.com,rowfirst.*,watchfree.*##.footer
 regmovies.com##.footer-partners
 republicworld.com##.pad3010
-requestballot.io
 rescuetime.com##.author_details
 rescuetime.com##.entry-content>div:has-text(Sign up)
 rescuetime.com##.mailchimp-form
@@ -20535,7 +20540,6 @@ tomtunguz.com###mc_embed_signup
 toptenreviews.com###feedback-modal
 tornadomovies.*###characters
 tornadomovies.*###get_subscribed
-tornadomovies.*###keywords
 tornadomovies.*##.buypro
 tornadomovies.*##.critics
 tornadomovies.*##.row-btns-special
@@ -20583,45 +20587,78 @@ twinfinite.net##.adDiv
 twitch.tv##.anon-front__social-container
 twitch.tv##.blue-bar
 twitch.tv##.default-panel:has([href*="/slimjim"])
+twitch.tv##.default-panel:has([href*="adv.gg"])
+twitch.tv##.default-panel:has([href*="aimlab.pro"])
 twitch.tv##.default-panel:has([href*="amazon.com"])
+twitch.tv##.default-panel:has([href*="amzn.to"])
+twitch.tv##.default-panel:has([href*="aorus.com"])
 twitch.tv##.default-panel:has([href*="apple.co"])
+twitch.tv##.default-panel:has([href*="artesianbuilds.com"])
 twitch.tv##.default-panel:has([href*="audio-technica.com"])
 twitch.tv##.default-panel:has([href*="barstoolsports.com"])
 twitch.tv##.default-panel:has([href*="bose.life"])
 twitch.tv##.default-panel:has([href*="chipotle.com"])
+twitch.tv##.default-panel:has([href*="combostri.ke"])
+twitch.tv##.default-panel:has([href*="coronausa.com"])
 twitch.tv##.default-panel:has([href*="corsair.com"])
+twitch.tv##.default-panel:has([href*="cs.money"])
+twitch.tv##.default-panel:has([href*="cutter.li"])
 twitch.tv##.default-panel:has([href*="cyberpowerpc.com"])
 twitch.tv##.default-panel:has([href*="displate.com"])
+twitch.tv##.default-panel:has([href*="dreamclothinghq.com"])
+twitch.tv##.default-panel:has([href*="duelbits.com"])
+twitch.tv##.default-panel:has([href*="eposaudio.com"])
+twitch.tv##.default-panel:has([href*="esea.net"])
 twitch.tv##.default-panel:has([href*="eventsdc.com"])
+twitch.tv##.default-panel:has([href*="exitl"])
 twitch.tv##.default-panel:has([href*="fooji.com"])
+twitch.tv##.default-panel:has([href*="gamefuel.com"])
 twitch.tv##.default-panel:has([href*="gamersupps.gg"])
+twitch.tv##.default-panel:has([href*="geni.us"])
 twitch.tv##.default-panel:has([href*="gfuel"])
 twitch.tv##.default-panel:has([href*="ghostlifestyle.com"])
 twitch.tv##.default-panel:has([href*="gillette.com"])
+twitch.tv##.default-panel:has([href*="guildesports.com"])
+twitch.tv##.default-panel:has([href*="hollyhood.com.tr"])
+twitch.tv##.default-panel:has([href*="hyperx.gg"])
 twitch.tv##.default-panel:has([href*="hyperxgaming.com"])
 twitch.tv##.default-panel:has([href*="i125364.net"])
 twitch.tv##.default-panel:has([href*="ibuypower.com"])
 twitch.tv##.default-panel:has([href*="inflcr.co"])
+twitch.tv##.default-panel:has([href*="inmotion.dhl"])
 twitch.tv##.default-panel:has([href*="intel."])
+twitch.tv##.default-panel:has([href*="kabum.com.br"])
 twitch.tv##.default-panel:has([href*="kingscoast.coffee"])
+twitch.tv##.default-panel:has([href*="kingu.in"])
 twitch.tv##.default-panel:has([href*="klutch.me"])
 twitch.tv##.default-panel:has([href*="leagueoflegends.com"])
 twitch.tv##.default-panel:has([href*="lenovo.com"])
+twitch.tv##.default-panel:has([href*="levlup.de"])
 twitch.tv##.default-panel:has([href*="lg.com"])
+twitch.tv##.default-panel:has([href*="littlebigsnake.com"])
+twitch.tv##.default-panel:has([href*="lnv.gy"])
 twitch.tv##.default-panel:has([href*="load.gg"])
 twitch.tv##.default-panel:has([href*="move.gg"])
+twitch.tv##.default-panel:has([href*="nationalguard.com"])
 twitch.tv##.default-panel:has([href*="nodecraft.com"])
 twitch.tv##.default-panel:has([href*="nordvpn"])
 twitch.tv##.default-panel:has([href*="nzxt."])
 twitch.tv##.default-panel:has([href*="onelink.me"])
 twitch.tv##.default-panel:has([href*="onl.tw"])
+twitch.tv##.default-panel:has([href*="psc.to"])
+twitch.tv##.default-panel:has([href*="purple.com"])
 twitch.tv##.default-panel:has([href*="roccat.org"])
 twitch.tv##.default-panel:has([href*="rog.gg"])
 twitch.tv##.default-panel:has([href*="scuf.co"])
+twitch.tv##.default-panel:has([href*="secretlab.co"])
+twitch.tv##.default-panel:has([href*="sehloiro.com"])
 twitch.tv##.default-panel:has([href*="statefarm.com"])
 twitch.tv##.default-panel:has([href*="strms.net"])
-twitch.tv##.default-panel:has([href*="t.co/"])
+twitch.tv##.default-panel:has([href*="subway.com"])
+twitch.tv##.default-panel:has([href*="t.co"])
 twitch.tv##.default-panel:has([href*="tiltify.com"])
+twitch.tv##.default-panel:has([href*="topachat.com"])
+twitch.tv##.default-panel:has([href*="typeracer.com"])
 twitch.tv##.default-panel:has([href*="wehy.pe"])
 twitch.tv##.default-panel:has([href*="wizards.com"])
 twitch.tv##.default-panel:has([href*="xset.com"])
@@ -20629,8 +20666,8 @@ twitch.tv##.default-panel:has([href*="xsplit.com"])
 twitch.tv##.default-panel:has-text(Click the image to download!)
 twitch.tv##.default-panel:has-text(Secret Lab)
 twitch.tv##.default-panel:has-text(Sponsorship)
-twitch.tv##.default-panel[href*="autofull.com"]
-twitch.tv##.default-panel[href*="nordvpn.com"]
+twitch.tv##.default-panel:has[href*="autofull.com"]
+twitch.tv##.default-panel:has[href*="nordvpn.com"]
 twitch.tv##.side-info-container
 twitch.tv##.simplebar-scroll-content>[class]>[class]>[class]:has-text(Featured Channels)
 twitch.tv##.toast-manager__container
@@ -20689,7 +20726,7 @@ uploaded.*##.prem
 uploadev.org##.offersprim
 uploadev.org##.text-left
 uploadfiles.*##.pro-download
-uploadrar.com##.btn-success
+uploadrar.*##.btn-success
 uploadship.*###adblockinfo
 uploadship.*###price
 uploadship.*##+js(abort-current-inline-script, document.getElementById, adblock)
