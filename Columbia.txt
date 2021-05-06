@@ -2,9 +2,9 @@
 ! Description: The complete catalog for your content blocker!
 ! Expires: 1 days
 ! Homepage: https://github.com/OsborneSystems/Columbia/
-! Last modified: 4 May 2021 00:00:00 UTC
+! Last modified: 6 May 2021 00:00:00 UTC
 ! Title: Columbia by Osborne
-! Version: 6.1.7
+! Version: 6.1.7.1
 !
 ! Designed for Adguard and uBlock Origin
 !
@@ -36,8 +36,6 @@
 @@||amazonhr.sc.omtrdc.net^$app=com.amazon.atozm
 @@||fls-na.amazon.com^$app=com.amazon.atozm
 @@||graph.facebook.com^$app=com.facebook.katana
-@@||mangadex.com^
-@@||mangadex.org^
 @@||tags.tiqcdn.com^$script,domain=samsung.com
 @@||www.cengage.com^$script,1p
 cengage.com#@#.mod_cookies
@@ -10831,7 +10829,7 @@ _s_code.
 ||manateemania.com^
 ||mangachaos.com^
 ||mangade.org^
-||mangadex.*^
+||mangadex.tv^
 ||mangarock.com^
 ||mangoemails.com^
 ||manhtien.net^
@@ -17215,6 +17213,7 @@ amazon.*###detail-ilm_div
 amazon.*###detailILM_feature_div
 amazon.*###dp-ads-center-promo_feature_div
 amazon.*###dpx-btf-bundle_feature_div
+amazon.*###FirstBrowse_Tooltip
 amazon.*###hover-zoom-end
 amazon.*###hqpWrapper
 amazon.*###huc-first-upsell-row
@@ -17242,6 +17241,7 @@ amazon.*##.celwidget:has-text(Sponsored)
 amazon.*##.maple-banner
 amazon.*##.ms3-issuance
 amazon.*##.nav-prime-try
+amazon.*##.nav-prime-tt
 amazon.*##.prime-ho-legal-text
 amazon.*##.prodImage
 amazon.*##.s-brand-footer-container
@@ -20211,6 +20211,8 @@ tvtropes.org##.footer-left
 tvtropes.org##.square_ad
 tvtropes.org##.sticky-btm
 twinfinite.net##.adDiv
+twitch.tv###twilight-sticky-footer-root
+twitch.tv##+js(twitch-videoad)
 twitch.tv##.anon-front__social-container
 twitch.tv##.blue-bar
 twitch.tv##.default-panel:has([href*="/hallsrussia"])
@@ -20254,6 +20256,7 @@ twitch.tv##.default-panel:has([href*="fiverr.com"])
 twitch.tv##.default-panel:has([href*="fooji.com"])
 twitch.tv##.default-panel:has([href*="gamefuel.com"])
 twitch.tv##.default-panel:has([href*="gamersupps.gg"])
+twitch.tv##.default-panel:has([href*="gct.gg"])
 twitch.tv##.default-panel:has([href*="geni.us"])
 twitch.tv##.default-panel:has([href*="gfuel"])
 twitch.tv##.default-panel:has([href*="ghostlifestyle.com"])
@@ -20322,6 +20325,7 @@ twitch.tv##.default-panel:has([href*="thekickoffversus.com"])
 twitch.tv##.default-panel:has([href*="tiltify.com"])
 twitch.tv##.default-panel:has([href*="tmjnessegame.com.br"])
 twitch.tv##.default-panel:has([href*="topachat.com"])
+twitch.tv##.default-panel:has([href*="turtlebeach.com"])
 twitch.tv##.default-panel:has([href*="typeracer.com"])
 twitch.tv##.default-panel:has([href*="visualsbyimpulse.com"])
 twitch.tv##.default-panel:has([href*="wehy.pe"])
@@ -20338,7 +20342,6 @@ twitch.tv##.simplebar-scroll-content>[class]>[class]>[class]:has-text(Featured C
 twitch.tv##.toast-manager__container
 twitch.tv##.tw-c-background-base:has-text(Join the Twitch community!)
 twitch.tv##.tw-c-background-base:has-text(Sign up to experience the best of)
-twitch.tv##script:inject(twitch-videoad.js)
 twitter.com##.AdaptiveStreamUserGallery
 twitter.com##.Banner
 twitter.com##.MomentsPermalinkPage-related
@@ -20683,6 +20686,7 @@ wsj.com###AD_RAIL3
 wsj.com###cx-notification
 wsj.com###saving-united-coupon-list
 wsj.com###share-target
+wsj.com###trending_now
 wsj.com##+js(acis, NREUM)
 wsj.com##+js(nostif, linkEl)
 wsj.com##.carousel-container
