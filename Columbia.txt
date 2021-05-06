@@ -1,12 +1,15 @@
 ! Author: Osborne Systems
-! Description: A complete catalog for your ad-blocker!
+! Description: The complete catalog for your content blocker!
 ! Expires: 1 days
 ! Homepage: https://github.com/OsborneSystems/Columbia/
 ! Last modified: 4 May 2021 00:00:00 UTC
 ! Title: Columbia by Osborne
-! Version: 6.1.6
+! Version: 6.1.7
 !
-! Built for Adguard and uBlock Origin
+! Designed for Adguard and uBlock Origin
+!
+! In this version:
+! - Minor fixes
 !
 ! Copyright (c) 2021 Osborne Systems
 !
@@ -31,9 +34,10 @@
 ! SECTION I
 !
 @@||amazonhr.sc.omtrdc.net^$app=com.amazon.atozm
-@@||mangadex.*^$document,domain=mangadex.com|mangadex.org
 @@||fls-na.amazon.com^$app=com.amazon.atozm
 @@||graph.facebook.com^$app=com.facebook.katana
+@@||mangadex.com^
+@@||mangadex.org^
 @@||tags.tiqcdn.com^$script,domain=samsung.com
 @@||www.cengage.com^$script,1p
 cengage.com#@#.mod_cookies
