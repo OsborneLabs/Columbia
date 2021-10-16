@@ -4,18 +4,18 @@
 ! Homepage: https://github.com/OsborneSystems/Columbia/
 ! Raw: https://raw.githubusercontent.com/OsborneSystems/Columbia/master/Columbia.txt
 ! License: MIT License
-! TimeUpdated: 15 October 2021
+! TimeUpdated: 16 October 2021
 ! Title: Columbia by Osborne
-! Version: 7.4.0
+! Version: 7.4.1
 !
 ! Designed for Adguard and uBlock Origin
 ! Copyright (c) 2021 Osborne Systems
 !
 ! SECTION I
 !
-@@amazonhr.sc.omtrdc.net^$app=com.amazon.atozm
 @@||accounts.google.*^$generichide
 @@||amazon.*uedata$image,1p
+@@||amazonhr.sc.omtrdc.net^$app=com.amazon.atozm
 @@||disneyplus.com^$generichide
 @@||djmag.com*social_media_image*$1p
 @@||fls-*.amazon.*^$app=com.amazon.atozm
@@ -38934,6 +38934,7 @@ amazon_apstag.js
 ||bisikletgonulbirligi.com^
 ||bit-cash.club^
 ||bit-empire.com^
+||bit-get.net^
 ||bit-gold.co^
 ||bit.do^
 ||bitcoin-adder.com^
@@ -48835,6 +48836,7 @@ fanatical.com##[class*="col-lg"]:has-text(Join our Newsletter)
 fanaticmanga.com##.jumbotron
 fandango.com###site-utility-links
 fandom.com##.ad-slot-wrapper
+fandom.com##.ic-ad-slot-placeholder
 fandom.com##.wds-global-footer__column:has-text(Fandom Apps)
 fandom.com##.wds-has-padding
 fanfox.net###edShow
@@ -49679,6 +49681,7 @@ linkedin.com##.cta-modal
 linkedin.com##.cta-modal:has-text(You're signed out)
 linkedin.com##.global-nav__logo-hoverable--open
 linkedin.com##.job-card-container:has-text(Appen)
+linkedin.com##.jobs-home-galapagos-promo-board
 linkedin.com##.launchpad-pymk-list__item:has-text(Grow your network)
 linkedin.com##.related-content-inner
 linkedin.com##.scaffold-layout__ad
@@ -50238,6 +50241,9 @@ people.com##p:has-text(Never miss a story)
 people.com##p:has-text(RELATED: )
 pepsico.com##[class]>[class]>[class]:has-text(Pepsico Social)
 petapixel.com##.instream_ad
+pethelpful.com##.m-detail--feature-video
+pethelpful.com##.m-header-ad
+pethelpful.com##.m-in-content-ad-row
 pewresearch.org###js-donation-callout
 pewresearch.org##.js-react-mailchimp-newsletter
 pewresearch.org##.wp-block-prc-block-promo
@@ -51245,6 +51251,7 @@ twitch.tv##.default-panel:has([href*="bit.ly"])
 twitch.tv##.default-panel:has([href*="bose.life"])
 twitch.tv##.default-panel:has([href*="brave.com"])
 twitch.tv##.default-panel:has([href*="chess.com"])
+twitch.tv##.default-panel:has([href*="chip.tl"])
 twitch.tv##.default-panel:has([href*="chipotle.com"])
 twitch.tv##.default-panel:has([href*="combostri.ke"])
 twitch.tv##.default-panel:has([href*="coronausa.com"])
@@ -51319,6 +51326,7 @@ twitch.tv##.default-panel:has([href*="postmates.com"])
 twitch.tv##.default-panel:has([href*="psc.to"])
 twitch.tv##.default-panel:has([href*="purple.com"])
 twitch.tv##.default-panel:has([href*="radeon.gg"])
+twitch.tv##.default-panel:has([href*="redbull.com"])
 twitch.tv##.default-panel:has([href*="roccat.org"])
 twitch.tv##.default-panel:has([href*="rog.gg"])
 twitch.tv##.default-panel:has([href*="roshtein.com"])
