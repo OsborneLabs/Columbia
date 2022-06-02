@@ -1,1 +1,1 @@
-<p align=center><img src="https://img.icons8.com/external-kmg-design-flat-kmg-design/512/000000/external-shield-user-interface-kmg-design-flat-kmg-design.png" width="75" height="75"></p><h1 align=center>Columbia by Osborne</h1><p align="center"><i>Privacy at the Forefront</i></p><br/>
+<p align=center><img src="https://img.icons8.com/external-kmg-design-flat-kmg-design/512/000000/external-shield-user-interface-kmg-design-flat-kmg-design.png" width="75" height="75"></p><h1 align=center>Columbia by Osborne</h1><p align="center"><i>Privacy Forward</i></p><br/>
