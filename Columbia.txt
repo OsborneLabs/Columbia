@@ -4,9 +4,9 @@
 ! Homepage: https://github.com/OsborneLabs/Columbia
 ! Raw Link: https://raw.githubusercontent.com/OsborneLabs/Columbia/master/Columbia.txt
 ! License: MIT License
-! TimeUpdated: 10 December 2022
+! TimeUpdated: 4 January 2023
 ! Title: Columbia by Osborne
-! Version: 2022.12.0
+! Version: 2023.1.0
 !
 ! Copyright (c) Osborne Labs
 ! Privacy Infinate
@@ -53,6 +53,7 @@ cengage.com#@#.mod_cookies
 @@||patreon.com^$popup,domain=bato.*|batotoo.*|batotwo.*|battwo.*|comiko.*|dto.*|hto.*|mangatoto.*|mto.*|wto.*
 @@||piccoma.com^$popup,domain=bato.*|batotoo.*|batotwo.*|battwo.*|comiko.*|dto.*|hto.*|mangatoto.*|mto.*|wto.*
 @@||pixiv.net^$popup,domain=bato.*|batotoo.*|batotwo.*|battwo.*|comiko.*|dto.*|hto.*|mangatoto.*|mto.*|wto.*
+@@||sevenseasentertainment.com^$popup,domain=bato.*|batotoo.*|batotwo.*|battwo.*|comiko.*|dto.*|hto.*|mangatoto.*|mto.*|wto.*
 @@||tapas.io^$popup,domain=bato.*|batotoo.*|batotwo.*|battwo.*|comiko.*|dto.*|hto.*|mangatoto.*|mto.*|wto.*
 @@||tappytoon.com^$popup,domain=bato.*|batotoo.*|batotwo.*|battwo.*|comiko.*|dto.*|hto.*|mangatoto.*|mto.*|wto.*
 @@||tokyopop.com^$popup,domain=bato.*|batotoo.*|batotwo.*|battwo.*|comiko.*|dto.*|hto.*|mangatoto.*|mto.*|wto.*
@@ -37179,6 +37180,7 @@ amazon_apstag.js
 ||12hack.com^
 ||12stone.com^
 ||133x.to^
+||1377x.to^
 ||1449uu.com^
 ||150.pp.ua^
 ||16-b.it^
@@ -38746,6 +38748,8 @@ amazon_apstag.js
 ||antiochcc.net^
 ||antiochmiamigardens.com^
 ||antiochnorth.org^
+||antipiracyprotection.com^
+||antipiracyprotection.info^
 ||antivirus-helpnumber.com^
 ||anuncios.edicaoms.com.br^
 ||anxiousapples.com^
@@ -38763,6 +38767,7 @@ amazon_apstag.js
 ||apexcommunity.net^
 ||aphicus.xyz^
 ||api-*.bidmachine.io^
+||api-adservices.apple.com^
 ||api-iam.intercom.io^
 ||api-ms.cobainaja.id^
 ||api.adnet.mob.com^
@@ -38890,6 +38895,7 @@ amazon_apstag.js
 ||aromatantra.com^
 ||arroapp.com^
 ||artistascitizen.com^
+||artworkcrystalcity.com^
 ||arvidarena.com^
 ||aryasamajmandirkanpur.com^
 ||arzuicgiyim.com^
@@ -39036,6 +39042,7 @@ amazon_apstag.js
 ||backgrounds.pk^
 ||backlinkskaufen24.com^
 ||backonn.top^
+||backstockliquidators.com^
 ||backupthefile.com^
 ||badadownload.com^
 ||badahub.com^
@@ -39043,6 +39050,7 @@ amazon_apstag.js
 ||badeggdesign.com^
 ||badoogirls.com^
 ||bafsxyiknk.xyz^
+||baggagehandbags.com^
 ||bahriatownshops.com^
 ||bakersalleycakeco.com^
 ||bakersfieldnlc.org^
@@ -39156,6 +39164,7 @@ amazon_apstag.js
 ||bash.givemexyz.in^
 ||basic-check.disconnect.me^
 ||basicbag.club^
+||basilico-trade.com^
 ||basketballbelieve.com^
 ||baskettexture.com^
 ||bat.bing.com^
@@ -39232,6 +39241,7 @@ amazon_apstag.js
 ||belvederefamily.com^
 ||bene-exclusive.com^
 ||benefiio.org^
+||benelavebathandbody.com^
 ||benessereperfetto.com^
 ||benget.com^
 ||benrikai.com^
@@ -39892,6 +39902,7 @@ amazon_apstag.js
 ||candycrushcheat.com^
 ||candycrushcheatzone.com^
 ||candycrushsagahack.com^
+||candyplanet.shop^
 ||caniamedia.com^
 ||cannabismails.com^
 ||cannads.urgrafix.com^
@@ -40144,6 +40155,7 @@ amazon_apstag.js
 ||century21stucco.ca^
 ||centuryuniversalssdlaboratory.com^
 ||ceppartner.com^
+||cerebral.com^
 ||certified-hacks.com^
 ||certifyads.com^
 ||ceskydomov.alias.ngs.modry.cz^
@@ -40983,6 +40995,7 @@ amazon_apstag.js
 ||cryptostocksfx.com^
 ||cryptotradeinvest.site^
 ||cryptoxcash.com^
+||cryptozoo.co^
 ||crystalcathedral.org^
 ||cryweb.github.io^
 ||crywebber.github.io^
@@ -41378,7 +41391,6 @@ amazon_apstag.js
 ||discreetfield.com^
 ||dispatches.cheatcc.com^
 ||dispensablestranger.com^
-||display.ugc.bazaarvoice.com^
 ||displayadsmedia.com^
 ||displayoptoffers.com^
 ||displayvertising.com^
@@ -41393,10 +41405,12 @@ amazon_apstag.js
 ||divinedeals.net^
 ||divinefaith.org^
 ||divinegenerator.com^
+||divineplayproductions.com^
 ||diyayogashala.com^
 ||djomare.com^
 ||dk4ywix.com^
 ||dkmexpress.com^
+||dkoldies.com^
 ||dl-it.net^
 ||dl.1003b.56a.com^
 ||dl.198424.com^
@@ -41641,6 +41655,7 @@ amazon_apstag.js
 ||e.kde.cz^
 ||e.qq.com^
 ||e.reddit.com^
+||e4hd.net^
 ||eadexchange.com^
 ||eaglebrookchurch.com^
 ||eaglechristianchurch.com^
@@ -42663,6 +42678,7 @@ amazon_apstag.js
 ||franklinabc.com^
 ||frater.org^
 ||frazerumc.org^
+||frazzledandbedazzled.com^
 ||freasoft.com^
 ||frecheats.com^
 ||free-adult-games.com^
@@ -43008,6 +43024,7 @@ amazon_apstag.js
 ||gall-tarquin.com^
 ||gallerypic3.info^
 ||gamble.wtf^
+||gamble777.club^
 ||gamblehere.org^
 ||game-advertising-online.com^
 ||game-fix.com^
@@ -43219,6 +43236,7 @@ amazon_apstag.js
 ||getbitmoney.us^
 ||getbux.com^
 ||getcashforsurveys.com^
+||getcerebral.com^
 ||getclashgems.com^
 ||getclashofclanshack.com^
 ||getclicky.com^
@@ -44819,6 +44837,7 @@ amazon_apstag.js
 ||kikmessengerforpcs.com^
 ||kimbopefachurch.org^
 ||kimmy-jka.monster^
+||kimonoe-kyoto.com^
 ||kindads.com^
 ||kindness.com^
 ||kinesiolog.de^
@@ -44842,7 +44861,9 @@ amazon_apstag.js
 ||kisslove.uno^
 ||kissmetrics.com^
 ||kissssss.uno^
+||kitogioielli.com^
 ||kittstr.com^
+||kittykitti.com^
 ||kivcc.org^
 ||kiyoharaa.uno^
 ||kjcpromo.com^
@@ -44893,6 +44914,7 @@ amazon_apstag.js
 ||komakapp.ir^
 ||komoona.com^
 ||kompasads.com^
+||koningspt.com^
 ||kontera.com^
 ||kooplinks.com^
 ||korbatech.com^
@@ -45247,6 +45269,7 @@ amazon_apstag.js
 ||local-dating-action.com^
 ||local-dating-now.com^
 ||localhookupclub1.com^
+||locallytics.com^
 ||localmodeldatings.com^
 ||localytics.com^
 ||location-voitures.ma^
@@ -45574,6 +45597,7 @@ amazon_apstag.js
 ||meapk.com^
 ||measuremap.com^
 ||mecklenburg.org^
+||medallia.com^
 ||medcureorganics.com^
 ||medgen.xyz^
 ||media-adrunner.mycomputer.com^
@@ -46745,6 +46769,7 @@ amazon_apstag.js
 ||optmstr.com^
 ||optnmstr.com^
 ||oqla-quran.org^
+||oracleinfinity.io^
 ||orange2258.com^
 ||orangehills.net^
 ||orangemails.com^
@@ -47161,6 +47186,7 @@ amazon_apstag.js
 ||platform.stumbleupon.com^
 ||platiniumlink.com^
 ||platinum-investment.com^
+||platzwechsel.jetzt^
 ||play-asia.com^
 ||play-services.com^
 ||play4traffic.com^
@@ -48442,6 +48468,7 @@ amazon_apstag.js
 ||shooka-co.com^
 ||shop-finditquick.com^
 ||shopadvisors.net^
+||shopcandyplanet.com^
 ||shophinode.com.br^
 ||shophl.top^
 ||shophousesunshine.com^
@@ -48821,6 +48848,7 @@ amazon_apstag.js
 ||speedshiftmedia.com^
 ||speedyfiles.net^
 ||speedyhub.com^
+||spencerdrafting.com^
 ||spent.com.pl^
 ||spetsesyachtcharter.gr^
 ||spezialreporte.de^
@@ -49387,6 +49415,7 @@ amazon_apstag.js
 ||teneth.co.za^
 ||tennis-point.it^
 ||tentandoserfitness.000webhostapp.com^
+||tenthwall.com^
 ||teracreative.com^
 ||tercept.com^
 ||termovideo.ru^
@@ -50615,6 +50644,7 @@ amazon_apstag.js
 ||wealthyaffiliate.com^
 ||wealwayspaybux.com^
 ||weareactum.com^
+||weather-analytics-events.apple.com^
 ||web-protocols.org^
 ||web-redirecting.com^
 ||web-stat.com^
@@ -51151,6 +51181,7 @@ amazon_apstag.js
 ||yuvikadvertisments.com^
 ||yyoutube.com^
 ||yzkzixun.com^
+||z-affiliatenetwork.com^
 ||z-lib.org^
 ||z2jakqoshx.com^
 ||z3dmbpl6309s.com^
@@ -51219,6 +51250,7 @@ amazon_apstag.js
 ||zukxd6fkxqn.com^
 ||zuneplay.com^
 ||zunostore.su^
+||zus.ink^
 ||zwallet.com^
 ||zy16eoat1w.com^
 ||zybzquz.com^
@@ -51226,7 +51258,7 @@ amazon_apstag.js
 ||zzdev.top^
 ||zzhc.vnet.cn^
 !
-! SEC.VI - Cosmetics
+! SEC.VI - Cosmetic
 !
 0123movies.*,123hulu.*,123moviesfree.*,edmsauce.com,edmtunes.com,fmovie.*,fmovies.*,gomovies.*,gostream.*,movies123.*,the123movies.*,watchfree.*##footer
 0123movies.*,123moviesfee.*,123movieshub.*,123moviestube.*,9anime.*,dropapk.*,ffmovies.*,fmovie.*,fmovies.*,fmoviesf.*,gostream.*,kitsu.*,linkedin.com,moviesonline.*,putlocker.*,sammobile.com,uploadfiles.*,watchfree.*##.alert
@@ -51509,6 +51541,7 @@ amazon.*,medicinenet.com###ad
 aminoapps.com###gdpr-cookie-consent
 aminoapps.com##.live-comment
 amomama.com##.Ad-Container
+ancestry.com##.modal-backdrop
 ancient.eu###ad_Flexi_LowerRight
 ancient.eu###mc_embed_signup
 ancientfaces.com##.affiliate-container
@@ -51549,7 +51582,6 @@ androidmo.*##.short:has-text(Horny Arcana)
 androidmo.*##.short:has-text(Horny Journey)
 androidmo.*##.short:has-text(iStripper)
 androidmo.*##.short:has-text(Yareel 3D sex game)
-androidmo.*##.side-box>div:has-text(It's interesting!)
 androidmo.*##.side-bt:has-text(Top Adult Game)
 androidmo.*##.side>div:has-text(Top 3D Sex Game)
 androidmo.*##a.side-item:has-text(Cunt Wars)
@@ -51723,6 +51755,7 @@ beebom.com##.td-block-row
 beebom.com##.td-post-source-tags
 beebom.com##.td_block_related_posts
 beebom.com,deadline.com,hentaimama.*,motherjones.com,watchanimeonline.*##.textwidget
+behindthename.com##.bannerad-wrap
 behindthevoiceactors.com##.at-sidebar-ad
 beltmag.com##.hustle-modal
 berkeleyside.com##.ad-type
@@ -51813,6 +51846,7 @@ bloomberg.com##.single-headline
 bloomberg.com##.zipr-recirc__container
 bloomberg.com##bb-mini-player
 bloomberg.com,brainpickings.org,creditcards.com,quantamagazine.org###newsletter
+bloombergtax.com##[class*=TheArticle_clotheslineWrapper]
 boingboing.net##.nextstory
 boingboing.net##.separator
 boingboing.net##.thetags
@@ -51916,9 +51950,11 @@ buzzfeednews.com##.newsblock-support-cta
 buzzfeednews.com##.reporter-card-list
 buzzfeednews.com##.sharing-btn
 buzzfeednews.com##.sm-my4
+buzzfeednews.com##.subbuz-bfp-newsletter-signup
 buzzfeednews.com##.thumbstrip
 buzzfeednews.com##p:has-text(The journalists at BuzzFeed News)
 buzzfeednews.com##[class*="interested-in-topic"]
+ca.gov###twitter
 cafemom.com###header-top-banner
 cafemom.com##.subscribe-enter-done
 calculatorsoup.com##.pages
@@ -51988,12 +52024,13 @@ cbsnews.com##.smart-banner-download
 cbsnews.com##.smart-banner__wrapper
 cbssports.com##.Newsletter-container
 cbssports.com##.PageTabsNav-promoAd
+ccleaner.com###GTM__link--CCBR-browser-ad
+ccleaner.com##.band--newsletter
+ccleaner.com##.download-notification
+ccleaner.com##.download-notification__overlay
+ccleaner.com##.ipsImage
 ccleaner.com##.knowledge-newsletter
-ccleaner.com,piriform.com###GTM__link--CCBR-browser-ad
-ccleaner.com,piriform.com##.band--newsletter
-ccleaner.com,piriform.com##.download-notification
-ccleaner.com,piriform.com##.download-notification__overlay
-ccleaner.com,piriform.com##.social-followers-proto
+ccleaner.com##.social-followers-proto
 ccm.net##.app_layout_right
 cdbaby.com,musical-u.com,oregonlive.com,tmz.com###sidebar
 ceesty.com,clkmein.com,cllkme.com,corneey.com,destyy.com,festyy.com,gestyy.com,sh.st##+js(acis, Math, break;case $.)
@@ -52494,7 +52531,6 @@ ebay.*##.mfe-card:has-text(sponsored)
 ebay.*##.mfe-reco:has-text(SPONSORED)
 ebay.*##.s-feedback
 ebay.*##.s-item:has([class*="SPONSORED"])
-ebay.*##.s-item:has-text(Sponsored):xpath(//*[string-length(@aria-labelledby) = 8]):upward(.s-item)
 ebay.*##.s-item__link[href*="cksum"]:upward(.s-item)
 ebay.*##.s-item__sep [role="text"]>span:nth-child(1):matches-css(display:inline):upward(.s-item)
 ebay.*##.s-item__sep [role="text"]>span:nth-child(4):matches-css(display:inline):upward(.s-item)
@@ -52723,7 +52759,6 @@ fitmods.com###webarx-cookie-notice
 fiverr.com##.cookie-approval
 fiverr.com##.gig-card-layout:has-text(Ad by)
 fiverr.com##.marketplace-industry-carousel
-fiverr.com##.page-alert-wrap:has-text(Find the service you're looking for)
 fiverr.com##.related-search
 fivethirtyeight.com##.lb-infeed-ad
 fivethirtyeight.com##.sidebar-feature
@@ -53076,7 +53111,6 @@ google.*##[class]>[class]>[class]>[class]:has-text(We never sell your personal i
 google.*##[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]:has-text(Get more out of Google with Google One)
 google.*##[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]:has-text(Get Drive for desktop)
 google.*##[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]:has-text(My Drive trash is changing.)
-google.*##[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]:has-text(You've used)
 google.*##[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]:has-text(Your storage is almost full)
 got-it.ai###pollCTA
 got-it.ai##.gi-Cookie
@@ -53151,7 +53185,10 @@ hanime.*##iframe[src*="adtng.com"]
 hanime.*##iframe[src*="trafficjunky.net"]
 happymag.tv##.happy-inline-ad
 happymag.tv##.related-section
+harpersbazaar.com##.breaker-ad
+harpersbazaar.com##.embed:has-text("Related Story")
 harpersbazaar.com##.feed-transporter-with-ads
+harpersbazaar.com##.gpt-breaker-container
 harpersbazaar.com##.leaderboard-ad
 harpersbazaar.com##.transporter
 hbr.org###intromercial-handle
@@ -53196,6 +53233,8 @@ hentaimama.*##.video_alert
 hentaimama.*##.video_notification
 hentaiworld.*###header-image-main
 hentaiworld.*##.support-ad
+herokuapp.com##.adsbygoogle
+herokuapp.com##[class*="GoogleAdIns"]
 hindustantimes.com##.footer-scroll
 history.com##[class*="outbrain"]
 historyonthenet.com##.eagle_dfp_ad
@@ -53320,6 +53359,12 @@ imgur.com##.cta-image
 imgur.com##.FloatingOIA-container
 imgur.com##.get-app-block
 imhentai.*###slider_video_container
+imore.com##.ad-unit
+imore.com##.dfp-leaderboard-container
+imore.com##.jwplayer__widthsetter
+imore.com##.related-articles-block
+imore.com##.van_taboola
+imore.com##[class*="newsletter"]
 inc.com###inc-anyclip
 inc.com###leaderboard-container
 inc.com###topnav-placeholder
@@ -53544,7 +53589,6 @@ kissanime.*##.pop_ovf2
 kissanime.*##.related_news
 kissanime.*##.videoAdClose
 kissanime.*##[class]:has-text(Subscribe to KissAnime mailing list to receive updates)
-kissanime.*##[class]>[class]>[class]>[class]>:has-text(Don't miss out your favorite series!)
 kissanime.*##[href*="premium-membership"]
 kissanime.*,movies123.*##.jw-logo
 kisscartoon.*##.app_ovf
@@ -53706,21 +53750,50 @@ linkedin.com##.ad-banner-container
 linkedin.com##.apptivation-promo__card
 linkedin.com##.article-end
 linkedin.com##.cta-modal
-linkedin.com##.cta-modal:has-text(You're signed out)
 linkedin.com##.global-nav__logo-hoverable--open
+linkedin.com##.job-card-container:has-text(AGA Legal Staffing)
 linkedin.com##.job-card-container:has-text(American Income Life)
+linkedin.com##.job-card-container:has-text(AMS Staffing Inc.)
 linkedin.com##.job-card-container:has-text(Appen)
+linkedin.com##.job-card-container:has-text(Atrium)
+linkedin.com##.job-card-container:has-text(Career Group)
 linkedin.com##.job-card-container:has-text(CareerUp, Inc.)
+linkedin.com##.job-card-container:has-text(Confidential)
+linkedin.com##.job-card-container:has-text(Dice)
 linkedin.com##.job-card-container:has-text(Gao Tek)
 linkedin.com##.job-card-container:has-text(GAOTek)
+linkedin.com##.job-card-container:has-text(Goodwin Recruiting)
+linkedin.com##.job-card-container:has-text(Jobot)
+linkedin.com##.job-card-container:has-text(Next Level Recruiting Inc)
+linkedin.com##.job-card-container:has-text(North Bridge Staffing Group)
 linkedin.com##.job-card-container:has-text(PFS Investments)
+linkedin.com##.job-card-container:has-text(Pocketbook Agency)
 linkedin.com##.job-card-container:has-text(Primerica)
+linkedin.com##.job-card-container:has-text(Roth Staffing)
+linkedin.com##.job-card-container:has-text(Talentify.io)
+linkedin.com##.job-card-container:has-text(Ultimate Staffing)
+linkedin.com##.job-card-container:has-text(Vaco)
 linkedin.com##.jobs-home-galapagos-promo-board
+linkedin.com##.jobs-job-board-list__item:has-text(AGA Legal Staffing)
 linkedin.com##.jobs-job-board-list__item:has-text(American Income Life)
+linkedin.com##.jobs-job-board-list__item:has-text(AMS Staffing Inc.)
 linkedin.com##.jobs-job-board-list__item:has-text(Appen)
+linkedin.com##.jobs-job-board-list__item:has-text(Atrium)
+linkedin.com##.jobs-job-board-list__item:has-text(Career Group)
 linkedin.com##.jobs-job-board-list__item:has-text(CareerUp, Inc.)
+linkedin.com##.jobs-job-board-list__item:has-text(Confidential)
+linkedin.com##.jobs-job-board-list__item:has-text(Dice)
 linkedin.com##.jobs-job-board-list__item:has-text(Gao Tek)
+linkedin.com##.jobs-job-board-list__item:has-text(Goodwin Recruiting)
+linkedin.com##.jobs-job-board-list__item:has-text(Jobot)
+linkedin.com##.jobs-job-board-list__item:has-text(Next Level Recruiting Inc)
+linkedin.com##.jobs-job-board-list__item:has-text(North Bridge Staffing Group)
+linkedin.com##.jobs-job-board-list__item:has-text(Pocketbook Agency)
 linkedin.com##.jobs-job-board-list__item:has-text(Primerica)
+linkedin.com##.jobs-job-board-list__item:has-text(Roth Staffing)
+linkedin.com##.jobs-job-board-list__item:has-text(Talentify.io)
+linkedin.com##.jobs-job-board-list__item:has-text(Ultimate Staffing)
+linkedin.com##.jobs-job-board-list__item:has-text(Vaco)
 linkedin.com##.launchpad-pymk-list__item:has-text(Grow your network)
 linkedin.com##.related-content-inner
 linkedin.com##.scaffold-layout__ad
@@ -54010,6 +54083,9 @@ msguides.com##.adsbygoogle
 msn.com###Facebook
 msn.com###irisbanner
 msoutlook.info###header-banner
+mundonow.com##.custAds
+mundonow.com##.displayad
+mundonow.com##.fixedbar
 muscleandfitness.com##.dfp-wrapper
 musescore.com##[class*="js-musescore-hb-"]
 musical-u.com##[class*="popup-embedded"]
@@ -54108,9 +54184,11 @@ ndtv.com##.ad_txt
 ndtv.com##.alsoseewgt
 neogafs.com##.notices
 nerdist.com###sub-footer
+nerdwallet.com###iFrameResizer0
 nerdwallet.com###reg-modal-wrapper
 nerdwallet.com##.c-message__content
 nerdwallet.com##.insurance.health_ins
+nerdwallet.com##div:matches-css(height:205.3px):has-text(Know how your credit is scored)
 netflixlife.com###sidebar-sticky
 netflixlife.com##.header-billboard
 nettavisen.no##.vjs-hidden:not(.vjs-ssai-skip-ad-btn)
@@ -54160,6 +54238,7 @@ newsweek.com##[id*="dfp-ad"]
 newyorker.com###cne-interlude-1
 newyorker.com###paywall-growler
 newyorker.com##.bx-slab
+newyorker.com##.journey-template--mob-nav-cta
 newyorker.com##.wide-adrail:has-text(New Yorker Favorites)
 newyorker.com##form
 newyorker.com##[class*="Failsafe"]
@@ -54309,8 +54388,6 @@ nzherald.co.nz##[href*="/?ref=createnow"]
 observer.com###must-reads-container
 observer.com##.next-container
 octaneseating.com###intercom-container
-offerup.com##[class]>[class]>[class]>[class]>[class]>div>div>div>:has([class*="MuiChip-labelSmall"]:has-text(Promoted))
-offerup.com#@#[class]>[class]>[class]>[class]>[class]>div>div>div> *:has([class*="MuiChip-labelSmall"]:has-text(Promoted))
 office.com###social-media-section
 office.com##.callout-container
 office.com##.feature-callout
@@ -54603,6 +54680,8 @@ qz.com###nl-form
 qz.com##.after-article
 qz.com##.article-content-ad
 qz.com##.context-promotion
+qz.com##.js_qz_newsletter_signup_placeholder
+qz.com##.js_sticky-footer
 qz.com##.none>[class]>[class]:has-text(Most Popular)
 qz.com##.none>[class]>[class]>[class]>[class]
 qz.com##.popular-stories-module
@@ -54817,6 +54896,7 @@ rt.com###offers
 rt.com##.cookies__banner
 rt.com##.read-more-big
 ru.nl##.cookie-canvas
+rule34.*##[href*="gamingadult.com"]
 rule34video.com##.spot-thumb
 rump3.*##iframe
 runefactory-5.com##.msgoverlay
@@ -54945,6 +55025,7 @@ snopes.com##.email-signup-box
 snopes.com##.list-unstyled>li:has-text(Support Us)
 snopes.com##.loading-results
 snopes.com##.no-gutters:has-text(Limited Time Offer)
+snopes.com##.outer-ad-unit-wrapper
 snopes.com##.social-facebookGroupBox
 snopes.com##.support-us
 snopes.com##[href*="/founding-members/"]
@@ -55820,6 +55901,7 @@ uab.edu##.sticky__wrap
 uber.com##[class]:has-text(This website uses third party)
 ubereats.com##[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]>[class]:has([href])
 ucla.edu##.email
+ultipro.com###AccessibilityBannerWrapper
 undark.org##.boxzilla-container
 undark.org##.footer-top
 undark.org##.in-view
@@ -56091,7 +56173,7 @@ washingtonpost.com##.tiffany-div
 washingtonpost.com##.transition-color:has-text(every four weeks)
 washingtonpost.com##[class*="subscription-remind"]
 washingtonpost.com##[class*="wpds"]:has-text(Try four weeks free)
-washingtonpost.com##[class]>[class]>[class]:has-text(We noticed you're browsing in private mode.)
+washingtonpost.com##[class]>[class]>[class]>[class]:matches-css(height:40px):has-text(Subscribe)
 washingtonpost.com##[data-qa*="more-from-the-post"]
 washingtontimes.com##.read-more-show
 watchanime.*##.s_saison
@@ -56291,7 +56373,6 @@ x2manga.*##p:has-text(Neither the picture nor the content belongs to me.)
 x2manga.*##p:has-text(Read hot manga)
 x2manga.*##p:has-text(Read the latest)
 x2manga.*##p:has-text(We thank you for reading the free online on)
-x2manga.*##p:has-text(You're reading manga)
 x2manga.*##strong:has-text(Find all manga same genre(s))
 xconvert.com##.gcontent-container
 xda-developers.com###hosted-by
@@ -56438,3 +56519,5 @@ zmescience.com###wapp_signup_widget
 zmescience.com##.fb-msg
 zmescience.com##.nksub_sidebar_cont_scrollable
 zoosk.com##.wdi-banner-mobile
+zpaste.*##div.uk-margin.uk-card-body.uk-card-small
+zpaste.*##[src*="ibb.co"]
