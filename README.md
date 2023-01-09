@@ -7,14 +7,14 @@
 
 * Follow the guide based on your device and add-on<br></br>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/AdGuard.svg/1200px-AdGuard.svg.png" width="20" height="20">&nbsp;&nbsp;<strong>AdGuard</strong> · Android<sup>*</sup>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/AdGuard.svg/1200px-AdGuard.svg.png" width="20" height="20">&nbsp;&nbsp;<strong>AdGuard</strong> · Android<sup> *</sup>
 
 1. In the sidebar, click <code>Settings</code>
 2. Click on <code>Content Blocking</code>, <code>Filters</code>, <code>Custom Filters</code>, <code>New Custom Filter</code>
 3. Paste the link and check <code>Trusted Filter</code>
 4. Click on <code>Import</code><br></br>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/AdGuard.svg/1200px-AdGuard.svg.png" width="20" height="20">&nbsp;&nbsp;<strong>AdGuard</strong> · iOS & iPadOS<sup>*</sup>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/AdGuard.svg/1200px-AdGuard.svg.png" width="20" height="20">&nbsp;&nbsp;<strong>AdGuard</strong> · iOS & iPadOS<sup> *</sup>
 
 1. Click on the &nbsp;<img src="https://static-00.iconduck.com/assets.00/adguard-icon-495x512-4awpyae5.png" width="15" height="15">&nbsp; tab located on the bottom row
 2. Click on <code>Safari protection</code>, <code>Filters</code>, <code>Custom</code>, <code>Add a filter</code>

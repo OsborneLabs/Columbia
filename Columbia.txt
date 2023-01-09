@@ -4,14 +4,14 @@
 ! Homepage: https://github.com/OsborneLabs/Columbia
 ! Raw Link: https://raw.githubusercontent.com/OsborneLabs/Columbia/master/Columbia.txt
 ! License: MIT License
-! TimeUpdated: 5 January 2023
+! TimeUpdated: 8 January 2023
 ! Title: Columbia by Osborne
-! Version: 2023.1.1
+! Version: 2023.1.2
 !
 ! Copyright (c) Osborne Labs
 ! Privacy Infinate
 !
-! SEC.ONE - Exceptions
+! SEC.ONE - EXCEPTIONS
 !
 #@#.notifications-wrapper
 @@/omniture.$script,domain=www.lexus.com
@@ -29241,6 +29241,7 @@ amazon_apstag.js
 ||collector-*.px-cdn.net^$3p
 ||connect.facebook.net^$3p,domain=~facebook.com|~fb.com
 ||consensu.org^$3p
+||cookielaw.org^$important
 ||corneey.com/bundles/smeweb/img/tracking
 ||cse.google.*adsense/search/async-ads.js^
 ||curalate.com^$3p
@@ -29264,9 +29265,9 @@ amazon_apstag.js
 ||facebook*/sem_campaigns/sem_pixel_test/
 ||facebook*/tr?
 ||facebook*likebox.php$subdocument
-||facebook.com*/impression.php
-||facebook.com/ajax/qm/
-||facebook.com/connect/$3p
+||facebook.*/ajax/qm/
+||facebook.*/connect/$3p
+||facebook.*/impression.php
 ||fbcdn2.com^$third-party
 ||flipboard.com/web/buttons/$3p
 ||fls-*.amazon.
@@ -29292,6 +29293,9 @@ amazon_apstag.js
 ||healthline.com/api/metrics
 ||hollywoodreporter*roundtables$image
 ||imwx.com/mobile/adconfig/
+||indeed.com/api/v0/initiallog?
+||indeed.com/m/rpc/frontendlogging
+||indeed.com/rpc/$~xhr
 ||instagram.com/ajax/bz
 ||instagram.com/logging/
 ||ipfind.co^$third-party
@@ -29338,6 +29342,7 @@ amazon_apstag.js
 ||platform.californiatimes.com/meter/latspot.min.js
 ||play.google.*/log?
 ||powerad.ai^$3p
+||privacy-mgmt.com^$important
 ||producebreed.com^$3p
 ||pulsar.ebay.$other
 ||purr.nytimes.com^*/purr-cache
@@ -29393,7 +29398,7 @@ amazon_apstag.js
 ||youtube.*/pagead/
 ||youtube.*/ptracking?
 !
-! SEC.FOUR - IP ADDRESSES
+! SEC.FOUR - ADDRESSES
 !
 1.1.164.186$network
 1.1.188.23$network
@@ -40888,7 +40893,6 @@ amazon_apstag.js
 ||convrse.media^
 ||conzel.com^
 ||cookiebot.com^
-||cookielaw.org$important^
 ||cookies.cmpnet.com^
 ||cool-hacks.com^
 ||coolchurch.com^
@@ -41679,6 +41683,7 @@ amazon_apstag.js
 ||dota2exchange.online^
 ||dota2trade.online^
 ||dotairdrop.com^
+||dotmetrics.net^
 ||dotomi.com^
 ||dots-across.top^
 ||doublebit.co.in^
@@ -48748,6 +48753,8 @@ amazon_apstag.js
 ||sarang.com^
 ||sargas.iad-03.braze.com^
 ||sarl-entrain.fr^
+||sarraye.com^
+||sarraye.store^
 ||sarvodayahospitalgzb.in^
 ||sas-auto.com^
 ||saskbowl.com^
@@ -49904,6 +49911,7 @@ amazon_apstag.js
 ||t.eloqua.com^
 ||t.firstpromoter.com^
 ||t.honker.info^
+||t.indeed.com^
 ||t.insigit.com^
 ||t.irtyd.com^
 ||t.singular.net^
@@ -49975,6 +49983,7 @@ amazon_apstag.js
 ||tawmetalworking.xyz^
 ||taxkerala.co.in^
 ||taxpos.com^
+||taylorcoleevents.com^
 ||taylorsfbc.org^
 ||tayyabagrammarschool.com^
 ||tbc.org^
@@ -52907,6 +52916,7 @@ cnn.com##.BasicArticle__recirculation
 cnn.com##.bx-slab
 cnn.com##.el__embedded
 cnn.com##.el__leafmedia:has-text(Get our free weekly newsletter)
+cnn.com##.factbox_inline-small__standard
 cnn.com##.livefyre__logo
 cnn.com##.optanon-alert-box-bg
 cnn.com##.PartnerZone
@@ -54137,7 +54147,6 @@ indeed.com##.DesktopSERPJobAlert
 indeed.com##.jobsearch-Footer
 indeed.com##.message-container
 indeed.com##.microContentQuestion
-indeed.com##.mosaic-zone
 indeed.com##.popover
 indeed.com##.promo-container
 indeed.com##.result[id*="pj_"]
@@ -54297,6 +54306,7 @@ jpost.com##.article-related-wrap
 jpost.com##.hide-for-premium
 jpost.com##.jeeng-widget
 kaotic.com##.tab-wrapper:has-text(Chaturbate)
+kapwing.com##.[class*="upsellBlock"]
 kbb.com##.td-a-ad
 kbb.com##[id^="kbbAds"]
 kcra.com##.ad-container
@@ -55311,6 +55321,7 @@ pocket-lint.com##.popular
 pocket-lint.com##.single-article
 pocket-lint.com##.topics
 pocketsense.com##.video-player-container-wrapper
+pockettactics.com##.nn_mobile_mpu_wrapper
 pokemonacademylife.com##b:has-text(preg_replace)
 pokemonacademylife.com##b:has-text([phpBB Debug])
 pokemonacademylife.com##b:has-text([ROOT])
@@ -57139,6 +57150,7 @@ xvideos.com##.banner-slider
 xvideos.com##.premium-preview
 xvideos.com##.premium-results-line
 xvideos.com##.remove-ads
+xvideos.com##.thumb-ad
 xvideos.com##.thumb-ad-red
 xvideos.com##.ticket-red
 xvideos.com##.xv-cams-block
