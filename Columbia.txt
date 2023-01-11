@@ -4,9 +4,9 @@
 ! Homepage: https://github.com/OsborneLabs/Columbia
 ! Raw Link: https://raw.githubusercontent.com/OsborneLabs/Columbia/master/Columbia.txt
 ! License: MIT License
-! TimeUpdated: 8 January 2023
+! TimeUpdated: 10 January 2023
 ! Title: Columbia by Osborne
-! Version: 2023.1.2
+! Version: 2023.1.3
 !
 ! Copyright (c) Osborne Labs
 ! Privacy Infinate
@@ -28752,6 +28752,7 @@ cengage.com#@#.mod_cookies
 ##[data-at-selector="cookie-banner"]
 ##[data-bind="visible: showCookieWarning"]
 ##[data-bvo-type="share"]
+##[data-ccpa]
 ##[data-cookie-id]
 ##[data-cookie-validity-days]
 ##[data-cookie="uso-accept-cookies"]
@@ -29032,6 +29033,7 @@ cengage.com#@#.mod_cookies
 /bluekai.
 /bouncy.php?*&inpopup=$document
 /ccpa.js
+/ccpa/prod/*
 /cdn-cgi/bm/cv/*
 /certona.
 /cgi-bin/*.php$document
@@ -29043,6 +29045,7 @@ cengage.com#@#.mod_cookies
 /comscore.
 /cookie-notice/$script
 /cookieconsent.
+/cookieid.htm
 /cookiemanagement.js
 /cookiepolicy_
 /criteo.
@@ -29303,6 +29306,7 @@ amazon_apstag.js
 ||kaptcha.com^$3p
 ||koushoku.*/d*.jpg$image
 ||koushoku.*/js/main.*.js$script
+||licdn.com/*li.lms-analytics/
 ||linkedin.com/li/track
 ||linkedin.com/litms/utag/
 ||linkedin.com/sensorcollect/
@@ -29313,6 +29317,7 @@ amazon_apstag.js
 ||loadshare*1m_video$media
 ||loggly.com^$3p
 ||lr-ingest.io/logger.min.js
+||ltwebstatic.com^*/libs/sensors/
 ||mangabtt*top$image
 ||manganelo*images*gohome*$image
 ||mangarock*quangcao$image
@@ -29413,22 +29418,10 @@ amazon_apstag.js
 1.246.222.113$network
 1.246.222.127$network
 1.246.222.13$network
-1.246.222.134$network
-1.246.222.135$network
-1.246.222.138$network
 1.246.222.14$network
 1.246.222.153$network
 1.246.222.16$network
-1.246.222.165$network
 1.246.222.2$network
-1.246.222.20$network
-1.246.222.228$network
-1.246.222.232$network
-1.246.222.234$network
-1.246.222.237$network
-1.246.222.245$network
-1.246.222.249$network
-1.246.222.25$network
 1.246.222.38$network
 1.246.222.40$network
 1.246.222.41$network
@@ -29437,26 +29430,19 @@ amazon_apstag.js
 1.246.222.49$network
 1.246.222.56$network
 1.246.222.6$network
-1.246.222.69$network
 1.246.222.80$network
 1.246.222.94$network
 1.246.222.98$network
 1.246.223.10$network
-1.246.223.103$network
-1.246.223.109$network
 1.246.223.126$network
 1.246.223.127$network
 1.246.223.130$network
 1.246.223.146$network
 1.246.223.15$network
-1.246.223.151$network
 1.246.223.18$network
 1.246.223.22$network
-1.246.223.223$network
 1.246.223.32$network
 1.246.223.4$network
-1.246.223.48$network
-1.246.223.49$network
 1.246.223.54$network
 1.246.223.58$network
 1.246.223.59$network
@@ -29553,9 +29539,6 @@ amazon_apstag.js
 103.91.245.25$network
 103.91.245.27$network
 103.91.245.3$network
-103.91.245.30$network
-103.91.245.32$network
-103.91.245.36$network
 103.91.245.44$network
 103.91.245.47$network
 103.91.245.48$network
@@ -29672,7 +29655,6 @@ amazon_apstag.js
 111.170.84.33$network
 111.170.85.157$network
 111.170.85.18$network
-111.170.85.188$network
 111.171.11.136$network
 111.178.226.66$network
 111.179.208.28$network
@@ -30444,7 +30426,6 @@ amazon_apstag.js
 115.58.102.168$network
 115.58.104.69$network
 115.58.133.5$network
-115.58.133.54$network
 115.58.134.173$network
 115.58.134.248$network
 115.58.135.190$network
@@ -30671,7 +30652,6 @@ amazon_apstag.js
 117.201.199.228$network
 117.201.199.94$network
 117.201.200.22$network
-117.201.200.229$network
 117.201.202.142$network
 117.201.202.179$network
 117.201.202.210$network
@@ -30710,7 +30690,6 @@ amazon_apstag.js
 117.208.135.245$network
 117.213.10.118$network
 117.213.10.12$network
-117.213.10.125$network
 117.213.10.194$network
 117.213.11.103$network
 117.213.12.237$network
@@ -30751,7 +30730,6 @@ amazon_apstag.js
 117.213.9.214$network
 117.213.9.228$network
 117.215.208.21$network
-117.215.208.215$network
 117.215.208.246$network
 117.215.209.54$network
 117.215.210.28$network
@@ -30782,7 +30760,6 @@ amazon_apstag.js
 117.222.160.212$network
 117.222.161.178$network
 117.222.161.18$network
-117.222.161.186$network
 117.222.161.212$network
 117.222.161.237$network
 117.222.162.133$network
@@ -30790,7 +30767,6 @@ amazon_apstag.js
 117.222.162.56$network
 117.222.163.177$network
 117.222.164.1$network
-117.222.164.129$network
 117.222.164.24$network
 117.222.165.182$network
 117.222.165.30$network
@@ -31061,7 +31037,6 @@ amazon_apstag.js
 119.186.207.7$network
 119.186.208.109$network
 119.186.209.19$network
-119.186.209.192$network
 119.186.209.220$network
 119.187.136.251$network
 119.187.232.108$network
@@ -31227,7 +31202,6 @@ amazon_apstag.js
 120.85.185.114$network
 120.85.186.39$network
 120.85.187.20$network
-120.85.187.206$network
 120.85.196.16$network
 120.85.196.183$network
 120.85.196.190$network
@@ -31239,7 +31213,6 @@ amazon_apstag.js
 120.85.197.134$network
 120.85.197.218$network
 120.85.197.24$network
-120.85.197.240$network
 120.85.197.45$network
 120.85.198.104$network
 120.85.198.105$network
@@ -32146,8 +32119,6 @@ amazon_apstag.js
 178.175.1.77$network
 178.175.1.78$network
 178.175.1.8$network
-178.175.1.80$network
-178.175.1.83$network
 178.175.10.109$network
 178.175.10.120$network
 178.175.10.136$network
@@ -32172,7 +32143,6 @@ amazon_apstag.js
 178.175.100.38$network
 178.175.100.39$network
 178.175.100.8$network
-178.175.100.88$network
 178.175.101.137$network
 178.175.101.148$network
 178.175.101.152$network
@@ -32213,7 +32183,6 @@ amazon_apstag.js
 178.175.104.111$network
 178.175.104.136$network
 178.175.104.14$network
-178.175.104.145$network
 178.175.104.190$network
 178.175.104.209$network
 178.175.104.215$network
@@ -32237,26 +32206,18 @@ amazon_apstag.js
 178.175.105.255$network
 178.175.105.29$network
 178.175.105.3$network
-178.175.105.36$network
 178.175.105.45$network
 178.175.105.56$network
 178.175.105.60$network
 178.175.105.85$network
 178.175.105.92$network
 178.175.106.1$network
-178.175.106.10$network
-178.175.106.130$network
-178.175.106.143$network
-178.175.106.153$network
-178.175.106.158$network
-178.175.106.179$network
 178.175.106.200$network
 178.175.106.206$network
 178.175.106.228$network
 178.175.106.248$network
 178.175.106.25$network
 178.175.106.3$network
-178.175.106.31$network
 178.175.106.44$network
 178.175.106.49$network
 178.175.106.54$network
@@ -32268,7 +32229,6 @@ amazon_apstag.js
 178.175.107.131$network
 178.175.107.133$network
 178.175.107.16$network
-178.175.107.167$network
 178.175.107.172$network
 178.175.107.209$network
 178.175.107.237$network
@@ -32288,7 +32248,6 @@ amazon_apstag.js
 178.175.108.150$network
 178.175.108.154$network
 178.175.108.16$network
-178.175.108.169$network
 178.175.108.226$network
 178.175.108.244$network
 178.175.108.3$network
@@ -32307,9 +32266,6 @@ amazon_apstag.js
 178.175.109.172$network
 178.175.109.196$network
 178.175.109.2$network
-178.175.109.237$network
-178.175.109.241$network
-178.175.109.249$network
 178.175.109.35$network
 178.175.109.45$network
 178.175.109.56$network
@@ -32320,13 +32276,10 @@ amazon_apstag.js
 178.175.11.102$network
 178.175.11.103$network
 178.175.11.14$network
-178.175.11.149$network
 178.175.11.184$network
 178.175.11.193$network
 178.175.11.199$network
 178.175.11.20$network
-178.175.11.201$network
-178.175.11.208$network
 178.175.11.212$network
 178.175.11.215$network
 178.175.11.219$network
@@ -32353,7 +32306,6 @@ amazon_apstag.js
 178.175.110.197$network
 178.175.110.198$network
 178.175.110.2$network
-178.175.110.213$network
 178.175.110.42$network
 178.175.110.47$network
 178.175.110.54$network
@@ -32375,8 +32327,6 @@ amazon_apstag.js
 178.175.111.72$network
 178.175.112.104$network
 178.175.112.12$network
-178.175.112.123$network
-178.175.112.128$network
 178.175.112.171$network
 178.175.112.172$network
 178.175.112.202$network
@@ -32447,11 +32397,6 @@ amazon_apstag.js
 178.175.117.12$network
 178.175.117.18$network
 178.175.117.2$network
-178.175.117.20$network
-178.175.117.210$network
-178.175.117.22$network
-178.175.117.231$network
-178.175.117.239$network
 178.175.117.56$network
 178.175.117.58$network
 178.175.117.84$network
@@ -32463,9 +32408,7 @@ amazon_apstag.js
 178.175.118.141$network
 178.175.118.154$network
 178.175.118.19$network
-178.175.118.193$network
 178.175.118.20$network
-178.175.118.205$network
 178.175.118.211$network
 178.175.118.212$network
 178.175.118.240$network
@@ -32490,7 +32433,6 @@ amazon_apstag.js
 178.175.119.8$network
 178.175.119.96$network
 178.175.12.10$network
-178.175.12.102$network
 178.175.12.127$network
 178.175.12.134$network
 178.175.12.135$network
@@ -32501,19 +32443,12 @@ amazon_apstag.js
 178.175.12.184$network
 178.175.12.186$network
 178.175.12.2$network
-178.175.12.214$network
-178.175.12.219$network
-178.175.12.236$network
-178.175.12.254$network
 178.175.12.5$network
-178.175.12.56$network
 178.175.12.62$network
 178.175.12.7$network
-178.175.12.74$network
 178.175.12.8$network
 178.175.120.107$network
 178.175.120.11$network
-178.175.120.119$network
 178.175.120.121$network
 178.175.120.174$network
 178.175.120.184$network
@@ -32530,7 +32465,6 @@ amazon_apstag.js
 178.175.121.128$network
 178.175.121.13$network
 178.175.121.19$network
-178.175.121.196$network
 178.175.121.231$network
 178.175.121.240$network
 178.175.121.247$network
@@ -32566,10 +32500,8 @@ amazon_apstag.js
 178.175.123.140$network
 178.175.123.144$network
 178.175.123.15$network
-178.175.123.159$network
 178.175.123.178$network
 178.175.123.19$network
-178.175.123.196$network
 178.175.123.211$network
 178.175.123.218$network
 178.175.123.26$network
@@ -32587,32 +32519,22 @@ amazon_apstag.js
 178.175.124.196$network
 178.175.124.206$network
 178.175.124.24$network
-178.175.124.242$network
 178.175.124.42$network
 178.175.124.55$network
 178.175.124.8$network
 178.175.125.108$network
 178.175.125.13$network
-178.175.125.139$network
 178.175.125.146$network
 178.175.125.155$network
 178.175.125.184$network
 178.175.125.188$network
 178.175.125.189$network
 178.175.125.2$network
-178.175.125.203$network
-178.175.125.21$network
-178.175.125.229$network
-178.175.125.237$network
-178.175.125.238$network
 178.175.125.36$network
 178.175.125.47$network
 178.175.125.51$network
 178.175.125.57$network
 178.175.125.7$network
-178.175.125.72$network
-178.175.125.74$network
-178.175.125.75$network
 178.175.125.83$network
 178.175.125.93$network
 178.175.125.98$network
@@ -32684,7 +32606,6 @@ amazon_apstag.js
 178.175.15.37$network
 178.175.15.39$network
 178.175.15.4$network
-178.175.15.48$network
 178.175.15.69$network
 178.175.15.85$network
 178.175.16.11$network
@@ -32699,13 +32620,6 @@ amazon_apstag.js
 178.175.16.36$network
 178.175.16.77$network
 178.175.17.1$network
-178.175.17.113$network
-178.175.17.116$network
-178.175.17.13$network
-178.175.17.146$network
-178.175.17.156$network
-178.175.17.163$network
-178.175.17.197$network
 178.175.17.215$network
 178.175.17.234$network
 178.175.17.251$network
@@ -32763,13 +32677,11 @@ amazon_apstag.js
 178.175.21.192$network
 178.175.21.194$network
 178.175.21.6$network
-178.175.21.65$network
 178.175.21.81$network
 178.175.21.99$network
 178.175.22.104$network
 178.175.22.126$network
 178.175.22.13$network
-178.175.22.136$network
 178.175.22.141$network
 178.175.22.150$network
 178.175.22.151$network
@@ -32777,7 +32689,6 @@ amazon_apstag.js
 178.175.22.209$network
 178.175.22.241$network
 178.175.22.6$network
-178.175.22.64$network
 178.175.22.93$network
 178.175.23.103$network
 178.175.23.107$network
@@ -32854,12 +32765,9 @@ amazon_apstag.js
 178.175.27.133$network
 178.175.27.17$network
 178.175.27.20$network
-178.175.27.205$network
 178.175.27.228$network
 178.175.27.25$network
 178.175.27.3$network
-178.175.27.30$network
-178.175.27.34$network
 178.175.27.47$network
 178.175.27.56$network
 178.175.27.68$network
@@ -32868,7 +32776,6 @@ amazon_apstag.js
 178.175.28.133$network
 178.175.28.156$network
 178.175.28.24$network
-178.175.28.244$network
 178.175.28.53$network
 178.175.28.79$network
 178.175.28.89$network
@@ -32895,7 +32802,6 @@ amazon_apstag.js
 178.175.3.121$network
 178.175.3.124$network
 178.175.3.14$network
-178.175.3.145$network
 178.175.3.180$network
 178.175.3.199$network
 178.175.3.208$network
@@ -32903,19 +32809,13 @@ amazon_apstag.js
 178.175.3.33$network
 178.175.3.35$network
 178.175.3.4$network
-178.175.3.48$network
 178.175.3.79$network
 178.175.30.110$network
 178.175.30.12$network
-178.175.30.121$network
 178.175.30.143$network
 178.175.30.188$network
 178.175.30.192$network
 178.175.30.2$network
-178.175.30.222$network
-178.175.30.230$network
-178.175.30.245$network
-178.175.30.253$network
 178.175.30.46$network
 178.175.30.69$network
 178.175.30.76$network
@@ -32923,12 +32823,10 @@ amazon_apstag.js
 178.175.31.123$network
 178.175.31.155$network
 178.175.31.18$network
-178.175.31.183$network
 178.175.31.201$network
 178.175.31.209$network
 178.175.31.232$network
 178.175.31.24$network
-178.175.31.247$network
 178.175.31.53$network
 178.175.31.6$network
 178.175.31.74$network
@@ -32943,16 +32841,6 @@ amazon_apstag.js
 178.175.32.74$network
 178.175.32.91$network
 178.175.33.1$network
-178.175.33.113$network
-178.175.33.116$network
-178.175.33.118$network
-178.175.33.129$network
-178.175.33.136$network
-178.175.33.139$network
-178.175.33.151$network
-178.175.33.186$network
-178.175.33.192$network
-178.175.33.198$network
 178.175.33.213$network
 178.175.33.214$network
 178.175.33.220$network
@@ -32960,7 +32848,6 @@ amazon_apstag.js
 178.175.33.242$network
 178.175.33.36$network
 178.175.33.4$network
-178.175.33.40$network
 178.175.33.92$network
 178.175.34.100$network
 178.175.34.122$network
@@ -33003,7 +32890,6 @@ amazon_apstag.js
 178.175.36.32$network
 178.175.36.42$network
 178.175.36.6$network
-178.175.36.61$network
 178.175.36.77$network
 178.175.36.82$network
 178.175.37.124$network
@@ -33015,9 +32901,6 @@ amazon_apstag.js
 178.175.37.17$network
 178.175.37.184$network
 178.175.37.2$network
-178.175.37.207$network
-178.175.37.240$network
-178.175.37.26$network
 178.175.37.56$network
 178.175.37.58$network
 178.175.37.73$network
@@ -33097,8 +32980,6 @@ amazon_apstag.js
 178.175.42.56$network
 178.175.42.59$network
 178.175.42.8$network
-178.175.42.87$network
-178.175.42.89$network
 178.175.43.124$network
 178.175.43.130$network
 178.175.43.147$network
@@ -33116,7 +32997,6 @@ amazon_apstag.js
 178.175.44.182$network
 178.175.44.210$network
 178.175.44.23$network
-178.175.44.239$network
 178.175.44.249$network
 178.175.44.34$network
 178.175.44.37$network
@@ -33169,7 +33049,6 @@ amazon_apstag.js
 178.175.46.68$network
 178.175.47.12$network
 178.175.47.14$network
-178.175.47.149$network
 178.175.47.161$network
 178.175.47.180$network
 178.175.47.185$network
@@ -33178,15 +33057,12 @@ amazon_apstag.js
 178.175.47.240$network
 178.175.47.32$network
 178.175.47.5$network
-178.175.47.52$network
-178.175.47.57$network
 178.175.47.88$network
 178.175.48.103$network
 178.175.48.114$network
 178.175.48.122$network
 178.175.48.133$network
 178.175.48.14$network
-178.175.48.146$network
 178.175.48.154$network
 178.175.48.162$network
 178.175.48.170$network
@@ -33208,7 +33084,6 @@ amazon_apstag.js
 178.175.49.246$network
 178.175.49.26$network
 178.175.49.3$network
-178.175.49.39$network
 178.175.49.43$network
 178.175.49.52$network
 178.175.49.62$network
@@ -33233,7 +33108,6 @@ amazon_apstag.js
 178.175.5.88$network
 178.175.5.98$network
 178.175.50.10$network
-178.175.50.104$network
 178.175.50.112$network
 178.175.50.123$network
 178.175.50.131$network
@@ -33252,8 +33126,6 @@ amazon_apstag.js
 178.175.50.41$network
 178.175.50.42$network
 178.175.50.5$network
-178.175.50.53$network
-178.175.50.55$network
 178.175.50.9$network
 178.175.51.101$network
 178.175.51.102$network
@@ -33263,7 +33135,6 @@ amazon_apstag.js
 178.175.51.144$network
 178.175.51.148$network
 178.175.51.15$network
-178.175.51.159$network
 178.175.51.175$network
 178.175.51.176$network
 178.175.51.178$network
@@ -33276,7 +33147,6 @@ amazon_apstag.js
 178.175.51.26$network
 178.175.51.35$network
 178.175.51.4$network
-178.175.51.40$network
 178.175.51.63$network
 178.175.51.68$network
 178.175.52.11$network
@@ -33289,8 +33159,6 @@ amazon_apstag.js
 178.175.52.3$network
 178.175.52.8$network
 178.175.52.9$network
-178.175.52.91$network
-178.175.52.97$network
 178.175.53.152$network
 178.175.53.228$network
 178.175.53.26$network
@@ -33303,7 +33171,6 @@ amazon_apstag.js
 178.175.54.142$network
 178.175.54.168$network
 178.175.54.17$network
-178.175.54.174$network
 178.175.54.207$network
 178.175.54.214$network
 178.175.54.253$network
@@ -33318,7 +33185,6 @@ amazon_apstag.js
 178.175.55.118$network
 178.175.55.123$network
 178.175.55.13$network
-178.175.55.138$network
 178.175.55.164$network
 178.175.55.212$network
 178.175.55.227$network
@@ -33382,7 +33248,6 @@ amazon_apstag.js
 178.175.58.67$network
 178.175.59.14$network
 178.175.59.15$network
-178.175.59.152$network
 178.175.59.181$network
 178.175.59.184$network
 178.175.59.193$network
@@ -33393,11 +33258,9 @@ amazon_apstag.js
 178.175.59.35$network
 178.175.59.4$network
 178.175.59.8$network
-178.175.59.82$network
 178.175.6.116$network
 178.175.6.128$network
 178.175.6.15$network
-178.175.6.154$network
 178.175.6.168$network
 178.175.6.18$network
 178.175.6.225$network
@@ -33407,7 +33270,6 @@ amazon_apstag.js
 178.175.6.61$network
 178.175.6.86$network
 178.175.6.9$network
-178.175.6.93$network
 178.175.60.0$network
 178.175.60.100$network
 178.175.60.11$network
@@ -33427,18 +33289,14 @@ amazon_apstag.js
 178.175.61.149$network
 178.175.61.164$network
 178.175.61.2$network
-178.175.61.218$network
 178.175.61.3$network
-178.175.61.38$network
 178.175.61.50$network
 178.175.61.72$network
 178.175.61.84$network
 178.175.61.85$network
 178.175.61.96$network
 178.175.62.11$network
-178.175.62.111$network
 178.175.62.12$network
-178.175.62.128$network
 178.175.62.196$network
 178.175.62.21$network
 178.175.62.250$network
@@ -33464,7 +33322,6 @@ amazon_apstag.js
 178.175.63.236$network
 178.175.63.249$network
 178.175.63.3$network
-178.175.63.35$network
 178.175.63.88$network
 178.175.64.136$network
 178.175.64.137$network
@@ -33489,16 +33346,11 @@ amazon_apstag.js
 178.175.65.147$network
 178.175.65.159$network
 178.175.65.16$network
-178.175.65.166$network
 178.175.65.176$network
 178.175.65.181$network
 178.175.65.186$network
 178.175.65.189$network
 178.175.65.2$network
-178.175.65.20$network
-178.175.65.210$network
-178.175.65.221$network
-178.175.65.28$network
 178.175.65.33$network
 178.175.65.71$network
 178.175.65.82$network
@@ -33551,7 +33403,6 @@ amazon_apstag.js
 178.175.69.181$network
 178.175.69.185$network
 178.175.69.19$network
-178.175.69.190$network
 178.175.69.203$network
 178.175.69.23$network
 178.175.69.35$network
@@ -33566,7 +33417,6 @@ amazon_apstag.js
 178.175.7.140$network
 178.175.7.167$network
 178.175.7.23$network
-178.175.7.235$network
 178.175.7.50$network
 178.175.7.56$network
 178.175.7.87$network
@@ -33618,7 +33468,6 @@ amazon_apstag.js
 178.175.72.47$network
 178.175.72.53$network
 178.175.73.10$network
-178.175.73.103$network
 178.175.73.11$network
 178.175.73.136$network
 178.175.73.137$network
@@ -33657,12 +33506,9 @@ amazon_apstag.js
 178.175.75.244$network
 178.175.75.45$network
 178.175.75.8$network
-178.175.75.80$network
 178.175.75.93$network
 178.175.75.99$network
 178.175.76.10$network
-178.175.76.102$network
-178.175.76.109$network
 178.175.76.175$network
 178.175.76.186$network
 178.175.76.193$network
@@ -33681,8 +33527,6 @@ amazon_apstag.js
 178.175.77.107$network
 178.175.77.116$network
 178.175.77.12$network
-178.175.77.121$network
-178.175.77.125$network
 178.175.77.143$network
 178.175.77.150$network
 178.175.77.169$network
@@ -33691,8 +33535,6 @@ amazon_apstag.js
 178.175.77.229$network
 178.175.77.42$network
 178.175.77.8$network
-178.175.77.80$network
-178.175.77.84$network
 178.175.77.91$network
 178.175.77.96$network
 178.175.78.0$network
@@ -33709,9 +33551,6 @@ amazon_apstag.js
 178.175.78.92$network
 178.175.79.0$network
 178.175.79.1$network
-178.175.79.170$network
-178.175.79.191$network
-178.175.79.195$network
 178.175.79.225$network
 178.175.79.237$network
 178.175.79.242$network
@@ -33732,7 +33571,6 @@ amazon_apstag.js
 178.175.8.54$network
 178.175.8.57$network
 178.175.8.7$network
-178.175.8.71$network
 178.175.8.97$network
 178.175.80.108$network
 178.175.80.116$network
@@ -33772,12 +33610,6 @@ amazon_apstag.js
 178.175.81.32$network
 178.175.81.99$network
 178.175.82.1$network
-178.175.82.115$network
-178.175.82.118$network
-178.175.82.129$network
-178.175.82.154$network
-178.175.82.156$network
-178.175.82.158$network
 178.175.82.218$network
 178.175.82.250$network
 178.175.82.34$network
@@ -33803,8 +33635,6 @@ amazon_apstag.js
 178.175.84.102$network
 178.175.84.106$network
 178.175.84.14$network
-178.175.84.143$network
-178.175.84.145$network
 178.175.84.173$network
 178.175.84.176$network
 178.175.84.177$network
@@ -33830,9 +33660,7 @@ amazon_apstag.js
 178.175.85.190$network
 178.175.85.196$network
 178.175.85.2$network
-178.175.85.22$network
 178.175.85.3$network
-178.175.85.38$network
 178.175.85.52$network
 178.175.85.83$network
 178.175.85.84$network
@@ -33846,18 +33674,14 @@ amazon_apstag.js
 178.175.86.235$network
 178.175.86.249$network
 178.175.86.3$network
-178.175.86.33$network
-178.175.86.39$network
 178.175.86.49$network
 178.175.86.58$network
 178.175.86.8$network
-178.175.86.83$network
 178.175.87.103$network
 178.175.87.114$network
 178.175.87.132$network
 178.175.87.177$network
 178.175.87.18$network
-178.175.87.183$network
 178.175.87.196$network
 178.175.87.225$network
 178.175.87.32$network
@@ -33886,15 +33710,6 @@ amazon_apstag.js
 178.175.88.69$network
 178.175.88.95$network
 178.175.89.1$network
-178.175.89.109$network
-178.175.89.114$network
-178.175.89.116$network
-178.175.89.123$network
-178.175.89.13$network
-178.175.89.131$network
-178.175.89.188$network
-178.175.89.193$network
-178.175.89.196$network
 178.175.89.236$network
 178.175.89.39$network
 178.175.9.103$network
@@ -33914,12 +33729,10 @@ amazon_apstag.js
 178.175.9.97$network
 178.175.90.112$network
 178.175.90.13$network
-178.175.90.130$network
 178.175.90.162$network
 178.175.90.165$network
 178.175.90.167$network
 178.175.90.20$network
-178.175.90.208$network
 178.175.90.243$network
 178.175.90.26$network
 178.175.90.79$network
@@ -33932,8 +33745,6 @@ amazon_apstag.js
 178.175.91.221$network
 178.175.91.236$network
 178.175.91.24$network
-178.175.91.240$network
-178.175.91.244$network
 178.175.91.31$network
 178.175.91.33$network
 178.175.91.35$network
@@ -33956,10 +33767,7 @@ amazon_apstag.js
 178.175.92.37$network
 178.175.92.44$network
 178.175.92.5$network
-178.175.92.55$network
-178.175.92.58$network
 178.175.92.6$network
-178.175.92.69$network
 178.175.92.70$network
 178.175.92.71$network
 178.175.92.85$network
@@ -33970,10 +33778,6 @@ amazon_apstag.js
 178.175.93.166$network
 178.175.93.191$network
 178.175.93.2$network
-178.175.93.224$network
-178.175.93.232$network
-178.175.93.242$network
-178.175.93.245$network
 178.175.94.121$network
 178.175.94.171$network
 178.175.94.190$network
@@ -33989,8 +33793,6 @@ amazon_apstag.js
 178.175.95.211$network
 178.175.95.29$network
 178.175.95.4$network
-178.175.95.42$network
-178.175.95.47$network
 178.175.95.78$network
 178.175.96.121$network
 178.175.96.163$network
@@ -34028,8 +33830,6 @@ amazon_apstag.js
 178.175.98.43$network
 178.175.98.46$network
 178.175.98.5$network
-178.175.98.50$network
-178.175.98.53$network
 178.175.98.68$network
 178.175.98.82$network
 178.175.98.93$network
@@ -34693,7 +34493,6 @@ amazon_apstag.js
 213.163.104.12$network
 213.163.104.157$network
 213.163.104.16$network
-213.163.104.160$network
 213.163.104.7$network
 213.163.104.84$network
 213.163.111.201$network
@@ -34712,7 +34511,6 @@ amazon_apstag.js
 213.163.114.54$network
 213.163.114.90$network
 213.163.115.1$network
-213.163.115.108$network
 213.163.115.23$network
 213.163.115.26$network
 213.163.115.30$network
@@ -34723,7 +34521,6 @@ amazon_apstag.js
 213.163.115.77$network
 213.163.116.122$network
 213.163.116.16$network
-213.163.116.163$network
 213.163.116.181$network
 213.163.116.197$network
 213.163.116.203$network
@@ -34928,7 +34725,6 @@ amazon_apstag.js
 221.1.227.128$network
 221.1.245.150$network
 221.1.245.3$network
-221.1.245.38$network
 221.13.217.78$network
 221.13.240.246$network
 221.13.246.180$network
@@ -35376,7 +35172,6 @@ amazon_apstag.js
 27.215.145.18$network
 27.215.146.62$network
 27.215.176.19$network
-27.215.176.191$network
 27.215.177.149$network
 27.215.177.169$network
 27.215.179.210$network
@@ -35584,7 +35379,6 @@ amazon_apstag.js
 27.43.117.208$network
 27.43.119.137$network
 27.43.119.18$network
-27.43.119.181$network
 27.43.119.229$network
 27.43.125.6$network
 27.43.127.145$network
@@ -35622,8 +35416,6 @@ amazon_apstag.js
 27.46.44.129$network
 27.46.44.227$network
 27.46.45.1$network
-27.46.45.193$network
-27.46.45.195$network
 27.46.45.254$network
 27.46.46.133$network
 27.46.46.157$network
@@ -35910,8 +35702,6 @@ amazon_apstag.js
 41.86.21.28$network
 41.86.21.38$network
 41.86.21.5$network
-41.86.21.52$network
-41.86.21.59$network
 41.86.21.60$network
 41.86.5.135$network
 41.86.5.142$network
@@ -36165,7 +35955,6 @@ amazon_apstag.js
 45.176.111.44$network
 45.189.204.26$network
 45.2.239.25$network
-45.2.239.251$network
 45.201.177.230$network
 45.22.209.58$network
 45.224.169.75$network
@@ -36378,14 +36167,11 @@ amazon_apstag.js
 58.249.75.186$network
 58.249.75.250$network
 58.249.75.7$network
-58.249.75.70$network
 58.249.75.8$network
 58.249.76.211$network
 58.249.76.246$network
 58.249.76.249$network
 58.249.77.1$network
-58.249.77.141$network
-58.249.77.175$network
 58.249.77.69$network
 58.249.78.157$network
 58.249.78.169$network
@@ -40207,7 +39993,6 @@ amazon_apstag.js
 ||cdn.cquotient.com^
 ||cdn.freefarcy.com^
 ||cdn.freshmarketer.com^
-||cdn.privacy-mgmt.com^
 ||cdn.segment.com^
 ||cdn.siftscience.com^
 ||cdn.tinypass.com^
@@ -49603,6 +49388,7 @@ amazon_apstag.js
 ||staterio.com^
 ||stathat.com^
 ||static.3001.net^
+||static.fengkongcloud.com^
 ||static.itrack.it^
 ||static.mediav.com^
 ||staticads.btopenworld.com^
@@ -55738,6 +55524,12 @@ sh.st##.skip-advert
 shazam.com##.aside
 shazam.com##.policy-label
 shazam.com##.with-banner:style(height: 71px!important;)
+shein.com##.c-onetrust-backup
+shein.com##.c-vue-coupon
+shein.com##.j-quick-register
+shein.com##.product-flow__ad
+shein.com##.product-intro__cccbanner
+shein.com##.sui-modal
 shmoop.com###takeover-wallpaper
 shmoop.com##.homepage-ads
 shopwss.com##.foot_badge
