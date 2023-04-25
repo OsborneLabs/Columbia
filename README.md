@@ -40,5 +40,3 @@
 
 ##
 <sup>* May require purchase</sup>
-
-<p align=right><sup>Copyright (c) 2023 Osborne Labs</sup></p>
