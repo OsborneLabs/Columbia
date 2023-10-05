@@ -4,9 +4,9 @@
 ! Homepage: https://github.com/OsborneLabs/Columbia
 ! Raw Link: https://raw.githubusercontent.com/OsborneLabs/Columbia/master/Columbia.txt
 ! License: MIT License
-! TimeUpdated: 4 October 2023
+! TimeUpdated: 5 October 2023
 ! Title: Columbia by Osborne
-! Version: 2023.10.0
+! Version: 2023.10.1
 !
 ! Copyright (c) Osborne Labs
 ! Privacy Infinate
@@ -29592,6 +29592,7 @@ amazon_apstag.js
 ||99centptc.com^
 ||99cheats.com^
 ||99count.com^
+||99faa.com^
 ||99noivas.com^
 ||99skk.com^
 ||99videos.biz^
@@ -30816,6 +30817,7 @@ amazon_apstag.js
 ||airbrake.io^
 ||aircraft.travel^
 ||airdrop-coinbase.com^
+||airnav.com^
 ||airpr.com^
 ||airpush.com^
 ||aistat.net^
@@ -32862,6 +32864,7 @@ amazon_apstag.js
 ||clashofclanstool.com^
 ||clashofclanswar.com^
 ||clashofgems.net^
+||classcicekcilik.com^
 ||classical-mail.com^
 ||claudiofreidzon.com^
 ||clcdayton.org^
@@ -33187,6 +33190,7 @@ amazon_apstag.js
 ||contextweb.com^
 ||continuumdownload.com^
 ||convectiontoasterovenreviews.biz^
+||converchatting.com^
 ||converge-digital.com^
 ||conversantmedia.com^
 ||conversationalingelligence.com^
@@ -33821,6 +33825,7 @@ amazon_apstag.js
 ||dclm.org^
 ||dcumoja.org^
 ||dd.qiyuea.cn^
+||dddleasing.com^
 ||ddnslive.com^
 ||ddos-guard.net^
 ||ddownload.com^
@@ -34020,6 +34025,7 @@ amazon_apstag.js
 ||divineplayproductions.com^
 ||divorcesols.co.uk^
 ||diyayogashala.com^
+||djkhoder.com^
 ||djomare.com^
 ||djturntableparts.site^
 ||djwf0dl2q9i99.cloudfront.net^
@@ -34088,6 +34094,7 @@ amazon_apstag.js
 ||domaining.in^
 ||domainsponsor.com^
 ||domainsteam.de^
+||dombesterrassement.com^
 ||domdex.com^
 ||domitri148.ovh^
 ||donardglencamogie.com^
@@ -34097,6 +34104,7 @@ amazon_apstag.js
 ||donghobinhminh.com^
 ||dongphuctop.com^
 ||donlucifergames.com^
+||donnapugh.com^
 ||doo6pwib3qngu.cloudfront.net^
 ||doorbrekers.nl^
 ||doorcreekchurch.org^
@@ -34577,6 +34585,7 @@ amazon_apstag.js
 ||enormousearth.com^
 ||enquisite.com^
 ||enrichptc.com^
+||ensasansor.com^
 ||ensighten.com^
 ||entercasino.com^
 ||enthusiastgaming.net^
@@ -34609,6 +34618,7 @@ amazon_apstag.js
 ||erapidassure.com^
 ||ermekanik.com^
 ||erne.co^
+||ernestkck.com^
 ||ero-advertising.com^
 ||erome.space^
 ||erotic-hotgirls18-here.online^
@@ -35896,6 +35906,7 @@ amazon_apstag.js
 ||gandhfinancial.com.au^
 ||garcinia-six.com^
 ||garcinia-slim-max.com^
+||garten-landschaftsbau-luki.de^
 ||gateway.ttpsdk.info^
 ||gatewaychurch.com^
 ||gatewayfellowship.com^
@@ -38704,6 +38715,7 @@ amazon_apstag.js
 ||milfstinder.com^
 ||militaryverse.com^
 ||millennialmedia.com^
+||millimeter-group.com^
 ||million-mails.com^
 ||millionaire-crypto.com^
 ||millionaire-mail.com^
@@ -38928,6 +38940,7 @@ amazon_apstag.js
 ||morgansinvestment.com^
 ||morgdm.ru^
 ||morh.io^
+||morirencasa.org^
 ||morningsideantiques.com^
 ||morningstarcc.org^
 ||morningstarchurch.com^
@@ -39018,6 +39031,7 @@ amazon_apstag.js
 ||mr6plw.loan^
 ||mrcc.org^
 ||mrcrackworld.com^
+||mrmetalsinc.com^
 ||mrskincash.com^
 ||msads.net^
 ||msbc-bos.org^
@@ -39277,6 +39291,7 @@ amazon_apstag.js
 ||netflixgiftcode.com^
 ||nethrie.com^
 ||netincap.com^
+||netipaustin.org^
 ||netmng.com^
 ||netnews.online^
 ||netpool.netbookia.net^
@@ -39499,6 +39514,7 @@ amazon_apstag.js
 ||notify.io^
 ||notore.us^
 ||nouvellevie.com^
+||nova-solution.net^
 ||novaenreta.space^
 ||novahacks.com^
 ||novem.pl^
@@ -39932,7 +39948,9 @@ amazon_apstag.js
 ||pandawintere.xyz^
 ||pandawinterf.xyz^
 ||pandorabracelets.win^
+||pandridge.com^
 ||panicpro.net^
+||panificadorasanroque.com^
 ||pantego.org^
 ||papahughes.com.au^
 ||papajuan.info^
@@ -40065,7 +40083,6 @@ amazon_apstag.js
 ||pdfpremiumfree.com^
 ||pdfsniper.com^
 ||pdfweek.com^
-||pdst.fm^
 ||peacebaptistchurch.org^
 ||peacepowder.com^
 ||peachtreepres.org^
@@ -40324,6 +40341,7 @@ amazon_apstag.js
 ||polyad.net^
 ||pombest.com^
 ||pomonafirstbaptist.com^
+||pondcenter.com^
 ||pondokbungur.desa.id^
 ||pontiflex.com^
 ||poolingprofit.com^
@@ -40487,6 +40505,7 @@ amazon_apstag.js
 ||probux.info^
 ||probux.net^
 ||processmatic.net^
+||procision-auto.com^
 ||prodesigners.club^
 ||producecopy.com^
 ||producer.getwisdom.io^
@@ -41400,6 +41419,7 @@ amazon_apstag.js
 ||scrubswim.com^
 ||sculetus.nl^
 ||sdbvveonb1.com^
+||sdimple.com^
 ||sdk-api-v1.singular.net^
 ||sdk.byfen.com^
 ||sdk.iad-01.braze.com^
@@ -42555,6 +42575,7 @@ amazon_apstag.js
 ||taltus.co.uk^
 ||tambux.com^
 ||tamgrt.com^
+||tampabeautygroup.com^
 ||tangerinenet.biz^
 ||tangibleteam.com^
 ||tap-nexus.appspot.com^
@@ -42768,6 +42789,7 @@ amazon_apstag.js
 ||theater21.com^
 ||theatlgotogirl.com^
 ||theavolcano.xyz^
+||thebestinconline.com^
 ||thebestpsncodegenerator.com^
 ||theblacksheep.org^
 ||thebrandpakistan.com^
@@ -43007,6 +43029,7 @@ amazon_apstag.js
 ||tipchea.fun^
 ||tipobet00938.com^
 ||tipologie.net^
+||tironookschoolofwrestling.com^
 ||titanfall-beta.com^
 ||titanium-hack.com^
 ||titaniumhacks.com^
@@ -43040,6 +43063,7 @@ amazon_apstag.js
 ||todayinfos.us^
 ||todaysbux.com^
 ||todaysmenu.in^
+||todmobile.com^
 ||toecircle.com^
 ||toeschistache.com^
 ||tohacks.com^
@@ -43402,6 +43426,7 @@ amazon_apstag.js
 ||tvshowzonline.com^
 ||tvundercover.com^
 ||tweakingtricks.com^
+||tweetcps.com^
 ||twinbenefits.com^
 ||twincitieschurch.com^
 ||twinlakeschurch.com^
@@ -43414,6 +43439,7 @@ amazon_apstag.js
 ||tworivers.org^
 ||twthack.com^
 ||twumc.org^
+||twxpxp.com^
 ||twyn.com^
 ||txhomeinsurance.com^
 ||txtplug.com^
@@ -43741,6 +43767,7 @@ amazon_apstag.js
 ||vhind.com^
 ||vhmovies.tv^
 ||vhrmarketing.com^
+||viaa2.com^
 ||vibexchain^
 ||vibrantmedia.com^
 ||victoriabrides.com^
@@ -44449,6 +44476,7 @@ amazon_apstag.js
 ||xn--zqsu8k5y0b.com^
 ||xncfqxujuuroj.com^
 ||xnxx4porn.com^
+||xodbet2.com^
 ||xovq5nemr.com^
 ||xploitz.net^
 ||xplusone.com^
@@ -46135,7 +46163,12 @@ etsy.com##div[data-behat-search-results-lg] .listing-link.logged:not([data-shop-
 eurogamer.net##.background-facebook
 eurogamer.net##.blue_billywig
 eurogamer.net##.collapsible
+eurogamer.net##.deals
+eurogamer.net##.jobs-widget
 eurogamer.net##.ot-sdk-container
+eurogamer.net##.primis_wrapper
+eurogamer.net##.signup-promo
+eurogamer.net##.supporter
 eurogamer.net##.supporter_promo
 eurogamer.net##figcaption
 eurogamer.net,soundcloud.com##.onetrust-pc-dark-filter
@@ -46187,6 +46220,9 @@ fandom.com##.wds-global-footer__column:has-text(Fandom Apps)
 fandom.com##.wds-has-padding
 fanfox.net###edShow
 fanfox.net##.side-code
+fap-nation.*##.alert:has-text(Some elements, like Images and Comments)
+fap-nation.*##.vc_message_box:has-text(Please, consider supporting the developers)
+fap-nation.*##.vc_message_box:has-text(This is what keeps us up and running!)
 fap-nation.*##[href*="xlviirdr.com"]
 fap18.net###tstop
 fap18.net##.bb_mobile
@@ -46552,29 +46588,37 @@ goodhousekeeping.com##journey-inline-newsletter
 goodsmileus.com##.mailing-popup
 google.*###bres
 google.*###prm
-google.*###rhs .mod[data-md="40"]
+google.*###rhs>.mod[data-md="40"]
 google.*##.docs-ml-promotion
 google.*##.g:has([href*="247writers.us"])
 google.*##.g:has([href*="3aautobroker.pl"])
+google.*##.g:has([href*="99faa.com"])
 google.*##.g:has([href*="academic-research-pro.com"])
+google.*##.g:has([href*="airnav.com"])
 google.*##.g:has([href*="assignedpaper.org"])
 google.*##.g:has([href*="asystentkasensulargo.pl"])
 google.*##.g:has([href*="awo-rosengarten.de"])
 google.*##.g:has([href*="bentomanga.com"])
 google.*##.g:has([href*="bridgepub.org"])
 google.*##.g:has([href*="cholaron.com"])
+google.*##.g:has([href*="classcicekcilik.com"])
+google.*##.g:has([href*="converchatting.com"])
 google.*##.g:has([href*="corporacionprescomperu.com"])
 google.*##.g:has([href*="corsafilm.com"])
 google.*##.g:has([href*="craigcharlesosborn.com"])
 google.*##.g:has([href*="cussonracing.com"])
 google.*##.g:has([href*="dadabos.com"])
+google.*##.g:has([href*="dddleasing.com"])
 google.*##.g:has([href*="dealerduo.com"])
 google.*##.g:has([href*="deanwriters.org"])
 google.*##.g:has([href*="diashotmail.com"])
 google.*##.g:has([href*="digitalphotogirl.com"])
 google.*##.g:has([href*="dione-tokai.com"])
 google.*##.g:has([href*="discoverdenhaag.com"])
+google.*##.g:has([href*="djkhoder.com"])
 google.*##.g:has([href*="dmcwest.com"])
+google.*##.g:has([href*="dombesterrassement.com"])
+google.*##.g:has([href*="donnapugh.com"])
 google.*##.g:has([href*="ebis-event.pl"])
 google.*##.g:has([href*="ebrulevent.com"])
 google.*##.g:has([href*="edu.kz"])
@@ -46583,6 +46627,8 @@ google.*##.g:has([href*="elektro-slask.pl"])
 google.*##.g:has([href*="elitemediavideo.com"])
 google.*##.g:has([href*="eliteprofessionalwriters.com"])
 google.*##.g:has([href*="emeraldhomesofiowa.com"])
+google.*##.g:has([href*="ensasansor.com"])
+google.*##.g:has([href*="ernestkck.com"])
 google.*##.g:has([href*="espndeportes.es"])
 google.*##.g:has([href*="essaylulu.org"])
 google.*##.g:has([href*="eximtric.com"])
@@ -46592,6 +46638,7 @@ google.*##.g:has([href*="feminineproducts.org"])
 google.*##.g:has([href*="flamingo-cm.com"])
 google.*##.g:has([href*="flitzerdunkel.de"])
 google.*##.g:has([href*="freewinds.org"])
+google.*##.g:has([href*="garten-landschaftsbau-luki.de"])
 google.*##.g:has([href*="goassignmenthelp.com.au"])
 google.*##.g:has([href*="goop.com"])
 google.*##.g:has([href*="gov.kh"])
@@ -46611,21 +46658,31 @@ google.*##.g:has([href*="maagdesign.pl"])
 google.*##.g:has([href*="marcoalfredobressan.it"])
 google.*##.g:has([href*="meblegrzywacz.pl"])
 google.*##.g:has([href*="mennica-woda.pl"])
+google.*##.g:has([href*="millimeter-group.com"])
 google.*##.g:has([href*="mixtapedjz.com"])
 google.*##.g:has([href*="mjenergy.net"])
 google.*##.g:has([href*="mkphouston.org"])
+google.*##.g:has([href*="morirencasa.org"])
+google.*##.g:has([href*="mrmetalsinc.com"])
 google.*##.g:has([href*="mullerfishing.com"])
 google.*##.g:has([href*="myherbalife.com"])
+google.*##.g:has([href*="netipaustin.org"])
+google.*##.g:has([href*="newsgratuite.com"])
 google.*##.g:has([href*="niupixuankexing.com"])
+google.*##.g:has([href*="nova-solution.net"])
 google.*##.g:has([href*="ogonwkoszyku.pl"])
 google.*##.g:has([href*="olearytel.com"])
 google.*##.g:has([href*="orucbeylikoyu.com"])
+google.*##.g:has([href*="pandridge.com"])
+google.*##.g:has([href*="panificadorasanroque.com"])
 google.*##.g:has([href*="patspairofhands.com"])
 google.*##.g:has([href*="planethrs.com"])
 google.*##.g:has([href*="plurismgt.com"])
+google.*##.g:has([href*="pondcenter.com"])
 google.*##.g:has([href*="popma-fotografie.de"])
 google.*##.g:has([href*="praetorian-zone.com"])
 google.*##.g:has([href*="presentationtransformations.com"])
+google.*##.g:has([href*="procision-auto.com"])
 google.*##.g:has([href*="prozonecsc.com"])
 google.*##.g:has([href*="qandisaindia.com"])
 google.*##.g:has([href*="quickessaywriters.org"])
@@ -46642,6 +46699,7 @@ google.*##.g:has([href*="scientology.tv"])
 google.*##.g:has([href*="scientologyhandbook.org"])
 google.*##.g:has([href*="scientologynews.org"])
 google.*##.g:has([href*="scientologyreligion.org"])
+google.*##.g:has([href*="sdimple.com"])
 google.*##.g:has([href*="shannonsdrive.com"])
 google.*##.g:has([href*="shellpaper.org"])
 google.*##.g:has([href*="shopaaabusiness.com"])
@@ -46654,6 +46712,7 @@ google.*##.g:has([href*="styledby-k.com"])
 google.*##.g:has([href*="suviocoaching.com"])
 google.*##.g:has([href*="swuepb.com"])
 google.*##.g:has([href*="szum-gora.pl"])
+google.*##.g:has([href*="tampabeautygroup.com"])
 google.*##.g:has([href*="tapetenstadt.de"])
 google.*##.g:has([href*="tarotyvidencialastreshadas.com"])
 google.*##.g:has([href*="tashamartin.com"])
@@ -46661,6 +46720,7 @@ google.*##.g:has([href*="tazzoi.com"])
 google.*##.g:has([href*="the-bee-side.com"])
 google.*##.g:has([href*="theassemblyspr.com"])
 google.*##.g:has([href*="theatlgotogirl.com"])
+google.*##.g:has([href*="thebestinconline.com"])
 google.*##.g:has([href*="thebrandpakistan.com"])
 google.*##.g:has([href*="thedreamzmedia.com"])
 google.*##.g:has([href*="thegraphicswebb.com"])
@@ -46669,11 +46729,15 @@ google.*##.g:has([href*="thxtok.com"])
 google.*##.g:has([href*="tiarara.com"])
 google.*##.g:has([href*="tiedyes2dye4.com"])
 google.*##.g:has([href*="timofthetylers.com"])
+google.*##.g:has([href*="tironookschoolofwrestling.com"])
+google.*##.g:has([href*="todmobile.com"])
 google.*##.g:has([href*="transtutors.com"])
 google.*##.g:has([href*="travelindoginc.com"])
 google.*##.g:has([href*="tretempo.com"])
 google.*##.g:has([href*="ts-mss.com"])
+google.*##.g:has([href*="tweetcps.com"])
 google.*##.g:has([href*="twojebiuroonline.pl"])
+google.*##.g:has([href*="twxpxp.com"])
 google.*##.g:has([href*="ufhwnto2d.com"])
 google.*##.g:has([href*="universaldelmueble.com"])
 google.*##.g:has([href*="unmsl.com"])
@@ -46685,12 +46749,14 @@ google.*##.g:has([href*="veggiefux.de"])
 google.*##.g:has([href*="vendoreklama.pl"])
 google.*##.g:has([href*="veteranbenefitconcerts.org"])
 google.*##.g:has([href*="vhind.com"])
+google.*##.g:has([href*="viaa2.com"])
 google.*##.g:has([href*="vrijebasisschool.com"])
 google.*##.g:has([href*="w-dent.com"])
 google.*##.g:has([href*="westvisit.com"])
 google.*##.g:has([href*="whitestonepointecabins.com"])
 google.*##.g:has([href*="workinfolkart.com"])
 google.*##.g:has([href*="write4hope.org"])
+google.*##.g:has([href*="xodbet2.com"])
 google.*##.g:has([href*="yakaxq.com"])
 google.*##.g:has([href*="yako2i.com"])
 google.*##.g:has([href*="yellowballoonphotography.com"])
@@ -47536,8 +47602,8 @@ mangabuddy.*##div>div>div:has-text(Read Manga Online with high quality images an
 mangabuddy.*##p:has-text(If you want to get the updates about latest chapters)
 mangabuddy.com##.image-servers
 mangadex.*##.affiliate-banner
+mangadex.*##.basis:has-text(NamiComi)
 mangadex.*##[class*=advertisement]
-mangadex.*#.basis:has-text(NamiComi)
 mangagamer.com###agegate_content
 mangagamer.com##.b-modal
 mangago.*###right_side>div:has-text(Subscribe to be update)
