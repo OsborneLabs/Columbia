@@ -1,12 +1,12 @@
 ! Author: Osborne Labs
-! Description: A better list blocking ads, analytics, and annoyances
+! Description: A comprehensive black hole for ads and analytics 
 ! Expires: 1 days
 ! Homepage: https://github.com/OsborneLabs/Columbia
 ! Raw Link: https://raw.githubusercontent.com/OsborneLabs/Columbia/master/Columbia.txt
 ! License: MIT License
-! TimeUpdated: 27 November 2023
+! TimeUpdated: 5 February 2024
 ! Title: Columbia by Osborne
-! Version: 2023.11.1
+! Version: 2024.1.0
 !
 ! Copyright (c) Osborne Labs
 ! Privacy Infinate
@@ -10510,6 +10510,7 @@ cengage.com#@#.mod_cookies
 ##.adsizer
 ##.adslot
 ##.adsmovie
+##.adsninja-ad-zone-container-with-set-height
 ##.adSocial
 ##.adsSide
 ##.ads_160x600
@@ -29127,6 +29128,7 @@ cengage.com#@#.mod_cookies
 /uedata?
 /unagi.amazon.
 /v1/log_event
+/valnet-header.
 /videojs.ads
 /visitorapi.js
 /vjslog?
@@ -29336,6 +29338,7 @@ _s_code.
 ||ssl-images-amazon.com/images/*/dasf-
 ||stripe.com/?event=
 ||studybreakmedia.com^$3p
+||thegamer.com/strpixel.png?
 ||thepiratebay$script
 ||toyota.com/analytics/
 ||tribdss.com/meter/
@@ -30551,6 +30554,7 @@ _s_code.
 ||adsmoloco.com^
 ||adsnative.com^
 ||adsneed.com^
+||adsninja.ca^
 ||adsniper.ru^
 ||adsoftware.com^
 ||adsoldier.com^
@@ -31820,6 +31824,7 @@ _s_code.
 ||bitsc.io^
 ||bitsmits.com^
 ||bitsngo.net^
+||bittrex-global.com^
 ||biuro-adwokackie.pl^
 ||biz.id^
 ||bizad.nikkeibp.co.jp^
@@ -32336,6 +32341,7 @@ _s_code.
 ||carfuelsaver.org^
 ||carlocksmithservice.bid^
 ||carmelbaptist.org^
+||carnot.co.in^
 ||carolinadriftingsams.com^
 ||carolinawomenshealth.net^
 ||carolrutgersrealestate.com^
@@ -32483,6 +32489,7 @@ _s_code.
 ||cdn.cquotient.com^
 ||cdn.freefarcy.com^
 ||cdn.freshmarketer.com^
+||cdn.optmn.cloud^
 ||cdn.segment.com^
 ||cdn.siftscience.com^
 ||cdn.tinypass.com^
@@ -32524,6 +32531,7 @@ _s_code.
 ||celebritywizard.net^
 ||celeritascdn.com^
 ||cellas.sk^
+||celsius-networks.com^
 ||celsius.network^
 ||celtra.com^
 ||cemalsenay.com^
@@ -33115,6 +33123,7 @@ _s_code.
 ||computta.com^
 ||comscore.com^
 ||comstockwesthoa.org^
+||comunidadatenea.org^
 ||comunidadezonasul.com.br^
 ||comunidadhosanna.info^
 ||conbt.com^
@@ -35649,6 +35658,7 @@ _s_code.
 ||ftmbc.org^
 ||ftp.n3twork30cm.ml^
 ||ftte.xyz^
+||ftx-llc.com^
 ||ftx.com^
 ||ftx.us^
 ||fuckbookdating.net^
@@ -36787,6 +36797,7 @@ _s_code.
 ||hipfollow.com^
 ||hippiedanish.com^
 ||hiptool.net^
+||hirokankyou.jp^
 ||his-and-hers-salon.com^
 ||histats.com^
 ||histoken.online^
@@ -37717,6 +37728,7 @@ _s_code.
 ||kiyoharaa.uno^
 ||kjcpromo.com^
 ||klaustrade.com^
+||klaviyomail.com^
 ||klbconline.com^
 ||klclick.com^
 ||klclick1.com^
@@ -38481,6 +38493,7 @@ _s_code.
 ||mbcv.co.il^
 ||mbdating.link^
 ||mbgrm.com^
+||mbid.marfeelrev.com^
 ||mbidadm.com^
 ||mbjtimes.com^
 ||mblapi.ssl2.duapps.com^
@@ -39227,6 +39240,7 @@ _s_code.
 ||ncwsection.com^
 ||ndcc.tv^
 ||ndparking.com^
+||ne.jp^
 ||nearbyad.com^
 ||neasyset.icu^
 ||neatbux.com^
@@ -39529,6 +39543,7 @@ _s_code.
 ||ntube.party^
 ||ntv.io^
 ||ntvk1.ru^
+||nuafertility.com^
 ||nubilespics.com^
 ||nuggad.net^
 ||nugh2om.txxx.com^
@@ -40371,6 +40386,7 @@ _s_code.
 ||possibleboats.com^
 ||post.spmailtechno.com^
 ||postback.iqm.com^
+||posthelhpn.com^
 ||postrelease.com^
 ||posya.io^
 ||potentialchurch.com^
@@ -41970,6 +41986,7 @@ _s_code.
 ||solidrockchurch.org^
 ||sollc.org^
 ||solocpm.com^
+||solucx.com.br^
 ||solutionhacks.eu^
 ||solutionscode.com^
 ||sombersea.com^
@@ -44231,6 +44248,7 @@ _s_code.
 ||window.nixnet.cz^
 ||windows-blocked-call-1-888-578-4888-tollfree.s3-website.us-east-2.amazonaws.com^
 ||windows-error-log-call-1-888-578-4888-tollfree.s3-website.us-east-2.amazonaws.com^
+||windowsmatters.com^
 ||wingmails.com^
 ||winhv.com^
 ||wininlife.com^
@@ -44258,6 +44276,7 @@ _s_code.
 ||wizard101codes.info^
 ||wizard101codes.org^
 ||wizza.com^
+||wldixni.nl^
 ||wlmarketing.com^
 ||wm-reviews.ca^
 ||wnews.eaglepgi.com^
@@ -45061,16 +45080,20 @@ androidcentral.com,livescience.com,gamesradar.com,pcgamer.com,space.com,techrada
 androidcentral.com,livescience.com,gamesradar.com,pcgamer.com,space.com,techradar.com##.region_redirect_popup
 androidcentral.com,livescience.com,gamesradar.com,pcgamer.com,space.com,techradar.com##.vid-present
 androidmo.*##.clearfix.full-text>center
+androidmo.*##.full-in>.full-in
+androidmo.*##.main>center
 androidmo.*##.mainalert
 androidmo.*##.share-box
 androidmo.*##.short:has-text(Cunt Wars)
 androidmo.*##.short:has-text(Girls for all tastes)
+androidmo.*##.short:has-text(Hentai Pros)
 androidmo.*##.short:has-text(Horny Arcana)
 androidmo.*##.short:has-text(Horny Journey)
 androidmo.*##.short:has-text(iStripper)
 androidmo.*##.short:has-text(IwantU)
 androidmo.*##.short:has-text(My New Life)
 androidmo.*##.short:has-text(The Promise)
+androidmo.*##.short:has-text(Town of Sins)
 androidmo.*##.short:has-text(Yareel 3D sex game)
 androidmo.*##.side-bc:has-text(Giant Guardians)
 androidmo.*##.side-bc:has-text(LIST OF ALL DONATERS)
@@ -45079,8 +45102,11 @@ androidmo.*##.side-box:has-text(interesting!)
 androidmo.*##.side-box:has-text(SUPPORT US)
 androidmo.*##.side-bt:has-text(Last Donation)
 androidmo.*##.side-bt:has-text(Top Adult Game)
+androidmo.*##.side-item:has-text(Hentai Pros)
+androidmo.*##.side-item:has-text(Town of Sins)
 androidmo.*##.side>div:has-text(Top 3D Sex Game)
 androidmo.*##.site-desc
+androidmo.*##.subscr-telegram
 androidmo.*##a.side-item:has-text(Cunt Wars)
 androidmo.*##a.side-item:has-text(Girls for all tastes)
 androidmo.*##a.side-item:has-text(Horny Arcana)
@@ -45089,6 +45115,7 @@ androidmo.*##a.side-item:has-text(iStripper)
 androidmo.*##a.side-item:has-text(IwantU)
 androidmo.*##a.side-item:has-text(My New Life)
 androidmo.*##a.side-item:has-text(Yareel 3D sex game)
+androidmo.*##noindex
 androidmo.*##[id*="itizergroup"]
 androidpolice.com##.article-nav
 androidpolice.com##.horizontal-boxes-tags
@@ -45138,9 +45165,13 @@ apkmody.*###fixed-donate
 apkmody.*##.body-fixed-footer
 apkpure.*##.ad-box
 apnews.com###taboolaContainer
+apnews.com##.Advertisement
 apnews.com##.ap_banner-container
 apnews.com##.Enhancement:has-text(Related Coverage)
+apnews.com##.Page-aside
+apnews.com##.PageListEnhancementA
 apnews.com##.RightRail
+apnews.com##.Zephr
 apnews.com##[class*="Component-apps"]
 apnews.com##[class*="Component-followAp"]
 apnews.com##[class*="Component-hubPeekEmbed"]
@@ -45194,6 +45225,8 @@ attractionsmagazine.com##.mousefan
 audiotools.*###main-header
 audioz.*###src_ref
 auto.com##.result:has-text(SPONSORED)
+autoevolution.com###cookienotif
+autoevolution.com##.ad-intext
 autolist.com##.AL-ad-container
 automateexcel.com##.center:has-text(VBA Coding Made Easy)
 automateexcel.com##.floating-footer
@@ -46060,6 +46093,7 @@ ebay.*###google-ebay
 ebay.*###vi-cobranded-card-wrapper
 ebay.*###vi-desc-maincntr>div:matches-css(height:52px)
 ebay.*##.carousel__snap-point:has-text(Sponsored)
+ebay.*##.merch-item-list-container:has-text(sponsored items)
 ebay.*##.mfe-card:has-text(sponsored)
 ebay.*##.mfe-reco:has-text(SPONSORED)
 ebay.*##.s-feedback
@@ -46166,10 +46200,10 @@ esquire.com##.embed-left
 esquire.com##.end-of-content-playlist
 esquire.com##.top-pathing
 etonline.com###header-ad
+etsy.com##+js(set-cookie, ctc_rejected, 1)
 etsy.com##.appears-ready:has([aria-describedby*="ads-row-popover-content"])
-etsy.com##.not-signed-in.subscribe-form:upward(1)
 etsy.com##.wt-list-unstyled:has(.ad-iindicator)
-etsy.com##div[data-behat-search-results-lg] .listing-link.logged:not([data-shop-id])
+etsy.com##li:not(#ad-ubo) .listing-link[href*="ref=sc_gallery"]:upward(li)
 eurogamer.net##.background-facebook
 eurogamer.net##.blue_billywig
 eurogamer.net##.collapsible
@@ -47344,6 +47378,8 @@ kotaku.com##.js_related-stories-inset
 kotaku.com##p:has-text(Read More:)
 kotaku.com##[href*="/s/enough"]
 ktla.com##.inline-related-stories
+ktla.com##.promo-link
+ktla.com##.site-footer__site-social-container
 kuaikanmanhua.*##.carousel-slider
 kuaikanmanhua.*##.giude
 kunmanga.*##.c-top-sidebar
@@ -47399,6 +47435,12 @@ lawteacher.net##.g-livechat
 lawteacher.net##[class*="col-lg"]:has-text(Discover our)
 lectortmo.com##+js(remove-attr, oncontextmenu, .img-container>img[oncontextmenu])
 lectortmo.com##button.btn-social[onclick^="copyToClipboard"]
+lectortmo.com,visortmo.com###pills-populars>[class]>[class].element:nth-of-type(1)
+lectortmo.com,visortmo.com##+js(remove-attr, oncontextmenu, .img-container>img[oncontextmenu])
+lectortmo.com,visortmo.com##.col:has([href*="/games"])
+lectortmo.com,visortmo.com##.col:has([href*="/neperianada"])
+lectortmo.com,visortmo.com##button.btn-social[onclick^="copyToClipboard"]
+lectortmo.com,visortmo.com##[href*="?p=&offer_id"]
 legalmatch.com##.case-intake
 legalmatch.com##.cta-banner-link
 legalmatch.com##.sticky-header
@@ -49101,6 +49143,7 @@ thegamer.com##.ad-zone
 thegamer.com##.ad-zone-container
 thegamer.com##p:has-text(READ MORE:)
 thegamer.com##p:has-text(READ NEXT:)
+thegamer.com##^script:has-text('"v4ac1eiZr0"')
 theguardian.com###dfp-ad--mostpop
 theguardian.com###dfp-ad--top-above-nav
 theguardian.com###footer__email-form
@@ -49319,6 +49362,8 @@ tmz.com###jumbotron-bottom
 tmz.com##.alert-widget-wrapper
 tmz.com##.card-section-header
 tmz.com##.featured-stories-widget
+tmz.com##.footer__col--apps
+tmz.com##.footer__col--subscribe
 tmz.com##.js-sidebar-tracking
 tmz.com##.partner-headlines-row
 tmz.com##.quick-subscribe-form
@@ -50217,6 +50262,7 @@ zdnet.com##.relatedContent
 zdnet.com##p:has-text(Also:)
 zdnet.com##p:has-text(See also:)
 zendesk.com##.article-relatives
+zendesk.com##.gated-cta-modal
 zillow.com###app-upsell-banner
 zillow.com###local-app-upsell
 zillow.com###nav-ad-container
