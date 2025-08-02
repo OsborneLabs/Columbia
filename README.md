@@ -1,6 +1,7 @@
-<p align=center><img src="https://cdn-icons-png.flaticon.com/512/7945/7945172.png" width="75" height="75"></p><h1 align=center>Columbia</h1><br></br>
+<p align=center><img src="https://cdn-icons-png.flaticon.com/512/7945/7945172.png" width="75" height="75"></p><h1 align=center>Columbia by Osborne</h1><br></br>
 
-<p align=center>Columbia is a powerful, privacy-first filter list that blocks ads, malware, pop-ups, and unwanted redirects—while removing leftover clutter for a seamless, distraction-free web experience. With 48,000+ rules, Columbia helps keep your browsing clean, fast, and secure.</p><br></br>
+<p align=center>Columbia is a powerful, privacy-first filter list that blocks ads, malware, pop-ups, and unwanted redirects.</p>
+<p align=center>With 48,000+ rules, Columbia helps keep your browsing clean, fast, and secure.</p><br></br>
 
 ## Install
 * Copy <code>https://<span></span>raw.githubusercontent.com/OsborneLabs/Columbia/master/Columbia.txt</code>
